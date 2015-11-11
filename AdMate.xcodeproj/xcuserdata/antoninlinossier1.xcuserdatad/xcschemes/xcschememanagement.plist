@@ -4,10 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AdDataKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>AdDataKit2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>AdMate Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>AdMate.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>AdMateData.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>AdMateOAuth.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>TvMate Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +53,56 @@
 			<true/>
 		</dict>
 		<key>0A12F92C1BE185D4000504DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31AD2B1BE989A400DCB0F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31AD341BE989A400DCB0F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31AD631BE995E700DCB0F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31AD6C1BE995E700DCB0F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31EE081BF28AB000B96EA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A31EE111BF28AB000B96EA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A4F89401BF2A46000F6F385</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A4F89491BF2A46000F6F385</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A644CF21BE7F98E00B14585</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A644D0C1BE8018900B14585</key>
 		<dict>
 			<key>primary</key>
 			<true/>

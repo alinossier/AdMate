@@ -8,11 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		0A12F9151BE185D3000504DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12F9141BE185D3000504DE /* AppDelegate.swift */; };
-		0A12F9171BE185D3000504DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12F9161BE185D3000504DE /* ViewController.swift */; };
+		0A12F9171BE185D3000504DE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12F9161BE185D3000504DE /* LoginScreen.swift */; };
 		0A12F9191BE185D3000504DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A12F9181BE185D3000504DE /* Assets.xcassets */; };
 		0A12F91C1BE185D3000504DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A12F91A1BE185D3000504DE /* Main.storyboard */; };
 		0A12F9271BE185D4000504DE /* AdMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12F9261BE185D4000504DE /* AdMateTests.swift */; };
 		0A12F9321BE185D4000504DE /* AdMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A12F9311BE185D4000504DE /* AdMateUITests.swift */; };
+		0A31AD901BE9B7D000DCB0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A12F9181BE185D3000504DE /* Assets.xcassets */; };
+		0A31AD921BE9BAC700DCB0F2 /* CellTodayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31AD911BE9BAC700DCB0F2 /* CellTodayExtension.swift */; };
+		0A31AD941BE9BADB00DCB0F2 /* CellTodayExtension.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A31AD931BE9BADB00DCB0F2 /* CellTodayExtension.xib */; };
+		0A31EE031BF283D100B96EA2 /* MyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31EE021BF283D100B96EA2 /* MyRowView.swift */; };
+		0A31EE131BF28AB100B96EA2 /* AdMateOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */; };
+		0A31EE1A1BF28AB100B96EA2 /* AdMateOAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31EE191BF28AB100B96EA2 /* AdMateOAuthTests.swift */; };
+		0A31EE1F1BF28AB100B96EA2 /* AdMateOAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A31EE261BF28AF800B96EA2 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */; };
+		0A31EE271BF28AF800B96EA2 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D51BE847C800CCD739 /* HMAC.swift */; };
+		0A31EE281BF28AF800B96EA2 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D61BE847C800CCD739 /* Int+OAuthSwift.swift */; };
+		0A31EE291BF28AF800B96EA2 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D71BE847C800CCD739 /* NSData+OAuthSwift.swift */; };
+		0A31EE2A1BF28AF800B96EA2 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D81BE847C800CCD739 /* NSURL+OAuthSwift.swift */; };
+		0A31EE2B1BF28AF800B96EA2 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D91BE847C800CCD739 /* OAuth1Swift.swift */; };
+		0A31EE2C1BF28AF800B96EA2 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DA1BE847C800CCD739 /* OAuth2Swift.swift */; };
+		0A31EE2D1BF28AF800B96EA2 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DB1BE847C800CCD739 /* OAuthSwiftClient.swift */; };
+		0A31EE2E1BF28AF800B96EA2 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DC1BE847C800CCD739 /* OAuthSwiftCredential.swift */; };
+		0A31EE2F1BF28AF800B96EA2 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DD1BE847C800CCD739 /* OAuthSwiftHTTPRequest.swift */; };
+		0A31EE301BF28AF800B96EA2 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DE1BE847C800CCD739 /* OAuthSwiftURLHandlerType.swift */; };
+		0A31EE311BF28AF800B96EA2 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DF1BE847C800CCD739 /* OAuthWebViewController.swift */; };
+		0A31EE321BF28AF800B96EA2 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E01BE847C800CCD739 /* SHA1.swift */; };
+		0A31EE331BF28AF800B96EA2 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E11BE847C800CCD739 /* String+OAuthSwift.swift */; };
+		0A31EE341BF28AF800B96EA2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E21BE847C800CCD739 /* Utils.swift */; };
+		0A371C9B1BF2AA930006D209 /* Common-Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A371C971BF2AA930006D209 /* Common-Currency.json */; };
+		0A371C9C1BF2AA930006D209 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A371C981BF2AA930006D209 /* GetData.swift */; };
+		0A371C9D1BF2AA930006D209 /* ProcessingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A371C991BF2AA930006D209 /* ProcessingData.swift */; };
+		0A371C9E1BF2AA930006D209 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A371C9A1BF2AA930006D209 /* Public.swift */; };
+		0A371C9F1BF2AD980006D209 /* AdMateOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */; };
+		0A4F894B1BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
+		0A4F89521BF2A46000F6F385 /* AdDataKit2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F89511BF2A46000F6F385 /* AdDataKit2Tests.swift */; };
+		0A4F89561BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
+		0A4F89571BF2A46000F6F385 /* AdDataKit2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A4F895E1BF2A54A00F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
+		0A4F895F1BF2A74D00F6F385 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */; };
+		0A4F89601BF2A74D00F6F385 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D51BE847C800CCD739 /* HMAC.swift */; };
+		0A4F89611BF2A74D00F6F385 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D61BE847C800CCD739 /* Int+OAuthSwift.swift */; };
+		0A4F89621BF2A74D00F6F385 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D71BE847C800CCD739 /* NSData+OAuthSwift.swift */; };
+		0A4F89631BF2A74D00F6F385 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D81BE847C800CCD739 /* NSURL+OAuthSwift.swift */; };
+		0A4F89641BF2A74D00F6F385 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D91BE847C800CCD739 /* OAuth1Swift.swift */; };
+		0A4F89651BF2A74D00F6F385 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DA1BE847C800CCD739 /* OAuth2Swift.swift */; };
+		0A4F89661BF2A74D00F6F385 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DB1BE847C800CCD739 /* OAuthSwiftClient.swift */; };
+		0A4F89671BF2A74D00F6F385 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DC1BE847C800CCD739 /* OAuthSwiftCredential.swift */; };
+		0A4F89681BF2A74D00F6F385 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DD1BE847C800CCD739 /* OAuthSwiftHTTPRequest.swift */; };
+		0A4F89691BF2A74D00F6F385 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DE1BE847C800CCD739 /* OAuthSwiftURLHandlerType.swift */; };
+		0A4F896A1BF2A74D00F6F385 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DF1BE847C800CCD739 /* OAuthWebViewController.swift */; };
+		0A4F896B1BF2A74D00F6F385 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E01BE847C800CCD739 /* SHA1.swift */; };
+		0A4F896C1BF2A74D00F6F385 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E11BE847C800CCD739 /* String+OAuthSwift.swift */; };
+		0A4F896D1BF2A74D00F6F385 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E21BE847C800CCD739 /* Utils.swift */; };
+		0A4F896E1BF2A74E00F6F385 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */; };
+		0A4F896F1BF2A74E00F6F385 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D51BE847C800CCD739 /* HMAC.swift */; };
+		0A4F89701BF2A74E00F6F385 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D61BE847C800CCD739 /* Int+OAuthSwift.swift */; };
+		0A4F89711BF2A74E00F6F385 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D71BE847C800CCD739 /* NSData+OAuthSwift.swift */; };
+		0A4F89721BF2A74E00F6F385 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D81BE847C800CCD739 /* NSURL+OAuthSwift.swift */; };
+		0A4F89731BF2A74E00F6F385 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D91BE847C800CCD739 /* OAuth1Swift.swift */; };
+		0A4F89741BF2A74E00F6F385 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DA1BE847C800CCD739 /* OAuth2Swift.swift */; };
+		0A4F89751BF2A74E00F6F385 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DB1BE847C800CCD739 /* OAuthSwiftClient.swift */; };
+		0A4F89761BF2A74E00F6F385 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DC1BE847C800CCD739 /* OAuthSwiftCredential.swift */; };
+		0A4F89771BF2A74E00F6F385 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DD1BE847C800CCD739 /* OAuthSwiftHTTPRequest.swift */; };
+		0A4F89781BF2A74E00F6F385 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DE1BE847C800CCD739 /* OAuthSwiftURLHandlerType.swift */; };
+		0A4F89791BF2A74E00F6F385 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97DF1BE847C800CCD739 /* OAuthWebViewController.swift */; };
+		0A4F897A1BF2A74E00F6F385 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E01BE847C800CCD739 /* SHA1.swift */; };
+		0A4F897B1BF2A74E00F6F385 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E11BE847C800CCD739 /* String+OAuthSwift.swift */; };
+		0A4F897C1BF2A74E00F6F385 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97E21BE847C800CCD739 /* Utils.swift */; };
+		0A4F897E1BF2A8C100F6F385 /* AdDataKit2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F89431BF2A46000F6F385 /* AdDataKit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A53123B1BF3EBD200862B88 /* PopoverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53123A1BF3EBD200862B88 /* PopoverInfo.swift */; };
+		0A56E5161BEE99B90054F998 /* AdMate.db in Resources */ = {isa = PBXBuildFile; fileRef = 0A56E5151BEE99B90054F998 /* AdMate.db */; };
+		0A56E5171BEE99B90054F998 /* AdMate.db in Resources */ = {isa = PBXBuildFile; fileRef = 0A56E5151BEE99B90054F998 /* AdMate.db */; };
+		0A5C69061BEC07E8002015CA /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C69051BEC07E8002015CA /* MainWindow.swift */; };
+		0A5C69081BEC1AED002015CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C69071BEC1AED002015CA /* MainViewController.swift */; };
+		0A5C690A1BEC2219002015CA /* AdDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C69091BEC2219002015CA /* AdDataCell.swift */; };
+		0A5C69101BEC3295002015CA /* AdDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5C690F1BEC3295002015CA /* AdDataCell.xib */; };
+		0A644D0E1BE8018900B14585 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A644CF41BE7F98E00B14585 /* NotificationCenter.framework */; };
+		0A644D131BE8018900B14585 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A644D121BE8018900B14585 /* TodayViewController.swift */; };
+		0A644D161BE8018900B14585 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A644D141BE8018900B14585 /* TodayViewController.xib */; };
+		0A644D1A1BE8018900B14585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A644D181BE8018900B14585 /* InfoPlist.strings */; };
+		0A644D1D1BE8018900B14585 /* AdMate Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A644D0D1BE8018900B14585 /* AdMate Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A644D241BE80DC500B14585 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A644D231BE80DC500B14585 /* CSV.swift */; };
+		0A80510E1BED51F7002848AE /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80510D1BED51F7002848AE /* LineChart.swift */; };
+		0AA765D11BF3018300B34B43 /* Common-Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A371C971BF2AA930006D209 /* Common-Currency.json */; };
+		0AA765D21BF3018500B34B43 /* Common-Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A371C971BF2AA930006D209 /* Common-Currency.json */; };
+		0AC9630B1BEC6939009540ED /* AdvancedLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963061BEC6939009540ED /* AdvancedLineChartViewController.swift */; };
+		0AC9630C1BEC6939009540ED /* DynamicLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963071BEC6939009540ED /* DynamicLineChartViewController.swift */; };
+		0AC9630D1BEC6939009540ED /* LabeledLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963081BEC6939009540ED /* LabeledLineChartViewController.swift */; };
+		0AC9630E1BEC6939009540ED /* MultiAxisLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963091BEC6939009540ED /* MultiAxisLineChartViewController.swift */; };
+		0AC9630F1BEC6939009540ED /* SimpleLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9630A1BEC6939009540ED /* SimpleLineChartViewController.swift */; };
+		0F9B14BF803A20F4DB81F990 /* Pods_AdMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */; };
+		66D9DDB1CDC3F545DABA0687 /* Pods_AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */; };
+		9E1EC277127FEED401DCED84 /* Pods_AdMate_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +117,88 @@
 			remoteGlobalIDString = 0A12F9101BE185D3000504DE;
 			remoteInfo = AdMate;
 		};
+		0A31EE141BF28AB100B96EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A31EE081BF28AB000B96EA2;
+			remoteInfo = AdMateOAuth;
+		};
+		0A31EE161BF28AB100B96EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A12F9101BE185D3000504DE;
+			remoteInfo = AdMate;
+		};
+		0A31EE1C1BF28AB100B96EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A31EE081BF28AB000B96EA2;
+			remoteInfo = AdMateOAuth;
+		};
+		0A4F894C1BF2A46000F6F385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4F89401BF2A46000F6F385;
+			remoteInfo = AdDataKit2;
+		};
+		0A4F894E1BF2A46000F6F385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A12F9101BE185D3000504DE;
+			remoteInfo = AdMate;
+		};
+		0A4F89541BF2A46000F6F385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4F89401BF2A46000F6F385;
+			remoteInfo = AdDataKit2;
+		};
+		0A644D1B1BE8018900B14585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12F9091BE185D3000504DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A644D0C1BE8018900B14585;
+			remoteInfo = "AdMate Widget";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0A31AD481BE989A400DCB0F2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A4F89571BF2A46000F6F385 /* AdDataKit2.framework in Embed Frameworks */,
+				0A31EE1F1BF28AB100B96EA2 /* AdMateOAuth.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A644D081BE7F98E00B14585 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A644D1D1BE8018900B14585 /* AdMate Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A12F9111BE185D3000504DE /* AdMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A12F9141BE185D3000504DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A12F9161BE185D3000504DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A12F9161BE185D3000504DE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		0A12F9181BE185D3000504DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A12F91B1BE185D3000504DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A12F91D1BE185D3000504DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +208,73 @@
 		0A12F92D1BE185D4000504DE /* AdMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A12F9311BE185D4000504DE /* AdMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMateUITests.swift; sourceTree = "<group>"; };
 		0A12F9331BE185D4000504DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A12F93F1BE18E58000504DE /* AdMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AdMate.entitlements; sourceTree = "<group>"; };
+		0A31AD741BE995E700DCB0F2 /* AdDataKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdDataKitTests.swift; sourceTree = "<group>"; };
+		0A31AD761BE995E700DCB0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A31AD911BE9BAC700DCB0F2 /* CellTodayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTodayExtension.swift; sourceTree = "<group>"; };
+		0A31AD931BE9BADB00DCB0F2 /* CellTodayExtension.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTodayExtension.xib; sourceTree = "<group>"; };
+		0A31EE021BF283D100B96EA2 /* MyRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRowView.swift; sourceTree = "<group>"; };
+		0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdMateOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A31EE0B1BF28AB000B96EA2 /* AdMateOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMateOAuth.h; sourceTree = "<group>"; };
+		0A31EE0D1BF28AB000B96EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A31EE121BF28AB000B96EA2 /* AdMateOAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMateOAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A31EE191BF28AB100B96EA2 /* AdMateOAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMateOAuthTests.swift; sourceTree = "<group>"; };
+		0A31EE1B1BF28AB100B96EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A371C971BF2AA930006D209 /* Common-Currency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Common-Currency.json"; path = "../AdDataKit2/Common-Currency.json"; sourceTree = "<group>"; };
+		0A371C981BF2AA930006D209 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		0A371C991BF2AA930006D209 /* ProcessingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessingData.swift; sourceTree = "<group>"; };
+		0A371C9A1BF2AA930006D209 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		0A4F892F1BF2A26300F6F385 /* AdDataKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDataKit.h; sourceTree = "<group>"; };
+		0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdDataKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4F89431BF2A46000F6F385 /* AdDataKit2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdDataKit2.h; sourceTree = "<group>"; };
+		0A4F89451BF2A46000F6F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4F894A1BF2A46000F6F385 /* AdDataKit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdDataKit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4F89511BF2A46000F6F385 /* AdDataKit2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdDataKit2Tests.swift; sourceTree = "<group>"; };
+		0A4F89531BF2A46000F6F385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A53123A1BF3EBD200862B88 /* PopoverInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverInfo.swift; sourceTree = "<group>"; };
+		0A56E5151BEE99B90054F998 /* AdMate.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdMate.db; sourceTree = "<group>"; };
+		0A5839F61BF290D2008E0C9C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Build/Products/Debug/SwiftyJSON.framework; sourceTree = "<group>"; };
+		0A5C69051BEC07E8002015CA /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		0A5C69071BEC1AED002015CA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0A5C69091BEC2219002015CA /* AdDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDataCell.swift; sourceTree = "<group>"; };
+		0A5C690F1BEC3295002015CA /* AdDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDataCell.xib; sourceTree = "<group>"; };
+		0A644CF41BE7F98E00B14585 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0A644D0D1BE8018900B14585 /* AdMate Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AdMate Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A644D111BE8018900B14585 /* AdMate_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AdMate_Widget.entitlements; sourceTree = "<group>"; };
+		0A644D121BE8018900B14585 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		0A644D151BE8018900B14585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		0A644D171BE8018900B14585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A644D191BE8018900B14585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A644D231BE80DC500B14585 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		0A80510D1BED51F7002848AE /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+OAuthSwift.swift"; path = "../AdMate/Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		0AAF97D51BE847C800CCD739 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = ../AdMate/HMAC.swift; sourceTree = "<group>"; };
+		0AAF97D61BE847C800CCD739 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+OAuthSwift.swift"; path = "../AdMate/Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		0AAF97D71BE847C800CCD739 /* NSData+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+OAuthSwift.swift"; path = "../AdMate/NSData+OAuthSwift.swift"; sourceTree = "<group>"; };
+		0AAF97D81BE847C800CCD739 /* NSURL+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSURL+OAuthSwift.swift"; path = "../AdMate/NSURL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		0AAF97D91BE847C800CCD739 /* OAuth1Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuth1Swift.swift; path = ../AdMate/OAuth1Swift.swift; sourceTree = "<group>"; };
+		0AAF97DA1BE847C800CCD739 /* OAuth2Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuth2Swift.swift; path = ../AdMate/OAuth2Swift.swift; sourceTree = "<group>"; };
+		0AAF97DB1BE847C800CCD739 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthSwiftClient.swift; path = ../AdMate/OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		0AAF97DC1BE847C800CCD739 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthSwiftCredential.swift; path = ../AdMate/OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		0AAF97DD1BE847C800CCD739 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthSwiftHTTPRequest.swift; path = ../AdMate/OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		0AAF97DE1BE847C800CCD739 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthSwiftURLHandlerType.swift; path = ../AdMate/OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		0AAF97DF1BE847C800CCD739 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OAuthWebViewController.swift; path = ../AdMate/OAuthWebViewController.swift; sourceTree = "<group>"; };
+		0AAF97E01BE847C800CCD739 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = ../AdMate/SHA1.swift; sourceTree = "<group>"; };
+		0AAF97E11BE847C800CCD739 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+OAuthSwift.swift"; path = "../AdMate/String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		0AAF97E21BE847C800CCD739 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../AdMate/Utils.swift; sourceTree = "<group>"; };
+		0AC963061BEC6939009540ED /* AdvancedLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedLineChartViewController.swift; sourceTree = "<group>"; };
+		0AC963071BEC6939009540ED /* DynamicLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicLineChartViewController.swift; sourceTree = "<group>"; };
+		0AC963081BEC6939009540ED /* LabeledLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledLineChartViewController.swift; sourceTree = "<group>"; };
+		0AC963091BEC6939009540ED /* MultiAxisLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiAxisLineChartViewController.swift; sourceTree = "<group>"; };
+		0AC9630A1BEC6939009540ED /* SimpleLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLineChartViewController.swift; sourceTree = "<group>"; };
+		120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.debug.xcconfig"; sourceTree = "<group>"; };
+		17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdDataKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.release.xcconfig"; sourceTree = "<group>"; };
+		3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.release.xcconfig"; sourceTree = "<group>"; };
+		50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.debug.xcconfig"; sourceTree = "<group>"; };
+		8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.release.xcconfig"; sourceTree = "<group>"; };
+		E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +282,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F89561BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */,
+				0F9B14BF803A20F4DB81F990 /* Pods_AdMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +301,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A31EE051BF28AB000B96EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A31EE0F1BF28AB000B96EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31EE131BF28AB100B96EA2 /* AdMateOAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F893D1BF2A46000F6F385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A371C9F1BF2AD980006D209 /* AdMateOAuth.framework in Frameworks */,
+				66D9DDB1CDC3F545DABA0687 /* Pods_AdDataKit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F89471BF2A46000F6F385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F894B1BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A644D0A1BE8018900B14585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F895E1BF2A54A00F6F385 /* AdDataKit2.framework in Frameworks */,
+				0A644D0E1BE8018900B14585 /* NotificationCenter.framework in Frameworks */,
+				9E1EC277127FEED401DCED84 /* Pods_AdMate_Widget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +352,16 @@
 				0A12F9131BE185D3000504DE /* AdMate */,
 				0A12F9251BE185D3000504DE /* AdMateTests */,
 				0A12F9301BE185D4000504DE /* AdMateUITests */,
+				0A644D0F1BE8018900B14585 /* AdMate Widget */,
+				0A31AD651BE995E700DCB0F2 /* AdDataKit */,
+				0A31AD731BE995E700DCB0F2 /* AdDataKitTests */,
+				0A31EE0A1BF28AB000B96EA2 /* AdMateOAuth */,
+				0A31EE181BF28AB100B96EA2 /* AdMateOAuthTests */,
+				0A4F89421BF2A46000F6F385 /* AdDataKit2 */,
+				0A4F89501BF2A46000F6F385 /* AdDataKit2Tests */,
 				0A12F9121BE185D3000504DE /* Products */,
+				8A335264E109D5A9DA85F2FB /* Frameworks */,
+				CE97EF80AA8CB81A4BBB669F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +371,11 @@
 				0A12F9111BE185D3000504DE /* AdMate.app */,
 				0A12F9221BE185D3000504DE /* AdMateTests.xctest */,
 				0A12F92D1BE185D4000504DE /* AdMateUITests.xctest */,
+				0A644D0D1BE8018900B14585 /* AdMate Widget.appex */,
+				0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */,
+				0A31EE121BF28AB000B96EA2 /* AdMateOAuthTests.xctest */,
+				0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */,
+				0A4F894A1BF2A46000F6F385 /* AdDataKit2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +383,22 @@
 		0A12F9131BE185D3000504DE /* AdMate */ = {
 			isa = PBXGroup;
 			children = (
+				0A12F93F1BE18E58000504DE /* AdMate.entitlements */,
 				0A12F9141BE185D3000504DE /* AppDelegate.swift */,
-				0A12F9161BE185D3000504DE /* ViewController.swift */,
+				0A5C69051BEC07E8002015CA /* MainWindow.swift */,
+				0A12F9161BE185D3000504DE /* LoginScreen.swift */,
+				0A5C69071BEC1AED002015CA /* MainViewController.swift */,
+				0A53123A1BF3EBD200862B88 /* PopoverInfo.swift */,
+				0A31EE021BF283D100B96EA2 /* MyRowView.swift */,
+				0A5C690F1BEC3295002015CA /* AdDataCell.xib */,
 				0A12F9181BE185D3000504DE /* Assets.xcassets */,
 				0A12F91A1BE185D3000504DE /* Main.storyboard */,
+				0A5C69091BEC2219002015CA /* AdDataCell.swift */,
 				0A12F91D1BE185D3000504DE /* Info.plist */,
+				0A644D231BE80DC500B14585 /* CSV.swift */,
+				0A56E5151BEE99B90054F998 /* AdMate.db */,
+				0A371C971BF2AA930006D209 /* Common-Currency.json */,
+				0AC963101BEC6944009540ED /* Charts */,
 			);
 			path = AdMate;
 			sourceTree = "<group>";
@@ -122,20 +421,177 @@
 			path = AdMateUITests;
 			sourceTree = "<group>";
 		};
+		0A31AD651BE995E700DCB0F2 /* AdDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A4F892F1BF2A26300F6F385 /* AdDataKit.h */,
+			);
+			path = AdDataKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A31AD731BE995E700DCB0F2 /* AdDataKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A31AD741BE995E700DCB0F2 /* AdDataKitTests.swift */,
+				0A31AD761BE995E700DCB0F2 /* Info.plist */,
+			);
+			path = AdDataKitTests;
+			sourceTree = "<group>";
+		};
+		0A31EE0A1BF28AB000B96EA2 /* AdMateOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */,
+				0AAF97D51BE847C800CCD739 /* HMAC.swift */,
+				0AAF97D61BE847C800CCD739 /* Int+OAuthSwift.swift */,
+				0AAF97D71BE847C800CCD739 /* NSData+OAuthSwift.swift */,
+				0AAF97D81BE847C800CCD739 /* NSURL+OAuthSwift.swift */,
+				0AAF97D91BE847C800CCD739 /* OAuth1Swift.swift */,
+				0AAF97DA1BE847C800CCD739 /* OAuth2Swift.swift */,
+				0AAF97DB1BE847C800CCD739 /* OAuthSwiftClient.swift */,
+				0AAF97DC1BE847C800CCD739 /* OAuthSwiftCredential.swift */,
+				0AAF97DD1BE847C800CCD739 /* OAuthSwiftHTTPRequest.swift */,
+				0AAF97DE1BE847C800CCD739 /* OAuthSwiftURLHandlerType.swift */,
+				0AAF97DF1BE847C800CCD739 /* OAuthWebViewController.swift */,
+				0AAF97E01BE847C800CCD739 /* SHA1.swift */,
+				0AAF97E11BE847C800CCD739 /* String+OAuthSwift.swift */,
+				0AAF97E21BE847C800CCD739 /* Utils.swift */,
+				0A31EE0B1BF28AB000B96EA2 /* AdMateOAuth.h */,
+				0A31EE0D1BF28AB000B96EA2 /* Info.plist */,
+			);
+			path = AdMateOAuth;
+			sourceTree = "<group>";
+		};
+		0A31EE181BF28AB100B96EA2 /* AdMateOAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A31EE191BF28AB100B96EA2 /* AdMateOAuthTests.swift */,
+				0A31EE1B1BF28AB100B96EA2 /* Info.plist */,
+			);
+			path = AdMateOAuthTests;
+			sourceTree = "<group>";
+		};
+		0A4F89421BF2A46000F6F385 /* AdDataKit2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A371C981BF2AA930006D209 /* GetData.swift */,
+				0A371C991BF2AA930006D209 /* ProcessingData.swift */,
+				0A371C9A1BF2AA930006D209 /* Public.swift */,
+				0A4F89431BF2A46000F6F385 /* AdDataKit2.h */,
+				0A4F89451BF2A46000F6F385 /* Info.plist */,
+			);
+			path = AdDataKit2;
+			sourceTree = "<group>";
+		};
+		0A4F89501BF2A46000F6F385 /* AdDataKit2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4F89511BF2A46000F6F385 /* AdDataKit2Tests.swift */,
+				0A4F89531BF2A46000F6F385 /* Info.plist */,
+			);
+			path = AdDataKit2Tests;
+			sourceTree = "<group>";
+		};
+		0A644D0F1BE8018900B14585 /* AdMate Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0A644D121BE8018900B14585 /* TodayViewController.swift */,
+				0A644D141BE8018900B14585 /* TodayViewController.xib */,
+				0A644D171BE8018900B14585 /* Info.plist */,
+				0A644D181BE8018900B14585 /* InfoPlist.strings */,
+				0A644D101BE8018900B14585 /* Supporting Files */,
+				0A31AD911BE9BAC700DCB0F2 /* CellTodayExtension.swift */,
+				0A31AD931BE9BADB00DCB0F2 /* CellTodayExtension.xib */,
+			);
+			path = "AdMate Widget";
+			sourceTree = "<group>";
+		};
+		0A644D101BE8018900B14585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A644D111BE8018900B14585 /* AdMate_Widget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AC963101BEC6944009540ED /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				0A80510D1BED51F7002848AE /* LineChart.swift */,
+				0AC963061BEC6939009540ED /* AdvancedLineChartViewController.swift */,
+				0AC963071BEC6939009540ED /* DynamicLineChartViewController.swift */,
+				0AC963081BEC6939009540ED /* LabeledLineChartViewController.swift */,
+				0AC963091BEC6939009540ED /* MultiAxisLineChartViewController.swift */,
+				0AC9630A1BEC6939009540ED /* SimpleLineChartViewController.swift */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		8A335264E109D5A9DA85F2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5839F61BF290D2008E0C9C /* SwiftyJSON.framework */,
+				0A644CF41BE7F98E00B14585 /* NotificationCenter.framework */,
+				17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */,
+				02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */,
+				E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE97EF80AA8CB81A4BBB669F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */,
+				8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */,
+				F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */,
+				1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */,
+				50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */,
+				3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A31EE061BF28AB000B96EA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F893E1BF2A46000F6F385 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F897E1BF2A8C100F6F385 /* AdDataKit2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0A12F9101BE185D3000504DE /* AdMate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A12F9361BE185D4000504DE /* Build configuration list for PBXNativeTarget "AdMate" */;
 			buildPhases = (
+				B6EFF0784C684540180FD3E5 /* Check Pods Manifest.lock */,
 				0A12F90D1BE185D3000504DE /* Sources */,
 				0A12F90E1BE185D3000504DE /* Frameworks */,
 				0A12F90F1BE185D3000504DE /* Resources */,
+				0A644D081BE7F98E00B14585 /* Embed App Extensions */,
+				0A31AD481BE989A400DCB0F2 /* Embed Frameworks */,
+				391DCBDF6311E35B1745026C /* Embed Pods Frameworks */,
+				E0F376B0D75FC0459C5CCB3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A644D1C1BE8018900B14585 /* PBXTargetDependency */,
+				0A31EE1D1BF28AB100B96EA2 /* PBXTargetDependency */,
+				0A4F89551BF2A46000F6F385 /* PBXTargetDependency */,
 			);
 			name = AdMate;
 			productName = AdMate;
@@ -178,6 +634,102 @@
 			productReference = 0A12F92D1BE185D4000504DE /* AdMateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0A31EE081BF28AB000B96EA2 /* AdMateOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A31EE241BF28AB100B96EA2 /* Build configuration list for PBXNativeTarget "AdMateOAuth" */;
+			buildPhases = (
+				0A31EE041BF28AB000B96EA2 /* Sources */,
+				0A31EE051BF28AB000B96EA2 /* Frameworks */,
+				0A31EE061BF28AB000B96EA2 /* Headers */,
+				0A31EE071BF28AB000B96EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMateOAuth;
+			productName = AdMateOAuth;
+			productReference = 0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A31EE111BF28AB000B96EA2 /* AdMateOAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A31EE251BF28AB100B96EA2 /* Build configuration list for PBXNativeTarget "AdMateOAuthTests" */;
+			buildPhases = (
+				0A31EE0E1BF28AB000B96EA2 /* Sources */,
+				0A31EE0F1BF28AB000B96EA2 /* Frameworks */,
+				0A31EE101BF28AB000B96EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A31EE151BF28AB100B96EA2 /* PBXTargetDependency */,
+				0A31EE171BF28AB100B96EA2 /* PBXTargetDependency */,
+			);
+			name = AdMateOAuthTests;
+			productName = AdMateOAuthTests;
+			productReference = 0A31EE121BF28AB000B96EA2 /* AdMateOAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A4F89401BF2A46000F6F385 /* AdDataKit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4F89581BF2A46000F6F385 /* Build configuration list for PBXNativeTarget "AdDataKit2" */;
+			buildPhases = (
+				53D0811EDAEF372329C19471 /* Check Pods Manifest.lock */,
+				0A4F893C1BF2A46000F6F385 /* Sources */,
+				0A4F893D1BF2A46000F6F385 /* Frameworks */,
+				0A4F893E1BF2A46000F6F385 /* Headers */,
+				0A4F893F1BF2A46000F6F385 /* Resources */,
+				C620BF43491536311467C994 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdDataKit2;
+			productName = AdDataKit2;
+			productReference = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A4F89491BF2A46000F6F385 /* AdDataKit2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4F895B1BF2A46000F6F385 /* Build configuration list for PBXNativeTarget "AdDataKit2Tests" */;
+			buildPhases = (
+				0A4F89461BF2A46000F6F385 /* Sources */,
+				0A4F89471BF2A46000F6F385 /* Frameworks */,
+				0A4F89481BF2A46000F6F385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4F894D1BF2A46000F6F385 /* PBXTargetDependency */,
+				0A4F894F1BF2A46000F6F385 /* PBXTargetDependency */,
+			);
+			name = AdDataKit2Tests;
+			productName = AdDataKit2Tests;
+			productReference = 0A4F894A1BF2A46000F6F385 /* AdDataKit2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A644D0C1BE8018900B14585 /* AdMate Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A644D1E1BE8018900B14585 /* Build configuration list for PBXNativeTarget "AdMate Widget" */;
+			buildPhases = (
+				87B08A783BED2420670B1E01 /* Check Pods Manifest.lock */,
+				0A644D091BE8018900B14585 /* Sources */,
+				0A644D0A1BE8018900B14585 /* Frameworks */,
+				0A644D0B1BE8018900B14585 /* Resources */,
+				32481B4519CA0282532BC897 /* Embed Pods Frameworks */,
+				82A66B5514CD920E3B9CF223 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdMate Widget";
+			productName = "AdMate Widget";
+			productReference = 0A644D0D1BE8018900B14585 /* AdMate Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +742,15 @@
 				TargetAttributes = {
 					0A12F9101BE185D3000504DE = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4K3EUCP99P;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					0A12F9211BE185D3000504DE = {
 						CreatedOnToolsVersion = 7.1;
@@ -198,6 +759,30 @@
 					0A12F92C1BE185D4000504DE = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 0A12F9101BE185D3000504DE;
+					};
+					0A31EE081BF28AB000B96EA2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4K3EUCP99P;
+					};
+					0A31EE111BF28AB000B96EA2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0A12F9101BE185D3000504DE;
+					};
+					0A4F89401BF2A46000F6F385 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0A4F89491BF2A46000F6F385 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0A12F9101BE185D3000504DE;
+					};
+					0A644D0C1BE8018900B14585 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4K3EUCP99P;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -217,6 +802,11 @@
 				0A12F9101BE185D3000504DE /* AdMate */,
 				0A12F9211BE185D3000504DE /* AdMateTests */,
 				0A12F92C1BE185D4000504DE /* AdMateUITests */,
+				0A644D0C1BE8018900B14585 /* AdMate Widget */,
+				0A31EE081BF28AB000B96EA2 /* AdMateOAuth */,
+				0A31EE111BF28AB000B96EA2 /* AdMateOAuthTests */,
+				0A4F89401BF2A46000F6F385 /* AdDataKit2 */,
+				0A4F89491BF2A46000F6F385 /* AdDataKit2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +816,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A56E5161BEE99B90054F998 /* AdMate.db in Resources */,
 				0A12F9191BE185D3000504DE /* Assets.xcassets in Resources */,
+				0A5C69101BEC3295002015CA /* AdDataCell.xib in Resources */,
+				0AA765D11BF3018300B34B43 /* Common-Currency.json in Resources */,
 				0A12F91C1BE185D3000504DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,15 +838,207 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A31EE071BF28AB000B96EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A31EE101BF28AB000B96EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F893F1BF2A46000F6F385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A371C9B1BF2AA930006D209 /* Common-Currency.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F89481BF2A46000F6F385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A644D0B1BE8018900B14585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A56E5171BEE99B90054F998 /* AdMate.db in Resources */,
+				0A31AD941BE9BADB00DCB0F2 /* CellTodayExtension.xib in Resources */,
+				0A644D161BE8018900B14585 /* TodayViewController.xib in Resources */,
+				0AA765D21BF3018500B34B43 /* Common-Currency.json in Resources */,
+				0A31AD901BE9B7D000DCB0F2 /* Assets.xcassets in Resources */,
+				0A644D1A1BE8018900B14585 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32481B4519CA0282532BC897 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		391DCBDF6311E35B1745026C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D0811EDAEF372329C19471 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82A66B5514CD920E3B9CF223 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B08A783BED2420670B1E01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EFF0784C684540180FD3E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C620BF43491536311467C994 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F376B0D75FC0459C5CCB3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A12F90D1BE185D3000504DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A12F9171BE185D3000504DE /* ViewController.swift in Sources */,
+				0A4F89651BF2A74D00F6F385 /* OAuth2Swift.swift in Sources */,
+				0A5C69081BEC1AED002015CA /* MainViewController.swift in Sources */,
+				0A4F896C1BF2A74D00F6F385 /* String+OAuthSwift.swift in Sources */,
+				0A4F896D1BF2A74D00F6F385 /* Utils.swift in Sources */,
+				0AC9630D1BEC6939009540ED /* LabeledLineChartViewController.swift in Sources */,
+				0A4F89631BF2A74D00F6F385 /* NSURL+OAuthSwift.swift in Sources */,
+				0A12F9171BE185D3000504DE /* LoginScreen.swift in Sources */,
+				0A4F896A1BF2A74D00F6F385 /* OAuthWebViewController.swift in Sources */,
+				0A4F89611BF2A74D00F6F385 /* Int+OAuthSwift.swift in Sources */,
+				0A644D241BE80DC500B14585 /* CSV.swift in Sources */,
+				0A4F89621BF2A74D00F6F385 /* NSData+OAuthSwift.swift in Sources */,
+				0AC9630C1BEC6939009540ED /* DynamicLineChartViewController.swift in Sources */,
+				0A4F895F1BF2A74D00F6F385 /* Dictionary+OAuthSwift.swift in Sources */,
+				0A4F89691BF2A74D00F6F385 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				0A80510E1BED51F7002848AE /* LineChart.swift in Sources */,
+				0A4F89681BF2A74D00F6F385 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				0A31EE031BF283D100B96EA2 /* MyRowView.swift in Sources */,
+				0A53123B1BF3EBD200862B88 /* PopoverInfo.swift in Sources */,
+				0A4F89641BF2A74D00F6F385 /* OAuth1Swift.swift in Sources */,
+				0A5C690A1BEC2219002015CA /* AdDataCell.swift in Sources */,
+				0AC9630E1BEC6939009540ED /* MultiAxisLineChartViewController.swift in Sources */,
+				0AC9630F1BEC6939009540ED /* SimpleLineChartViewController.swift in Sources */,
+				0A4F89671BF2A74D00F6F385 /* OAuthSwiftCredential.swift in Sources */,
+				0A4F89601BF2A74D00F6F385 /* HMAC.swift in Sources */,
 				0A12F9151BE185D3000504DE /* AppDelegate.swift in Sources */,
+				0A4F896B1BF2A74D00F6F385 /* SHA1.swift in Sources */,
+				0A5C69061BEC07E8002015CA /* MainWindow.swift in Sources */,
+				0AC9630B1BEC6939009540ED /* AdvancedLineChartViewController.swift in Sources */,
+				0A4F89661BF2A74D00F6F385 /* OAuthSwiftClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +1058,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A31EE041BF28AB000B96EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31EE2C1BF28AF800B96EA2 /* OAuth2Swift.swift in Sources */,
+				0A31EE2F1BF28AF800B96EA2 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				0A31EE331BF28AF800B96EA2 /* String+OAuthSwift.swift in Sources */,
+				0A31EE301BF28AF800B96EA2 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				0A31EE281BF28AF800B96EA2 /* Int+OAuthSwift.swift in Sources */,
+				0A31EE341BF28AF800B96EA2 /* Utils.swift in Sources */,
+				0A31EE2B1BF28AF800B96EA2 /* OAuth1Swift.swift in Sources */,
+				0A31EE311BF28AF800B96EA2 /* OAuthWebViewController.swift in Sources */,
+				0A31EE271BF28AF800B96EA2 /* HMAC.swift in Sources */,
+				0A31EE2E1BF28AF800B96EA2 /* OAuthSwiftCredential.swift in Sources */,
+				0A31EE291BF28AF800B96EA2 /* NSData+OAuthSwift.swift in Sources */,
+				0A31EE321BF28AF800B96EA2 /* SHA1.swift in Sources */,
+				0A31EE261BF28AF800B96EA2 /* Dictionary+OAuthSwift.swift in Sources */,
+				0A31EE2D1BF28AF800B96EA2 /* OAuthSwiftClient.swift in Sources */,
+				0A31EE2A1BF28AF800B96EA2 /* NSURL+OAuthSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A31EE0E1BF28AB000B96EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A31EE1A1BF28AB100B96EA2 /* AdMateOAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F893C1BF2A46000F6F385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A371C9D1BF2AA930006D209 /* ProcessingData.swift in Sources */,
+				0A371C9C1BF2AA930006D209 /* GetData.swift in Sources */,
+				0A371C9E1BF2AA930006D209 /* Public.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4F89461BF2A46000F6F385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F89521BF2A46000F6F385 /* AdDataKit2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A644D091BE8018900B14585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F89711BF2A74E00F6F385 /* NSData+OAuthSwift.swift in Sources */,
+				0A31AD921BE9BAC700DCB0F2 /* CellTodayExtension.swift in Sources */,
+				0A4F897B1BF2A74E00F6F385 /* String+OAuthSwift.swift in Sources */,
+				0A644D131BE8018900B14585 /* TodayViewController.swift in Sources */,
+				0A4F89731BF2A74E00F6F385 /* OAuth1Swift.swift in Sources */,
+				0A4F89781BF2A74E00F6F385 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				0A4F897A1BF2A74E00F6F385 /* SHA1.swift in Sources */,
+				0A4F89751BF2A74E00F6F385 /* OAuthSwiftClient.swift in Sources */,
+				0A4F89761BF2A74E00F6F385 /* OAuthSwiftCredential.swift in Sources */,
+				0A4F897C1BF2A74E00F6F385 /* Utils.swift in Sources */,
+				0A4F89701BF2A74E00F6F385 /* Int+OAuthSwift.swift in Sources */,
+				0A4F89721BF2A74E00F6F385 /* NSURL+OAuthSwift.swift in Sources */,
+				0A4F896F1BF2A74E00F6F385 /* HMAC.swift in Sources */,
+				0A4F89771BF2A74E00F6F385 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				0A4F896E1BF2A74E00F6F385 /* Dictionary+OAuthSwift.swift in Sources */,
+				0A4F89741BF2A74E00F6F385 /* OAuth2Swift.swift in Sources */,
+				0A4F89791BF2A74E00F6F385 /* OAuthWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,6 +1143,41 @@
 			target = 0A12F9101BE185D3000504DE /* AdMate */;
 			targetProxy = 0A12F92E1BE185D4000504DE /* PBXContainerItemProxy */;
 		};
+		0A31EE151BF28AB100B96EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A31EE081BF28AB000B96EA2 /* AdMateOAuth */;
+			targetProxy = 0A31EE141BF28AB100B96EA2 /* PBXContainerItemProxy */;
+		};
+		0A31EE171BF28AB100B96EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A12F9101BE185D3000504DE /* AdMate */;
+			targetProxy = 0A31EE161BF28AB100B96EA2 /* PBXContainerItemProxy */;
+		};
+		0A31EE1D1BF28AB100B96EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A31EE081BF28AB000B96EA2 /* AdMateOAuth */;
+			targetProxy = 0A31EE1C1BF28AB100B96EA2 /* PBXContainerItemProxy */;
+		};
+		0A4F894D1BF2A46000F6F385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4F89401BF2A46000F6F385 /* AdDataKit2 */;
+			targetProxy = 0A4F894C1BF2A46000F6F385 /* PBXContainerItemProxy */;
+		};
+		0A4F894F1BF2A46000F6F385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A12F9101BE185D3000504DE /* AdMate */;
+			targetProxy = 0A4F894E1BF2A46000F6F385 /* PBXContainerItemProxy */;
+		};
+		0A4F89551BF2A46000F6F385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4F89401BF2A46000F6F385 /* AdDataKit2 */;
+			targetProxy = 0A4F89541BF2A46000F6F385 /* PBXContainerItemProxy */;
+		};
+		0A644D1C1BE8018900B14585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A644D0C1BE8018900B14585 /* AdMate Widget */;
+			targetProxy = 0A644D1B1BE8018900B14585 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -297,6 +1189,22 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		0A644D141BE8018900B14585 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A644D151BE8018900B14585 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		0A644D181BE8018900B14585 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A644D191BE8018900B14585 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -304,6 +1212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -348,6 +1257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,24 +1292,32 @@
 		};
 		0A12F9371BE185D4000504DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdMate/AdMate.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AdMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMate";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		0A12F9381BE185D4000504DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdMate/AdMate.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AdMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMate";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -456,6 +1374,183 @@
 			};
 			name = Release;
 		};
+		0A31EE201BF28AB100B96EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AdMateOAuth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMateOAuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A31EE211BF28AB100B96EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AdMateOAuth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMateOAuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A31EE221BF28AB100B96EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdMateOAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMateOAuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMate.app/Contents/MacOS/AdMate";
+			};
+			name = Debug;
+		};
+		0A31EE231BF28AB100B96EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdMateOAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdMateOAuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMate.app/Contents/MacOS/AdMate";
+			};
+			name = Release;
+		};
+		0A4F89591BF2A46000F6F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AdDataKit2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdDataKit2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A4F895A1BF2A46000F6F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AdDataKit2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdDataKit2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A4F895C1BF2A46000F6F385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdDataKit2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdDataKit2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMate.app/Contents/MacOS/AdMate";
+			};
+			name = Debug;
+		};
+		0A4F895D1BF2A46000F6F385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdDataKit2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Antonin-Linossier.AdDataKit2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMate.app/Contents/MacOS/AdMate";
+			};
+			name = Release;
+		};
+		0A644D1F1BE8018900B14585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AdMate Widget/AdMate_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AdMate Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate.AdMate-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0A644D201BE8018900B14585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AdMate Widget/AdMate_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AdMate Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate.AdMate-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,6 +1570,7 @@
 				0A12F9381BE185D4000504DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A12F9391BE185D4000504DE /* Build configuration list for PBXNativeTarget "AdMateTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +1579,7 @@
 				0A12F93B1BE185D4000504DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A12F93C1BE185D4000504DE /* Build configuration list for PBXNativeTarget "AdMateUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +1588,52 @@
 				0A12F93E1BE185D4000504DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A31EE241BF28AB100B96EA2 /* Build configuration list for PBXNativeTarget "AdMateOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A31EE201BF28AB100B96EA2 /* Debug */,
+				0A31EE211BF28AB100B96EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A31EE251BF28AB100B96EA2 /* Build configuration list for PBXNativeTarget "AdMateOAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A31EE221BF28AB100B96EA2 /* Debug */,
+				0A31EE231BF28AB100B96EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4F89581BF2A46000F6F385 /* Build configuration list for PBXNativeTarget "AdDataKit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4F89591BF2A46000F6F385 /* Debug */,
+				0A4F895A1BF2A46000F6F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4F895B1BF2A46000F6F385 /* Build configuration list for PBXNativeTarget "AdDataKit2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4F895C1BF2A46000F6F385 /* Debug */,
+				0A4F895D1BF2A46000F6F385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A644D1E1BE8018900B14585 /* Build configuration list for PBXNativeTarget "AdMate Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A644D1F1BE8018900B14585 /* Debug */,
+				0A644D201BE8018900B14585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
