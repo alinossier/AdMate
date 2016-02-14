@@ -8,8 +8,8 @@
 
 import Foundation
 import Cocoa
-import SwiftColors
-
+import AdDataKit2
+import SwiftHEXColors
 
 
 class MyRowView: NSTableRowView {

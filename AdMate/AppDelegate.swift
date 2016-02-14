@@ -119,7 +119,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 //            NSLog("No valid URL to handle")
 //        }
     }
+    
+    
+    @IBAction func GoToSupport(sender:AnyObject){
+     
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "http://antonin-linossier.com/changemate/contact/")!)
+    
+    
+    }
+    
+    
+    @IBAction func LogOut(sender:AnyObject){
+    
+        defaults.setObject(nil, forKey: UserIDDefault)
+        defaults.synchronize()
+        NSApplication.sharedApplication().terminate(self)
 
+    
+    }
+    
 //        
 //        if let urlPassed = NSURL(string: event.paramDescriptorForKeyword(AEKeyword(keyDirectObject))!.stringValue!) where "com.googleusercontent.apps.1079482800287-7njdh0lfjvsnsf50pp00iikquusduuua" == url.scheme && "code" == url.host {
 //        print(urlPassed)

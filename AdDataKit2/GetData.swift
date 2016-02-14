@@ -20,7 +20,7 @@ public let settings = [
     "token_uri": "https://accounts.google.com/o/oauth2/token",
     "scope": "https://www.googleapis.com/auth/adsense",
     "redirect_uris": ["com.googleusercontent.apps.1079482800287-7njdh0lfjvsnsf50pp00iikquusduuua:/"],
-    "title": "My Service",
+    "title": "AdMate",
     "response_type": "token",
     "verbose": true,
     "approval_prompt" : "auto" // TO BE CHANGED TO AUTO
@@ -76,17 +76,25 @@ public func GetDataFromDb(completion: (Done: [AdData]) -> Void){
             
             // Maybe add closure to make sure the dummy data gets inserted before reading it
 
+    
+    do {
         
-        for AdDB in db.prepare(AdDataTable) {
+        for AdDB in try db.prepare(AdDataTable) {
             
             // need to unwarp here
             
             RetrievedData.append(AdData(AdRequest: AdDB[AdRequestData], AdRequestCoverage: AdDB[AdRequestCoverageData], AdRequestCTR: AdDB[AdRequestCTRData], AdRequestRPM: AdDB[AdRequestRPMData], AdClicks: AdDB[ClicksData], AdCostPerClick: AdDB[CostPerClickData], Earnings: AdDB[EarningsData], PageViews: AdDB[PageViewsData], PageViewRPM: AdDB[PageViewRPMData], MatchedAdRequest: AdDB[MatchedAdREquestData], Date: AdDB[DateData]))
 
             }
-            
+        
+        } catch _ {
+        
+        //   print("Data does exist for date \(formatedDate)")
+        
+    }
+    
         completion(Done: RetrievedData)
-            
+    
 //        } else {
 //    
 //            print("could not get DB path")
@@ -190,6 +198,8 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
         let requestURL = NSURL(string:"\(url)?\(parameterString)")!
         
         let req = oauth2.request(forURL: requestURL)
+    
+        print(req)
         
         
         let session = NSURLSession.sharedSession()
@@ -207,9 +217,10 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                 do {
                     if let dict = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
                     
-                    
+                    print("Got headers")
+                        print(dict)
+                        
                     if let  HeaderDict = dict["headers"] {
-                    
                     
                         let DbPath = getPath("AdMate.db").absoluteString
                         
@@ -314,6 +325,10 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                             }
                         }
 
+                        
+                    } else {
+                        
+                            print("Could not get headers")
                         
                         }
                     }

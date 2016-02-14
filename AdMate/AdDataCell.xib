@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner"/>
@@ -14,7 +14,6 @@
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4W-mP-N0Z">
                     <rect key="frame" x="48" y="16" width="167" height="34"/>
-                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="1.66 $" id="Euf-oC-1oO">
                         <font key="font" metaFont="systemThin" size="28"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -23,7 +22,6 @@
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZN-jK-fI4">
                     <rect key="frame" x="68" y="0.0" width="147" height="17"/>
-                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="1.77 $ last week" id="SpY-Xe-rpL">
                         <font key="font" metaFont="systemThin" size="9"/>
                         <color key="textColor" red="0.23843765259999999" green="0.24429684879999999" blue="0.24844741819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,7 +30,6 @@
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6tn-mL-ttH">
                     <rect key="frame" x="7" y="0.0" width="63" height="17"/>
-                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Earnings" id="SIe-Va-CyZ">
                         <font key="font" metaFont="systemThin" size="9"/>
                         <color key="textColor" red="0.23843765259999999" green="0.24429684879999999" blue="0.24844741819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,11 +38,9 @@
                 </textField>
                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pvc-Ug-9l3">
                     <rect key="frame" x="9" y="21" width="17" height="24"/>
-                    <animations/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="DOWN" id="lDm-4Y-u6B"/>
                 </imageView>
             </subviews>
-            <animations/>
             <connections>
                 <outlet property="Caption" destination="6tn-mL-ttH" id="6zL-Bv-3pg"/>
                 <outlet property="Indicator" destination="pvc-Ug-9l3" id="NhO-oN-gJF"/>

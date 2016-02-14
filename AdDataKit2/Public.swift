@@ -164,7 +164,7 @@ public extension String {
 }
 
 
-public let UserIDDefault = String("UD29")
+public let UserIDDefault = String("UD77")
 
 //public var documentsFolder = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
 

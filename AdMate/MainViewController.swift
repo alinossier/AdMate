@@ -444,7 +444,6 @@ class MainViewController: NSViewController {
             FetchDataFromAPI(userID ){
                 (UpdateStatus:Bool) in
                 
-                
                 if UpdateStatus {
                     print("Getting data from db")
                     
@@ -498,16 +497,12 @@ class MainViewController: NSViewController {
     
     }
     
-    
-    
-    
+
     override func viewWillAppear() {
 
         self.view.window?.backgroundColor = NSColor.whiteColor()
         self.view.window?.titlebarAppearsTransparent = true
 
-     
-        
         
         if let UserID = defaults.objectForKey(UserIDDefault) {
         
@@ -525,8 +520,8 @@ class MainViewController: NSViewController {
 
         }
         
-        
     }
+    
     
     func LayoutSubViews(){
         
@@ -1064,14 +1059,7 @@ class MainViewController: NSViewController {
             
         }
         
-        
-        
-        
-        
-        
-        
-        
-        
+
         let ThisMonthStartDate = calendar.dateByAddingUnit(
             [.Day],
             value: -30,
@@ -1106,9 +1094,7 @@ class MainViewController: NSViewController {
             $0.Date != nil && ThisMonthStartDate.isLessThanDate($0.Date!)
         })
         
-        
-        
-        
+
         
         let LastMonth = RawDataFromDb.filter({
             $0.Date != nil && ThisMonthStartDate.isGreaterThanDate($0.Date!) && LastMonthStartDate.isLessThanDate($0.Date!)
@@ -1265,8 +1251,6 @@ class MainViewController: NSViewController {
    
     }
     
-    
 
-    
     
 }

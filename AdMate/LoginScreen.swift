@@ -16,20 +16,10 @@ class LoginScreen: NSViewController {
  
     @IBOutlet var ActionButton: NSButton!
     
+    @IBOutlet var ErrorLine: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-//        let alert:NSAlert = NSAlert();
-//        alert.messageText = "Authentification error";
-////        alert.informativeText = error;
-//        alert.addButtonWithTitle("Retry").target = self
-//        alert.addButtonWithTitle("Close").target = self
-//        alert.buttons[0].action = "Retry:"
-//        alert.buttons[1].action = "CloseModal:"
-//        alert.runModal();
-        
         
         self.view.wantsLayer = true
 
@@ -41,7 +31,6 @@ class LoginScreen: NSViewController {
             let color : CGColorRef = CGColorCreateGenericRGB(250, 250, 250, 250)
             self.view.layer?.backgroundColor = color
         }
-        
         
     }
     
@@ -62,53 +51,54 @@ class LoginScreen: NSViewController {
     }
     
     @IBAction func GetData(sender:AnyObject){
+        
+        print(defaults.objectForKey(UserIDDefault))
 
         if (defaults.objectForKey(UserIDDefault) == nil){
         // oauth2.authConfig.authorizeEmbedded = false
-        oauth2.authorize()
-        print("USER IDD NOT NIL")
+            oauth2.authorize()
             print(defaults.objectForKey(UserIDDefault))
-        oauth2.onAuthorize = { parameters in
+            oauth2.onAuthorize = { parameters in
             
             print("Did authorize with parameters: \(parameters)")
             
             self.GetUserID(){
                 (dict: NSDictionary?, error: NSError?) in
                 
-                if dict!.count != 0 {
+            
+                if let UnDict = dict {
                 
-                        print("About to close")
-                        NSNotificationCenter.defaultCenter().postNotificationName("UserDidLogin", object: nil)
-                        self.dismissController(self)
+                    if UnDict.count != 0 {
+                    
+                            print("About to close")
+                            NSNotificationCenter.defaultCenter().postNotificationName("UserDidLogin", object: nil)
+                            self.dismissController(self)
 
-                        print("Got user ID")
-                        return
+                            print("Got user ID")
+                            return
+                        
+                    } else {
+                        
+                            self.ErrorLine.stringValue = "Er3: Unexpected error please try again"
+                            return
+                    
+                    }
                     
                 } else {
                 
-                    let alert:NSAlert = NSAlert();
-                    alert.messageText = "Authentification error";
-                    alert.informativeText = "\(error)";
-                    alert.addButtonWithTitle("Retry").target = self
-                    alert.buttons[1].action = "Retry:"
-                    alert.runModal();
-                
+                    self.ErrorLine.stringValue = "Er6: Could not locate a valid AdMob Account"
+                    return
                 
                 }
                 
             }
-            
-            
   
         }
         oauth2.onFailure = { error in  // `error` is nil on cancel
             if nil != error {
                 
-                let alert:NSAlert = NSAlert();
-                alert.messageText = "Authentification error";
-                alert.informativeText = error!.localizedDescription;
-                alert.runModal();
-                
+                self.ErrorLine.stringValue = "\(error)"
+                return
                  // Print Alert message
             }
         }
@@ -130,6 +120,7 @@ class LoginScreen: NSViewController {
         
         let window = NSApp.mainWindow! as NSWindow
         window.attachedSheet!.close()
+        
         print("Close")
     }
 
@@ -156,6 +147,8 @@ class LoginScreen: NSViewController {
                     
                         if let DictAccount = dict["items"]as? NSArray {
                             
+                            print(DictAccount)
+                            
                             print("SESSION3")
                             if let UserID = DictAccount[0]["id"] as? String {
                                 dispatch_async(dispatch_get_main_queue()) {
@@ -173,15 +166,28 @@ class LoginScreen: NSViewController {
                                     print("Got the completion handler")
 
                             }
+                            
+                        } else {
+                            
+                            
+                                self.ErrorLine.stringValue = "Er1: Could not locate a valid AdMob/AdSense Account"
+                                callback(dict: nil, error: nil)
+                        
                         }
                             
                         } else {
-                        
-                        
-                        // You do not have an adsense account, please create one
                             
-                        
+                            
+                                self.ErrorLine.stringValue = "Er2: Could not locate a valid AdMob/AdSense Account"
+                                callback(dict: nil, error: nil)
+                            
                         }
+                    
+                    } else {
+                    
+                        self.ErrorLine.stringValue = "Er5: Could not locate a valid AdMob/AdSense Account"
+                        callback(dict: nil, error: nil)
+                    
                     
                     }
                 
@@ -198,6 +204,12 @@ class LoginScreen: NSViewController {
 
     }
 
+    func CreateAdmobAccount(){
+        
+         NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://www.google.com/admob/")!)
+    
+    
+    }
     
     override var representedObject: AnyObject? {
         didSet {

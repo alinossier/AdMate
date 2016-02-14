@@ -42,7 +42,7 @@
 		0A371C9F1BF2AD980006D209 /* AdMateOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31EE091BF28AB000B96EA2 /* AdMateOAuth.framework */; };
 		0A4F894B1BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
 		0A4F89521BF2A46000F6F385 /* AdDataKit2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F89511BF2A46000F6F385 /* AdDataKit2Tests.swift */; };
-		0A4F89561BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
+		0A4F89561BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0A4F89571BF2A46000F6F385 /* AdDataKit2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A4F895E1BF2A54A00F6F385 /* AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F89411BF2A46000F6F385 /* AdDataKit2.framework */; };
 		0A4F895F1BF2A74D00F6F385 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF97D41BE847C800CCD739 /* Dictionary+OAuthSwift.swift */; };
@@ -97,9 +97,9 @@
 		0AC9630D1BEC6939009540ED /* LabeledLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963081BEC6939009540ED /* LabeledLineChartViewController.swift */; };
 		0AC9630E1BEC6939009540ED /* MultiAxisLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC963091BEC6939009540ED /* MultiAxisLineChartViewController.swift */; };
 		0AC9630F1BEC6939009540ED /* SimpleLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9630A1BEC6939009540ED /* SimpleLineChartViewController.swift */; };
-		0F9B14BF803A20F4DB81F990 /* Pods_AdMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */; };
-		66D9DDB1CDC3F545DABA0687 /* Pods_AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */; };
-		9E1EC277127FEED401DCED84 /* Pods_AdMate_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */; };
+		832C661E724CBD859A5B9FEB /* Pods_AdMate_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D61721816C6F52B7A3A6E /* Pods_AdMate_Widget.framework */; };
+		8545AC143667BDCC3204106A /* Pods_AdDataKit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9FD573A8918B30D06C0FF5 /* Pods_AdDataKit2.framework */; };
+		C7A80B030454F6747113EDED /* Pods_AdMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3C6B6E7F79B0C506A4E22B /* Pods_AdMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,7 +171,7 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		0A31AD481BE989A400DCB0F2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
@@ -179,7 +179,7 @@
 				0A31EE1F1BF28AB100B96EA2 /* AdMateOAuth.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0A644D081BE7F98E00B14585 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -195,7 +195,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A12F9111BE185D3000504DE /* AdMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A12F9141BE185D3000504DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A12F9161BE185D3000504DE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -267,14 +266,15 @@
 		0AC963081BEC6939009540ED /* LabeledLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledLineChartViewController.swift; sourceTree = "<group>"; };
 		0AC963091BEC6939009540ED /* MultiAxisLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiAxisLineChartViewController.swift; sourceTree = "<group>"; };
 		0AC9630A1BEC6939009540ED /* SimpleLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLineChartViewController.swift; sourceTree = "<group>"; };
-		120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.debug.xcconfig"; sourceTree = "<group>"; };
-		17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdDataKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.release.xcconfig"; sourceTree = "<group>"; };
-		3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.release.xcconfig"; sourceTree = "<group>"; };
-		50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.debug.xcconfig"; sourceTree = "<group>"; };
-		8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.release.xcconfig"; sourceTree = "<group>"; };
-		E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.debug.xcconfig"; sourceTree = "<group>"; };
+		42534F7A3D9B9EF245F82B6F /* Pods-AdDataKit2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.release.xcconfig"; sourceTree = "<group>"; };
+		56C5C88A60AF9D72A4476468 /* Pods-AdDataKit2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDataKit2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2.debug.xcconfig"; sourceTree = "<group>"; };
+		701D61721816C6F52B7A3A6E /* Pods_AdMate_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3C6B6E7F79B0C506A4E22B /* Pods_AdMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB1A3D415607FE16659193E /* Pods-AdMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.release.xcconfig"; sourceTree = "<group>"; };
+		90A024AC14689306B0081DD2 /* Pods-AdMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate/Pods-AdMate.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9FD573A8918B30D06C0FF5 /* Pods_AdDataKit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdDataKit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2905656E72E02E071EC1004 /* Pods-AdMate Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.release.xcconfig"; sourceTree = "<group>"; };
+		BCB3CEE87BFF5D6C4E5371C9 /* Pods-AdMate Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMate Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4F89561BF2A46000F6F385 /* AdDataKit2.framework in Frameworks */,
-				0F9B14BF803A20F4DB81F990 /* Pods_AdMate.framework in Frameworks */,
+				C7A80B030454F6747113EDED /* Pods_AdMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A371C9F1BF2AD980006D209 /* AdMateOAuth.framework in Frameworks */,
-				66D9DDB1CDC3F545DABA0687 /* Pods_AdDataKit2.framework in Frameworks */,
+				8545AC143667BDCC3204106A /* Pods_AdDataKit2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +339,7 @@
 			files = (
 				0A4F895E1BF2A54A00F6F385 /* AdDataKit2.framework in Frameworks */,
 				0A644D0E1BE8018900B14585 /* NotificationCenter.framework in Frameworks */,
-				9E1EC277127FEED401DCED84 /* Pods_AdMate_Widget.framework in Frameworks */,
+				832C661E724CBD859A5B9FEB /* Pods_AdMate_Widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +361,7 @@
 				0A4F89501BF2A46000F6F385 /* AdDataKit2Tests */,
 				0A12F9121BE185D3000504DE /* Products */,
 				8A335264E109D5A9DA85F2FB /* Frameworks */,
-				CE97EF80AA8CB81A4BBB669F /* Pods */,
+				F0BF7686CB01C7DE8E752A14 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -532,22 +532,22 @@
 			children = (
 				0A5839F61BF290D2008E0C9C /* SwiftyJSON.framework */,
 				0A644CF41BE7F98E00B14585 /* NotificationCenter.framework */,
-				17E5B41679E13A1FE1F158A5 /* Pods_AdDataKit2.framework */,
-				02F2B34D4D0305524074BE3B /* Pods_AdMate.framework */,
-				E9ADA7ABFF97FBB3BA39B7F5 /* Pods_AdMate_Widget.framework */,
+				AD9FD573A8918B30D06C0FF5 /* Pods_AdDataKit2.framework */,
+				701D61721816C6F52B7A3A6E /* Pods_AdMate_Widget.framework */,
+				7E3C6B6E7F79B0C506A4E22B /* Pods_AdMate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE97EF80AA8CB81A4BBB669F /* Pods */ = {
+		F0BF7686CB01C7DE8E752A14 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */,
-				8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */,
-				F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */,
-				1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */,
-				50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */,
-				3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */,
+				56C5C88A60AF9D72A4476468 /* Pods-AdDataKit2.debug.xcconfig */,
+				42534F7A3D9B9EF245F82B6F /* Pods-AdDataKit2.release.xcconfig */,
+				BCB3CEE87BFF5D6C4E5371C9 /* Pods-AdMate Widget.debug.xcconfig */,
+				B2905656E72E02E071EC1004 /* Pods-AdMate Widget.release.xcconfig */,
+				90A024AC14689306B0081DD2 /* Pods-AdMate.debug.xcconfig */,
+				8FB1A3D415607FE16659193E /* Pods-AdMate.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -577,14 +577,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A12F9361BE185D4000504DE /* Build configuration list for PBXNativeTarget "AdMate" */;
 			buildPhases = (
-				B6EFF0784C684540180FD3E5 /* Check Pods Manifest.lock */,
+				3C09552AC966E442F271E2F6 /* Check Pods Manifest.lock */,
 				0A12F90D1BE185D3000504DE /* Sources */,
 				0A12F90E1BE185D3000504DE /* Frameworks */,
 				0A12F90F1BE185D3000504DE /* Resources */,
 				0A644D081BE7F98E00B14585 /* Embed App Extensions */,
 				0A31AD481BE989A400DCB0F2 /* Embed Frameworks */,
-				391DCBDF6311E35B1745026C /* Embed Pods Frameworks */,
-				E0F376B0D75FC0459C5CCB3A /* Copy Pods Resources */,
+				AA73EF5FE1F7D1FB28E40E33 /* Embed Pods Frameworks */,
+				55BB90268FD24F66917E6DC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -675,12 +675,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4F89581BF2A46000F6F385 /* Build configuration list for PBXNativeTarget "AdDataKit2" */;
 			buildPhases = (
-				53D0811EDAEF372329C19471 /* Check Pods Manifest.lock */,
+				5CA0C35916926DB4C7AD07CF /* Check Pods Manifest.lock */,
 				0A4F893C1BF2A46000F6F385 /* Sources */,
 				0A4F893D1BF2A46000F6F385 /* Frameworks */,
 				0A4F893E1BF2A46000F6F385 /* Headers */,
 				0A4F893F1BF2A46000F6F385 /* Resources */,
-				C620BF43491536311467C994 /* Copy Pods Resources */,
+				2494E2AD4A0715C9AB99E4FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -714,12 +714,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A644D1E1BE8018900B14585 /* Build configuration list for PBXNativeTarget "AdMate Widget" */;
 			buildPhases = (
-				87B08A783BED2420670B1E01 /* Check Pods Manifest.lock */,
+				612AAC1649E5CBF78A6F1C39 /* Check Pods Manifest.lock */,
 				0A644D091BE8018900B14585 /* Sources */,
 				0A644D0A1BE8018900B14585 /* Frameworks */,
 				0A644D0B1BE8018900B14585 /* Resources */,
-				32481B4519CA0282532BC897 /* Embed Pods Frameworks */,
-				82A66B5514CD920E3B9CF223 /* Copy Pods Resources */,
+				735C99323BBC664146AACD7F /* Embed Pods Frameworks */,
+				4235707DAB4F119221296581 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -883,97 +883,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32481B4519CA0282532BC897 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		391DCBDF6311E35B1745026C /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53D0811EDAEF372329C19471 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		82A66B5514CD920E3B9CF223 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87B08A783BED2420670B1E01 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B6EFF0784C684540180FD3E5 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C620BF43491536311467C994 /* Copy Pods Resources */ = {
+		2494E2AD4A0715C9AB99E4FA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -988,7 +898,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0F376B0D75FC0459C5CCB3A /* Copy Pods Resources */ = {
+		3C09552AC966E442F271E2F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4235707DAB4F119221296581 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BB90268FD24F66917E6DC3 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1001,6 +941,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA0C35916926DB4C7AD07CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		612AAC1649E5CBF78A6F1C39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		735C99323BBC664146AACD7F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA73EF5FE1F7D1FB28E40E33 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1229,6 +1229,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1274,6 +1275,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1292,15 +1294,19 @@
 		};
 		0A12F9371BE185D4000504DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D147B57EAA4F1C0F01A19B /* Pods-AdMate.debug.xcconfig */;
+			baseConfigurationReference = 90A024AC14689306B0081DD2 /* Pods-AdMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AdMate/AdMate.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = AdMate/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1308,15 +1314,19 @@
 		};
 		0A12F9381BE185D4000504DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DEECEF701787797AAA95A85 /* Pods-AdMate.release.xcconfig */;
+			baseConfigurationReference = 8FB1A3D415607FE16659193E /* Pods-AdMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AdMate/AdMate.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = AdMate/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Antonin-Linossier.AdMate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1446,7 +1456,7 @@
 		};
 		0A4F89591BF2A46000F6F385 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 120ADD3F1E4C8C46FE02743C /* Pods-AdDataKit2.debug.xcconfig */;
+			baseConfigurationReference = 56C5C88A60AF9D72A4476468 /* Pods-AdDataKit2.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1471,7 +1481,7 @@
 		};
 		0A4F895A1BF2A46000F6F385 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8258C6245A1BCC9D92C27CCC /* Pods-AdDataKit2.release.xcconfig */;
+			baseConfigurationReference = 42534F7A3D9B9EF245F82B6F /* Pods-AdDataKit2.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1519,7 +1529,7 @@
 		};
 		0A644D1F1BE8018900B14585 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50B5927BBA8076687A1F5870 /* Pods-AdMate Widget.debug.xcconfig */;
+			baseConfigurationReference = BCB3CEE87BFF5D6C4E5371C9 /* Pods-AdMate Widget.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AdMate Widget/AdMate_Widget.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1536,7 +1546,7 @@
 		};
 		0A644D201BE8018900B14585 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F0CC709BAE7B88FC4CFCC96 /* Pods-AdMate Widget.release.xcconfig */;
+			baseConfigurationReference = B2905656E72E02E071EC1004 /* Pods-AdMate Widget.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AdMate Widget/AdMate_Widget.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
