@@ -1,0 +1,594 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuth2CodeGrant"
+provides-nominal:
+- "C9p2_OAuth215OAuth2CodeGrant"
+provides-member:
+- ["C9p2_OAuth215OAuth2CodeGrant", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- !private "&&"
+- "NSURL"
+- !private "UnicodeScalarType"
+- !private "OAuth2Error"
+- "NSMutableURLRequest"
+- !private "NSURLComponents"
+- "OAuth2"
+- "String"
+- !private "??"
+- !private "!"
+- "OAuth2StringDict"
+- !private "StringLiteralType"
+- !private "!="
+- "OAuth2CodeGrant"
+- !private "<"
+depends-member:
+- !private ["PSs9AnyObject", "NSURLComponents"]
+- !private ["PSs9AnyObject", "OAuth2CodeGrant"]
+- !private ["PSs9AnyObject", "OAuth2Error"]
+- !private ["PSs9AnyObject", "OAuth2StringDict"]
+- !private ["PSs9AnyObject", "URL"]
+- !private ["PSs9AnyObject", "absoluteString"]
+- !private ["PSs9AnyObject", "accessToken"]
+- !private ["PSs9AnyObject", "assureMatchesState"]
+- !private ["PSs9AnyObject", "assureNoErrorInResponse"]
+- !private ["PSs9AnyObject", "authConfig"]
+- !private ["PSs9AnyObject", "authorizeURLWithParams"]
+- !private ["PSs9AnyObject", "characters"]
+- !private ["PSs9AnyObject", "clientConfig"]
+- !private ["PSs9AnyObject", "clientId"]
+- !private ["PSs9AnyObject", "clientSecret"]
+- !private ["PSs9AnyObject", "context"]
+- !private ["PSs9AnyObject", "description"]
+- !private ["PSs9AnyObject", "didAuthorize"]
+- !private ["PSs9AnyObject", "didFail"]
+- ["PSs9AnyObject", "exchangeCodeForToken"]
+- ["PSs9AnyObject", "grantType"]
+- ["PSs9AnyObject", "handleRedirectURL"]
+- !private ["PSs9AnyObject", "hasPrefix"]
+- !private ["PSs9AnyObject", "host"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isEmpty"]
+- !private ["PSs9AnyObject", "logIfVerbose"]
+- !private ["PSs9AnyObject", "paramsFromQuery"]
+- !private ["PSs9AnyObject", "parseAccessTokenResponse"]
+- !private ["PSs9AnyObject", "percentEncodedQuery"]
+- !private ["PSs9AnyObject", "performRequest"]
+- !private ["PSs9AnyObject", "query"]
+- !private ["PSs9AnyObject", "redirectURL"]
+- !private ["PSs9AnyObject", "refreshToken"]
+- ["PSs9AnyObject", "responseType"]
+- ["PSs9AnyObject", "tokenRequestWithCode"]
+- !private ["PSs9AnyObject", "tokenRequestWithURL"]
+- ["PSs9AnyObject", "tokenURLWithCode"]
+- ["PSs9AnyObject", "validateRedirectURL"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "URL"]
+- !private ["PSs11CVarArgType", "absoluteString"]
+- !private ["PSs11CVarArgType", "characters"]
+- !private ["PSs11CVarArgType", "description"]
+- !private ["PSs11CVarArgType", "hasPrefix"]
+- !private ["PSs11CVarArgType", "host"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isEmpty"]
+- !private ["PSs11CVarArgType", "percentEncodedQuery"]
+- !private ["PSs11CVarArgType", "query"]
+- !private ["VSs9Character", "deinit"]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "characters"]
+- !private ["PSs10Comparable", "hasPrefix"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "characters"]
+- !private ["PSs28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Generic"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "InvalidRedirectURL"]
+- !private ["PSs23CustomStringConvertible", "NoDataInResponse"]
+- !private ["PSs23CustomStringConvertible", "NoRedirectURL"]
+- !private ["PSs23CustomStringConvertible", "PrerequisiteFailed"]
+- !private ["PSs23CustomStringConvertible", "ResponseError"]
+- !private ["PSs23CustomStringConvertible", "URL"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "absoluteString"]
+- !private ["PSs23CustomStringConvertible", "characters"]
+- !private ["PSs23CustomStringConvertible", "description"]
+- !private ["PSs23CustomStringConvertible", "hasPrefix"]
+- !private ["PSs23CustomStringConvertible", "host"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "percentEncodedQuery"]
+- !private ["PSs23CustomStringConvertible", "query"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "init"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Generic"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "InvalidRedirectURL"]
+- !private ["PSs9Equatable", "NoDataInResponse"]
+- !private ["PSs9Equatable", "NoRedirectURL"]
+- !private ["PSs9Equatable", "PrerequisiteFailed"]
+- !private ["PSs9Equatable", "ResponseError"]
+- !private ["PSs9Equatable", "URL"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "absoluteString"]
+- !private ["PSs9Equatable", "characters"]
+- !private ["PSs9Equatable", "description"]
+- !private ["PSs9Equatable", "hasPrefix"]
+- !private ["PSs9Equatable", "host"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isEmpty"]
+- !private ["PSs9Equatable", "percentEncodedQuery"]
+- !private ["PSs9Equatable", "query"]
+- !private ["PSs9ErrorType", "Generic"]
+- !private ["PSs9ErrorType", "InvalidRedirectURL"]
+- !private ["PSs9ErrorType", "NoDataInResponse"]
+- !private ["PSs9ErrorType", "NoRedirectURL"]
+- !private ["PSs9ErrorType", "PrerequisiteFailed"]
+- !private ["PSs9ErrorType", "ResponseError"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "URL"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "absoluteString"]
+- !private ["PSs8Hashable", "characters"]
+- !private ["PSs8Hashable", "description"]
+- !private ["PSs8Hashable", "hasPrefix"]
+- !private ["PSs8Hashable", "host"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isEmpty"]
+- !private ["PSs8Hashable", "percentEncodedQuery"]
+- !private ["PSs8Hashable", "query"]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "characters"]
+- !private ["PSs14MirrorPathType", "hasPrefix"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "absoluteString"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "description"]
+- !private ["PSo8NSCoding", "hasPrefix"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo9NSCopying", "URL"]
+- !private ["PSo9NSCopying", "absoluteString"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "description"]
+- !private ["PSo9NSCopying", "hasPrefix"]
+- !private ["PSo9NSCopying", "host"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "percentEncodedQuery"]
+- !private ["PSo9NSCopying", "query"]
+- !private ["PSo16NSMutableCopying", "URL"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "hasPrefix"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["CSo19NSMutableURLRequest", "URL"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "absoluteString"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "description"]
+- !private ["CSo8NSObject", "hasPrefix"]
+- !private ["CSo8NSObject", "host"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "percentEncodedQuery"]
+- !private ["CSo8NSObject", "query"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "absoluteString"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "description"]
+- !private ["PSo16NSObjectProtocol", "hasPrefix"]
+- !private ["PSo16NSObjectProtocol", "host"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "percentEncodedQuery"]
+- !private ["PSo16NSObjectProtocol", "query"]
+- !private ["PSo19NSPasteboardReading", "absoluteString"]
+- !private ["PSo19NSPasteboardReading", "characters"]
+- !private ["PSo19NSPasteboardReading", "description"]
+- !private ["PSo19NSPasteboardReading", "hasPrefix"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "isEmpty"]
+- !private ["PSo19NSPasteboardWriting", "absoluteString"]
+- !private ["PSo19NSPasteboardWriting", "characters"]
+- !private ["PSo19NSPasteboardWriting", "description"]
+- !private ["PSo19NSPasteboardWriting", "hasPrefix"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "URL"]
+- !private ["PSo14NSSecureCoding", "absoluteString"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "description"]
+- !private ["PSo14NSSecureCoding", "hasPrefix"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "hasPrefix"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo5NSURL", "absoluteString"]
+- !private ["CSo5NSURL", "description"]
+- !private ["CSo15NSURLComponents", "host"]
+- !private ["CSo15NSURLComponents", "init"]
+- !private ["CSo15NSURLComponents", "percentEncodedQuery"]
+- !private ["CSo15NSURLComponents", "query"]
+- !private ["PSo17NSURLHandleClient", "absoluteString"]
+- !private ["PSo17NSURLHandleClient", "description"]
+- !private ["CSo12NSURLRequest", "URL"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["C9p2_OAuth26OAuth2", "NSMutableURLRequest"]
+- ["C9p2_OAuth26OAuth2", "NSURL"]
+- !private ["C9p2_OAuth26OAuth2", "NSURLComponents"]
+- !private ["C9p2_OAuth26OAuth2", "OAuth2CodeGrant"]
+- !private ["C9p2_OAuth26OAuth2", "OAuth2Error"]
+- ["C9p2_OAuth26OAuth2", "OAuth2StringDict"]
+- ["C9p2_OAuth26OAuth2", "String"]
+- !private ["C9p2_OAuth26OAuth2", "assureMatchesState"]
+- !private ["C9p2_OAuth26OAuth2", "assureNoErrorInResponse"]
+- !private ["C9p2_OAuth26OAuth2", "authConfig"]
+- !private ["C9p2_OAuth26OAuth2", "authorizeURLWithParams"]
+- !private ["C9p2_OAuth26OAuth2", "clientConfig"]
+- !private ["C9p2_OAuth26OAuth2", "context"]
+- !private ["C9p2_OAuth26OAuth2", "didAuthorize"]
+- !private ["C9p2_OAuth26OAuth2", "didFail"]
+- ["C9p2_OAuth26OAuth2", "exchangeCodeForToken"]
+- ["C9p2_OAuth26OAuth2", "grantType"]
+- ["C9p2_OAuth26OAuth2", "handleRedirectURL"]
+- ["C9p2_OAuth26OAuth2", "init"]
+- !private ["C9p2_OAuth26OAuth2", "logIfVerbose"]
+- !private ["C9p2_OAuth26OAuth2", "paramsFromQuery"]
+- !private ["C9p2_OAuth26OAuth2", "parseAccessTokenResponse"]
+- !private ["C9p2_OAuth26OAuth2", "performRequest"]
+- ["C9p2_OAuth26OAuth2", "responseType"]
+- ["C9p2_OAuth26OAuth2", "tokenRequestWithCode"]
+- !private ["C9p2_OAuth26OAuth2", "tokenRequestWithURL"]
+- ["C9p2_OAuth26OAuth2", "tokenURLWithCode"]
+- ["C9p2_OAuth26OAuth2", "validateRedirectURL"]
+- ["C9p2_OAuth26OAuth2", ""]
+- !private ["V9p2_OAuth216OAuth2AuthConfig", "secretInBody"]
+- ["C9p2_OAuth210OAuth2Base", "NSMutableURLRequest"]
+- ["C9p2_OAuth210OAuth2Base", "NSURL"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSURLComponents"]
+- !private ["C9p2_OAuth210OAuth2Base", "OAuth2CodeGrant"]
+- !private ["C9p2_OAuth210OAuth2Base", "OAuth2Error"]
+- ["C9p2_OAuth210OAuth2Base", "OAuth2StringDict"]
+- ["C9p2_OAuth210OAuth2Base", "String"]
+- !private ["C9p2_OAuth210OAuth2Base", "assureMatchesState"]
+- !private ["C9p2_OAuth210OAuth2Base", "assureNoErrorInResponse"]
+- !private ["C9p2_OAuth210OAuth2Base", "authConfig"]
+- !private ["C9p2_OAuth210OAuth2Base", "authorizeURLWithParams"]
+- !private ["C9p2_OAuth210OAuth2Base", "clientConfig"]
+- !private ["C9p2_OAuth210OAuth2Base", "context"]
+- !private ["C9p2_OAuth210OAuth2Base", "didAuthorize"]
+- !private ["C9p2_OAuth210OAuth2Base", "didFail"]
+- ["C9p2_OAuth210OAuth2Base", "exchangeCodeForToken"]
+- ["C9p2_OAuth210OAuth2Base", "grantType"]
+- ["C9p2_OAuth210OAuth2Base", "handleRedirectURL"]
+- ["C9p2_OAuth210OAuth2Base", "init"]
+- !private ["C9p2_OAuth210OAuth2Base", "logIfVerbose"]
+- !private ["C9p2_OAuth210OAuth2Base", "paramsFromQuery"]
+- !private ["C9p2_OAuth210OAuth2Base", "parseAccessTokenResponse"]
+- !private ["C9p2_OAuth210OAuth2Base", "performRequest"]
+- ["C9p2_OAuth210OAuth2Base", "responseType"]
+- ["C9p2_OAuth210OAuth2Base", "tokenRequestWithCode"]
+- !private ["C9p2_OAuth210OAuth2Base", "tokenRequestWithURL"]
+- ["C9p2_OAuth210OAuth2Base", "tokenURLWithCode"]
+- ["C9p2_OAuth210OAuth2Base", "validateRedirectURL"]
+- !private ["C9p2_OAuth218OAuth2ClientConfig", "accessToken"]
+- !private ["C9p2_OAuth218OAuth2ClientConfig", "clientId"]
+- !private ["C9p2_OAuth218OAuth2ClientConfig", "clientSecret"]
+- !private ["C9p2_OAuth218OAuth2ClientConfig", "refreshToken"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "NSMutableURLRequest"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "NSURL"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "NSURLComponents"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "OAuth2CodeGrant"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "OAuth2Error"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "OAuth2StringDict"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "String"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "assureMatchesState"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "assureNoErrorInResponse"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "authConfig"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "authorizeURLWithParams"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "clientConfig"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "context"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "deinit"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "didAuthorize"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "didFail"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "exchangeCodeForToken"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "grantType"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "handleRedirectURL"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "init"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "logIfVerbose"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "paramsFromQuery"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "parseAccessTokenResponse"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "performRequest"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "responseType"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "tokenRequestWithCode"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "tokenRequestWithURL"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "tokenURLWithCode"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "validateRedirectURL"]
+- !private ["C9p2_OAuth218OAuth2ContextStore", "redirectURL"]
+- !private ["O9p2_OAuth211OAuth2Error", "Generic"]
+- !private ["O9p2_OAuth211OAuth2Error", "InvalidRedirectURL"]
+- !private ["O9p2_OAuth211OAuth2Error", "NoDataInResponse"]
+- !private ["O9p2_OAuth211OAuth2Error", "NoRedirectURL"]
+- !private ["O9p2_OAuth211OAuth2Error", "PrerequisiteFailed"]
+- !private ["O9p2_OAuth211OAuth2Error", "ResponseError"]
+- !private ["O9p2_OAuth211OAuth2Error", "deinit"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "characters"]
+- !private ["PSs16OutputStreamType", "hasPrefix"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "isEmpty"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "characters"]
+- !private ["PSs10Streamable", "hasPrefix"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "isEmpty"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "characters"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["PSs30StringInterpolationConvertible", "characters"]
+- !private ["PSs30StringInterpolationConvertible", "hasPrefix"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
+- !private ["PSs24StringLiteralConvertible", "characters"]
+- !private ["PSs24StringLiteralConvertible", "hasPrefix"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "hasPrefix"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "hasPrefix"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs16_CocoaStringType", "characters"]
+- !private ["PSs16_CocoaStringType", "hasPrefix"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "isEmpty"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "absoluteString"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "description"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "characters"]
+- !private ["PSs21_ObjectiveCBridgeable", "hasPrefix"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "absoluteString"]
+- !private ["PSs12_Reflectable", "characters"]
+- !private ["PSs12_Reflectable", "description"]
+- !private ["PSs12_Reflectable", "hasPrefix"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "VSS13CharacterView"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- !private "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- !private "VVSS13CharacterView5Index"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo15NSURLComponents"
+- !private "PSo17NSURLHandleClient"
+- !private "CSo12NSURLRequest"
+- "PSs21NilLiteralConvertible"
+- "C9p2_OAuth26OAuth2"
+- !private "V9p2_OAuth216OAuth2AuthConfig"
+- "C9p2_OAuth210OAuth2Base"
+- !private "C9p2_OAuth218OAuth2ClientConfig"
+- "C9p2_OAuth215OAuth2CodeGrant"
+- !private "C9p2_OAuth218OAuth2ContextStore"
+- !private "O9p2_OAuth211OAuth2Error"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/Pods.build/Debug/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "7365858e0cdb17dc6141618fe7317270"

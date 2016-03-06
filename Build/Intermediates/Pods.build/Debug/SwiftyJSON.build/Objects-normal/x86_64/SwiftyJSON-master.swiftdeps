@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d5646dd0994b84e567c3bc6532fde411"
+build_time: [510605581, 539146000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [510605578, 0]

@@ -1,0 +1,104 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftURLHandlerType"
+- "OAuthSwiftOpenURLExternally"
+provides-nominal:
+- "P6AdMate24OAuthSwiftURLHandlerType"
+- "C6AdMate27OAuthSwiftOpenURLExternally"
+provides-member:
+- ["P6AdMate24OAuthSwiftURLHandlerType", ""]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", ""]
+provides-dynamic-lookup:
+- "handle"
+- "handle"
+depends-top-level:
+- "OAuthSwiftOpenURLExternally"
+- "OAuthSwiftURLHandlerType"
+- !private "dispatch_once"
+- "IntegerLiteralType"
+- "NSURL"
+- !private "NSWorkspace"
+- !private "dispatch_once_t"
+- "FloatLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "NSWorkspace"]
+- !private ["PSs9AnyObject", "OAuthSwiftOpenURLExternally"]
+- !private ["PSs9AnyObject", "dispatch_once"]
+- ["PSs9AnyObject", "handle"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "openURL"]
+- !private ["PSs9AnyObject", "sharedWorkspace"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "openURL"]
+- !private ["PSs11CVarArgType", "sharedWorkspace"]
+- !private ["PSs23CustomStringConvertible", "openURL"]
+- !private ["PSs23CustomStringConvertible", "sharedWorkspace"]
+- !private ["PSs9Equatable", "openURL"]
+- !private ["PSs9Equatable", "sharedWorkspace"]
+- !private ["PSs8Hashable", "openURL"]
+- !private ["PSs8Hashable", "sharedWorkspace"]
+- !private ["CSo8NSObject", "openURL"]
+- !private ["CSo8NSObject", "sharedWorkspace"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- !private ["PSo16NSObjectProtocol", "sharedWorkspace"]
+- !private ["CSo11NSWorkspace", "openURL"]
+- !private ["CSo11NSWorkspace", "sharedWorkspace"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "NSURL"]
+- !private ["C6AdMate27OAuthSwiftOpenURLExternally", "NSWorkspace"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "OAuthSwiftOpenURLExternally"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "deinit"]
+- !private ["C6AdMate27OAuthSwiftOpenURLExternally", "dispatch_once"]
+- !private ["C6AdMate27OAuthSwiftOpenURLExternally", "dispatch_once_t"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "handle"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "init"]
+- ["C6AdMate27OAuthSwiftOpenURLExternally", "sharedInstance"]
+- ["P6AdMate24OAuthSwiftURLHandlerType", "NSURL"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "NSWorkspace"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "OAuthSwiftOpenURLExternally"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "dispatch_once"]
+- ["P6AdMate24OAuthSwiftURLHandlerType", "handle"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "init"]
+- ["P6AdMate24OAuthSwiftURLHandlerType", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo11NSWorkspace"
+- "C6AdMate27OAuthSwiftOpenURLExternally"
+- "P6AdMate24OAuthSwiftURLHandlerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/p2_OAuth2.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
+interface-hash: "c837fcd7fb8516b010b7ff59dde6020a"

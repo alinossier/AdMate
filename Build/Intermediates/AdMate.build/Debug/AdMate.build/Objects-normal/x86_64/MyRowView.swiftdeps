@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyRowView"
+provides-nominal:
+- "C6AdMate9MyRowView"
+provides-member:
+- ["C6AdMate9MyRowView", ""]
+provides-dynamic-lookup:
+- "drawRect"
+- "secondColor"
+depends-top-level:
+- !private "NSRectFill"
+- !private "=="
+- "StringLiteralType"
+- "NSRect"
+- "MyRowView"
+- !private "BooleanLiteralType"
+- "NSTableRowView"
+- "colorWithHexString"
+depends-member:
+- !private ["PSs9AnyObject", "NSRectFill"]
+- ["PSs9AnyObject", "colorWithHexString"]
+- ["PSs9AnyObject", "drawRect"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "secondColor"]
+- !private ["PSs9AnyObject", "selected"]
+- !private ["PSs9AnyObject", "set"]
+- ["PSs9AnyObject", ""]
+- !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "NSRectFill"]
+- ["PSs11CVarArgType", "colorWithHexString"]
+- ["PSs11CVarArgType", "drawRect"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "secondColor"]
+- !private ["PSs11CVarArgType", "selected"]
+- !private ["PSs11CVarArgType", "set"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSRectFill"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "colorWithHexString"]
+- ["PSs23CustomStringConvertible", "drawRect"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "secondColor"]
+- !private ["PSs23CustomStringConvertible", "selected"]
+- !private ["PSs23CustomStringConvertible", "set"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "NSRectFill"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "colorWithHexString"]
+- ["PSs9Equatable", "drawRect"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "secondColor"]
+- !private ["PSs9Equatable", "selected"]
+- !private ["PSs9Equatable", "set"]
+- ["PSs9Equatable", ""]
+- !private ["P6SQLite11Expressible", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "NSRectFill"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "colorWithHexString"]
+- ["PSs8Hashable", "drawRect"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "secondColor"]
+- !private ["PSs8Hashable", "selected"]
+- !private ["PSs8Hashable", "set"]
+- ["PSs8Hashable", ""]
+- ["C6AdMate9MyRowView", "NSRect"]
+- !private ["C6AdMate9MyRowView", "NSRectFill"]
+- ["C6AdMate9MyRowView", "colorWithHexString"]
+- ["C6AdMate9MyRowView", "deinit"]
+- ["C6AdMate9MyRowView", "drawRect"]
+- ["C6AdMate9MyRowView", "init"]
+- ["C6AdMate9MyRowView", "secondColor"]
+- !private ["C6AdMate9MyRowView", "selected"]
+- !private ["PSo15NSAccessibility", "NSRectFill"]
+- ["PSo15NSAccessibility", "colorWithHexString"]
+- ["PSo15NSAccessibility", "drawRect"]
+- ["PSo15NSAccessibility", "init"]
+- ["PSo15NSAccessibility", "secondColor"]
+- !private ["PSo15NSAccessibility", "selected"]
+- ["PSo15NSAccessibility", ""]
+- !private ["PSo30NSAccessibilityElementProtocol", "NSRectFill"]
+- ["PSo30NSAccessibilityElementProtocol", "colorWithHexString"]
+- ["PSo30NSAccessibilityElementProtocol", "drawRect"]
+- ["PSo30NSAccessibilityElementProtocol", "init"]
+- ["PSo30NSAccessibilityElementProtocol", "secondColor"]
+- !private ["PSo30NSAccessibilityElementProtocol", "selected"]
+- ["PSo30NSAccessibilityElementProtocol", ""]
+- !private ["PSo20NSAccessibilityGroup", "NSRectFill"]
+- ["PSo20NSAccessibilityGroup", "colorWithHexString"]
+- ["PSo20NSAccessibilityGroup", "drawRect"]
+- ["PSo20NSAccessibilityGroup", "init"]
+- ["PSo20NSAccessibilityGroup", "secondColor"]
+- !private ["PSo20NSAccessibilityGroup", "selected"]
+- ["PSo20NSAccessibilityGroup", ""]
+- !private ["PSo18NSAccessibilityRow", "NSRectFill"]
+- ["PSo18NSAccessibilityRow", "colorWithHexString"]
+- ["PSo18NSAccessibilityRow", "drawRect"]
+- ["PSo18NSAccessibilityRow", "init"]
+- ["PSo18NSAccessibilityRow", "secondColor"]
+- !private ["PSo18NSAccessibilityRow", "selected"]
+- ["PSo18NSAccessibilityRow", ""]
+- !private ["PSo29NSAnimatablePropertyContainer", "NSRectFill"]
+- ["PSo29NSAnimatablePropertyContainer", "colorWithHexString"]
+- ["PSo29NSAnimatablePropertyContainer", "drawRect"]
+- ["PSo29NSAnimatablePropertyContainer", "init"]
+- ["PSo29NSAnimatablePropertyContainer", "secondColor"]
+- !private ["PSo29NSAnimatablePropertyContainer", "selected"]
+- ["PSo29NSAnimatablePropertyContainer", ""]
+- !private ["PSo25NSAppearanceCustomization", "NSRectFill"]
+- ["PSo25NSAppearanceCustomization", "colorWithHexString"]
+- ["PSo25NSAppearanceCustomization", "drawRect"]
+- ["PSo25NSAppearanceCustomization", "init"]
+- ["PSo25NSAppearanceCustomization", "secondColor"]
+- !private ["PSo25NSAppearanceCustomization", "selected"]
+- ["PSo25NSAppearanceCustomization", ""]
+- !private ["PSo8NSCoding", "NSRectFill"]
+- ["PSo8NSCoding", "colorWithHexString"]
+- ["PSo8NSCoding", "drawRect"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "secondColor"]
+- !private ["PSo8NSCoding", "selected"]
+- !private ["PSo8NSCoding", "set"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo7NSColor", "set"]
+- !private ["PSo9NSCopying", "set"]
+- !private ["PSo21NSDraggingDestination", "NSRectFill"]
+- ["PSo21NSDraggingDestination", "colorWithHexString"]
+- ["PSo21NSDraggingDestination", "drawRect"]
+- ["PSo21NSDraggingDestination", "init"]
+- ["PSo21NSDraggingDestination", "secondColor"]
+- !private ["PSo21NSDraggingDestination", "selected"]
+- ["PSo21NSDraggingDestination", ""]
+- ["CSo8NSObject", "NSRect"]
+- !private ["CSo8NSObject", "NSRectFill"]
+- ["CSo8NSObject", "colorWithHexString"]
+- ["CSo8NSObject", "drawRect"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "secondColor"]
+- !private ["CSo8NSObject", "selected"]
+- !private ["CSo8NSObject", "set"]
+- !private ["PSo16NSObjectProtocol", "NSRectFill"]
+- ["PSo16NSObjectProtocol", "colorWithHexString"]
+- ["PSo16NSObjectProtocol", "drawRect"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "secondColor"]
+- !private ["PSo16NSObjectProtocol", "selected"]
+- !private ["PSo16NSObjectProtocol", "set"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "set"]
+- !private ["PSo19NSPasteboardWriting", "set"]
+- ["CSo11NSResponder", "NSRect"]
+- !private ["CSo11NSResponder", "NSRectFill"]
+- ["CSo11NSResponder", "colorWithHexString"]
+- ["CSo11NSResponder", "drawRect"]
+- ["CSo11NSResponder", "init"]
+- ["CSo11NSResponder", "secondColor"]
+- !private ["CSo11NSResponder", "selected"]
+- !private ["PSo14NSSecureCoding", "set"]
+- ["CSo14NSTableRowView", "NSRect"]
+- !private ["CSo14NSTableRowView", "NSRectFill"]
+- ["CSo14NSTableRowView", "colorWithHexString"]
+- ["CSo14NSTableRowView", "drawRect"]
+- ["CSo14NSTableRowView", "init"]
+- ["CSo14NSTableRowView", "secondColor"]
+- !private ["CSo14NSTableRowView", "selected"]
+- ["CSo14NSTableRowView", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSRectFill"]
+- ["PSo33NSUserInterfaceItemIdentification", "colorWithHexString"]
+- ["PSo33NSUserInterfaceItemIdentification", "drawRect"]
+- ["PSo33NSUserInterfaceItemIdentification", "init"]
+- ["PSo33NSUserInterfaceItemIdentification", "secondColor"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "selected"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- ["CSo6NSView", "NSRect"]
+- !private ["CSo6NSView", "NSRectFill"]
+- ["CSo6NSView", "colorWithHexString"]
+- ["CSo6NSView", "drawRect"]
+- ["CSo6NSView", "init"]
+- ["CSo6NSView", "secondColor"]
+- !private ["CSo6NSView", "selected"]
+- !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs24_ColorLiteralConvertible", "set"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "NSRectFill"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- ["PSs12_Reflectable", "colorWithHexString"]
+- ["PSs12_Reflectable", "drawRect"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "secondColor"]
+- !private ["PSs12_Reflectable", "selected"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "P6SQLite7Binding"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "P6SQLite11Expressible"
+- "PSs8Hashable"
+- "C6AdMate9MyRowView"
+- "PSo15NSAccessibility"
+- "PSo30NSAccessibilityElementProtocol"
+- "PSo20NSAccessibilityGroup"
+- "PSo18NSAccessibilityRow"
+- "PSo29NSAnimatablePropertyContainer"
+- "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- !private "CSo7NSColor"
+- !private "PSo9NSCopying"
+- "PSo21NSDraggingDestination"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- "CSo14NSTableRowView"
+- "PSo33NSUserInterfaceItemIdentification"
+- "CSo6NSView"
+- !private "P6SQLite5Value"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/p2_OAuth2.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
+interface-hash: "d56ad39354b4879be6e52f5c5e314aa6"

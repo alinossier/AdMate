@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthViewController"
+- "OAuthWebViewController"
+provides-nominal:
+- "C6AdMate22OAuthWebViewController"
+provides-member:
+- ["C6AdMate22OAuthWebViewController", ""]
+provides-dynamic-lookup:
+- "dismissWebViewController"
+- "handle"
+depends-top-level:
+- !private "!="
+- "NSViewController"
+- "NSURL"
+- "OAuthViewController"
+- "OAuthWebViewController"
+- "OAuthSwiftURLHandlerType"
+depends-member:
+- !private ["PSs9AnyObject", "dismissController"]
+- ["PSs9AnyObject", "dismissWebViewController"]
+- ["PSs9AnyObject", "handle"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "makeKeyAndOrderFront"]
+- !private ["PSs9AnyObject", "parentViewController"]
+- !private ["PSs9AnyObject", "performClose"]
+- !private ["PSs9AnyObject", "presentViewControllerAsModalWindow"]
+- !private ["PSs9AnyObject", "presentingViewController"]
+- !private ["PSs9AnyObject", "removeFromParentViewController"]
+- !private ["PSs9AnyObject", "view"]
+- !private ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "dismissController"]
+- ["PSs11CVarArgType", "dismissWebViewController"]
+- ["PSs11CVarArgType", "handle"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "makeKeyAndOrderFront"]
+- !private ["PSs11CVarArgType", "parentViewController"]
+- !private ["PSs11CVarArgType", "performClose"]
+- !private ["PSs11CVarArgType", "presentViewControllerAsModalWindow"]
+- !private ["PSs11CVarArgType", "presentingViewController"]
+- !private ["PSs11CVarArgType", "removeFromParentViewController"]
+- !private ["PSs11CVarArgType", "view"]
+- !private ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "dismissController"]
+- ["PSs23CustomStringConvertible", "dismissWebViewController"]
+- ["PSs23CustomStringConvertible", "handle"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "makeKeyAndOrderFront"]
+- !private ["PSs23CustomStringConvertible", "parentViewController"]
+- !private ["PSs23CustomStringConvertible", "performClose"]
+- !private ["PSs23CustomStringConvertible", "presentViewControllerAsModalWindow"]
+- !private ["PSs23CustomStringConvertible", "presentingViewController"]
+- !private ["PSs23CustomStringConvertible", "removeFromParentViewController"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- !private ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "dismissController"]
+- ["PSs9Equatable", "dismissWebViewController"]
+- ["PSs9Equatable", "handle"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "makeKeyAndOrderFront"]
+- !private ["PSs9Equatable", "parentViewController"]
+- !private ["PSs9Equatable", "performClose"]
+- !private ["PSs9Equatable", "presentViewControllerAsModalWindow"]
+- !private ["PSs9Equatable", "presentingViewController"]
+- !private ["PSs9Equatable", "removeFromParentViewController"]
+- !private ["PSs9Equatable", "view"]
+- !private ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["P6SQLite11Expressible", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "dismissController"]
+- ["PSs8Hashable", "dismissWebViewController"]
+- ["PSs8Hashable", "handle"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "makeKeyAndOrderFront"]
+- !private ["PSs8Hashable", "parentViewController"]
+- !private ["PSs8Hashable", "performClose"]
+- !private ["PSs8Hashable", "presentViewControllerAsModalWindow"]
+- !private ["PSs8Hashable", "presentingViewController"]
+- !private ["PSs8Hashable", "removeFromParentViewController"]
+- !private ["PSs8Hashable", "view"]
+- !private ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["PSo15NSAccessibility", "makeKeyAndOrderFront"]
+- !private ["PSo15NSAccessibility", "performClose"]
+- !private ["PSo15NSAccessibility", "window"]
+- !private ["PSo30NSAccessibilityElementProtocol", "makeKeyAndOrderFront"]
+- !private ["PSo30NSAccessibilityElementProtocol", "performClose"]
+- !private ["PSo30NSAccessibilityElementProtocol", "window"]
+- !private ["PSo29NSAnimatablePropertyContainer", "makeKeyAndOrderFront"]
+- !private ["PSo29NSAnimatablePropertyContainer", "performClose"]
+- !private ["PSo29NSAnimatablePropertyContainer", "window"]
+- !private ["PSo25NSAppearanceCustomization", "makeKeyAndOrderFront"]
+- !private ["PSo25NSAppearanceCustomization", "performClose"]
+- !private ["PSo25NSAppearanceCustomization", "window"]
+- !private ["PSo8NSCoding", "dismissController"]
+- ["PSo8NSCoding", "dismissWebViewController"]
+- ["PSo8NSCoding", "handle"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "makeKeyAndOrderFront"]
+- !private ["PSo8NSCoding", "parentViewController"]
+- !private ["PSo8NSCoding", "performClose"]
+- !private ["PSo8NSCoding", "presentViewControllerAsModalWindow"]
+- !private ["PSo8NSCoding", "presentingViewController"]
+- !private ["PSo8NSCoding", "removeFromParentViewController"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "window"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo21NSDraggingDestination", "window"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissController"]
+- ["PSo26NSExtensionRequestHandling", "dismissWebViewController"]
+- ["PSo26NSExtensionRequestHandling", "handle"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "parentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewControllerAsModalWindow"]
+- !private ["PSo26NSExtensionRequestHandling", "presentingViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "removeFromParentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "dismissController"]
+- ["CSo8NSObject", "dismissWebViewController"]
+- ["CSo8NSObject", "handle"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "makeKeyAndOrderFront"]
+- !private ["CSo8NSObject", "parentViewController"]
+- !private ["CSo8NSObject", "performClose"]
+- !private ["CSo8NSObject", "presentViewControllerAsModalWindow"]
+- !private ["CSo8NSObject", "presentingViewController"]
+- !private ["CSo8NSObject", "removeFromParentViewController"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "dismissController"]
+- ["PSo16NSObjectProtocol", "dismissWebViewController"]
+- ["PSo16NSObjectProtocol", "handle"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "makeKeyAndOrderFront"]
+- !private ["PSo16NSObjectProtocol", "parentViewController"]
+- !private ["PSo16NSObjectProtocol", "performClose"]
+- !private ["PSo16NSObjectProtocol", "presentViewControllerAsModalWindow"]
+- !private ["PSo16NSObjectProtocol", "presentingViewController"]
+- !private ["PSo16NSObjectProtocol", "removeFromParentViewController"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo11NSResponder", "NSURL"]
+- !private ["CSo11NSResponder", "dismissController"]
+- ["CSo11NSResponder", "dismissWebViewController"]
+- ["CSo11NSResponder", "handle"]
+- ["CSo11NSResponder", "init"]
+- !private ["CSo11NSResponder", "makeKeyAndOrderFront"]
+- !private ["CSo11NSResponder", "parentViewController"]
+- !private ["CSo11NSResponder", "performClose"]
+- !private ["CSo11NSResponder", "presentViewControllerAsModalWindow"]
+- !private ["CSo11NSResponder", "presentingViewController"]
+- !private ["CSo11NSResponder", "removeFromParentViewController"]
+- !private ["CSo11NSResponder", "view"]
+- !private ["CSo11NSResponder", "window"]
+- !private ["PSo17NSSeguePerforming", "dismissController"]
+- ["PSo17NSSeguePerforming", "dismissWebViewController"]
+- ["PSo17NSSeguePerforming", "handle"]
+- ["PSo17NSSeguePerforming", "init"]
+- !private ["PSo17NSSeguePerforming", "parentViewController"]
+- !private ["PSo17NSSeguePerforming", "presentViewControllerAsModalWindow"]
+- !private ["PSo17NSSeguePerforming", "presentingViewController"]
+- !private ["PSo17NSSeguePerforming", "removeFromParentViewController"]
+- !private ["PSo17NSSeguePerforming", "view"]
+- ["PSo17NSSeguePerforming", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "dismissController"]
+- ["PSo33NSUserInterfaceItemIdentification", "dismissWebViewController"]
+- ["PSo33NSUserInterfaceItemIdentification", "handle"]
+- ["PSo33NSUserInterfaceItemIdentification", "init"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "makeKeyAndOrderFront"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "parentViewController"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "performClose"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "presentViewControllerAsModalWindow"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "presentingViewController"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "removeFromParentViewController"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "view"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "window"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- !private ["PSo26NSUserInterfaceValidations", "makeKeyAndOrderFront"]
+- !private ["PSo26NSUserInterfaceValidations", "performClose"]
+- !private ["CSo6NSView", "window"]
+- ["CSo16NSViewController", "NSURL"]
+- !private ["CSo16NSViewController", "dismissController"]
+- ["CSo16NSViewController", "dismissWebViewController"]
+- ["CSo16NSViewController", "handle"]
+- ["CSo16NSViewController", "init"]
+- !private ["CSo16NSViewController", "parentViewController"]
+- !private ["CSo16NSViewController", "presentViewControllerAsModalWindow"]
+- !private ["CSo16NSViewController", "presentingViewController"]
+- !private ["CSo16NSViewController", "removeFromParentViewController"]
+- !private ["CSo16NSViewController", "view"]
+- ["CSo16NSViewController", ""]
+- !private ["CSo8NSWindow", "makeKeyAndOrderFront"]
+- !private ["CSo8NSWindow", "performClose"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "dismissController"]
+- ["P6AdMate24OAuthSwiftURLHandlerType", "handle"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "parentViewController"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "presentingViewController"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "removeFromParentViewController"]
+- !private ["P6AdMate24OAuthSwiftURLHandlerType", "view"]
+- ["P6AdMate24OAuthSwiftURLHandlerType", ""]
+- ["C6AdMate22OAuthWebViewController", "NSURL"]
+- ["C6AdMate22OAuthWebViewController", "deinit"]
+- !private ["C6AdMate22OAuthWebViewController", "dismissController"]
+- ["C6AdMate22OAuthWebViewController", "dismissWebViewController"]
+- ["C6AdMate22OAuthWebViewController", "handle"]
+- ["C6AdMate22OAuthWebViewController", "init"]
+- !private ["C6AdMate22OAuthWebViewController", "parentViewController"]
+- !private ["C6AdMate22OAuthWebViewController", "presentingViewController"]
+- !private ["C6AdMate22OAuthWebViewController", "removeFromParentViewController"]
+- !private ["C6AdMate22OAuthWebViewController", "view"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- ["P6SQLite13_OptionalType", "Some"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "window"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "P6SQLite7Binding"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "P6SQLite11Expressible"
+- "PSs8Hashable"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- !private "PSo21NSDraggingDestination"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo11NSResponder"
+- "PSo17NSSeguePerforming"
+- "PSo33NSUserInterfaceItemIdentification"
+- !private "PSo26NSUserInterfaceValidations"
+- !private "CSo6NSView"
+- "CSo16NSViewController"
+- !private "CSo8NSWindow"
+- "PSs21NilLiteralConvertible"
+- "P6AdMate24OAuthSwiftURLHandlerType"
+- "C6AdMate22OAuthWebViewController"
+- "Sq"
+- !private "P6SQLite5Value"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "P6SQLite13_OptionalType"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/p2_OAuth2.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
+interface-hash: "a161056a135c25dcd507ef33f4b5ec1e"

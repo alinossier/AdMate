@@ -1,0 +1,207 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AdDataCell"
+provides-nominal:
+- "C6AdMate10AdDataCell"
+provides-member:
+- ["C6AdMate10AdDataCell", ""]
+provides-dynamic-lookup:
+- "Caption"
+- "Indicator"
+- "Value"
+- "drawRect"
+- "PrevValue"
+depends-top-level:
+- "NSView"
+- "NSTextField"
+- "AdDataCell"
+- "NSImageView"
+- "NSRect"
+depends-member:
+- ["C6AdMate10AdDataCell", "Caption"]
+- ["C6AdMate10AdDataCell", "Indicator"]
+- ["C6AdMate10AdDataCell", "NSImageView"]
+- ["C6AdMate10AdDataCell", "NSRect"]
+- ["C6AdMate10AdDataCell", "NSTextField"]
+- ["C6AdMate10AdDataCell", "PrevValue"]
+- ["C6AdMate10AdDataCell", "Value"]
+- ["C6AdMate10AdDataCell", "deinit"]
+- ["C6AdMate10AdDataCell", "drawRect"]
+- ["C6AdMate10AdDataCell", "init"]
+- ["PSs9AnyObject", "Caption"]
+- ["PSs9AnyObject", "Indicator"]
+- ["PSs9AnyObject", "PrevValue"]
+- ["PSs9AnyObject", "Value"]
+- ["PSs9AnyObject", "drawRect"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "Caption"]
+- ["PSs11CVarArgType", "Indicator"]
+- ["PSs11CVarArgType", "PrevValue"]
+- ["PSs11CVarArgType", "Value"]
+- ["PSs11CVarArgType", "drawRect"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "Caption"]
+- ["PSs23CustomStringConvertible", "Indicator"]
+- ["PSs23CustomStringConvertible", "PrevValue"]
+- ["PSs23CustomStringConvertible", "Value"]
+- ["PSs23CustomStringConvertible", "drawRect"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "Caption"]
+- ["PSs9Equatable", "Indicator"]
+- ["PSs9Equatable", "PrevValue"]
+- ["PSs9Equatable", "Value"]
+- ["PSs9Equatable", "drawRect"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "Caption"]
+- ["PSs8Hashable", "Indicator"]
+- ["PSs8Hashable", "PrevValue"]
+- ["PSs8Hashable", "Value"]
+- ["PSs8Hashable", "drawRect"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- ["PSo15NSAccessibility", "Caption"]
+- ["PSo15NSAccessibility", "Indicator"]
+- ["PSo15NSAccessibility", "PrevValue"]
+- ["PSo15NSAccessibility", "Value"]
+- ["PSo15NSAccessibility", "drawRect"]
+- ["PSo15NSAccessibility", "init"]
+- ["PSo15NSAccessibility", ""]
+- ["PSo30NSAccessibilityElementProtocol", "Caption"]
+- ["PSo30NSAccessibilityElementProtocol", "Indicator"]
+- ["PSo30NSAccessibilityElementProtocol", "PrevValue"]
+- ["PSo30NSAccessibilityElementProtocol", "Value"]
+- ["PSo30NSAccessibilityElementProtocol", "drawRect"]
+- ["PSo30NSAccessibilityElementProtocol", "init"]
+- ["PSo30NSAccessibilityElementProtocol", ""]
+- ["PSo29NSAnimatablePropertyContainer", "Caption"]
+- ["PSo29NSAnimatablePropertyContainer", "Indicator"]
+- ["PSo29NSAnimatablePropertyContainer", "PrevValue"]
+- ["PSo29NSAnimatablePropertyContainer", "Value"]
+- ["PSo29NSAnimatablePropertyContainer", "drawRect"]
+- ["PSo29NSAnimatablePropertyContainer", "init"]
+- ["PSo29NSAnimatablePropertyContainer", ""]
+- ["PSo25NSAppearanceCustomization", "Caption"]
+- ["PSo25NSAppearanceCustomization", "Indicator"]
+- ["PSo25NSAppearanceCustomization", "PrevValue"]
+- ["PSo25NSAppearanceCustomization", "Value"]
+- ["PSo25NSAppearanceCustomization", "drawRect"]
+- ["PSo25NSAppearanceCustomization", "init"]
+- ["PSo25NSAppearanceCustomization", ""]
+- ["PSo8NSCoding", "Caption"]
+- ["PSo8NSCoding", "Indicator"]
+- ["PSo8NSCoding", "PrevValue"]
+- ["PSo8NSCoding", "Value"]
+- ["PSo8NSCoding", "drawRect"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["PSo21NSDraggingDestination", "Caption"]
+- ["PSo21NSDraggingDestination", "Indicator"]
+- ["PSo21NSDraggingDestination", "PrevValue"]
+- ["PSo21NSDraggingDestination", "Value"]
+- ["PSo21NSDraggingDestination", "drawRect"]
+- ["PSo21NSDraggingDestination", "init"]
+- ["PSo21NSDraggingDestination", ""]
+- ["CSo8NSObject", "Caption"]
+- ["CSo8NSObject", "Indicator"]
+- ["CSo8NSObject", "NSImageView"]
+- ["CSo8NSObject", "NSRect"]
+- ["CSo8NSObject", "NSTextField"]
+- ["CSo8NSObject", "PrevValue"]
+- ["CSo8NSObject", "Value"]
+- ["CSo8NSObject", "drawRect"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "Caption"]
+- ["PSo16NSObjectProtocol", "Indicator"]
+- ["PSo16NSObjectProtocol", "PrevValue"]
+- ["PSo16NSObjectProtocol", "Value"]
+- ["PSo16NSObjectProtocol", "drawRect"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo11NSResponder", "Caption"]
+- ["CSo11NSResponder", "Indicator"]
+- ["CSo11NSResponder", "NSImageView"]
+- ["CSo11NSResponder", "NSRect"]
+- ["CSo11NSResponder", "NSTextField"]
+- ["CSo11NSResponder", "PrevValue"]
+- ["CSo11NSResponder", "Value"]
+- ["CSo11NSResponder", "drawRect"]
+- ["CSo11NSResponder", "init"]
+- ["PSo33NSUserInterfaceItemIdentification", "Caption"]
+- ["PSo33NSUserInterfaceItemIdentification", "Indicator"]
+- ["PSo33NSUserInterfaceItemIdentification", "PrevValue"]
+- ["PSo33NSUserInterfaceItemIdentification", "Value"]
+- ["PSo33NSUserInterfaceItemIdentification", "drawRect"]
+- ["PSo33NSUserInterfaceItemIdentification", "init"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- ["CSo6NSView", "Caption"]
+- ["CSo6NSView", "Indicator"]
+- ["CSo6NSView", "NSImageView"]
+- ["CSo6NSView", "NSRect"]
+- ["CSo6NSView", "NSTextField"]
+- ["CSo6NSView", "PrevValue"]
+- ["CSo6NSView", "Value"]
+- ["CSo6NSView", "drawRect"]
+- ["CSo6NSView", "init"]
+- ["CSo6NSView", ""]
+- ["PSs12_Reflectable", "Caption"]
+- ["PSs12_Reflectable", "Indicator"]
+- ["PSs12_Reflectable", "PrevValue"]
+- ["PSs12_Reflectable", "Value"]
+- ["PSs12_Reflectable", "drawRect"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "C6AdMate10AdDataCell"
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo15NSAccessibility"
+- "PSo30NSAccessibilityElementProtocol"
+- "PSo29NSAnimatablePropertyContainer"
+- "PSo25NSAppearanceCustomization"
+- "PSo8NSCoding"
+- "PSo21NSDraggingDestination"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo11NSResponder"
+- "PSo33NSUserInterfaceItemIdentification"
+- "CSo6NSView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/p2_OAuth2.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
+interface-hash: "92acf9fad097201e02cee73baddd24b4"

@@ -1,0 +1,390 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuth2Request"
+- "OAuth2DebugURLSessionDelegate"
+provides-nominal:
+- "C9p2_OAuth213OAuth2Request"
+- "C9p2_OAuth229OAuth2DebugURLSessionDelegate"
+provides-member:
+- ["C9p2_OAuth213OAuth2Request", ""]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", ""]
+provides-dynamic-lookup:
+- "URLSession"
+- "host"
+depends-top-level:
+- "OAuth2"
+- "NSURL"
+- !private "!"
+- "OAuth2Request"
+- "Void"
+- !private "NSURLAuthenticationMethodServerTrust"
+- "NSURLSessionDelegate"
+- !private "NSLog"
+- "NSURLSession"
+- !private "=="
+- "NSTimeInterval"
+- "NSURLCredential"
+- "NSURLRequestCachePolicy"
+- "NSMutableURLRequest"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "OAuth2DebugURLSessionDelegate"
+- "NSURLAuthenticationChallenge"
+- "NSURLSessionAuthChallengeDisposition"
+depends-member:
+- !private ["PSs9AnyObject", "NSLog"]
+- !private ["PSs9AnyObject", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSs9AnyObject", "NSURLCredential"]
+- ["PSs9AnyObject", "URLSession"]
+- ["PSs9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSs9AnyObject", "accessToken"]
+- !private ["PSs9AnyObject", "authenticationMethod"]
+- !private ["PSs9AnyObject", "clientConfig"]
+- ["PSs9AnyObject", "host"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isEmpty"]
+- !private ["PSs9AnyObject", "protectionSpace"]
+- !private ["PSs9AnyObject", "serverTrust"]
+- !private ["PSs9AnyObject", "setValue"]
+- ["PSs9AnyObject", "sign"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "NSLog"]
+- !private ["PSs11CVarArgType", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSs11CVarArgType", "NSURLCredential"]
+- ["PSs11CVarArgType", "URLSession"]
+- ["PSs11CVarArgType", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSs11CVarArgType", "authenticationMethod"]
+- ["PSs11CVarArgType", "host"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isEmpty"]
+- !private ["PSs11CVarArgType", "protectionSpace"]
+- !private ["PSs11CVarArgType", "serverTrust"]
+- !private ["PSs11CVarArgType", "setValue"]
+- ["PSs11CVarArgType", "sign"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "isEmpty"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "NSLog"]
+- !private ["PSs23CustomStringConvertible", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSs23CustomStringConvertible", "NSURLCredential"]
+- ["PSs23CustomStringConvertible", "URLSession"]
+- ["PSs23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "authenticationMethod"]
+- ["PSs23CustomStringConvertible", "host"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isEmpty"]
+- !private ["PSs23CustomStringConvertible", "protectionSpace"]
+- !private ["PSs23CustomStringConvertible", "serverTrust"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- ["PSs23CustomStringConvertible", "sign"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CancelAuthenticationChallenge"]
+- !private ["PSs9Equatable", "NSLog"]
+- !private ["PSs9Equatable", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSs9Equatable", "NSURLCredential"]
+- ["PSs9Equatable", "URLSession"]
+- ["PSs9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSs9Equatable", "UseCredential"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "authenticationMethod"]
+- ["PSs9Equatable", "host"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isEmpty"]
+- !private ["PSs9Equatable", "protectionSpace"]
+- !private ["PSs9Equatable", "serverTrust"]
+- !private ["PSs9Equatable", "setValue"]
+- ["PSs9Equatable", "sign"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "CancelAuthenticationChallenge"]
+- !private ["PSs8Hashable", "NSLog"]
+- !private ["PSs8Hashable", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSs8Hashable", "NSURLCredential"]
+- ["PSs8Hashable", "URLSession"]
+- ["PSs8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSs8Hashable", "UseCredential"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "authenticationMethod"]
+- ["PSs8Hashable", "host"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isEmpty"]
+- !private ["PSs8Hashable", "protectionSpace"]
+- !private ["PSs8Hashable", "serverTrust"]
+- !private ["PSs8Hashable", "setValue"]
+- ["PSs8Hashable", "sign"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["PSo8NSCoding", "NSLog"]
+- !private ["PSo8NSCoding", "authenticationMethod"]
+- !private ["PSo8NSCoding", "host"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "protectionSpace"]
+- !private ["PSo8NSCoding", "serverTrust"]
+- !private ["PSo8NSCoding", "setValue"]
+- ["PSo8NSCoding", "sign"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "NSLog"]
+- !private ["PSo9NSCopying", "authenticationMethod"]
+- !private ["PSo9NSCopying", "host"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "serverTrust"]
+- !private ["PSo9NSCopying", "setValue"]
+- ["PSo9NSCopying", "sign"]
+- ["PSo9NSCopying", ""]
+- !private ["PSo16NSMutableCopying", "NSLog"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "setValue"]
+- ["PSo16NSMutableCopying", "sign"]
+- ["PSo16NSMutableCopying", ""]
+- !private ["CSo19NSMutableURLRequest", "NSLog"]
+- ["CSo19NSMutableURLRequest", "NSTimeInterval"]
+- ["CSo19NSMutableURLRequest", "NSURL"]
+- ["CSo19NSMutableURLRequest", "NSURLRequestCachePolicy"]
+- ["CSo19NSMutableURLRequest", "OAuth2"]
+- ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "setValue"]
+- ["CSo19NSMutableURLRequest", "sign"]
+- ["CSo19NSMutableURLRequest", ""]
+- !private ["CSo8NSObject", "NSLog"]
+- ["CSo8NSObject", "NSTimeInterval"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLAuthenticationChallenge"]
+- !private ["CSo8NSObject", "NSURLAuthenticationMethodServerTrust"]
+- ["CSo8NSObject", "NSURLCredential"]
+- ["CSo8NSObject", "NSURLRequestCachePolicy"]
+- ["CSo8NSObject", "NSURLSession"]
+- ["CSo8NSObject", "NSURLSessionAuthChallengeDisposition"]
+- ["CSo8NSObject", "OAuth2"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "authenticationMethod"]
+- ["CSo8NSObject", "host"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "protectionSpace"]
+- !private ["CSo8NSObject", "serverTrust"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "sign"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- !private ["PSo16NSObjectProtocol", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSo16NSObjectProtocol", "NSURLCredential"]
+- ["PSo16NSObjectProtocol", "URLSession"]
+- ["PSo16NSObjectProtocol", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSo16NSObjectProtocol", "authenticationMethod"]
+- ["PSo16NSObjectProtocol", "host"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "protectionSpace"]
+- !private ["PSo16NSObjectProtocol", "serverTrust"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "sign"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "isEmpty"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "NSLog"]
+- !private ["PSo14NSSecureCoding", "authenticationMethod"]
+- !private ["PSo14NSSecureCoding", "host"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "protectionSpace"]
+- !private ["PSo14NSSecureCoding", "serverTrust"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- ["PSo14NSSecureCoding", "sign"]
+- ["PSo14NSSecureCoding", ""]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo28NSURLAuthenticationChallenge", "protectionSpace"]
+- !private ["CSo15NSURLCredential", "init"]
+- !private ["CSo20NSURLProtectionSpace", "authenticationMethod"]
+- !private ["CSo20NSURLProtectionSpace", "host"]
+- !private ["CSo20NSURLProtectionSpace", "serverTrust"]
+- !private ["CSo12NSURLRequest", "NSLog"]
+- ["CSo12NSURLRequest", "NSTimeInterval"]
+- ["CSo12NSURLRequest", "NSURL"]
+- ["CSo12NSURLRequest", "NSURLRequestCachePolicy"]
+- ["CSo12NSURLRequest", "OAuth2"]
+- ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "setValue"]
+- ["CSo12NSURLRequest", "sign"]
+- !private ["OSC36NSURLSessionAuthChallengeDisposition", "CancelAuthenticationChallenge"]
+- !private ["OSC36NSURLSessionAuthChallengeDisposition", "UseCredential"]
+- !private ["PSo20NSURLSessionDelegate", "NSURLAuthenticationMethodServerTrust"]
+- !private ["PSo20NSURLSessionDelegate", "NSURLCredential"]
+- ["PSo20NSURLSessionDelegate", "URLSession"]
+- ["PSo20NSURLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSo20NSURLSessionDelegate", "host"]
+- ["PSo20NSURLSessionDelegate", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["C9p2_OAuth26OAuth2", "clientConfig"]
+- !private ["C9p2_OAuth210OAuth2Base", "clientConfig"]
+- !private ["C9p2_OAuth218OAuth2ClientConfig", "accessToken"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "NSURLAuthenticationChallenge"]
+- !private ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "NSURLAuthenticationMethodServerTrust"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "NSURLCredential"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "NSURLSession"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "NSURLSessionAuthChallengeDisposition"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "String"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "URLSession"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "Void"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "deinit"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "host"]
+- ["C9p2_OAuth229OAuth2DebugURLSessionDelegate", "init"]
+- !private ["C9p2_OAuth213OAuth2Request", "NSLog"]
+- ["C9p2_OAuth213OAuth2Request", "NSTimeInterval"]
+- ["C9p2_OAuth213OAuth2Request", "NSURL"]
+- ["C9p2_OAuth213OAuth2Request", "NSURLRequestCachePolicy"]
+- ["C9p2_OAuth213OAuth2Request", "OAuth2"]
+- ["C9p2_OAuth213OAuth2Request", "deinit"]
+- ["C9p2_OAuth213OAuth2Request", "init"]
+- !private ["C9p2_OAuth213OAuth2Request", "setValue"]
+- ["C9p2_OAuth213OAuth2Request", "sign"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "isEmpty"]
+- !private ["PSs16RawRepresentable", "CancelAuthenticationChallenge"]
+- !private ["PSs16RawRepresentable", "UseCredential"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "isEmpty"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "isEmpty"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "isEmpty"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo28NSURLAuthenticationChallenge"
+- !private "CSo15NSURLCredential"
+- !private "CSo20NSURLProtectionSpace"
+- "CSo12NSURLRequest"
+- !private "OSC36NSURLSessionAuthChallengeDisposition"
+- "PSo20NSURLSessionDelegate"
+- "PSs21NilLiteralConvertible"
+- !private "C9p2_OAuth26OAuth2"
+- !private "C9p2_OAuth210OAuth2Base"
+- !private "C9p2_OAuth218OAuth2ClientConfig"
+- "C9p2_OAuth229OAuth2DebugURLSessionDelegate"
+- "C9p2_OAuth213OAuth2Request"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/Pods.build/Debug/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "8b34750573f12e1d829932e496940355"

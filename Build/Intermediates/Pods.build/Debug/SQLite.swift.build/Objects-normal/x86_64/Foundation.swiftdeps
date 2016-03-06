@@ -1,0 +1,536 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dateFormatter"
+provides-nominal:
+- "CSo6NSData"
+- "CSo6NSDate"
+provides-member:
+- ["CSo6NSData", ""]
+- ["CSo6NSDate", ""]
+- ["P6SQLite9QueryType", ""]
+- ["V6SQLite3Row", ""]
+- ["P6SQLite9QueryType", "subscript"]
+- ["P6SQLite9QueryType", "subscript"]
+- ["P6SQLite9QueryType", "subscript"]
+- ["P6SQLite9QueryType", "subscript"]
+- ["V6SQLite3Row", "subscript"]
+- ["V6SQLite3Row", "subscript"]
+- ["V6SQLite3Row", "subscript"]
+- ["V6SQLite3Row", "subscript"]
+provides-dynamic-lookup:
+- "declaredDatatype"
+- "declaredDatatype"
+- "fromDatatypeValue"
+- "datatypeValue"
+depends-top-level:
+- "NSTimeZone"
+- "Value"
+- "QueryType"
+- "NSDateFormatter"
+- "Expression"
+- "StringLiteralType"
+- "NSDate"
+- "NSData"
+- "String"
+- "Blob"
+- "Row"
+- "dateFormatter"
+- "NSLocale"
+depends-member:
+- !private ["PSs9AnyObject", "Blob"]
+- ["PSs9AnyObject", "Datatype"]
+- !private ["PSs9AnyObject", "NSData"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "bytes"]
+- ["PSs9AnyObject", "datatypeValue"]
+- ["PSs9AnyObject", "dateFormat"]
+- !private ["PSs9AnyObject", "dateFormatter"]
+- !private ["PSs9AnyObject", "dateFromString"]
+- ["PSs9AnyObject", "declaredDatatype"]
+- ["PSs9AnyObject", "expression"]
+- ["PSs9AnyObject", "fromDatatypeValue"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "length"]
+- ["PSs9AnyObject", "locale"]
+- !private ["PSs9AnyObject", "stringFromDate"]
+- ["PSs9AnyObject", "timeZone"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["P6SQLite7Binding", "Distance"]
+- !private ["P6SQLite7Binding", "IntegerLiteralType"]
+- !private ["P6SQLite7Binding", "bytes"]
+- !private ["P6SQLite7Binding", "declaredDatatype"]
+- !private ["P6SQLite7Binding", "init"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["V6SQLite4Blob", "bytes"]
+- !private ["V6SQLite4Blob", "declaredDatatype"]
+- ["V6SQLite4Blob", "deinit"]
+- !private ["V6SQLite4Blob", "init"]
+- !private ["PSs11CVarArgType", "Blob"]
+- ["PSs11CVarArgType", "Datatype"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSData"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "bytes"]
+- ["PSs11CVarArgType", "datatypeValue"]
+- ["PSs11CVarArgType", "dateFormat"]
+- !private ["PSs11CVarArgType", "dateFormatter"]
+- !private ["PSs11CVarArgType", "dateFromString"]
+- ["PSs11CVarArgType", "declaredDatatype"]
+- ["PSs11CVarArgType", "expression"]
+- ["PSs11CVarArgType", "fromDatatypeValue"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- ["PSs11CVarArgType", "locale"]
+- !private ["PSs11CVarArgType", "stringFromDate"]
+- ["PSs11CVarArgType", "timeZone"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "declaredDatatype"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "declaredDatatype"]
+- !private ["PSs23CustomStringConvertible", "Blob"]
+- ["PSs23CustomStringConvertible", "Datatype"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSData"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "bytes"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "datatypeValue"]
+- ["PSs23CustomStringConvertible", "dateFormat"]
+- !private ["PSs23CustomStringConvertible", "dateFormatter"]
+- !private ["PSs23CustomStringConvertible", "dateFromString"]
+- ["PSs23CustomStringConvertible", "declaredDatatype"]
+- ["PSs23CustomStringConvertible", "expression"]
+- ["PSs23CustomStringConvertible", "fromDatatypeValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- ["PSs23CustomStringConvertible", "locale"]
+- !private ["PSs23CustomStringConvertible", "stringFromDate"]
+- ["PSs23CustomStringConvertible", "timeZone"]
+- !private ["PSs9Equatable", "Blob"]
+- ["PSs9Equatable", "Datatype"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSData"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "bytes"]
+- ["PSs9Equatable", "datatypeValue"]
+- ["PSs9Equatable", "dateFormat"]
+- !private ["PSs9Equatable", "dateFormatter"]
+- !private ["PSs9Equatable", "dateFromString"]
+- ["PSs9Equatable", "declaredDatatype"]
+- ["PSs9Equatable", "expression"]
+- ["PSs9Equatable", "fromDatatypeValue"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- ["PSs9Equatable", "locale"]
+- !private ["PSs9Equatable", "stringFromDate"]
+- ["PSs9Equatable", "timeZone"]
+- !private ["P6SQLite11Expressible", "Blob"]
+- ["P6SQLite11Expressible", "Datatype"]
+- !private ["P6SQLite11Expressible", "Distance"]
+- ["P6SQLite11Expressible", "Expression"]
+- !private ["P6SQLite11Expressible", "IntegerLiteralType"]
+- ["P6SQLite11Expressible", "NSData"]
+- ["P6SQLite11Expressible", "NSDate"]
+- !private ["P6SQLite11Expressible", "String"]
+- !private ["P6SQLite11Expressible", "bytes"]
+- ["P6SQLite11Expressible", "datatypeValue"]
+- !private ["P6SQLite11Expressible", "dateFormatter"]
+- ["P6SQLite11Expressible", "declaredDatatype"]
+- ["P6SQLite11Expressible", "expression"]
+- ["P6SQLite11Expressible", "fromDatatypeValue"]
+- !private ["P6SQLite11Expressible", "init"]
+- !private ["P6SQLite11Expressible", "length"]
+- !private ["P6SQLite11Expressible", "namespace"]
+- ["P6SQLite11Expressible", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "declaredDatatype"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Blob"]
+- ["PSs8Hashable", "Datatype"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSData"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "bytes"]
+- ["PSs8Hashable", "datatypeValue"]
+- ["PSs8Hashable", "dateFormat"]
+- !private ["PSs8Hashable", "dateFormatter"]
+- !private ["PSs8Hashable", "dateFromString"]
+- ["PSs8Hashable", "declaredDatatype"]
+- ["PSs8Hashable", "expression"]
+- ["PSs8Hashable", "fromDatatypeValue"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- ["PSs8Hashable", "locale"]
+- !private ["PSs8Hashable", "stringFromDate"]
+- ["PSs8Hashable", "timeZone"]
+- ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "count"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "declaredDatatype"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSo8NSCoding", "Blob"]
+- ["PSo8NSCoding", "Datatype"]
+- !private ["PSo8NSCoding", "NSData"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "bytes"]
+- ["PSo8NSCoding", "datatypeValue"]
+- ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateFormatter"]
+- !private ["PSo8NSCoding", "dateFromString"]
+- ["PSo8NSCoding", "declaredDatatype"]
+- ["PSo8NSCoding", "expression"]
+- ["PSo8NSCoding", "fromDatatypeValue"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- ["PSo8NSCoding", "locale"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- ["PSo8NSCoding", "timeZone"]
+- !private ["PSo9NSCopying", "Blob"]
+- ["PSo9NSCopying", "Datatype"]
+- !private ["PSo9NSCopying", "NSData"]
+- !private ["PSo9NSCopying", "String"]
+- !private ["PSo9NSCopying", "bytes"]
+- ["PSo9NSCopying", "datatypeValue"]
+- ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateFormatter"]
+- !private ["PSo9NSCopying", "dateFromString"]
+- ["PSo9NSCopying", "declaredDatatype"]
+- ["PSo9NSCopying", "expression"]
+- ["PSo9NSCopying", "fromDatatypeValue"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- ["PSo9NSCopying", "locale"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- ["PSo9NSCopying", "timeZone"]
+- ["CSo6NSData", "Blob"]
+- ["CSo6NSData", "Datatype"]
+- ["CSo6NSData", "NSData"]
+- ["CSo6NSData", "String"]
+- ["CSo6NSData", "ValueType"]
+- !private ["CSo6NSData", "bytes"]
+- ["CSo6NSData", "datatypeValue"]
+- ["CSo6NSData", "declaredDatatype"]
+- ["CSo6NSData", "deinit"]
+- ["CSo6NSData", "expression"]
+- ["CSo6NSData", "fromDatatypeValue"]
+- !private ["CSo6NSData", "init"]
+- !private ["CSo6NSData", "length"]
+- ["CSo6NSDate", "Datatype"]
+- ["CSo6NSDate", "NSDate"]
+- ["CSo6NSDate", "String"]
+- ["CSo6NSDate", "ValueType"]
+- ["CSo6NSDate", "datatypeValue"]
+- !private ["CSo6NSDate", "dateFormatter"]
+- ["CSo6NSDate", "declaredDatatype"]
+- ["CSo6NSDate", "deinit"]
+- ["CSo6NSDate", "expression"]
+- ["CSo6NSDate", "fromDatatypeValue"]
+- ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "dateFromString"]
+- ["CSo15NSDateFormatter", "init"]
+- ["CSo15NSDateFormatter", "locale"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- ["CSo15NSDateFormatter", "timeZone"]
+- ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "dateFromString"]
+- ["CSo11NSFormatter", "init"]
+- ["CSo11NSFormatter", "locale"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- ["CSo11NSFormatter", "timeZone"]
+- ["CSo8NSLocale", "init"]
+- !private ["PSo16NSMutableCopying", "Blob"]
+- ["PSo16NSMutableCopying", "Datatype"]
+- !private ["PSo16NSMutableCopying", "NSData"]
+- !private ["PSo16NSMutableCopying", "bytes"]
+- ["PSo16NSMutableCopying", "datatypeValue"]
+- ["PSo16NSMutableCopying", "declaredDatatype"]
+- ["PSo16NSMutableCopying", "expression"]
+- ["PSo16NSMutableCopying", "fromDatatypeValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- ["CSo8NSObject", "Blob"]
+- ["CSo8NSObject", "Datatype"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "ValueType"]
+- !private ["CSo8NSObject", "bytes"]
+- ["CSo8NSObject", "datatypeValue"]
+- ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFormatter"]
+- !private ["CSo8NSObject", "dateFromString"]
+- ["CSo8NSObject", "declaredDatatype"]
+- ["CSo8NSObject", "expression"]
+- ["CSo8NSObject", "fromDatatypeValue"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- ["CSo8NSObject", "locale"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- ["CSo8NSObject", "timeZone"]
+- !private ["PSo16NSObjectProtocol", "Blob"]
+- ["PSo16NSObjectProtocol", "Datatype"]
+- !private ["PSo16NSObjectProtocol", "NSData"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "bytes"]
+- ["PSo16NSObjectProtocol", "datatypeValue"]
+- ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFormatter"]
+- !private ["PSo16NSObjectProtocol", "dateFromString"]
+- ["PSo16NSObjectProtocol", "declaredDatatype"]
+- ["PSo16NSObjectProtocol", "expression"]
+- ["PSo16NSObjectProtocol", "fromDatatypeValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- ["PSo16NSObjectProtocol", "locale"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- ["PSo16NSObjectProtocol", "timeZone"]
+- !private ["PSo14NSSecureCoding", "Blob"]
+- ["PSo14NSSecureCoding", "Datatype"]
+- !private ["PSo14NSSecureCoding", "NSData"]
+- !private ["PSo14NSSecureCoding", "String"]
+- !private ["PSo14NSSecureCoding", "bytes"]
+- ["PSo14NSSecureCoding", "datatypeValue"]
+- !private ["PSo14NSSecureCoding", "dateFormatter"]
+- ["PSo14NSSecureCoding", "declaredDatatype"]
+- ["PSo14NSSecureCoding", "expression"]
+- ["PSo14NSSecureCoding", "fromDatatypeValue"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo8NSString", "declaredDatatype"]
+- ["CSo10NSTimeZone", "init"]
+- !private ["P6SQLite6Number", "Distance"]
+- !private ["P6SQLite6Number", "IntegerLiteralType"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "declaredDatatype"]
+- ["P6SQLite9QueryType", "Expression"]
+- ["P6SQLite9QueryType", "NSData"]
+- ["P6SQLite9QueryType", "NSDate"]
+- !private ["P6SQLite9QueryType", "namespace"]
+- ["P6SQLite9QueryType", "subscript"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["V6SQLite3Row", "Expression"]
+- ["V6SQLite3Row", "NSData"]
+- ["V6SQLite3Row", "NSDate"]
+- !private ["V6SQLite3Row", "get"]
+- ["V6SQLite3Row", "subscript"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "declaredDatatype"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "declaredDatatype"]
+- ["SS", "deinit"]
+- !private ["PSs30StringInterpolationConvertible", "declaredDatatype"]
+- !private ["PSs24StringLiteralConvertible", "declaredDatatype"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "declaredDatatype"]
+- !private ["P6SQLite5Value", "Blob"]
+- ["P6SQLite5Value", "Datatype"]
+- !private ["P6SQLite5Value", "Distance"]
+- !private ["P6SQLite5Value", "IntegerLiteralType"]
+- !private ["P6SQLite5Value", "NSData"]
+- !private ["P6SQLite5Value", "String"]
+- !private ["P6SQLite5Value", "bytes"]
+- ["P6SQLite5Value", "datatypeValue"]
+- !private ["P6SQLite5Value", "dateFormatter"]
+- ["P6SQLite5Value", "declaredDatatype"]
+- ["P6SQLite5Value", "expression"]
+- ["P6SQLite5Value", "fromDatatypeValue"]
+- !private ["P6SQLite5Value", "init"]
+- !private ["P6SQLite5Value", "length"]
+- ["P6SQLite5Value", ""]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "declaredDatatype"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "declaredDatatype"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "declaredDatatype"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "declaredDatatype"]
+- !private ["PSs16_CocoaStringType", "declaredDatatype"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "declaredDatatype"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Datatype"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "String"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "datatypeValue"]
+- !private ["PSs12_Reflectable", "dateFormatter"]
+- ["PSs12_Reflectable", "declaredDatatype"]
+- ["PSs12_Reflectable", "expression"]
+- ["PSs12_Reflectable", "fromDatatypeValue"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "P6SQLite7Binding"
+- !private "PSs21BitwiseOperationsType"
+- "V6SQLite4Blob"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "P6SQLite11Expressible"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "SQ"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSData"
+- "CSo6NSDate"
+- "CSo15NSDateFormatter"
+- "CSo11NSFormatter"
+- "CSo8NSLocale"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "CSo10NSTimeZone"
+- !private "P6SQLite6Number"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- "P6SQLite9QueryType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- "V6SQLite3Row"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "P6SQLite5Value"
+- !private "PSs10_ArrayType"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/Pods.build/Debug/SQLite.swift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+interface-hash: "db175c664ef5e7e49110294faea20cd6"

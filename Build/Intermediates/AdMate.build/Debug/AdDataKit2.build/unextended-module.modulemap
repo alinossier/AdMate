@@ -1,0 +1,10 @@
+framework module AdDataKit2 {
+  umbrella header "AdDataKit2.h"
+
+  export *
+  module * { export * }
+}
+
+module AdDataKit2.__Swift {
+    exclude header "AdDataKit2-Swift.h"
+}

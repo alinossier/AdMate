@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeychainService"
+provides-nominal:
+- "P9p2_OAuth215KeychainService"
+provides-member:
+- ["P9p2_OAuth215KeychainService", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BaseKey"
+- "NSError"
+- "KeychainItem"
+- "KeychainService"
+- "String"
+- "NSString"
+depends-member:
+- !private ["P9p2_OAuth215KeychainService", "BaseKey"]
+- ["P9p2_OAuth215KeychainService", "KeychainItem"]
+- ["P9p2_OAuth215KeychainService", "NSError"]
+- ["P9p2_OAuth215KeychainService", "NSString"]
+- ["P9p2_OAuth215KeychainService", "String"]
+- ["P9p2_OAuth215KeychainService", "accessGroup"]
+- ["P9p2_OAuth215KeychainService", "accessMode"]
+- ["P9p2_OAuth215KeychainService", "add"]
+- ["P9p2_OAuth215KeychainService", "get"]
+- ["P9p2_OAuth215KeychainService", "remove"]
+- ["P9p2_OAuth215KeychainService", "serviceName"]
+- ["P9p2_OAuth215KeychainService", "update"]
+depends-nominal:
+- "P9p2_OAuth215KeychainService"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/Pods.build/Debug/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "23d8f92b20328c94ad92ac3d00593cb8"

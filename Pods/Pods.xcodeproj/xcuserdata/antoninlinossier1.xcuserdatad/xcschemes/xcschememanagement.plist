@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AdDataKit2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AdMate Widget.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AdMate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SQLite.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>p2.OAuth2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>02DA857838C470E82470BB0153092644</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EE730363FB5AB35A56ED8DCDFEBA117</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E707CE32ECEE2F07AD2DD9C6784666</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BCA9BC73EB2DCF9015295A7A6604D16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7DB391DF41EF747DA87F0B79D196CD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F563B9DDE59ECB1457C231FA78AFC7E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
