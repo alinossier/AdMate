@@ -9,12 +9,10 @@
 import Foundation
 import Cocoa
 import AdDataKit2
-import SwiftHEXColors
-
 
 class MyRowView: NSTableRowView {
     
-    let secondColor: NSColor = NSColor(hexString: "a9d5fb", alpha: 1)!
+    let secondColor = colorWithHexString("a9d5fb")
     
 
     override func drawRect(dirtyRect: NSRect) {

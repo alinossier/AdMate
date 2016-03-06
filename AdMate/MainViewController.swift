@@ -390,6 +390,7 @@ class MainViewController: NSViewController {
         self.view.window?.toolbar?.insertItemWithItemIdentifier("RefreshButton", atIndex: 1)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "LoadView:", name:"UserDidLogin", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "ReAuthUser:", name:"ReValidateUser", object: nil)
         
         LineChartViewLayer.lineChart.legendEnabled = false
         
@@ -410,6 +411,8 @@ class MainViewController: NSViewController {
         }
         
     }
+    
+
     
     
     @IBAction func ShowInfo(sender:AnyObject){
@@ -520,6 +523,17 @@ class MainViewController: NSViewController {
 
         }
         
+    }
+    
+    func ReAuthUser(sender:AnyObject) {
+        
+        dispatch_async(dispatch_get_main_queue()) {
+            
+            self.performSegueWithIdentifier("GoToTutorial", sender: self)
+
+            
+        }
+    
     }
     
     

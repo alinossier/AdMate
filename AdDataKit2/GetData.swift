@@ -328,6 +328,22 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                         
                     } else {
                         
+                        if let ErrorDict = dict["error"] {
+                            
+                            if let ErrorMessage = ErrorDict["errors"]!![0]!["message"]{
+                            
+                                print(ErrorMessage)
+                                
+                                // Send notificationt to re-authenticate
+                                
+                                defaults.setObject(nil, forKey: UserIDDefault)
+                                defaults.synchronize()
+                                NSNotificationCenter.defaultCenter().postNotificationName("ReValidateUser", object: nil)
+
+                            }
+
+                        }
+                        
                             print("Could not get headers")
                         
                         }
