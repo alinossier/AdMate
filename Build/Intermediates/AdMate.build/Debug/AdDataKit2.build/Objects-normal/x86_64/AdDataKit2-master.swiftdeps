@@ -1,7 +1,7 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "3edb487025c574d2607887c7953f799e"
-build_time: [510605619, 327838000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "20da056278a53853c15df0b84d9a05c3"
+build_time: [523405640, 44841000]
 inputs:
-  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/GetData.swift": [510522814, 0]
-  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/Public.swift": [510520366, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/ProcessingData.swift": [500510993, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/GetData.swift": [523405639, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/Public.swift": [523404916, 0]

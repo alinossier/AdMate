@@ -101,6 +101,11 @@
           'type': 'file',
           'name': "SQLite.h",
           'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/SQLite.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.swift-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
         }
       ]
     },

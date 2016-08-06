@@ -10,85 +10,98 @@ provides-dynamic-lookup:
 - "dismissWebViewController"
 - "handle"
 depends-top-level:
-- "OAuthViewController"
-- "NSURL"
-- "OAuthSwiftURLHandlerType"
-- "OAuthWebViewController"
 - "NSViewController"
+- "OAuthWebViewController"
+- "OAuthViewController"
+- "OAuthSwiftURLHandlerType"
 - !private "!="
+- "NSURL"
 depends-member:
-- !private ["PSs9AnyObject", "dismissController"]
-- ["PSs9AnyObject", "dismissWebViewController"]
-- ["PSs9AnyObject", "handle"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "makeKeyAndOrderFront"]
-- !private ["PSs9AnyObject", "parentViewController"]
-- !private ["PSs9AnyObject", "performClose"]
-- !private ["PSs9AnyObject", "presentViewControllerAsModalWindow"]
-- !private ["PSs9AnyObject", "presentingViewController"]
-- !private ["PSs9AnyObject", "removeFromParentViewController"]
-- !private ["PSs9AnyObject", "view"]
-- !private ["PSs9AnyObject", "window"]
-- ["PSs9AnyObject", ""]
+- !private ["Ps9AnyObject", "dismissController"]
+- ["Ps9AnyObject", "dismissWebViewController"]
+- ["Ps9AnyObject", "handle"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeKeyAndOrderFront"]
+- !private ["Ps9AnyObject", "parentViewController"]
+- !private ["Ps9AnyObject", "performClose"]
+- !private ["Ps9AnyObject", "presentViewControllerAsModalWindow"]
+- !private ["Ps9AnyObject", "presentingViewController"]
+- !private ["Ps9AnyObject", "removeFromParentViewController"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "dismissController"]
-- ["PSs11CVarArgType", "dismissWebViewController"]
-- ["PSs11CVarArgType", "handle"]
-- ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "makeKeyAndOrderFront"]
-- !private ["PSs11CVarArgType", "parentViewController"]
-- !private ["PSs11CVarArgType", "performClose"]
-- !private ["PSs11CVarArgType", "presentViewControllerAsModalWindow"]
-- !private ["PSs11CVarArgType", "presentingViewController"]
-- !private ["PSs11CVarArgType", "removeFromParentViewController"]
-- !private ["PSs11CVarArgType", "view"]
-- !private ["PSs11CVarArgType", "window"]
-- ["PSs11CVarArgType", ""]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "dismissController"]
-- ["PSs23CustomStringConvertible", "dismissWebViewController"]
-- ["PSs23CustomStringConvertible", "handle"]
-- ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "makeKeyAndOrderFront"]
-- !private ["PSs23CustomStringConvertible", "parentViewController"]
-- !private ["PSs23CustomStringConvertible", "performClose"]
-- !private ["PSs23CustomStringConvertible", "presentViewControllerAsModalWindow"]
-- !private ["PSs23CustomStringConvertible", "presentingViewController"]
-- !private ["PSs23CustomStringConvertible", "removeFromParentViewController"]
-- !private ["PSs23CustomStringConvertible", "view"]
-- !private ["PSs23CustomStringConvertible", "window"]
-- ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "dismissController"]
-- ["PSs9Equatable", "dismissWebViewController"]
-- ["PSs9Equatable", "handle"]
-- ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "makeKeyAndOrderFront"]
-- !private ["PSs9Equatable", "parentViewController"]
-- !private ["PSs9Equatable", "performClose"]
-- !private ["PSs9Equatable", "presentViewControllerAsModalWindow"]
-- !private ["PSs9Equatable", "presentingViewController"]
-- !private ["PSs9Equatable", "removeFromParentViewController"]
-- !private ["PSs9Equatable", "view"]
-- !private ["PSs9Equatable", "window"]
-- ["PSs9Equatable", ""]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "dismissController"]
-- ["PSs8Hashable", "dismissWebViewController"]
-- ["PSs8Hashable", "handle"]
-- ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "makeKeyAndOrderFront"]
-- !private ["PSs8Hashable", "parentViewController"]
-- !private ["PSs8Hashable", "performClose"]
-- !private ["PSs8Hashable", "presentViewControllerAsModalWindow"]
-- !private ["PSs8Hashable", "presentingViewController"]
-- !private ["PSs8Hashable", "removeFromParentViewController"]
-- !private ["PSs8Hashable", "view"]
-- !private ["PSs8Hashable", "window"]
-- ["PSs8Hashable", ""]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "dismissController"]
+- ["Ps11CVarArgType", "dismissWebViewController"]
+- ["Ps11CVarArgType", "handle"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "makeKeyAndOrderFront"]
+- !private ["Ps11CVarArgType", "parentViewController"]
+- !private ["Ps11CVarArgType", "performClose"]
+- !private ["Ps11CVarArgType", "presentViewControllerAsModalWindow"]
+- !private ["Ps11CVarArgType", "presentingViewController"]
+- !private ["Ps11CVarArgType", "removeFromParentViewController"]
+- !private ["Ps11CVarArgType", "view"]
+- !private ["Ps11CVarArgType", "window"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissController"]
+- ["Ps28CustomDebugStringConvertible", "dismissWebViewController"]
+- ["Ps28CustomDebugStringConvertible", "handle"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeKeyAndOrderFront"]
+- !private ["Ps28CustomDebugStringConvertible", "parentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "performClose"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewControllerAsModalWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "presentingViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromParentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "dismissController"]
+- ["Ps23CustomStringConvertible", "dismissWebViewController"]
+- ["Ps23CustomStringConvertible", "handle"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeKeyAndOrderFront"]
+- !private ["Ps23CustomStringConvertible", "parentViewController"]
+- !private ["Ps23CustomStringConvertible", "performClose"]
+- !private ["Ps23CustomStringConvertible", "presentViewControllerAsModalWindow"]
+- !private ["Ps23CustomStringConvertible", "presentingViewController"]
+- !private ["Ps23CustomStringConvertible", "removeFromParentViewController"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dismissController"]
+- ["Ps9Equatable", "dismissWebViewController"]
+- ["Ps9Equatable", "handle"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "makeKeyAndOrderFront"]
+- !private ["Ps9Equatable", "parentViewController"]
+- !private ["Ps9Equatable", "performClose"]
+- !private ["Ps9Equatable", "presentViewControllerAsModalWindow"]
+- !private ["Ps9Equatable", "presentingViewController"]
+- !private ["Ps9Equatable", "removeFromParentViewController"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dismissController"]
+- ["Ps8Hashable", "dismissWebViewController"]
+- ["Ps8Hashable", "handle"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "makeKeyAndOrderFront"]
+- !private ["Ps8Hashable", "parentViewController"]
+- !private ["Ps8Hashable", "performClose"]
+- !private ["Ps8Hashable", "presentViewControllerAsModalWindow"]
+- !private ["Ps8Hashable", "presentingViewController"]
+- !private ["Ps8Hashable", "removeFromParentViewController"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
 - !private ["PSo15NSAccessibility", "makeKeyAndOrderFront"]
 - !private ["PSo15NSAccessibility", "performClose"]
 - !private ["PSo15NSAccessibility", "window"]
@@ -203,7 +216,7 @@ depends-member:
 - ["CSo16NSViewController", ""]
 - !private ["CSo8NSWindow", "makeKeyAndOrderFront"]
 - !private ["CSo8NSWindow", "performClose"]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "dismissController"]
 - ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "handle"]
 - !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "parentViewController"]
@@ -223,22 +236,22 @@ depends-member:
 - !private ["C11AdMateOAuth22OAuthWebViewController", "view"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "window"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "window"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
-- "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- "PSs8Hashable"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
 - !private "PSo15NSAccessibility"
 - !private "PSo30NSAccessibilityElementProtocol"
 - !private "PSo29NSAnimatablePropertyContainer"
@@ -255,14 +268,14 @@ depends-nominal:
 - !private "CSo6NSView"
 - "CSo16NSViewController"
 - !private "CSo8NSWindow"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - "P11AdMateOAuth24OAuthSwiftURLHandlerType"
 - "C11AdMateOAuth22OAuthWebViewController"
 - "Sq"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
-- "PSs12_Reflectable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -271,7 +284,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
-interface-hash: "a161056a135c25dcd507ef33f4b5ec1e"
+interface-hash: "8120d54c16b51226a92f80f76c586d0d"

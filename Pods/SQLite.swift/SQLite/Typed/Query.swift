@@ -744,6 +744,13 @@ extension QueryType {
         ])
     }
 
+    func tableName(qualified qualified: Bool) -> Expressible {
+        if qualified {
+            return tableName()
+        }
+        return Expression<Void>(clauses.from.alias ?? clauses.from.name)
+    }
+
     func database(namespace name: String) -> Expressible {
         let name = Expression<Void>(name)
 
@@ -891,7 +898,7 @@ extension Connection {
                         let e = q.expression
                         var names = try self.prepare(e.template, e.bindings).columnNames.map { $0.quote() }
                         if namespace { names = names.map { "\(query.tableName().expression.template).\($0)" } }
-                        for name in names { columnNames[name] = idx++ }
+                        for name in names { columnNames[name] = idx; idx += 1 }
                     }
                 }
 
@@ -914,40 +921,41 @@ extension Connection {
                     continue
                 }
 
-                columnNames[each.expression.template] = idx++
+                columnNames[each.expression.template] = idx
+                idx += 1
             }
             return columnNames
         }()
 
         return AnySequence {
-            anyGenerator { statement.next().map { Row(columnNames, $0) } }
+            AnyGenerator { statement.next().map { Row(columnNames, $0) } }
         }
     }
 
-    public func scalar<V : Value>(query: ScalarQuery<V>) -> V {
+    public func scalar<V : Value>(query: ScalarQuery<V>) throws -> V {
         let expression = query.expression
-        return value(scalar(expression.template, expression.bindings))
+        return value(try scalar(expression.template, expression.bindings))
     }
 
-    public func scalar<V : Value>(query: ScalarQuery<V?>) -> V.ValueType? {
+    public func scalar<V : Value>(query: ScalarQuery<V?>) throws -> V.ValueType? {
         let expression = query.expression
-        guard let value = scalar(expression.template, expression.bindings) as? V.Datatype else { return nil }
+        guard let value = try scalar(expression.template, expression.bindings) as? V.Datatype else { return nil }
         return V.fromDatatypeValue(value)
     }
 
-    public func scalar<V : Value>(query: Select<V>) -> V {
+    public func scalar<V : Value>(query: Select<V>) throws -> V {
         let expression = query.expression
-        return value(scalar(expression.template, expression.bindings))
+        return value(try scalar(expression.template, expression.bindings))
     }
 
-    public func scalar<V : Value>(query: Select<V?>) ->  V.ValueType? {
+    public func scalar<V : Value>(query: Select<V?>) throws ->  V.ValueType? {
         let expression = query.expression
-        guard let value = scalar(expression.template, expression.bindings) as? V.Datatype else { return nil }
+        guard let value = try scalar(expression.template, expression.bindings) as? V.Datatype else { return nil }
         return V.fromDatatypeValue(value)
     }
 
-    public func pluck(query: QueryType) -> Row? {
-        return try! prepare(query.limit(1, query.clauses.limit?.offset)).generate().next()
+    public func pluck(query: QueryType) throws -> Row? {
+        return try prepare(query.limit(1, query.clauses.limit?.offset)).generate().next()
     }
 
     /// Runs an `Insert` query.

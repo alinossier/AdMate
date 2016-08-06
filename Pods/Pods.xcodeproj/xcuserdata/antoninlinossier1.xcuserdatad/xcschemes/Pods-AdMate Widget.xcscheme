@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C6A5A8111BD749D3E651A568'
+               BlueprintIdentifier = '6FE943307DABB30ADECBD2AA'
                BlueprintName = 'Pods-AdMate Widget'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_AdMate_Widget.framework'>

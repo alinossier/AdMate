@@ -46,6 +46,8 @@ public func GetDataFromDb(completion: (Done: [AdData]) -> Void){
             
             print("DBPATH READ")
             print(DbPath)
+    
+    
         let db = try! Connection(DbPath)
             
             for i in 0...70 { // Insert some dummy data to fill blanks so we don't have to worry about nil values.
@@ -199,7 +201,7 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
         
         let req = oauth2.request(forURL: requestURL)
     
-        print(req)
+        NSLog("AdMate initiated an API request: %@", requestURL)
         
         
         let session = NSURLSession.sharedSession()
@@ -288,14 +290,14 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                                 for i in 0...RowData.count - 1 { // Parsing the data
                                     
 
-                                    let CurrentRow = dict["rows"]![i] as! [AnyObject]
+                                    let CurrentRow = dict.objectForKey("rows")!.objectAtIndex(i) as! [String]
                                     
 //                                    print(CurrentRow[headerdict["DATE"]!])
 
                                      let insert = AdDataTable.insert(AdRequestData <- "\(CurrentRow[headerdict["AD_REQUESTS"]!])", AdRequestCoverageData <- "\(CurrentRow[headerdict["AD_REQUESTS_COVERAGE"]!])", AdRequestCTRData <- "\(CurrentRow[headerdict["AD_REQUESTS_CTR"]!])", AdRequestRPMData <- "\(CurrentRow[headerdict["AD_REQUESTS_RPM"]!])", ClicksData <- "\(CurrentRow[headerdict["CLICKS"]!])", CostPerClickData <- "\(CurrentRow[headerdict["COST_PER_CLICK"]!])", EarningsData <- "\(CurrentRow[headerdict["EARNINGS"]!])", PageViewRPMData <- "\(CurrentRow[headerdict["PAGE_VIEWS_RPM"]!])", PageViewsData <- "\(CurrentRow[headerdict["PAGE_VIEWS"]!])", MatchedAdREquestData <- "\(CurrentRow[headerdict["MATCHED_AD_REQUESTS"]!])", DateData <- "\(CurrentRow[headerdict["DATE"]!])")
 
                                         
-                                        
+                                    
                                         do {
                                             
                                             try db.run(insert)

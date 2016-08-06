@@ -391,9 +391,15 @@ class MainViewController: NSViewController {
             tableView.registerNib(nib!, forIdentifier: "AdDataCell")
         
         self.view.window?.toolbar?.insertItemWithItemIdentifier("RefreshButton", atIndex: 1)
+        self.view.window?.toolbar?.insertItemWithItemIdentifier("LoginButton", atIndex: 2)
+        
+//        self.view.window?.toolbar?
+        
+        
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "LoadView:", name:"UserDidLogin", object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "ReAuthUser:", name:"ReValidateUser", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "LoginButtonPressed:", name:"LoginPressed", object: nil)
         
         LineChartViewLayer.lineChart.legendEnabled = false
         
@@ -410,12 +416,55 @@ class MainViewController: NSViewController {
             RefreshTheView()
             FetchTheData(UserID as! String)
             NSNotificationCenter.defaultCenter().removeObserver("UserDidLogin")
-            
         }
         
     }
     
+    func LoginButtonPressed(sender: AnyObject){
+        print("The Login button was pressed")
+        
+        
+        if let UserID = defaults.objectForKey(UserIDDefault) {
+            
+            print("USER IDD VIEW WILL APPEAR \(UserID)")
+            
+            let answer = self.dialogOKCancel("Logout", text: "Do you want to proceed and logout?")
+            
+            if answer {
+                
+                // Perform logout tasks here
+                
+                defaults.setObject(nil, forKey: UserIDDefault)
+                defaults.synchronize()
+                oauth2.forgetTokens()
+                NSNotificationCenter.defaultCenter().postNotificationName("SetLogoutIcon", object: nil)
+                self.performSegueWithIdentifier("GoToTutorial", sender: self)
+                
+            }
+            
+            
+        }else {
+            
+            self.performSegueWithIdentifier("GoToTutorial", sender: self)
+            
+        }
 
+    }
+    
+    func dialogOKCancel(question: String, text: String) -> Bool {
+        let myPopup: NSAlert = NSAlert()
+        myPopup.messageText = question
+        myPopup.informativeText = text
+        myPopup.alertStyle = NSAlertStyle.WarningAlertStyle
+        myPopup.addButtonWithTitle("OK")
+        myPopup.addButtonWithTitle("Cancel")
+        let res = myPopup.runModal()
+        if res == NSAlertFirstButtonReturn {
+            return true
+        }
+        return false
+    }
+    
     
     
     @IBAction func ShowInfo(sender:AnyObject){
@@ -434,12 +483,7 @@ class MainViewController: NSViewController {
         
         
         }
-        
-    
-        
-        
-    
-    
+
     
     }
     
@@ -486,7 +530,8 @@ class MainViewController: NSViewController {
                     self.DBDataToAnalyse = result
                     self.FormatTodayData(result)
                     self.LayoutSubViews() // Create the chart
-                    
+                    NSNotificationCenter.defaultCenter().postNotificationName("SetLoginIcon", object: nil)
+
                 } else {
                     
                     // DATA IS CORRUPTED ALERT MESSAGE
@@ -513,7 +558,7 @@ class MainViewController: NSViewController {
         if let UserID = defaults.objectForKey(UserIDDefault) {
         
             print("USER IDD VIEW WILL APPEAR \(UserID)")
-
+            
         // For debugging
         
        // self.performSegueWithIdentifier("GoToTutorial", sender: self)

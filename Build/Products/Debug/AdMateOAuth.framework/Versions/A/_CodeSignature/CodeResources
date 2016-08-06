@@ -6,22 +6,22 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		IPaO3zEpbwETKiSxmk7r3SN2znk=
+		zUseEvR+GHCcQC9xD0pqCX+JhUI=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/AdMateOAuth-Swift.h</key>
 		<data>
-		JRihLR/jLvFkspSgArpQUc/B9Wc=
+		t3rzRTnd8ivkzAuxeJiQms5Jmm0=
 		</data>
 		<key>Modules/AdMateOAuth.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		K0coqzn92rPm7+drdPqrKbqwjzc=
+		iRMcW9wMDQyN2ln1fdjRgoreaAg=
 		</data>
 		<key>Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		5Faso1DJJwl6tw+5fAuugJwLFtM=
+		VUDDyDynLSq3//6jKVnmVGqE5F0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,7 +29,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		IPaO3zEpbwETKiSxmk7r3SN2znk=
+		zUseEvR+GHCcQC9xD0pqCX+JhUI=
 		</data>
 	</dict>
 	<key>rules</key>

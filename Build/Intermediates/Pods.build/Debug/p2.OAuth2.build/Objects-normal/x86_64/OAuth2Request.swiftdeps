@@ -12,127 +12,139 @@ provides-dynamic-lookup:
 - "URLSession"
 - "host"
 depends-top-level:
-- "OAuth2"
-- "NSURL"
-- !private "!"
-- "OAuth2Request"
-- "Void"
-- !private "NSURLAuthenticationMethodServerTrust"
+- "NSObject"
 - "NSURLSessionDelegate"
-- !private "NSLog"
+- "NSURLSessionAuthChallengeDisposition"
+- "NSMutableURLRequest"
 - "NSURLSession"
 - !private "=="
+- "OAuth2DebugURLSessionDelegate"
+- !private "StringLiteralType"
 - "NSTimeInterval"
+- "OAuth2Request"
+- "String"
+- "NSURLAuthenticationChallenge"
+- !private "NSLog"
 - "NSURLCredential"
 - "NSURLRequestCachePolicy"
-- "NSMutableURLRequest"
-- "NSObject"
-- "String"
-- !private "StringLiteralType"
-- "OAuth2DebugURLSessionDelegate"
-- "NSURLAuthenticationChallenge"
-- "NSURLSessionAuthChallengeDisposition"
+- !private "NSURLAuthenticationMethodServerTrust"
+- !private "!"
+- "NSURL"
+- "Void"
+- "OAuth2"
 depends-member:
-- !private ["PSs9AnyObject", "NSLog"]
-- !private ["PSs9AnyObject", "NSURLAuthenticationMethodServerTrust"]
-- !private ["PSs9AnyObject", "NSURLCredential"]
-- ["PSs9AnyObject", "URLSession"]
-- ["PSs9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
-- !private ["PSs9AnyObject", "accessToken"]
-- !private ["PSs9AnyObject", "authenticationMethod"]
-- !private ["PSs9AnyObject", "clientConfig"]
-- ["PSs9AnyObject", "host"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "isEmpty"]
-- !private ["PSs9AnyObject", "protectionSpace"]
-- !private ["PSs9AnyObject", "serverTrust"]
-- !private ["PSs9AnyObject", "setValue"]
-- ["PSs9AnyObject", "sign"]
-- ["PSs9AnyObject", ""]
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps9AnyObject", "NSURLCredential"]
+- ["Ps9AnyObject", "URLSession"]
+- ["Ps9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9AnyObject", "accessToken"]
+- !private ["Ps9AnyObject", "authenticationMethod"]
+- !private ["Ps9AnyObject", "clientConfig"]
+- ["Ps9AnyObject", "host"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "protectionSpace"]
+- !private ["Ps9AnyObject", "serverTrust"]
+- !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "sign"]
+- ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "NSLog"]
-- !private ["PSs11CVarArgType", "NSURLAuthenticationMethodServerTrust"]
-- !private ["PSs11CVarArgType", "NSURLCredential"]
-- ["PSs11CVarArgType", "URLSession"]
-- ["PSs11CVarArgType", "URLSessionDidFinishEventsForBackgroundURLSession"]
-- !private ["PSs11CVarArgType", "authenticationMethod"]
-- ["PSs11CVarArgType", "host"]
-- ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "isEmpty"]
-- !private ["PSs11CVarArgType", "protectionSpace"]
-- !private ["PSs11CVarArgType", "serverTrust"]
-- !private ["PSs11CVarArgType", "setValue"]
-- ["PSs11CVarArgType", "sign"]
-- ["PSs11CVarArgType", ""]
-- !private ["VSs9Character", "deinit"]
-- !private ["PSs10Comparable", "init"]
-- !private ["PSs10Comparable", "isEmpty"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
-- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
-- !private ["PSs23CustomStringConvertible", "NSLog"]
-- !private ["PSs23CustomStringConvertible", "NSURLAuthenticationMethodServerTrust"]
-- !private ["PSs23CustomStringConvertible", "NSURLCredential"]
-- ["PSs23CustomStringConvertible", "URLSession"]
-- ["PSs23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "authenticationMethod"]
-- ["PSs23CustomStringConvertible", "host"]
-- ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "isEmpty"]
-- !private ["PSs23CustomStringConvertible", "protectionSpace"]
-- !private ["PSs23CustomStringConvertible", "serverTrust"]
-- !private ["PSs23CustomStringConvertible", "setValue"]
-- ["PSs23CustomStringConvertible", "sign"]
-- ["PSs23CustomStringConvertible", ""]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSLog"]
+- !private ["Ps11CVarArgType", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps11CVarArgType", "NSURLCredential"]
+- ["Ps11CVarArgType", "URLSession"]
+- ["Ps11CVarArgType", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps11CVarArgType", "authenticationMethod"]
+- ["Ps11CVarArgType", "host"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isEmpty"]
+- !private ["Ps11CVarArgType", "protectionSpace"]
+- !private ["Ps11CVarArgType", "serverTrust"]
+- !private ["Ps11CVarArgType", "setValue"]
+- ["Ps11CVarArgType", "sign"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLCredential"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "URLSession"]
+- ["Ps28CustomDebugStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "authenticationMethod"]
+- ["Ps28CustomDebugStringConvertible", "host"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "protectionSpace"]
+- !private ["Ps28CustomDebugStringConvertible", "serverTrust"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "sign"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps23CustomStringConvertible", "NSURLCredential"]
+- ["Ps23CustomStringConvertible", "URLSession"]
+- ["Ps23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "authenticationMethod"]
+- ["Ps23CustomStringConvertible", "host"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "protectionSpace"]
+- !private ["Ps23CustomStringConvertible", "serverTrust"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "sign"]
+- ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
-- !private ["PSs9Equatable", "CancelAuthenticationChallenge"]
-- !private ["PSs9Equatable", "NSLog"]
-- !private ["PSs9Equatable", "NSURLAuthenticationMethodServerTrust"]
-- !private ["PSs9Equatable", "NSURLCredential"]
-- ["PSs9Equatable", "URLSession"]
-- ["PSs9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
-- !private ["PSs9Equatable", "UseCredential"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "authenticationMethod"]
-- ["PSs9Equatable", "host"]
-- ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "isEmpty"]
-- !private ["PSs9Equatable", "protectionSpace"]
-- !private ["PSs9Equatable", "serverTrust"]
-- !private ["PSs9Equatable", "setValue"]
-- ["PSs9Equatable", "sign"]
-- ["PSs9Equatable", ""]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps9Equatable", "CancelAuthenticationChallenge"]
+- !private ["Ps9Equatable", "NSLog"]
+- !private ["Ps9Equatable", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps9Equatable", "NSURLCredential"]
+- ["Ps9Equatable", "URLSession"]
+- ["Ps9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9Equatable", "UseCredential"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "authenticationMethod"]
+- ["Ps9Equatable", "host"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "protectionSpace"]
+- !private ["Ps9Equatable", "serverTrust"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "sign"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
 - !private ["Sf", "deinit"]
-- !private ["PSs8Hashable", "CancelAuthenticationChallenge"]
-- !private ["PSs8Hashable", "NSLog"]
-- !private ["PSs8Hashable", "NSURLAuthenticationMethodServerTrust"]
-- !private ["PSs8Hashable", "NSURLCredential"]
-- ["PSs8Hashable", "URLSession"]
-- ["PSs8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
-- !private ["PSs8Hashable", "UseCredential"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "authenticationMethod"]
-- ["PSs8Hashable", "host"]
-- ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "isEmpty"]
-- !private ["PSs8Hashable", "protectionSpace"]
-- !private ["PSs8Hashable", "serverTrust"]
-- !private ["PSs8Hashable", "setValue"]
-- ["PSs8Hashable", "sign"]
-- ["PSs8Hashable", ""]
+- !private ["Ps8Hashable", "CancelAuthenticationChallenge"]
+- !private ["Ps8Hashable", "NSLog"]
+- !private ["Ps8Hashable", "NSURLAuthenticationMethodServerTrust"]
+- !private ["Ps8Hashable", "NSURLCredential"]
+- ["Ps8Hashable", "URLSession"]
+- ["Ps8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps8Hashable", "UseCredential"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "authenticationMethod"]
+- ["Ps8Hashable", "host"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "protectionSpace"]
+- !private ["Ps8Hashable", "serverTrust"]
+- !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "sign"]
+- ["Ps8Hashable", ""]
 - !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
-- !private ["PSs14MirrorPathType", "init"]
-- !private ["PSs14MirrorPathType", "isEmpty"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "isEmpty"]
 - !private ["PSo8NSCoding", "NSLog"]
 - !private ["PSo8NSCoding", "authenticationMethod"]
 - !private ["PSo8NSCoding", "host"]
@@ -241,7 +253,7 @@ depends-member:
 - ["PSo20NSURLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["PSo20NSURLSessionDelegate", "host"]
 - ["PSo20NSURLSessionDelegate", ""]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - !private ["C9p2_OAuth26OAuth2", "clientConfig"]
 - !private ["C9p2_OAuth210OAuth2Base", "clientConfig"]
 - !private ["C9p2_OAuth218OAuth2ClientConfig", "accessToken"]
@@ -268,66 +280,64 @@ depends-member:
 - ["C9p2_OAuth213OAuth2Request", "sign"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["PSs16OutputStreamType", "isEmpty"]
-- !private ["PSs16RawRepresentable", "CancelAuthenticationChallenge"]
-- !private ["PSs16RawRepresentable", "UseCredential"]
-- !private ["VSs12StaticString", "deinit"]
-- !private ["PSs10Streamable", "init"]
-- !private ["PSs10Streamable", "isEmpty"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "isEmpty"]
+- !private ["Ps16RawRepresentable", "CancelAuthenticationChallenge"]
+- !private ["Ps16RawRepresentable", "UseCredential"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "isEmpty"]
 - !private ["SS", "init"]
 - !private ["SS", "isEmpty"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
-- !private ["PSs24StringLiteralConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "isEmpty"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "isEmpty"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "isEmpty"]
 - !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
-- !private ["PSs16_CocoaStringType", "init"]
-- !private ["PSs16_CocoaStringType", "isEmpty"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
-- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "isEmpty"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "isEmpty"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
-- !private "VSs9Character"
-- !private "PSs10Comparable"
-- "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
 - !private "Sd"
-- "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- "PSs8Hashable"
+- "Ps8Hashable"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
-- !private "PSs14MirrorPathType"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
 - "PSo16NSMutableCopying"
@@ -344,35 +354,34 @@ depends-nominal:
 - "CSo12NSURLRequest"
 - !private "OSC36NSURLSessionAuthChallengeDisposition"
 - "PSo20NSURLSessionDelegate"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - !private "C9p2_OAuth26OAuth2"
 - !private "C9p2_OAuth210OAuth2Base"
 - !private "C9p2_OAuth218OAuth2ClientConfig"
 - "C9p2_OAuth229OAuth2DebugURLSessionDelegate"
 - "C9p2_OAuth213OAuth2Request"
 - "Sq"
-- !private "PSs16OutputStreamType"
-- !private "PSs16RawRepresentable"
-- !private "VSs12StaticString"
-- !private "PSs10Streamable"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- !private "PSs21_ObjectiveCBridgeable"
-- "PSs12_Reflectable"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -383,6 +392,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

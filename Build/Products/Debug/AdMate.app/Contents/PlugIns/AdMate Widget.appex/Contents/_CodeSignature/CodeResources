@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		8BDZ8JmPqXqkTCdIjtbQHfMG9MQ=
+		kWqIVPjQ62pA9ICVyUL2oDGlb2o=
 		</data>
 		<key>Resources/Base.lproj/TodayViewController.nib</key>
 		<dict>
@@ -45,16 +45,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			prXRVr9aN5vjJVJSF2unPQqhAQI=
+			JolRxFj9bRdYD2XX6FSDAl33xvQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.SQLite" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/SwiftKeychain.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			3QL+GkRxAfI5THAwBaUhAm8SY8o=
+			</data>
+			<key>requirement</key>
+			<string>identifier "org.cocoapods.SwiftKeychain" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			VAvjLX/q2GKlBt0gOpJ3bmtfRw0=
+			9TcC0sZCB+P+2URzRL+4Fx5//Eo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.SwiftyJSON" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -63,7 +72,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			qOkjr/PB3iv7v2ianPRJsxsXZn8=
+			lDL0Xc8tfpFrHUG4Zapuh6SiQus=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -72,7 +81,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			X//ag6rd5FoyWugmCRbqw+ykjtU=
+			QLfRf5Nl0elH4HN+gcpH762wmck=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -81,7 +90,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			xHiNxAYZcnrFJd6JrKQLJ2VQrX4=
+			2fZ+bU0KN/qSMAn1QKi8vZudT7o=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -90,7 +99,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			3snpQqm6OfucRi8o4wS8IlXudKM=
+			lC8ZxfB7h9LsTImHA2IUK25BBNY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -99,7 +108,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			aj8dflNbw6l3ZduyWTBV5vH8ITI=
+			bhD9a8OBs9gqFh7CYiJgdPgX5K8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -108,7 +117,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5E0/5Wt6oE4pihf8MuhB0G3ZFSc=
+			iXmFFTHU9QWe1BcNtAosPyPLTME=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -117,7 +126,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			eTljnO7oQiLbrTpPBc9vo+S8+hw=
+			8oB1Hhw2Skhi1uITjZi5VXafaVw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -126,16 +135,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			70r7oRdGXQIYYvubry+Uqb4gt3s=
+			o+SPIifg8jwwNiH9TLxEogemZWM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftIOKit.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			lnLGKYCjCp6yhNQJKI8aGU0cu/I=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EgO4+KviLbiBgQ22QHuipSMd1VI=
+			xpxTO5jUGjkhzmjg9sPx9Mtr4M4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -144,7 +162,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8gBIf3clnT+oaEEGXcG+UqbqFq8=
+			LfX78rvrh23qFNZQzOJ6j65KoV8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftWebKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -153,7 +171,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5VlCag1TiwyANP/TITWdi0AXRfQ=
+			qcl0SHdbta3sAdVbCBhPvaqP6hU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.p2-OAuth2" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -164,7 +182,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		8BDZ8JmPqXqkTCdIjtbQHfMG9MQ=
+		kWqIVPjQ62pA9ICVyUL2oDGlb2o=
 		</data>
 		<key>Resources/Base.lproj/TodayViewController.nib</key>
 		<dict>

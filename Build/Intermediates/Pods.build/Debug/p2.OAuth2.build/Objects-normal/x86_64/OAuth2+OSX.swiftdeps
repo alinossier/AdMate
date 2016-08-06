@@ -11,211 +11,236 @@ provides-member:
 - ["C9p2_OAuth26OAuth2", "windowControllerForViewController"]
 provides-dynamic-lookup:
 depends-top-level:
-- "OAuth2WebViewController"
-- !private "NSResizableWindowMask"
-- !private "NSMakeRect"
-- !private "NSClosableWindowMask"
-- "OAuth2StringDict"
-- "OAuth2AuthConfig"
-- !private "|"
-- "OAuth2"
-- !private "NSTitledWindowMask"
 - !private "!"
+- "OAuth2StringDict"
+- !private "NSMakeRect"
 - "NSWindow"
 - !private "StringLiteralType"
+- "OAuth2"
 - !private "NSWorkspace"
-- !private "NSColor"
-- !private "NSFullSizeContentViewWindowMask"
-- "NSWindowController"
+- "OAuth2AuthConfig"
+- !private "NSTitledWindowMask"
+- !private "|"
+- !private "NSClosableWindowMask"
 - !private "OAuth2Error"
+- !private "NSResizableWindowMask"
+- !private "NSColor"
+- "OAuth2WebViewController"
+- "NSWindowController"
+- !private "NSFullSizeContentViewWindowMask"
 depends-member:
-- !private ["PSs9AnyObject", "NSClosableWindowMask"]
-- !private ["PSs9AnyObject", "NSColor"]
-- !private ["PSs9AnyObject", "NSFullSizeContentViewWindowMask"]
-- !private ["PSs9AnyObject", "NSMakeRect"]
-- !private ["PSs9AnyObject", "NSResizableWindowMask"]
-- !private ["PSs9AnyObject", "NSTitledWindowMask"]
-- !private ["PSs9AnyObject", "NSWindow"]
-- !private ["PSs9AnyObject", "NSWindowController"]
-- !private ["PSs9AnyObject", "NSWorkspace"]
-- !private ["PSs9AnyObject", "OAuth2Error"]
-- !private ["PSs9AnyObject", "OAuth2WebViewController"]
-- !private ["PSs9AnyObject", "WebViewWindowHeight"]
-- !private ["PSs9AnyObject", "WebViewWindowWidth"]
-- !private ["PSs9AnyObject", "animationBehavior"]
-- !private ["PSs9AnyObject", "authConfig"]
-- ["PSs9AnyObject", "authorizeEmbeddedFrom"]
-- ["PSs9AnyObject", "authorizeEmbeddedWith"]
-- ["PSs9AnyObject", "authorizeInNewWindow"]
-- !private ["PSs9AnyObject", "authorizeURL"]
-- !private ["PSs9AnyObject", "backgroundColor"]
-- !private ["PSs9AnyObject", "beginSheet"]
-- !private ["PSs9AnyObject", "center"]
-- !private ["PSs9AnyObject", "close"]
-- !private ["PSs9AnyObject", "contentViewController"]
-- !private ["PSs9AnyObject", "didFail"]
-- !private ["PSs9AnyObject", "endSheet"]
-- !private ["PSs9AnyObject", "handleRedirectURL"]
-- !private ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "interceptURLString"]
-- !private ["PSs9AnyObject", "internalAfterAuthorizeOrFailure"]
-- !private ["PSs9AnyObject", "logIfVerbose"]
-- !private ["PSs9AnyObject", "makeKeyAndOrderFront"]
-- !private ["PSs9AnyObject", "movableByWindowBackground"]
-- !private ["PSs9AnyObject", "onIntercept"]
-- !private ["PSs9AnyObject", "onWillCancel"]
-- ["PSs9AnyObject", "openAuthorizeURLInBrowser"]
-- !private ["PSs9AnyObject", "openURL"]
-- ["PSs9AnyObject", "presentableAuthorizeViewController"]
-- !private ["PSs9AnyObject", "redirect"]
-- !private ["PSs9AnyObject", "sharedWorkspace"]
-- !private ["PSs9AnyObject", "showWindow"]
-- !private ["PSs9AnyObject", "startURL"]
-- !private ["PSs9AnyObject", "title"]
-- !private ["PSs9AnyObject", "titleVisibility"]
-- !private ["PSs9AnyObject", "titlebarAppearsTransparent"]
-- !private ["PSs9AnyObject", "view"]
-- !private ["PSs9AnyObject", "whiteColor"]
-- !private ["PSs9AnyObject", "willBecomeSheet"]
-- !private ["PSs9AnyObject", "window"]
-- ["PSs9AnyObject", "windowControllerForViewController"]
+- !private ["Ps9AnyObject", "NSClosableWindowMask"]
+- !private ["Ps9AnyObject", "NSColor"]
+- !private ["Ps9AnyObject", "NSFullSizeContentViewWindowMask"]
+- !private ["Ps9AnyObject", "NSMakeRect"]
+- !private ["Ps9AnyObject", "NSResizableWindowMask"]
+- !private ["Ps9AnyObject", "NSTitledWindowMask"]
+- !private ["Ps9AnyObject", "NSWindow"]
+- !private ["Ps9AnyObject", "NSWindowController"]
+- !private ["Ps9AnyObject", "NSWorkspace"]
+- !private ["Ps9AnyObject", "OAuth2Error"]
+- !private ["Ps9AnyObject", "OAuth2WebViewController"]
+- !private ["Ps9AnyObject", "WebViewWindowHeight"]
+- !private ["Ps9AnyObject", "WebViewWindowWidth"]
+- !private ["Ps9AnyObject", "animationBehavior"]
+- !private ["Ps9AnyObject", "authConfig"]
+- ["Ps9AnyObject", "authorizeEmbeddedFrom"]
+- ["Ps9AnyObject", "authorizeEmbeddedWith"]
+- ["Ps9AnyObject", "authorizeInNewWindow"]
+- !private ["Ps9AnyObject", "authorizeURL"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "beginSheet"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "contentViewController"]
+- !private ["Ps9AnyObject", "didFail"]
+- !private ["Ps9AnyObject", "endSheet"]
+- !private ["Ps9AnyObject", "handleRedirectURL"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interceptURLString"]
+- !private ["Ps9AnyObject", "internalAfterAuthorizeOrFailure"]
+- !private ["Ps9AnyObject", "logIfVerbose"]
+- !private ["Ps9AnyObject", "makeKeyAndOrderFront"]
+- !private ["Ps9AnyObject", "movableByWindowBackground"]
+- !private ["Ps9AnyObject", "onIntercept"]
+- !private ["Ps9AnyObject", "onWillCancel"]
+- ["Ps9AnyObject", "openAuthorizeURLInBrowser"]
+- !private ["Ps9AnyObject", "openURL"]
+- ["Ps9AnyObject", "presentableAuthorizeViewController"]
+- !private ["Ps9AnyObject", "redirect"]
+- !private ["Ps9AnyObject", "sharedWorkspace"]
+- !private ["Ps9AnyObject", "showWindow"]
+- !private ["Ps9AnyObject", "startURL"]
+- !private ["Ps9AnyObject", "title"]
+- !private ["Ps9AnyObject", "titleVisibility"]
+- !private ["Ps9AnyObject", "titlebarAppearsTransparent"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- !private ["Ps9AnyObject", "willBecomeSheet"]
+- !private ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", "windowControllerForViewController"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
-- !private ["PSs11CVarArgType", "WebViewWindowHeight"]
-- !private ["PSs11CVarArgType", "WebViewWindowWidth"]
-- !private ["PSs11CVarArgType", "animationBehavior"]
-- !private ["PSs11CVarArgType", "backgroundColor"]
-- !private ["PSs11CVarArgType", "beginSheet"]
-- !private ["PSs11CVarArgType", "center"]
-- !private ["PSs11CVarArgType", "close"]
-- !private ["PSs11CVarArgType", "contentViewController"]
-- !private ["PSs11CVarArgType", "endSheet"]
-- !private ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "interceptURLString"]
-- !private ["PSs11CVarArgType", "makeKeyAndOrderFront"]
-- !private ["PSs11CVarArgType", "movableByWindowBackground"]
-- !private ["PSs11CVarArgType", "onIntercept"]
-- !private ["PSs11CVarArgType", "onWillCancel"]
-- !private ["PSs11CVarArgType", "openURL"]
-- !private ["PSs11CVarArgType", "sharedWorkspace"]
-- !private ["PSs11CVarArgType", "showWindow"]
-- !private ["PSs11CVarArgType", "startURL"]
-- !private ["PSs11CVarArgType", "title"]
-- !private ["PSs11CVarArgType", "titleVisibility"]
-- !private ["PSs11CVarArgType", "titlebarAppearsTransparent"]
-- !private ["PSs11CVarArgType", "view"]
-- !private ["PSs11CVarArgType", "whiteColor"]
-- !private ["PSs11CVarArgType", "willBecomeSheet"]
-- !private ["PSs11CVarArgType", "window"]
-- !private ["VSs9Character", "deinit"]
-- !private ["PSs10Comparable", "init"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "Generic"]
-- !private ["PSs23CustomStringConvertible", "UnableToOpenAuthorizeURL"]
-- !private ["PSs23CustomStringConvertible", "WebViewWindowHeight"]
-- !private ["PSs23CustomStringConvertible", "WebViewWindowWidth"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "animationBehavior"]
-- !private ["PSs23CustomStringConvertible", "backgroundColor"]
-- !private ["PSs23CustomStringConvertible", "beginSheet"]
-- !private ["PSs23CustomStringConvertible", "center"]
-- !private ["PSs23CustomStringConvertible", "close"]
-- !private ["PSs23CustomStringConvertible", "contentViewController"]
-- !private ["PSs23CustomStringConvertible", "endSheet"]
-- !private ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "interceptURLString"]
-- !private ["PSs23CustomStringConvertible", "makeKeyAndOrderFront"]
-- !private ["PSs23CustomStringConvertible", "movableByWindowBackground"]
-- !private ["PSs23CustomStringConvertible", "onIntercept"]
-- !private ["PSs23CustomStringConvertible", "onWillCancel"]
-- !private ["PSs23CustomStringConvertible", "openURL"]
-- !private ["PSs23CustomStringConvertible", "sharedWorkspace"]
-- !private ["PSs23CustomStringConvertible", "showWindow"]
-- !private ["PSs23CustomStringConvertible", "startURL"]
-- !private ["PSs23CustomStringConvertible", "title"]
-- !private ["PSs23CustomStringConvertible", "titleVisibility"]
-- !private ["PSs23CustomStringConvertible", "titlebarAppearsTransparent"]
-- !private ["PSs23CustomStringConvertible", "view"]
-- !private ["PSs23CustomStringConvertible", "whiteColor"]
-- !private ["PSs23CustomStringConvertible", "willBecomeSheet"]
-- !private ["PSs23CustomStringConvertible", "window"]
+- !private ["Ps11CVarArgType", "WebViewWindowHeight"]
+- !private ["Ps11CVarArgType", "WebViewWindowWidth"]
+- !private ["Ps11CVarArgType", "animationBehavior"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "beginSheet"]
+- !private ["Ps11CVarArgType", "center"]
+- !private ["Ps11CVarArgType", "close"]
+- !private ["Ps11CVarArgType", "contentViewController"]
+- !private ["Ps11CVarArgType", "endSheet"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "interceptURLString"]
+- !private ["Ps11CVarArgType", "makeKeyAndOrderFront"]
+- !private ["Ps11CVarArgType", "movableByWindowBackground"]
+- !private ["Ps11CVarArgType", "onIntercept"]
+- !private ["Ps11CVarArgType", "onWillCancel"]
+- !private ["Ps11CVarArgType", "openURL"]
+- !private ["Ps11CVarArgType", "sharedWorkspace"]
+- !private ["Ps11CVarArgType", "showWindow"]
+- !private ["Ps11CVarArgType", "startURL"]
+- !private ["Ps11CVarArgType", "title"]
+- !private ["Ps11CVarArgType", "titleVisibility"]
+- !private ["Ps11CVarArgType", "titlebarAppearsTransparent"]
+- !private ["Ps11CVarArgType", "view"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- !private ["Ps11CVarArgType", "willBecomeSheet"]
+- !private ["Ps11CVarArgType", "window"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "WebViewWindowHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "WebViewWindowWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "animationBehavior"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "beginSheet"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "close"]
+- !private ["Ps28CustomDebugStringConvertible", "contentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "endSheet"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "interceptURLString"]
+- !private ["Ps28CustomDebugStringConvertible", "makeKeyAndOrderFront"]
+- !private ["Ps28CustomDebugStringConvertible", "movableByWindowBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "onIntercept"]
+- !private ["Ps28CustomDebugStringConvertible", "onWillCancel"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedWorkspace"]
+- !private ["Ps28CustomDebugStringConvertible", "showWindow"]
+- !private ["Ps28CustomDebugStringConvertible", "startURL"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- !private ["Ps28CustomDebugStringConvertible", "titleVisibility"]
+- !private ["Ps28CustomDebugStringConvertible", "titlebarAppearsTransparent"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- !private ["Ps28CustomDebugStringConvertible", "willBecomeSheet"]
+- !private ["Ps28CustomDebugStringConvertible", "window"]
+- !private ["Ps23CustomStringConvertible", "Generic"]
+- !private ["Ps23CustomStringConvertible", "UnableToOpenAuthorizeURL"]
+- !private ["Ps23CustomStringConvertible", "WebViewWindowHeight"]
+- !private ["Ps23CustomStringConvertible", "WebViewWindowWidth"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "animationBehavior"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "beginSheet"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "contentViewController"]
+- !private ["Ps23CustomStringConvertible", "endSheet"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "interceptURLString"]
+- !private ["Ps23CustomStringConvertible", "makeKeyAndOrderFront"]
+- !private ["Ps23CustomStringConvertible", "movableByWindowBackground"]
+- !private ["Ps23CustomStringConvertible", "onIntercept"]
+- !private ["Ps23CustomStringConvertible", "onWillCancel"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "sharedWorkspace"]
+- !private ["Ps23CustomStringConvertible", "showWindow"]
+- !private ["Ps23CustomStringConvertible", "startURL"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- !private ["Ps23CustomStringConvertible", "titleVisibility"]
+- !private ["Ps23CustomStringConvertible", "titlebarAppearsTransparent"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- !private ["Ps23CustomStringConvertible", "willBecomeSheet"]
+- !private ["Ps23CustomStringConvertible", "window"]
 - !private ["Sd", "deinit"]
-- !private ["PSs9Equatable", "AlertPanel"]
-- !private ["PSs9Equatable", "Buffered"]
-- !private ["PSs9Equatable", "Generic"]
-- !private ["PSs9Equatable", "Hidden"]
-- !private ["PSs9Equatable", "UnableToOpenAuthorizeURL"]
-- !private ["PSs9Equatable", "WebViewWindowHeight"]
-- !private ["PSs9Equatable", "WebViewWindowWidth"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "animationBehavior"]
-- !private ["PSs9Equatable", "backgroundColor"]
-- !private ["PSs9Equatable", "beginSheet"]
-- !private ["PSs9Equatable", "center"]
-- !private ["PSs9Equatable", "close"]
-- !private ["PSs9Equatable", "contentViewController"]
-- !private ["PSs9Equatable", "endSheet"]
-- !private ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "interceptURLString"]
-- !private ["PSs9Equatable", "makeKeyAndOrderFront"]
-- !private ["PSs9Equatable", "movableByWindowBackground"]
-- !private ["PSs9Equatable", "onIntercept"]
-- !private ["PSs9Equatable", "onWillCancel"]
-- !private ["PSs9Equatable", "openURL"]
-- !private ["PSs9Equatable", "sharedWorkspace"]
-- !private ["PSs9Equatable", "showWindow"]
-- !private ["PSs9Equatable", "startURL"]
-- !private ["PSs9Equatable", "title"]
-- !private ["PSs9Equatable", "titleVisibility"]
-- !private ["PSs9Equatable", "titlebarAppearsTransparent"]
-- !private ["PSs9Equatable", "view"]
-- !private ["PSs9Equatable", "whiteColor"]
-- !private ["PSs9Equatable", "willBecomeSheet"]
-- !private ["PSs9Equatable", "window"]
-- !private ["PSs9ErrorType", "Generic"]
-- !private ["PSs9ErrorType", "UnableToOpenAuthorizeURL"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps9Equatable", "AlertPanel"]
+- !private ["Ps9Equatable", "Buffered"]
+- !private ["Ps9Equatable", "Generic"]
+- !private ["Ps9Equatable", "Hidden"]
+- !private ["Ps9Equatable", "UnableToOpenAuthorizeURL"]
+- !private ["Ps9Equatable", "WebViewWindowHeight"]
+- !private ["Ps9Equatable", "WebViewWindowWidth"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "animationBehavior"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "beginSheet"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "contentViewController"]
+- !private ["Ps9Equatable", "endSheet"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "interceptURLString"]
+- !private ["Ps9Equatable", "makeKeyAndOrderFront"]
+- !private ["Ps9Equatable", "movableByWindowBackground"]
+- !private ["Ps9Equatable", "onIntercept"]
+- !private ["Ps9Equatable", "onWillCancel"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "sharedWorkspace"]
+- !private ["Ps9Equatable", "showWindow"]
+- !private ["Ps9Equatable", "startURL"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "titleVisibility"]
+- !private ["Ps9Equatable", "titlebarAppearsTransparent"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "whiteColor"]
+- !private ["Ps9Equatable", "willBecomeSheet"]
+- !private ["Ps9Equatable", "window"]
+- !private ["Ps9ErrorType", "Generic"]
+- !private ["Ps9ErrorType", "UnableToOpenAuthorizeURL"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
-- !private ["PSs8Hashable", "AlertPanel"]
-- !private ["PSs8Hashable", "Buffered"]
-- !private ["PSs8Hashable", "Hidden"]
-- !private ["PSs8Hashable", "WebViewWindowHeight"]
-- !private ["PSs8Hashable", "WebViewWindowWidth"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "animationBehavior"]
-- !private ["PSs8Hashable", "backgroundColor"]
-- !private ["PSs8Hashable", "beginSheet"]
-- !private ["PSs8Hashable", "center"]
-- !private ["PSs8Hashable", "close"]
-- !private ["PSs8Hashable", "contentViewController"]
-- !private ["PSs8Hashable", "endSheet"]
-- !private ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "interceptURLString"]
-- !private ["PSs8Hashable", "makeKeyAndOrderFront"]
-- !private ["PSs8Hashable", "movableByWindowBackground"]
-- !private ["PSs8Hashable", "onIntercept"]
-- !private ["PSs8Hashable", "onWillCancel"]
-- !private ["PSs8Hashable", "openURL"]
-- !private ["PSs8Hashable", "sharedWorkspace"]
-- !private ["PSs8Hashable", "showWindow"]
-- !private ["PSs8Hashable", "startURL"]
-- !private ["PSs8Hashable", "title"]
-- !private ["PSs8Hashable", "titleVisibility"]
-- !private ["PSs8Hashable", "titlebarAppearsTransparent"]
-- !private ["PSs8Hashable", "view"]
-- !private ["PSs8Hashable", "whiteColor"]
-- !private ["PSs8Hashable", "willBecomeSheet"]
-- !private ["PSs8Hashable", "window"]
+- !private ["Ps8Hashable", "AlertPanel"]
+- !private ["Ps8Hashable", "Buffered"]
+- !private ["Ps8Hashable", "Hidden"]
+- !private ["Ps8Hashable", "WebViewWindowHeight"]
+- !private ["Ps8Hashable", "WebViewWindowWidth"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "animationBehavior"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "beginSheet"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "contentViewController"]
+- !private ["Ps8Hashable", "endSheet"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "interceptURLString"]
+- !private ["Ps8Hashable", "makeKeyAndOrderFront"]
+- !private ["Ps8Hashable", "movableByWindowBackground"]
+- !private ["Ps8Hashable", "onIntercept"]
+- !private ["Ps8Hashable", "onWillCancel"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "sharedWorkspace"]
+- !private ["Ps8Hashable", "showWindow"]
+- !private ["Ps8Hashable", "startURL"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "titleVisibility"]
+- !private ["Ps8Hashable", "titlebarAppearsTransparent"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "whiteColor"]
+- !private ["Ps8Hashable", "willBecomeSheet"]
+- !private ["Ps8Hashable", "window"]
 - !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
-- !private ["PSs14MirrorPathType", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
 - !private ["PSo15NSAccessibility", "animationBehavior"]
 - !private ["PSo15NSAccessibility", "backgroundColor"]
 - !private ["PSo15NSAccessibility", "beginSheet"]
@@ -472,7 +497,7 @@ depends-member:
 - !private ["OSC23NSWindowTitleVisibility", "Hidden"]
 - !private ["CSo11NSWorkspace", "openURL"]
 - !private ["CSo11NSWorkspace", "sharedWorkspace"]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - !private ["C9p2_OAuth26OAuth2", "NSClosableWindowMask"]
 - !private ["C9p2_OAuth26OAuth2", "NSColor"]
 - !private ["C9p2_OAuth26OAuth2", "NSFullSizeContentViewWindowMask"]
@@ -533,6 +558,7 @@ depends-member:
 - !private ["O9p2_OAuth211OAuth2Error", "deinit"]
 - !private ["C9p2_OAuth223OAuth2WebViewController", "WebViewWindowHeight"]
 - !private ["C9p2_OAuth223OAuth2WebViewController", "WebViewWindowWidth"]
+- !private ["C9p2_OAuth223OAuth2WebViewController", "deinit"]
 - !private ["C9p2_OAuth223OAuth2WebViewController", "init"]
 - !private ["C9p2_OAuth223OAuth2WebViewController", "interceptURLString"]
 - !private ["C9p2_OAuth223OAuth2WebViewController", "onIntercept"]
@@ -542,23 +568,23 @@ depends-member:
 - !private ["C9p2_OAuth223OAuth2WebViewController", "willBecomeSheet"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["PSs16RawRepresentable", "AlertPanel"]
-- !private ["PSs16RawRepresentable", "Buffered"]
-- !private ["PSs16RawRepresentable", "Hidden"]
-- !private ["PSs10Streamable", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16RawRepresentable", "AlertPanel"]
+- !private ["Ps16RawRepresentable", "Buffered"]
+- !private ["Ps16RawRepresentable", "Hidden"]
+- !private ["Ps10Streamable", "init"]
 - !private ["SS", "init"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["VV9p2_OAuth216OAuth2AuthConfig2UI", "title"]
 - !private ["VV9p2_OAuth216OAuth2AuthConfig2UI", "windowController"]
 - !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["PSo20WKNavigationDelegate", "WebViewWindowHeight"]
 - !private ["PSo20WKNavigationDelegate", "WebViewWindowWidth"]
 - !private ["PSo20WKNavigationDelegate", "init"]
@@ -568,42 +594,41 @@ depends-member:
 - !private ["PSo20WKNavigationDelegate", "startURL"]
 - !private ["PSo20WKNavigationDelegate", "view"]
 - !private ["PSo20WKNavigationDelegate", "willBecomeSheet"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "init"]
-- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "window"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "window"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
 - !private "V12CoreGraphics7CGFloat"
-- !private "PSs11CVarArgType"
-- !private "VSs9Character"
-- !private "PSs10Comparable"
-- "PSs28CustomDebugStringConvertible"
-- !private "PSs23CustomStringConvertible"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
 - !private "Sd"
-- !private "PSs9Equatable"
-- !private "PSs9ErrorType"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- !private "PSs8Hashable"
+- !private "Ps8Hashable"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
-- !private "PSs14MirrorPathType"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
 - !private "PSo15NSAccessibility"
 - !private "PSo30NSAccessibilityElementProtocol"
 - !private "PSo29NSAnimatablePropertyContainer"
@@ -633,37 +658,36 @@ depends-nominal:
 - !private "PSo16NSWindowDelegate"
 - !private "OSC23NSWindowTitleVisibility"
 - !private "CSo11NSWorkspace"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - "C9p2_OAuth26OAuth2"
 - !private "V9p2_OAuth216OAuth2AuthConfig"
 - "C9p2_OAuth210OAuth2Base"
 - !private "O9p2_OAuth211OAuth2Error"
 - !private "C9p2_OAuth223OAuth2WebViewController"
 - "Sq"
-- !private "PSs16OutputStreamType"
-- !private "PSs16RawRepresentable"
-- !private "PSs10Streamable"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "Ps10Streamable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "VV9p2_OAuth216OAuth2AuthConfig2UI"
 - !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "PSo20WKNavigationDelegate"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- !private "PSs24_ColorLiteralConvertible"
-- !private "PSs21_ObjectiveCBridgeable"
-- "PSs12_Reflectable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -674,6 +698,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

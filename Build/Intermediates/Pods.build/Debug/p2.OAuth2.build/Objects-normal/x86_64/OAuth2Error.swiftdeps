@@ -8,160 +8,162 @@ provides-member:
 - ["O9p2_OAuth211OAuth2Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Equatable"
-- "ErrorType"
-- "CustomStringConvertible"
-- "Foundation"
-- !private "??"
-- "OAuth2Error"
-- "Bool"
 - !private "StringLiteralType"
-- !private "~="
-- "=="
+- !private "??"
+- "Foundation"
 - "String"
+- "Equatable"
+- "=="
+- !private "~="
+- !private "BooleanLiteralType"
+- "ErrorType"
+- "Bool"
+- "CustomStringConvertible"
+- "OAuth2Error"
 depends-member:
-- !private ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "isEqual"]
-- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEqual"]
+- !private ["Ps9AnyObject", "localizedDescription"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "isEqual"]
-- !private ["PSs11CVarArgType", "localizedDescription"]
-- !private ["VSs9Character", "deinit"]
-- !private ["PSs10Comparable", "init"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", "AccessDenied"]
-- ["PSs23CustomStringConvertible", "Generic"]
-- ["PSs23CustomStringConvertible", "InvalidAuthorizationContext"]
-- ["PSs23CustomStringConvertible", "InvalidRedirectURL"]
-- ["PSs23CustomStringConvertible", "InvalidRequest"]
-- ["PSs23CustomStringConvertible", "InvalidScope"]
-- ["PSs23CustomStringConvertible", "InvalidState"]
-- ["PSs23CustomStringConvertible", "JSONParserError"]
-- ["PSs23CustomStringConvertible", "NSError"]
-- ["PSs23CustomStringConvertible", "NoAuthorizationContext"]
-- ["PSs23CustomStringConvertible", "NoClientId"]
-- ["PSs23CustomStringConvertible", "NoClientSecret"]
-- ["PSs23CustomStringConvertible", "NoDataInResponse"]
-- ["PSs23CustomStringConvertible", "NoPassword"]
-- ["PSs23CustomStringConvertible", "NoRedirectURL"]
-- ["PSs23CustomStringConvertible", "NoRefreshToken"]
-- ["PSs23CustomStringConvertible", "NoRegistrationURL"]
-- ["PSs23CustomStringConvertible", "NoTokenType"]
-- ["PSs23CustomStringConvertible", "NoUsername"]
-- ["PSs23CustomStringConvertible", "NotUsingTLS"]
-- ["PSs23CustomStringConvertible", "PrerequisiteFailed"]
-- ["PSs23CustomStringConvertible", "RequestCancelled"]
-- ["PSs23CustomStringConvertible", "ResponseError"]
-- ["PSs23CustomStringConvertible", "ServerError"]
-- ["PSs23CustomStringConvertible", "TemporarilyUnavailable"]
-- ["PSs23CustomStringConvertible", "UTF8DecodeError"]
-- ["PSs23CustomStringConvertible", "UTF8EncodeError"]
-- ["PSs23CustomStringConvertible", "UnableToOpenAuthorizeURL"]
-- ["PSs23CustomStringConvertible", "UnauthorizedClient"]
-- ["PSs23CustomStringConvertible", "UnsupportedResponseType"]
-- ["PSs23CustomStringConvertible", "UnsupportedTokenType"]
-- ["PSs23CustomStringConvertible", "_code"]
-- ["PSs23CustomStringConvertible", "_domain"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- ["PSs23CustomStringConvertible", "description"]
-- !private ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "isEqual"]
-- !private ["PSs23CustomStringConvertible", "localizedDescription"]
-- ["PSs23CustomStringConvertible", ""]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isEqual"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", "AccessDenied"]
+- ["Ps23CustomStringConvertible", "Generic"]
+- ["Ps23CustomStringConvertible", "InvalidAuthorizationContext"]
+- ["Ps23CustomStringConvertible", "InvalidRedirectURL"]
+- ["Ps23CustomStringConvertible", "InvalidRequest"]
+- ["Ps23CustomStringConvertible", "InvalidScope"]
+- ["Ps23CustomStringConvertible", "InvalidState"]
+- ["Ps23CustomStringConvertible", "JSONParserError"]
+- ["Ps23CustomStringConvertible", "NSError"]
+- ["Ps23CustomStringConvertible", "NoAuthorizationContext"]
+- ["Ps23CustomStringConvertible", "NoClientId"]
+- ["Ps23CustomStringConvertible", "NoClientSecret"]
+- ["Ps23CustomStringConvertible", "NoDataInResponse"]
+- ["Ps23CustomStringConvertible", "NoPassword"]
+- ["Ps23CustomStringConvertible", "NoRedirectURL"]
+- ["Ps23CustomStringConvertible", "NoRefreshToken"]
+- ["Ps23CustomStringConvertible", "NoRegistrationURL"]
+- ["Ps23CustomStringConvertible", "NoTokenType"]
+- ["Ps23CustomStringConvertible", "NoUsername"]
+- ["Ps23CustomStringConvertible", "NotUsingTLS"]
+- ["Ps23CustomStringConvertible", "PrerequisiteFailed"]
+- ["Ps23CustomStringConvertible", "RequestCancelled"]
+- ["Ps23CustomStringConvertible", "ResponseError"]
+- ["Ps23CustomStringConvertible", "ServerError"]
+- ["Ps23CustomStringConvertible", "TemporarilyUnavailable"]
+- ["Ps23CustomStringConvertible", "UTF8DecodeError"]
+- ["Ps23CustomStringConvertible", "UTF8EncodeError"]
+- ["Ps23CustomStringConvertible", "UnableToOpenAuthorizeURL"]
+- ["Ps23CustomStringConvertible", "UnauthorizedClient"]
+- ["Ps23CustomStringConvertible", "UnsupportedResponseType"]
+- ["Ps23CustomStringConvertible", "UnsupportedTokenType"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEqual"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
-- ["PSs9Equatable", "AccessDenied"]
-- ["PSs9Equatable", "Generic"]
-- ["PSs9Equatable", "InvalidAuthorizationContext"]
-- ["PSs9Equatable", "InvalidRedirectURL"]
-- ["PSs9Equatable", "InvalidRequest"]
-- ["PSs9Equatable", "InvalidScope"]
-- ["PSs9Equatable", "InvalidState"]
-- ["PSs9Equatable", "JSONParserError"]
-- ["PSs9Equatable", "NSError"]
-- ["PSs9Equatable", "NoAuthorizationContext"]
-- ["PSs9Equatable", "NoClientId"]
-- ["PSs9Equatable", "NoClientSecret"]
-- ["PSs9Equatable", "NoDataInResponse"]
-- ["PSs9Equatable", "NoPassword"]
-- ["PSs9Equatable", "NoRedirectURL"]
-- ["PSs9Equatable", "NoRefreshToken"]
-- ["PSs9Equatable", "NoRegistrationURL"]
-- ["PSs9Equatable", "NoTokenType"]
-- ["PSs9Equatable", "NoUsername"]
-- ["PSs9Equatable", "NotUsingTLS"]
-- ["PSs9Equatable", "PrerequisiteFailed"]
-- ["PSs9Equatable", "RequestCancelled"]
-- ["PSs9Equatable", "ResponseError"]
-- ["PSs9Equatable", "ServerError"]
-- ["PSs9Equatable", "TemporarilyUnavailable"]
-- ["PSs9Equatable", "UTF8DecodeError"]
-- ["PSs9Equatable", "UTF8EncodeError"]
-- ["PSs9Equatable", "UnableToOpenAuthorizeURL"]
-- ["PSs9Equatable", "UnauthorizedClient"]
-- ["PSs9Equatable", "UnsupportedResponseType"]
-- ["PSs9Equatable", "UnsupportedTokenType"]
-- ["PSs9Equatable", "_code"]
-- ["PSs9Equatable", "_domain"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- ["PSs9Equatable", "description"]
-- !private ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "isEqual"]
-- !private ["PSs9Equatable", "localizedDescription"]
-- ["PSs9Equatable", ""]
-- ["PSs9ErrorType", "AccessDenied"]
-- ["PSs9ErrorType", "Generic"]
-- ["PSs9ErrorType", "InvalidAuthorizationContext"]
-- ["PSs9ErrorType", "InvalidRedirectURL"]
-- ["PSs9ErrorType", "InvalidRequest"]
-- ["PSs9ErrorType", "InvalidScope"]
-- ["PSs9ErrorType", "InvalidState"]
-- ["PSs9ErrorType", "JSONParserError"]
-- ["PSs9ErrorType", "NSError"]
-- ["PSs9ErrorType", "NoAuthorizationContext"]
-- ["PSs9ErrorType", "NoClientId"]
-- ["PSs9ErrorType", "NoClientSecret"]
-- ["PSs9ErrorType", "NoDataInResponse"]
-- ["PSs9ErrorType", "NoPassword"]
-- ["PSs9ErrorType", "NoRedirectURL"]
-- ["PSs9ErrorType", "NoRefreshToken"]
-- ["PSs9ErrorType", "NoRegistrationURL"]
-- ["PSs9ErrorType", "NoTokenType"]
-- ["PSs9ErrorType", "NoUsername"]
-- ["PSs9ErrorType", "NotUsingTLS"]
-- ["PSs9ErrorType", "PrerequisiteFailed"]
-- ["PSs9ErrorType", "RequestCancelled"]
-- ["PSs9ErrorType", "ResponseError"]
-- ["PSs9ErrorType", "ServerError"]
-- ["PSs9ErrorType", "TemporarilyUnavailable"]
-- ["PSs9ErrorType", "UTF8DecodeError"]
-- ["PSs9ErrorType", "UTF8EncodeError"]
-- ["PSs9ErrorType", "UnableToOpenAuthorizeURL"]
-- ["PSs9ErrorType", "UnauthorizedClient"]
-- ["PSs9ErrorType", "UnsupportedResponseType"]
-- ["PSs9ErrorType", "UnsupportedTokenType"]
-- ["PSs9ErrorType", "_code"]
-- ["PSs9ErrorType", "_domain"]
-- ["PSs9ErrorType", "description"]
-- !private ["PSs9ErrorType", "isEqual"]
-- !private ["PSs9ErrorType", "localizedDescription"]
-- ["PSs9ErrorType", ""]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps9Equatable", "AccessDenied"]
+- ["Ps9Equatable", "Generic"]
+- ["Ps9Equatable", "InvalidAuthorizationContext"]
+- ["Ps9Equatable", "InvalidRedirectURL"]
+- ["Ps9Equatable", "InvalidRequest"]
+- ["Ps9Equatable", "InvalidScope"]
+- ["Ps9Equatable", "InvalidState"]
+- ["Ps9Equatable", "JSONParserError"]
+- ["Ps9Equatable", "NSError"]
+- ["Ps9Equatable", "NoAuthorizationContext"]
+- ["Ps9Equatable", "NoClientId"]
+- ["Ps9Equatable", "NoClientSecret"]
+- ["Ps9Equatable", "NoDataInResponse"]
+- ["Ps9Equatable", "NoPassword"]
+- ["Ps9Equatable", "NoRedirectURL"]
+- ["Ps9Equatable", "NoRefreshToken"]
+- ["Ps9Equatable", "NoRegistrationURL"]
+- ["Ps9Equatable", "NoTokenType"]
+- ["Ps9Equatable", "NoUsername"]
+- ["Ps9Equatable", "NotUsingTLS"]
+- ["Ps9Equatable", "PrerequisiteFailed"]
+- ["Ps9Equatable", "RequestCancelled"]
+- ["Ps9Equatable", "ResponseError"]
+- ["Ps9Equatable", "ServerError"]
+- ["Ps9Equatable", "TemporarilyUnavailable"]
+- ["Ps9Equatable", "UTF8DecodeError"]
+- ["Ps9Equatable", "UTF8EncodeError"]
+- ["Ps9Equatable", "UnableToOpenAuthorizeURL"]
+- ["Ps9Equatable", "UnauthorizedClient"]
+- ["Ps9Equatable", "UnsupportedResponseType"]
+- ["Ps9Equatable", "UnsupportedTokenType"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEqual"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- ["Ps9Equatable", ""]
+- ["Ps9ErrorType", "AccessDenied"]
+- ["Ps9ErrorType", "Generic"]
+- ["Ps9ErrorType", "InvalidAuthorizationContext"]
+- ["Ps9ErrorType", "InvalidRedirectURL"]
+- ["Ps9ErrorType", "InvalidRequest"]
+- ["Ps9ErrorType", "InvalidScope"]
+- ["Ps9ErrorType", "InvalidState"]
+- ["Ps9ErrorType", "JSONParserError"]
+- ["Ps9ErrorType", "NSError"]
+- ["Ps9ErrorType", "NoAuthorizationContext"]
+- ["Ps9ErrorType", "NoClientId"]
+- ["Ps9ErrorType", "NoClientSecret"]
+- ["Ps9ErrorType", "NoDataInResponse"]
+- ["Ps9ErrorType", "NoPassword"]
+- ["Ps9ErrorType", "NoRedirectURL"]
+- ["Ps9ErrorType", "NoRefreshToken"]
+- ["Ps9ErrorType", "NoRegistrationURL"]
+- ["Ps9ErrorType", "NoTokenType"]
+- ["Ps9ErrorType", "NoUsername"]
+- ["Ps9ErrorType", "NotUsingTLS"]
+- ["Ps9ErrorType", "PrerequisiteFailed"]
+- ["Ps9ErrorType", "RequestCancelled"]
+- ["Ps9ErrorType", "ResponseError"]
+- ["Ps9ErrorType", "ServerError"]
+- ["Ps9ErrorType", "TemporarilyUnavailable"]
+- ["Ps9ErrorType", "UTF8DecodeError"]
+- ["Ps9ErrorType", "UTF8EncodeError"]
+- ["Ps9ErrorType", "UnableToOpenAuthorizeURL"]
+- ["Ps9ErrorType", "UnauthorizedClient"]
+- ["Ps9ErrorType", "UnsupportedResponseType"]
+- ["Ps9ErrorType", "UnsupportedTokenType"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", "description"]
+- !private ["Ps9ErrorType", "isEqual"]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- ["Ps9ErrorType", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "isEqual"]
-- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEqual"]
+- !private ["Ps8Hashable", "localizedDescription"]
 - !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
-- !private ["PSs14MirrorPathType", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "init"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isEqual"]
 - !private ["PSo8NSCoding", "localizedDescription"]
@@ -225,53 +227,52 @@ depends-member:
 - ["O9p2_OAuth211OAuth2Error", "description"]
 - ["O9p2_OAuth211OAuth2Error", "fromResponseError"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["VSs5Range", "deinit"]
-- !private ["PSs10Streamable", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps10Streamable", "init"]
 - !private ["SS", "deinit"]
 - !private ["SS", "init"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "init"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
 depends-nominal:
-- !private "PSs9AnyObject"
+- !private "Ps9AnyObject"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- !private "PSs11CVarArgType"
-- !private "VSs9Character"
-- !private "PSs10Comparable"
-- !private "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
 - !private "Sd"
-- "PSs9Equatable"
-- "PSs9ErrorType"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps9Equatable"
+- "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- !private "PSs8Hashable"
+- !private "Ps8Hashable"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
-- !private "PSs14MirrorPathType"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "CSo7NSError"
@@ -284,28 +285,27 @@ depends-nominal:
 - !private "CSo8NSString"
 - "O9p2_OAuth211OAuth2Error"
 - !private "Sq"
-- !private "PSs16OutputStreamType"
-- !private "VSs5Range"
-- !private "PSs10Streamable"
+- !private "Ps16OutputStreamType"
+- !private "Vs5Range"
+- !private "Ps10Streamable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- !private "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
-- !private "PSs12_Reflectable"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -316,6 +316,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

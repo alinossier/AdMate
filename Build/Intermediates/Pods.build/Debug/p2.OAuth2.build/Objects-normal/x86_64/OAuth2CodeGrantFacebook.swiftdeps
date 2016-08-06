@@ -7,31 +7,32 @@ provides-member:
 - ["C9p2_OAuth223OAuth2CodeGrantFacebook", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSUTF8StringEncoding"
 - "OAuth2JSON"
-- "OAuth2CodeGrant"
-- "NSData"
-- !private "NSString"
-- !private "String"
-- "OAuth2CodeGrantFacebook"
 - !private "OAuth2Error"
+- "OAuth2CodeGrantFacebook"
+- "NSData"
+- !private "String"
+- "OAuth2CodeGrant"
+- !private "NSUTF8StringEncoding"
+- !private "NSString"
 depends-member:
-- !private ["PSs9AnyObject", "NSString"]
-- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
-- !private ["PSs9AnyObject", "OAuth2Error"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "paramsFromQuery"]
-- ["PSs9AnyObject", "parseAccessTokenResponse"]
-- ["PSs9AnyObject", ""]
-- !private ["PSs11CVarArgType", "init"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs23CustomStringConvertible", "UTF8DecodeError"]
-- !private ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs9Equatable", "UTF8DecodeError"]
-- !private ["PSs9Equatable", "init"]
-- !private ["PSs9ErrorType", "UTF8DecodeError"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs8Hashable", "init"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "OAuth2Error"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "paramsFromQuery"]
+- ["Ps9AnyObject", "parseAccessTokenResponse"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "UTF8DecodeError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "UTF8DecodeError"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9ErrorType", "UTF8DecodeError"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps8Hashable", "init"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo16NSMutableCopying", "init"]
@@ -41,7 +42,7 @@ depends-member:
 - !private ["PSo19NSPasteboardWriting", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - ["C9p2_OAuth26OAuth2", "NSData"]
 - !private ["C9p2_OAuth26OAuth2", "NSString"]
 - !private ["C9p2_OAuth26OAuth2", "NSUTF8StringEncoding"]
@@ -84,20 +85,19 @@ depends-member:
 - !private ["O9p2_OAuth211OAuth2Error", "deinit"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs24StringLiteralConvertible", "init"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "init"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
 depends-nominal:
-- "PSs9AnyObject"
-- !private "PSs11CVarArgType"
-- "PSs28CustomDebugStringConvertible"
-- !private "PSs23CustomStringConvertible"
-- !private "PSs9Equatable"
-- !private "PSs9ErrorType"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs8Hashable"
+- "Ps9AnyObject"
+- !private "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps8Hashable"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "PSo16NSMutableCopying"
@@ -107,17 +107,16 @@ depends-nominal:
 - !private "PSo19NSPasteboardWriting"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - "C9p2_OAuth26OAuth2"
 - "C9p2_OAuth210OAuth2Base"
 - "C9p2_OAuth215OAuth2CodeGrant"
 - "C9p2_OAuth223OAuth2CodeGrantFacebook"
 - !private "O9p2_OAuth211OAuth2Error"
 - "Sq"
-- !private "PSs24StringLiteralConvertible"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- "PSs12_Reflectable"
+- !private "Ps24StringLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -128,6 +127,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

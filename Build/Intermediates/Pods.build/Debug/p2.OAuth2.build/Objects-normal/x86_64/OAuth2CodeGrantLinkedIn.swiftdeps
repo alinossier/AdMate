@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "OAuth2CodeGrant"
-- "OAuth2JSON"
 - "OAuth2CodeGrantLinkedIn"
+- "OAuth2JSON"
 depends-member:
-- ["PSs9AnyObject", "assureCorrectBearerType"]
-- !private ["PSs9AnyObject", "authConfig"]
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", ""]
+- ["Ps9AnyObject", "assureCorrectBearerType"]
+- !private ["Ps9AnyObject", "authConfig"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
 - ["C9p2_OAuth26OAuth2", "OAuth2JSON"]
 - ["C9p2_OAuth26OAuth2", "assureCorrectBearerType"]
 - !private ["C9p2_OAuth26OAuth2", "authConfig"]
@@ -38,7 +38,7 @@ depends-member:
 - ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "init"]
 - !private ["VV9p2_OAuth216OAuth2AuthConfig2UI", "useSafariView"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - "C9p2_OAuth26OAuth2"
 - !private "V9p2_OAuth216OAuth2AuthConfig"
 - "C9p2_OAuth210OAuth2Base"
@@ -55,6 +55,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

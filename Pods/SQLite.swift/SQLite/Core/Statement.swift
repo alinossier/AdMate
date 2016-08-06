@@ -22,6 +22,12 @@
 // THE SOFTWARE.
 //
 
+#if SQLITE_SWIFT_STANDALONE
+import sqlite3
+#else
+import CSQLite
+#endif
+
 /// A single SQL statement.
 public final class Statement {
 
@@ -146,21 +152,21 @@ public final class Statement {
     /// - Parameter bindings: A list of parameters to bind to the statement.
     ///
     /// - Returns: The first value of the first row returned.
-    @warn_unused_result public func scalar(bindings: Binding?...) -> Binding? {
+    @warn_unused_result public func scalar(bindings: Binding?...) throws -> Binding? {
         guard bindings.isEmpty else {
-            return scalar(bindings)
+            return try scalar(bindings)
         }
 
         reset(clearBindings: false)
-        try! step()
+        try step()
         return row[0]
     }
 
     /// - Parameter bindings: A list of parameters to bind to the statement.
     ///
     /// - Returns: The first value of the first row returned.
-    @warn_unused_result public func scalar(bindings: [Binding?]) -> Binding? {
-        return bind(bindings).scalar()
+    @warn_unused_result public func scalar(bindings: [Binding?]) throws -> Binding? {
+        return try bind(bindings).scalar()
     }
 
 
@@ -168,8 +174,8 @@ public final class Statement {
     ///   statement.
     ///
     /// - Returns: The first value of the first row returned.
-    @warn_unused_result public func scalar(bindings: [String: Binding?]) -> Binding? {
-        return bind(bindings).scalar()
+    @warn_unused_result public func scalar(bindings: [String: Binding?]) throws -> Binding? {
+        return try bind(bindings).scalar()
     }
 
     public func step() throws -> Bool {
@@ -271,8 +277,13 @@ extension Cursor : SequenceType {
 
     public func generate() -> AnyGenerator<Binding?> {
         var idx = 0
-        return anyGenerator {
-            idx >= self.columnCount ? Optional<Binding?>.None : self[idx++]
+        return AnyGenerator {
+            if idx >= self.columnCount {
+                return Optional<Binding?>.None
+            } else {
+                idx += 1
+                return self[idx - 1]
+            }
         }
     }
 

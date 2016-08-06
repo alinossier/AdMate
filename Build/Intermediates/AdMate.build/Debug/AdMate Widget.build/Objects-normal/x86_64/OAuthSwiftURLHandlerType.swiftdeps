@@ -12,31 +12,33 @@ provides-dynamic-lookup:
 - "handle"
 - "handle"
 depends-top-level:
-- "IntegerLiteralType"
-- !private "dispatch_once"
-- "OAuthSwiftOpenURLExternally"
-- !private "NSWorkspace"
-- "OAuthSwiftURLHandlerType"
-- !private "dispatch_once_t"
 - "FloatLiteralType"
+- !private "dispatch_once"
+- "OAuthSwiftURLHandlerType"
+- "OAuthSwiftOpenURLExternally"
+- !private "dispatch_once_t"
+- "IntegerLiteralType"
 - "NSURL"
+- !private "NSWorkspace"
 depends-member:
-- !private ["PSs9AnyObject", "NSWorkspace"]
-- !private ["PSs9AnyObject", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs9AnyObject", "dispatch_once"]
-- ["PSs9AnyObject", "handle"]
-- !private ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "openURL"]
-- !private ["PSs9AnyObject", "sharedWorkspace"]
-- ["PSs9AnyObject", ""]
-- !private ["PSs11CVarArgType", "openURL"]
-- !private ["PSs11CVarArgType", "sharedWorkspace"]
-- !private ["PSs23CustomStringConvertible", "openURL"]
-- !private ["PSs23CustomStringConvertible", "sharedWorkspace"]
-- !private ["PSs9Equatable", "openURL"]
-- !private ["PSs9Equatable", "sharedWorkspace"]
-- !private ["PSs8Hashable", "openURL"]
-- !private ["PSs8Hashable", "sharedWorkspace"]
+- !private ["Ps9AnyObject", "NSWorkspace"]
+- !private ["Ps9AnyObject", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps9AnyObject", "dispatch_once"]
+- ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "openURL"]
+- !private ["Ps9AnyObject", "sharedWorkspace"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "openURL"]
+- !private ["Ps11CVarArgType", "sharedWorkspace"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedWorkspace"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "sharedWorkspace"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "sharedWorkspace"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "sharedWorkspace"]
 - !private ["CSo8NSObject", "openURL"]
 - !private ["CSo8NSObject", "sharedWorkspace"]
 - !private ["PSo16NSObjectProtocol", "openURL"]
@@ -60,11 +62,12 @@ depends-member:
 - !private ["P13AdMate_Widget24OAuthSwiftURLHandlerType", "init"]
 - ["P13AdMate_Widget24OAuthSwiftURLHandlerType", ""]
 depends-nominal:
-- "PSs9AnyObject"
-- !private "PSs11CVarArgType"
-- !private "PSs23CustomStringConvertible"
-- !private "PSs9Equatable"
-- !private "PSs8Hashable"
+- "Ps9AnyObject"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
 - !private "CSo8NSObject"
 - !private "PSo16NSObjectProtocol"
 - !private "CSo11NSWorkspace"
@@ -78,19 +81,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
@@ -101,4 +107,4 @@ depends-external:
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
-interface-hash: "c837fcd7fb8516b010b7ff59dde6020a"
+interface-hash: "397ffa363a1c5da0a33690fee05e76ff"

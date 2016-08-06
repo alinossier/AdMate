@@ -8,179 +8,195 @@ provides-member:
 - ["C11AdMateOAuth16OAuthSwiftClient", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "NSMutableData"
-- !private "UnicodeScalarType"
-- !private "ExtendedGraphemeClusterType"
 - "dataEncoding"
-- !private "StringLiteralType"
+- "AnyObject"
+- "OAuthSwiftClient"
+- "String"
+- !private "ExtendedGraphemeClusterType"
+- !private "=="
+- "NSData"
 - "OAuthSwiftCredential"
 - "OAuthSwiftHTTPRequest"
-- "AnyObject"
-- "NSStringEncoding"
-- "NSURL"
+- !private "StringLiteralType"
 - "NSUTF8StringEncoding"
+- !private "NSMutableData"
+- !private "UnicodeScalarType"
+- "NSURL"
+- "NSStringEncoding"
 - !private "arc4random"
-- "String"
-- "NSData"
-- "OAuthSwiftClient"
+- !private "BooleanLiteralType"
 - "Dictionary"
-- !private "=="
 depends-member:
-- !private ["PSs9AnyObject", "AnyObject"]
-- ["PSs9AnyObject", "FailureHandler"]
-- !private ["PSs9AnyObject", "HTTPBodyMultipart"]
-- !private ["PSs9AnyObject", "NSMutableData"]
-- !private ["PSs9AnyObject", "NSURL"]
-- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
-- !private ["PSs9AnyObject", "OAuthSwiftCredential"]
-- !private ["PSs9AnyObject", "OAuthSwiftHTTPRequest"]
-- !private ["PSs9AnyObject", "String"]
-- ["PSs9AnyObject", "SuccessHandler"]
-- !private ["PSs9AnyObject", "appendData"]
-- !private ["PSs9AnyObject", "arc4random"]
-- !private ["PSs9AnyObject", "authorizationHeaderForMethod"]
-- !private ["PSs9AnyObject", "consumer_key"]
-- !private ["PSs9AnyObject", "consumer_secret"]
-- !private ["PSs9AnyObject", "contentTypeMultipart"]
-- !private ["PSs9AnyObject", "credential"]
-- !private ["PSs9AnyObject", "dataEncoding"]
-- !private ["PSs9AnyObject", "dataUsingEncoding"]
-- !private ["PSs9AnyObject", "encodeParameters"]
-- !private ["PSs9AnyObject", "failureHandler"]
-- !private ["PSs9AnyObject", "headers"]
-- !private ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "makeHeaders"]
-- !private ["PSs9AnyObject", "makeRequest"]
-- !private ["PSs9AnyObject", "multiDataFromObject"]
-- !private ["PSs9AnyObject", "multiPartBodyFromParams"]
-- !private ["PSs9AnyObject", "multiPartRequest"]
-- !private ["PSs9AnyObject", "request"]
-- !private ["PSs9AnyObject", "signatureForMethod"]
-- !private ["PSs9AnyObject", "start"]
-- !private ["PSs9AnyObject", "successHandler"]
-- ["PSs9AnyObject", ""]
+- !private ["Ps9AnyObject", "AnyObject"]
+- ["Ps9AnyObject", "FailureHandler"]
+- !private ["Ps9AnyObject", "HTTPBodyMultipart"]
+- !private ["Ps9AnyObject", "NSMutableData"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "OAuthSwiftCredential"]
+- !private ["Ps9AnyObject", "OAuthSwiftHTTPRequest"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "SuccessHandler"]
+- !private ["Ps9AnyObject", "appendData"]
+- !private ["Ps9AnyObject", "arc4random"]
+- !private ["Ps9AnyObject", "authorizationHeaderForMethod"]
+- !private ["Ps9AnyObject", "consumer_key"]
+- !private ["Ps9AnyObject", "consumer_secret"]
+- !private ["Ps9AnyObject", "contentTypeMultipart"]
+- !private ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "dataEncoding"]
+- !private ["Ps9AnyObject", "dataUsingEncoding"]
+- !private ["Ps9AnyObject", "encodeParameters"]
+- !private ["Ps9AnyObject", "failureHandler"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeHeaders"]
+- !private ["Ps9AnyObject", "makeRequest"]
+- !private ["Ps9AnyObject", "multiDataFromObject"]
+- !private ["Ps9AnyObject", "multiPartBodyFromParams"]
+- !private ["Ps9AnyObject", "multiPartRequest"]
+- !private ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "signatureForMethod"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "successHandler"]
+- ["Ps9AnyObject", ""]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- ["PSs11CVarArgType", "FailureHandler"]
-- !private ["PSs11CVarArgType", "HTTPBodyMultipart"]
-- ["PSs11CVarArgType", "SuccessHandler"]
-- !private ["PSs11CVarArgType", "appendData"]
-- !private ["PSs11CVarArgType", "authorizationHeaderForMethod"]
-- !private ["PSs11CVarArgType", "consumer_key"]
-- !private ["PSs11CVarArgType", "consumer_secret"]
-- !private ["PSs11CVarArgType", "contentTypeMultipart"]
-- !private ["PSs11CVarArgType", "dataEncoding"]
-- !private ["PSs11CVarArgType", "dataUsingEncoding"]
-- !private ["PSs11CVarArgType", "encodeParameters"]
-- !private ["PSs11CVarArgType", "failureHandler"]
-- !private ["PSs11CVarArgType", "headers"]
-- !private ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "makeHeaders"]
-- !private ["PSs11CVarArgType", "signatureForMethod"]
-- !private ["PSs11CVarArgType", "start"]
-- !private ["PSs11CVarArgType", "successHandler"]
-- !private ["VSs9Character", "deinit"]
-- !private ["PSs14CollectionType", "Generator"]
-- !private ["PSs14CollectionType", "Index"]
-- !private ["PSs14CollectionType", "SubSequence"]
-- !private ["PSs14CollectionType", "_Element"]
-- !private ["PSs14CollectionType", "init"]
-- !private ["PSs14CollectionType", "subscript"]
-- !private ["PSs10Comparable", "dataUsingEncoding"]
-- !private ["PSs10Comparable", "init"]
-- !private ["PSs28CustomDebugStringConvertible", "Generator"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs28CustomDebugStringConvertible", "dataUsingEncoding"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
-- !private ["PSs28CustomDebugStringConvertible", "subscript"]
-- ["PSs23CustomStringConvertible", "FailureHandler"]
-- !private ["PSs23CustomStringConvertible", "Generator"]
-- !private ["PSs23CustomStringConvertible", "HTTPBodyMultipart"]
-- ["PSs23CustomStringConvertible", "SuccessHandler"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "appendData"]
-- !private ["PSs23CustomStringConvertible", "authorizationHeaderForMethod"]
-- !private ["PSs23CustomStringConvertible", "consumer_key"]
-- !private ["PSs23CustomStringConvertible", "consumer_secret"]
-- !private ["PSs23CustomStringConvertible", "contentTypeMultipart"]
-- !private ["PSs23CustomStringConvertible", "dataEncoding"]
-- !private ["PSs23CustomStringConvertible", "dataUsingEncoding"]
-- !private ["PSs23CustomStringConvertible", "encodeParameters"]
-- !private ["PSs23CustomStringConvertible", "failureHandler"]
-- !private ["PSs23CustomStringConvertible", "headers"]
-- !private ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "makeHeaders"]
-- !private ["PSs23CustomStringConvertible", "signatureForMethod"]
-- !private ["PSs23CustomStringConvertible", "start"]
-- !private ["PSs23CustomStringConvertible", "subscript"]
-- !private ["PSs23CustomStringConvertible", "successHandler"]
-- !private ["VSs10Dictionary", "Generator"]
-- !private ["VSs10Dictionary", "init"]
-- !private ["VSs10Dictionary", "subscript"]
-- !private ["VSs19DictionaryGenerator", "Element"]
-- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
-- !private ["PSs28DictionaryLiteralConvertible", "init"]
-- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "FailureHandler"]
+- !private ["Ps11CVarArgType", "HTTPBodyMultipart"]
+- ["Ps11CVarArgType", "SuccessHandler"]
+- !private ["Ps11CVarArgType", "appendData"]
+- !private ["Ps11CVarArgType", "authorizationHeaderForMethod"]
+- !private ["Ps11CVarArgType", "consumer_key"]
+- !private ["Ps11CVarArgType", "consumer_secret"]
+- !private ["Ps11CVarArgType", "contentTypeMultipart"]
+- !private ["Ps11CVarArgType", "dataEncoding"]
+- !private ["Ps11CVarArgType", "dataUsingEncoding"]
+- !private ["Ps11CVarArgType", "encodeParameters"]
+- !private ["Ps11CVarArgType", "failureHandler"]
+- !private ["Ps11CVarArgType", "headers"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "makeHeaders"]
+- !private ["Ps11CVarArgType", "signatureForMethod"]
+- !private ["Ps11CVarArgType", "start"]
+- !private ["Ps11CVarArgType", "successHandler"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "dataUsingEncoding"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "FailureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPBodyMultipart"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "appendData"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizationHeaderForMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "consumer_key"]
+- !private ["Ps28CustomDebugStringConvertible", "consumer_secret"]
+- !private ["Ps28CustomDebugStringConvertible", "contentTypeMultipart"]
+- !private ["Ps28CustomDebugStringConvertible", "dataEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "failureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "headers"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeHeaders"]
+- !private ["Ps28CustomDebugStringConvertible", "signatureForMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "successHandler"]
+- ["Ps23CustomStringConvertible", "FailureHandler"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HTTPBodyMultipart"]
+- ["Ps23CustomStringConvertible", "SuccessHandler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appendData"]
+- !private ["Ps23CustomStringConvertible", "authorizationHeaderForMethod"]
+- !private ["Ps23CustomStringConvertible", "consumer_key"]
+- !private ["Ps23CustomStringConvertible", "consumer_secret"]
+- !private ["Ps23CustomStringConvertible", "contentTypeMultipart"]
+- !private ["Ps23CustomStringConvertible", "dataEncoding"]
+- !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["Ps23CustomStringConvertible", "encodeParameters"]
+- !private ["Ps23CustomStringConvertible", "failureHandler"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeHeaders"]
+- !private ["Ps23CustomStringConvertible", "signatureForMethod"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "successHandler"]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
 - !private ["Sd", "deinit"]
-- ["PSs9Equatable", "FailureHandler"]
-- !private ["PSs9Equatable", "HTTPBodyMultipart"]
-- ["PSs9Equatable", "SuccessHandler"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "appendData"]
-- !private ["PSs9Equatable", "authorizationHeaderForMethod"]
-- !private ["PSs9Equatable", "consumer_key"]
-- !private ["PSs9Equatable", "consumer_secret"]
-- !private ["PSs9Equatable", "contentTypeMultipart"]
-- !private ["PSs9Equatable", "dataEncoding"]
-- !private ["PSs9Equatable", "dataUsingEncoding"]
-- !private ["PSs9Equatable", "encodeParameters"]
-- !private ["PSs9Equatable", "failureHandler"]
-- !private ["PSs9Equatable", "headers"]
-- !private ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "makeHeaders"]
-- !private ["PSs9Equatable", "signatureForMethod"]
-- !private ["PSs9Equatable", "start"]
-- !private ["PSs9Equatable", "successHandler"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps9Equatable", "FailureHandler"]
+- !private ["Ps9Equatable", "HTTPBodyMultipart"]
+- ["Ps9Equatable", "SuccessHandler"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appendData"]
+- !private ["Ps9Equatable", "authorizationHeaderForMethod"]
+- !private ["Ps9Equatable", "consumer_key"]
+- !private ["Ps9Equatable", "consumer_secret"]
+- !private ["Ps9Equatable", "contentTypeMultipart"]
+- !private ["Ps9Equatable", "dataEncoding"]
+- !private ["Ps9Equatable", "dataUsingEncoding"]
+- !private ["Ps9Equatable", "encodeParameters"]
+- !private ["Ps9Equatable", "failureHandler"]
+- !private ["Ps9Equatable", "headers"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "makeHeaders"]
+- !private ["Ps9Equatable", "signatureForMethod"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "successHandler"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
-- !private ["PSs13GeneratorType", "Element"]
-- ["PSs8Hashable", "FailureHandler"]
-- !private ["PSs8Hashable", "HTTPBodyMultipart"]
-- ["PSs8Hashable", "SuccessHandler"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "appendData"]
-- !private ["PSs8Hashable", "authorizationHeaderForMethod"]
-- !private ["PSs8Hashable", "consumer_key"]
-- !private ["PSs8Hashable", "consumer_secret"]
-- !private ["PSs8Hashable", "contentTypeMultipart"]
-- !private ["PSs8Hashable", "dataEncoding"]
-- !private ["PSs8Hashable", "dataUsingEncoding"]
-- !private ["PSs8Hashable", "encodeParameters"]
-- !private ["PSs8Hashable", "failureHandler"]
-- !private ["PSs8Hashable", "headers"]
-- !private ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "makeHeaders"]
-- !private ["PSs8Hashable", "signatureForMethod"]
-- !private ["PSs8Hashable", "start"]
-- !private ["PSs8Hashable", "successHandler"]
-- !private ["PSs9Indexable", "Generator"]
-- !private ["PSs9Indexable", "Index"]
-- !private ["PSs9Indexable", "SubSequence"]
-- !private ["PSs9Indexable", "_Element"]
-- !private ["PSs9Indexable", "init"]
-- !private ["PSs9Indexable", "subscript"]
-- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "FailureHandler"]
+- !private ["Ps8Hashable", "HTTPBodyMultipart"]
+- ["Ps8Hashable", "SuccessHandler"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appendData"]
+- !private ["Ps8Hashable", "authorizationHeaderForMethod"]
+- !private ["Ps8Hashable", "consumer_key"]
+- !private ["Ps8Hashable", "consumer_secret"]
+- !private ["Ps8Hashable", "contentTypeMultipart"]
+- !private ["Ps8Hashable", "dataEncoding"]
+- !private ["Ps8Hashable", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "encodeParameters"]
+- !private ["Ps8Hashable", "failureHandler"]
+- !private ["Ps8Hashable", "headers"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "makeHeaders"]
+- !private ["Ps8Hashable", "signatureForMethod"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "successHandler"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
 - !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
-- !private ["PSs14MirrorPathType", "dataUsingEncoding"]
-- !private ["PSs14MirrorPathType", "init"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["Ps14MirrorPathType", "init"]
 - !private ["PSo8NSCoding", "appendData"]
 - !private ["PSo8NSCoding", "authorizationHeaderForMethod"]
 - !private ["PSo8NSCoding", "consumer_key"]
@@ -257,7 +273,7 @@ depends-member:
 - !private ["PSo20NSURLSessionDelegate", "init"]
 - !private ["PSo20NSURLSessionDelegate", "start"]
 - !private ["PSo20NSURLSessionDelegate", "successHandler"]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - ["C11AdMateOAuth16OAuthSwiftClient", "AnyObject"]
 - ["C11AdMateOAuth16OAuthSwiftClient", "Dictionary"]
 - ["C11AdMateOAuth16OAuthSwiftClient", "NSData"]
@@ -305,87 +321,85 @@ depends-member:
 - !private ["C11AdMateOAuth21OAuthSwiftHTTPRequest", "successHandler"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "dataUsingEncoding"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["PSs12SequenceType", "Element"]
-- !private ["PSs12SequenceType", "Generator"]
-- !private ["PSs12SequenceType", "Index"]
-- !private ["PSs12SequenceType", "SubSequence"]
-- !private ["PSs12SequenceType", "_Element"]
-- !private ["PSs12SequenceType", "init"]
-- !private ["PSs12SequenceType", "subscript"]
-- !private ["VSs5Slice", "Generator"]
-- !private ["VSs5Slice", "Index"]
-- !private ["VSs5Slice", "SubSequence"]
-- !private ["VSs5Slice", "_Element"]
-- !private ["PSs10Streamable", "dataUsingEncoding"]
-- !private ["PSs10Streamable", "init"]
+- !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["Ps10Streamable", "init"]
 - !private ["SS", "dataUsingEncoding"]
 - !private ["SS", "init"]
-- !private ["PSs30StringInterpolationConvertible", "dataUsingEncoding"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs16_CocoaStringType", "dataUsingEncoding"]
-- !private ["PSs16_CocoaStringType", "init"]
-- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
-- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "dataUsingEncoding"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
-- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- !private ["PSs12_Reflectable", "Generator"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "dataUsingEncoding"]
-- !private ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "subscript"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
-- !private "VSs9Character"
-- !private "PSs14CollectionType"
-- !private "PSs10Comparable"
-- "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
-- !private "VSs10Dictionary"
-- !private "VSs19DictionaryGenerator"
-- !private "PSs28DictionaryLiteralConvertible"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Ps28DictionaryLiteralConvertible"
 - !private "Sd"
-- "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- !private "PSs13GeneratorType"
-- "PSs8Hashable"
-- !private "PSs9Indexable"
-- !private "VSs17IndexingGenerator"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
-- !private "PSs14MirrorPathType"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "CSo6NSData"
@@ -400,35 +414,34 @@ depends-nominal:
 - !private "CSo5NSURL"
 - !private "PSo17NSURLHandleClient"
 - "PSo20NSURLSessionDelegate"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - "C11AdMateOAuth16OAuthSwiftClient"
 - !private "C11AdMateOAuth20OAuthSwiftCredential"
 - "C11AdMateOAuth21OAuthSwiftHTTPRequest"
 - "Sq"
-- !private "PSs16OutputStreamType"
-- !private "PSs12SequenceType"
-- !private "VSs5Slice"
-- !private "PSs10Streamable"
+- !private "Ps16OutputStreamType"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- !private "PSs32_FileReferenceLiteralConvertible"
-- !private "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
-- "PSs12_Reflectable"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -437,6 +450,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"

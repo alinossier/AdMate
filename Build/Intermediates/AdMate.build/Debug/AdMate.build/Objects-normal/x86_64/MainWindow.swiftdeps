@@ -6,138 +6,256 @@ provides-nominal:
 provides-member:
 - ["C6AdMate10MainWindow", ""]
 provides-dynamic-lookup:
-- "windowDidLoad"
-- "LoadDatData"
+- "SetLogin"
 - "RefreshData"
+- "windowDidLoad"
+- "SetLogout"
+- "LoadDatData"
+- "Login"
+- "LoginPressed"
 depends-top-level:
-- "NSWindowController"
-- !private "StringLiteralType"
-- "NSToolbarItem"
-- !private "NSNotificationCenter"
-- "AnyObject"
-- !private "print"
 - "MainWindow"
+- !private "StringLiteralType"
+- !private "print"
+- !private "NSNotificationCenter"
+- !private "NSImage"
+- "NSToolbarItem"
+- "NSWindowController"
+- "AnyObject"
 depends-member:
-- ["PSs9AnyObject", "LoadDatData"]
-- !private ["PSs9AnyObject", "NSNotificationCenter"]
-- ["PSs9AnyObject", "RefreshData"]
-- !private ["PSs9AnyObject", "defaultCenter"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "postNotificationName"]
-- !private ["PSs9AnyObject", "print"]
-- ["PSs9AnyObject", "windowDidLoad"]
-- ["PSs9AnyObject", ""]
-- ["PSs11CVarArgType", "LoadDatData"]
-- !private ["PSs11CVarArgType", "NSNotificationCenter"]
-- ["PSs11CVarArgType", "RefreshData"]
-- !private ["PSs11CVarArgType", "defaultCenter"]
-- ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "postNotificationName"]
-- !private ["PSs11CVarArgType", "print"]
-- ["PSs11CVarArgType", "windowDidLoad"]
-- ["PSs11CVarArgType", ""]
-- ["PSs23CustomStringConvertible", "LoadDatData"]
-- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
-- ["PSs23CustomStringConvertible", "RefreshData"]
-- !private ["PSs23CustomStringConvertible", "defaultCenter"]
-- ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "postNotificationName"]
-- !private ["PSs23CustomStringConvertible", "print"]
-- ["PSs23CustomStringConvertible", "windowDidLoad"]
-- ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "LoadDatData"]
-- !private ["PSs9Equatable", "NSNotificationCenter"]
-- ["PSs9Equatable", "RefreshData"]
-- !private ["PSs9Equatable", "defaultCenter"]
-- ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "postNotificationName"]
-- !private ["PSs9Equatable", "print"]
-- ["PSs9Equatable", "windowDidLoad"]
-- ["PSs9Equatable", ""]
-- ["PSs8Hashable", "LoadDatData"]
-- !private ["PSs8Hashable", "NSNotificationCenter"]
-- ["PSs8Hashable", "RefreshData"]
-- !private ["PSs8Hashable", "defaultCenter"]
-- ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "postNotificationName"]
-- !private ["PSs8Hashable", "print"]
-- ["PSs8Hashable", "windowDidLoad"]
-- ["PSs8Hashable", ""]
+- ["Ps9AnyObject", "LoadDatData"]
+- ["Ps9AnyObject", "Login"]
+- ["Ps9AnyObject", "LoginPressed"]
+- !private ["Ps9AnyObject", "NSImage"]
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- ["Ps9AnyObject", "RefreshData"]
+- ["Ps9AnyObject", "SetLogin"]
+- ["Ps9AnyObject", "SetLogout"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "postNotificationName"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "windowDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "LoadDatData"]
+- ["Ps11CVarArgType", "Login"]
+- ["Ps11CVarArgType", "LoginPressed"]
+- !private ["Ps11CVarArgType", "NSImage"]
+- !private ["Ps11CVarArgType", "NSNotificationCenter"]
+- ["Ps11CVarArgType", "RefreshData"]
+- ["Ps11CVarArgType", "SetLogin"]
+- ["Ps11CVarArgType", "SetLogout"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "postNotificationName"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "windowDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "LoadDatData"]
+- ["Ps28CustomDebugStringConvertible", "Login"]
+- ["Ps28CustomDebugStringConvertible", "LoginPressed"]
+- !private ["Ps28CustomDebugStringConvertible", "NSImage"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotificationCenter"]
+- ["Ps28CustomDebugStringConvertible", "RefreshData"]
+- ["Ps28CustomDebugStringConvertible", "SetLogin"]
+- ["Ps28CustomDebugStringConvertible", "SetLogout"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "postNotificationName"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "windowDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "LoadDatData"]
+- ["Ps23CustomStringConvertible", "Login"]
+- ["Ps23CustomStringConvertible", "LoginPressed"]
+- !private ["Ps23CustomStringConvertible", "NSImage"]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- ["Ps23CustomStringConvertible", "RefreshData"]
+- ["Ps23CustomStringConvertible", "SetLogin"]
+- ["Ps23CustomStringConvertible", "SetLogout"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "postNotificationName"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "windowDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "LoadDatData"]
+- ["Ps9Equatable", "Login"]
+- ["Ps9Equatable", "LoginPressed"]
+- !private ["Ps9Equatable", "NSImage"]
+- !private ["Ps9Equatable", "NSNotificationCenter"]
+- ["Ps9Equatable", "RefreshData"]
+- ["Ps9Equatable", "SetLogin"]
+- ["Ps9Equatable", "SetLogout"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "postNotificationName"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "windowDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "LoadDatData"]
+- ["Ps8Hashable", "Login"]
+- ["Ps8Hashable", "LoginPressed"]
+- !private ["Ps8Hashable", "NSImage"]
+- !private ["Ps8Hashable", "NSNotificationCenter"]
+- ["Ps8Hashable", "RefreshData"]
+- ["Ps8Hashable", "SetLogin"]
+- ["Ps8Hashable", "SetLogout"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "postNotificationName"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "windowDidLoad"]
+- ["Ps8Hashable", ""]
 - ["C6AdMate10MainWindow", "AnyObject"]
 - ["C6AdMate10MainWindow", "LoadDatData"]
+- ["C6AdMate10MainWindow", "Login"]
+- ["C6AdMate10MainWindow", "LoginPressed"]
+- !private ["C6AdMate10MainWindow", "NSImage"]
 - !private ["C6AdMate10MainWindow", "NSNotificationCenter"]
 - ["C6AdMate10MainWindow", "NSToolbarItem"]
 - ["C6AdMate10MainWindow", "RefreshData"]
+- ["C6AdMate10MainWindow", "SetLogin"]
+- ["C6AdMate10MainWindow", "SetLogout"]
 - ["C6AdMate10MainWindow", "deinit"]
 - ["C6AdMate10MainWindow", "init"]
 - !private ["C6AdMate10MainWindow", "print"]
 - ["C6AdMate10MainWindow", "windowDidLoad"]
 - ["PSo8NSCoding", "LoadDatData"]
+- ["PSo8NSCoding", "Login"]
+- ["PSo8NSCoding", "LoginPressed"]
+- !private ["PSo8NSCoding", "NSImage"]
 - !private ["PSo8NSCoding", "NSNotificationCenter"]
 - ["PSo8NSCoding", "RefreshData"]
+- ["PSo8NSCoding", "SetLogin"]
+- ["PSo8NSCoding", "SetLogout"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "windowDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "image"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo7NSImage", "init"]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
 - !private ["CSo20NSNotificationCenter", "defaultCenter"]
 - !private ["CSo20NSNotificationCenter", "postNotificationName"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "LoadDatData"]
+- ["CSo8NSObject", "Login"]
+- ["CSo8NSObject", "LoginPressed"]
+- !private ["CSo8NSObject", "NSImage"]
 - !private ["CSo8NSObject", "NSNotificationCenter"]
 - ["CSo8NSObject", "NSToolbarItem"]
 - ["CSo8NSObject", "RefreshData"]
+- ["CSo8NSObject", "SetLogin"]
+- ["CSo8NSObject", "SetLogout"]
+- !private ["CSo8NSObject", "addObserver"]
 - !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "image"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "postNotificationName"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "windowDidLoad"]
 - ["PSo16NSObjectProtocol", "LoadDatData"]
+- ["PSo16NSObjectProtocol", "Login"]
+- ["PSo16NSObjectProtocol", "LoginPressed"]
+- !private ["PSo16NSObjectProtocol", "NSImage"]
 - !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
 - ["PSo16NSObjectProtocol", "RefreshData"]
+- ["PSo16NSObjectProtocol", "SetLogin"]
+- ["PSo16NSObjectProtocol", "SetLogout"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
 - !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "image"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "postNotificationName"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "windowDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
 - ["CSo11NSResponder", "AnyObject"]
 - ["CSo11NSResponder", "LoadDatData"]
+- ["CSo11NSResponder", "Login"]
+- ["CSo11NSResponder", "LoginPressed"]
+- !private ["CSo11NSResponder", "NSImage"]
 - !private ["CSo11NSResponder", "NSNotificationCenter"]
 - ["CSo11NSResponder", "NSToolbarItem"]
 - ["CSo11NSResponder", "RefreshData"]
+- ["CSo11NSResponder", "SetLogin"]
+- ["CSo11NSResponder", "SetLogout"]
 - ["CSo11NSResponder", "init"]
 - !private ["CSo11NSResponder", "print"]
 - ["CSo11NSResponder", "windowDidLoad"]
+- !private ["PSo14NSSecureCoding", "init"]
 - ["PSo17NSSeguePerforming", "LoadDatData"]
+- ["PSo17NSSeguePerforming", "Login"]
+- ["PSo17NSSeguePerforming", "LoginPressed"]
+- !private ["PSo17NSSeguePerforming", "NSImage"]
 - !private ["PSo17NSSeguePerforming", "NSNotificationCenter"]
 - ["PSo17NSSeguePerforming", "RefreshData"]
+- ["PSo17NSSeguePerforming", "SetLogin"]
+- ["PSo17NSSeguePerforming", "SetLogout"]
 - ["PSo17NSSeguePerforming", "init"]
 - !private ["PSo17NSSeguePerforming", "print"]
 - ["PSo17NSSeguePerforming", "windowDidLoad"]
 - ["PSo17NSSeguePerforming", ""]
+- !private ["CSo13NSToolbarItem", "image"]
+- !private ["PSo28NSValidatedUserInterfaceItem", "image"]
 - ["CSo18NSWindowController", "AnyObject"]
 - ["CSo18NSWindowController", "LoadDatData"]
+- ["CSo18NSWindowController", "Login"]
+- ["CSo18NSWindowController", "LoginPressed"]
+- !private ["CSo18NSWindowController", "NSImage"]
 - !private ["CSo18NSWindowController", "NSNotificationCenter"]
 - ["CSo18NSWindowController", "NSToolbarItem"]
 - ["CSo18NSWindowController", "RefreshData"]
+- ["CSo18NSWindowController", "SetLogin"]
+- ["CSo18NSWindowController", "SetLogout"]
 - ["CSo18NSWindowController", "init"]
 - !private ["CSo18NSWindowController", "print"]
 - ["CSo18NSWindowController", "windowDidLoad"]
 - ["CSo18NSWindowController", ""]
+- !private ["Sq", "deinit"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
 depends-nominal:
-- "PSs9AnyObject"
-- "PSs11CVarArgType"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- "PSs8Hashable"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
 - "C6AdMate10MainWindow"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSImage"
 - !private "CSo20NSNotificationCenter"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
 - "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
 - "PSo17NSSeguePerforming"
+- !private "CSo13NSToolbarItem"
+- !private "PSo28NSValidatedUserInterfaceItem"
 - "CSo18NSWindowController"
+- !private "Sq"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps24_ImageLiteralConvertible"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -146,19 +264,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
@@ -169,4 +290,4 @@ depends-external:
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
-interface-hash: "2a8af4cbdc909629739a515a588c0dae"
+interface-hash: "8e2db3c610f4011cf4cc2cca4bd7cfdc"

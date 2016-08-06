@@ -19,8 +19,9 @@ import AdMateOAuth
 class LoginScreen: NSViewController {
  
     @IBOutlet var ActionButton: NSButton!
-    
     @IBOutlet var ErrorLine: NSTextField!
+    @IBOutlet var ErrorLine2: NSTextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,20 +78,30 @@ class LoginScreen: NSViewController {
                             print("About to close")
                             NSNotificationCenter.defaultCenter().postNotificationName("UserDidLogin", object: nil)
                             self.dismissController(self)
-
+                            self.CloseModal(self)
                             print("Got user ID")
                             return
                         
                     } else {
                         
-                            self.ErrorLine.stringValue = "Er3: Unexpected error please try again"
+                            // Need to standardise those error messages
+                        
+                            self.ErrorLine.stringValue = "Unexpected error please try again"
+                            self.ErrorLine.textColor = NSColor.redColor()
+                            self.ErrorLine2.stringValue = "Ouups, that wasn't supposed to happen"
+                            self.ErrorLine2.textColor = NSColor.redColor()
+                            oauth2.forgetTokens()
                             return
                     
                     }
                     
                 } else {
                 
-                    self.ErrorLine.stringValue = "Er6: Could not locate a valid AdMob Account"
+                    self.ErrorLine.stringValue = "Could not locate a valid AdMob Account"
+                    self.ErrorLine.textColor = NSColor.redColor()
+                    self.ErrorLine2.stringValue = "Sign up for AdMob and try again" 
+                    self.ErrorLine2.textColor = NSColor.redColor()
+                    oauth2.forgetTokens()
                     return
                 
                 }
@@ -101,7 +112,7 @@ class LoginScreen: NSViewController {
         oauth2.onFailure = { error in  // `error` is nil on cancel
             if nil != error {
                 
-                self.ErrorLine.stringValue = "\(error)"
+                self.ErrorLine.stringValue = error.debugDescription
                 return
                  // Print Alert message
             }
@@ -122,8 +133,9 @@ class LoginScreen: NSViewController {
     
     func CloseModal (sender:AnyObject){
         
-        let window = NSApp.mainWindow! as NSWindow
-        window.attachedSheet!.close()
+//        let window = NSApp.mainWindow! as NSWindow
+//        window.attachedSheet!.close()
+        self.view.window?.close()
         
         print("Close")
     }
@@ -135,6 +147,7 @@ class LoginScreen: NSViewController {
         
         let session = NSURLSession.sharedSession()
         print("SESSION1")
+        
         let task = session.dataTaskWithRequest(req) { data, response, error in
             if nil != error {
                 
@@ -173,25 +186,29 @@ class LoginScreen: NSViewController {
                             
                         } else {
                             
-                            
+                                dispatch_async(dispatch_get_main_queue()) {
                                 self.ErrorLine.stringValue = "Er1: Could not locate a valid AdMob/AdSense Account"
+                                print("Er5.1: Could not locate a valid AdMob/AdSense Account")
                                 callback(dict: nil, error: nil)
-                        
+                                }
                         }
                             
                         } else {
                             
-                            
+                                dispatch_async(dispatch_get_main_queue()) {
                                 self.ErrorLine.stringValue = "Er2: Could not locate a valid AdMob/AdSense Account"
+                                print("Er5.2: Could not locate a valid AdMob/AdSense Account")
                                 callback(dict: nil, error: nil)
+                                }
                             
                         }
                     
                     } else {
-                    
+                        dispatch_async(dispatch_get_main_queue()) {
                         self.ErrorLine.stringValue = "Er5: Could not locate a valid AdMob/AdSense Account"
+                        print("Er5.3: Could not locate a valid AdMob/AdSense Account")
                         callback(dict: nil, error: nil)
-                    
+                        }
                     
                     }
                 

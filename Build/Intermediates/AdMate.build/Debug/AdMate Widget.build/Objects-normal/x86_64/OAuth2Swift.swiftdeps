@@ -10,106 +10,106 @@ provides-member:
 - ["VC13AdMate_Widget11OAuth2Swift20CallbackNotification", ""]
 - ["VC13AdMate_Widget11OAuth2Swift15OAuthSwiftError", ""]
 provides-dynamic-lookup:
-- "observer"
-- "content_type"
-- "authorize_url_handler"
 - "authorizeWithCallbackURL"
 - "authorize_url"
-- "consumer_key"
-- "access_token_url"
-- "postOAuthAccessTokenWithRequestTokenByCode"
-- "consumer_secret"
+- "observer"
 - "response_type"
+- "consumer_key"
+- "authorize_url_handler"
+- "consumer_secret"
+- "postOAuthAccessTokenWithRequestTokenByCode"
 - "handleOpenURL"
+- "access_token_url"
+- "content_type"
 depends-top-level:
-- "OAuthSwiftOpenURLExternally"
-- !private "NSLocalizedString"
-- "Dictionary"
-- "OAuthSwiftURLHandlerType"
+- !private "+"
+- "OAuthSwiftCredential"
+- "OAuth2Swift"
+- !private "+="
+- "NSURLResponse"
+- "NSDictionary"
+- "Void"
 - !private "NSJSONSerialization"
-- !private "NSString"
+- !private "NSNotificationCenter"
+- "NSURL"
+- !private "&&"
+- !private "OAuthSwiftErrorDomain"
 - !private "!="
 - !private "=="
-- !private "&&"
-- !private "NSLocalizedFailureReasonErrorKey"
-- !private "OAuthSwiftErrorDomain"
-- "String"
-- "StringLiteralType"
-- "NSObject"
-- !private "NSNotification"
-- "OAuthSwiftClient"
-- "Void"
-- "OAuthSwiftCredential"
-- "NSDictionary"
-- !private "NSOperationQueue"
-- "OAuth2Swift"
-- "AnyObject"
-- "NSError"
-- "NSURLResponse"
-- !private "+"
 - !private "UnicodeScalarType"
-- !private "NSUTF8StringEncoding"
-- "BooleanLiteralType"
 - !private "NSJSONReadingOptions"
-- !private "NSNotificationCenter"
-- !private "+="
-- "NSURL"
+- "StringLiteralType"
+- !private "NSUTF8StringEncoding"
+- "OAuthSwiftClient"
+- !private "NSOperationQueue"
+- "AnyObject"
+- !private "NSLocalizedString"
+- !private "NSString"
+- "NSError"
+- "String"
+- !private "NSNotification"
+- "OAuthSwiftURLHandlerType"
+- "NSObject"
+- "Dictionary"
+- "BooleanLiteralType"
+- !private "NSLocalizedFailureReasonErrorKey"
+- "OAuthSwiftOpenURLExternally"
 depends-member:
-- !private ["PSs9AnyObject", "CallbackNotification"]
-- !private ["PSs9AnyObject", "Dictionary"]
-- !private ["PSs9AnyObject", "JSONObjectWithData"]
-- !private ["PSs9AnyObject", "NSError"]
-- !private ["PSs9AnyObject", "NSJSONReadingOptions"]
-- !private ["PSs9AnyObject", "NSJSONSerialization"]
-- !private ["PSs9AnyObject", "NSLocalizedFailureReasonErrorKey"]
-- !private ["PSs9AnyObject", "NSLocalizedString"]
-- !private ["PSs9AnyObject", "NSNotification"]
-- !private ["PSs9AnyObject", "NSNotificationCenter"]
-- !private ["PSs9AnyObject", "NSOperationQueue"]
-- !private ["PSs9AnyObject", "NSString"]
-- !private ["PSs9AnyObject", "NSURL"]
-- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
-- !private ["PSs9AnyObject", "OAuthSwiftClient"]
-- !private ["PSs9AnyObject", "OAuthSwiftErrorDomain"]
-- ["PSs9AnyObject", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs9AnyObject", "String"]
-- !private ["PSs9AnyObject", "absoluteString"]
-- ["PSs9AnyObject", "access_token_url"]
-- !private ["PSs9AnyObject", "addObserverForName"]
-- ["PSs9AnyObject", "authorizeWithCallbackURL"]
-- ["PSs9AnyObject", "authorize_url"]
-- ["PSs9AnyObject", "authorize_url_handler"]
-- ["PSs9AnyObject", "client"]
-- ["PSs9AnyObject", "consumer_key"]
-- ["PSs9AnyObject", "consumer_secret"]
-- ["PSs9AnyObject", "content_type"]
-- !private ["PSs9AnyObject", "credential"]
-- !private ["PSs9AnyObject", "defaultCenter"]
-- !private ["PSs9AnyObject", "deinit"]
-- !private ["PSs9AnyObject", "fragment"]
-- ["PSs9AnyObject", "handleOpenURL"]
-- !private ["PSs9AnyObject", "has"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "isEmpty"]
-- !private ["PSs9AnyObject", "mainQueue"]
-- !private ["PSs9AnyObject", "oauth_header_type"]
-- !private ["PSs9AnyObject", "oauth_token"]
-- ["PSs9AnyObject", "observer"]
-- !private ["PSs9AnyObject", "parametersFromQueryString"]
-- !private ["PSs9AnyObject", "post"]
-- !private ["PSs9AnyObject", "postMultiPartRequest"]
-- !private ["PSs9AnyObject", "postNotification"]
-- ["PSs9AnyObject", "postOAuthAccessTokenWithRequestTokenByCode"]
-- !private ["PSs9AnyObject", "query"]
-- !private ["PSs9AnyObject", "removeObserver"]
-- ["PSs9AnyObject", "response_type"]
-- ["PSs9AnyObject", "sharedInstance"]
-- !private ["PSs9AnyObject", "stringByRemovingPercentEncoding"]
-- !private ["PSs9AnyObject", "subscript"]
-- !private ["PSs9AnyObject", "userInfo"]
-- ["PSs9AnyObject", ""]
-- !private ["PSs23ArrayLiteralConvertible", "MutableContainers"]
-- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps9AnyObject", "CallbackNotification"]
+- !private ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "JSONObjectWithData"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSJSONReadingOptions"]
+- !private ["Ps9AnyObject", "NSJSONSerialization"]
+- !private ["Ps9AnyObject", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps9AnyObject", "NSLocalizedString"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "NSOperationQueue"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "OAuthSwiftClient"]
+- !private ["Ps9AnyObject", "OAuthSwiftErrorDomain"]
+- ["Ps9AnyObject", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "absoluteString"]
+- ["Ps9AnyObject", "access_token_url"]
+- !private ["Ps9AnyObject", "addObserverForName"]
+- ["Ps9AnyObject", "authorizeWithCallbackURL"]
+- ["Ps9AnyObject", "authorize_url"]
+- ["Ps9AnyObject", "authorize_url_handler"]
+- ["Ps9AnyObject", "client"]
+- ["Ps9AnyObject", "consumer_key"]
+- ["Ps9AnyObject", "consumer_secret"]
+- ["Ps9AnyObject", "content_type"]
+- !private ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "fragment"]
+- ["Ps9AnyObject", "handleOpenURL"]
+- !private ["Ps9AnyObject", "has"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "mainQueue"]
+- !private ["Ps9AnyObject", "oauth_header_type"]
+- !private ["Ps9AnyObject", "oauth_token"]
+- ["Ps9AnyObject", "observer"]
+- !private ["Ps9AnyObject", "parametersFromQueryString"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "postMultiPartRequest"]
+- !private ["Ps9AnyObject", "postNotification"]
+- ["Ps9AnyObject", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps9AnyObject", "query"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- ["Ps9AnyObject", "response_type"]
+- ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "stringByRemovingPercentEncoding"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "userInfo"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "MutableContainers"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["P6SQLite7Binding", "IntegerLiteralType"]
 - !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
 - !private ["P6SQLite7Binding", "has"]
@@ -117,224 +117,266 @@ depends-member:
 - !private ["P6SQLite7Binding", "isEmpty"]
 - !private ["P6SQLite7Binding", "parametersFromQueryString"]
 - !private ["P6SQLite7Binding", "stringByRemovingPercentEncoding"]
-- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "CallbackNotification"]
-- !private ["PSs11CVarArgType", "Dictionary"]
-- !private ["PSs11CVarArgType", "IntegerLiteralType"]
-- !private ["PSs11CVarArgType", "JSONObjectWithData"]
-- !private ["PSs11CVarArgType", "NSError"]
-- !private ["PSs11CVarArgType", "NSJSONReadingOptions"]
-- !private ["PSs11CVarArgType", "NSJSONSerialization"]
-- !private ["PSs11CVarArgType", "NSLocalizedFailureReasonErrorKey"]
-- !private ["PSs11CVarArgType", "NSLocalizedString"]
-- !private ["PSs11CVarArgType", "NSNotification"]
-- !private ["PSs11CVarArgType", "NSNotificationCenter"]
-- !private ["PSs11CVarArgType", "NSOperationQueue"]
-- !private ["PSs11CVarArgType", "NSString"]
-- !private ["PSs11CVarArgType", "NSURL"]
-- !private ["PSs11CVarArgType", "NSUTF8StringEncoding"]
-- !private ["PSs11CVarArgType", "OAuthSwiftClient"]
-- !private ["PSs11CVarArgType", "OAuthSwiftErrorDomain"]
-- ["PSs11CVarArgType", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs11CVarArgType", "String"]
-- !private ["PSs11CVarArgType", "absoluteString"]
-- ["PSs11CVarArgType", "access_token_url"]
-- !private ["PSs11CVarArgType", "addObserverForName"]
-- ["PSs11CVarArgType", "authorizeWithCallbackURL"]
-- ["PSs11CVarArgType", "authorize_url"]
-- ["PSs11CVarArgType", "authorize_url_handler"]
-- ["PSs11CVarArgType", "client"]
-- ["PSs11CVarArgType", "consumer_key"]
-- ["PSs11CVarArgType", "consumer_secret"]
-- ["PSs11CVarArgType", "content_type"]
-- !private ["PSs11CVarArgType", "defaultCenter"]
-- !private ["PSs11CVarArgType", "fragment"]
-- ["PSs11CVarArgType", "handleOpenURL"]
-- !private ["PSs11CVarArgType", "has"]
-- ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "isEmpty"]
-- !private ["PSs11CVarArgType", "mainQueue"]
-- !private ["PSs11CVarArgType", "oauth_header_type"]
-- !private ["PSs11CVarArgType", "oauth_token"]
-- ["PSs11CVarArgType", "observer"]
-- !private ["PSs11CVarArgType", "parametersFromQueryString"]
-- !private ["PSs11CVarArgType", "postNotification"]
-- ["PSs11CVarArgType", "postOAuthAccessTokenWithRequestTokenByCode"]
-- !private ["PSs11CVarArgType", "query"]
-- !private ["PSs11CVarArgType", "removeObserver"]
-- ["PSs11CVarArgType", "response_type"]
-- !private ["PSs11CVarArgType", "stringByRemovingPercentEncoding"]
-- !private ["PSs11CVarArgType", "subscript"]
-- !private ["PSs11CVarArgType", "userInfo"]
-- ["PSs11CVarArgType", ""]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "CallbackNotification"]
+- !private ["Ps11CVarArgType", "Dictionary"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "JSONObjectWithData"]
+- !private ["Ps11CVarArgType", "NSError"]
+- !private ["Ps11CVarArgType", "NSJSONReadingOptions"]
+- !private ["Ps11CVarArgType", "NSJSONSerialization"]
+- !private ["Ps11CVarArgType", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps11CVarArgType", "NSLocalizedString"]
+- !private ["Ps11CVarArgType", "NSNotification"]
+- !private ["Ps11CVarArgType", "NSNotificationCenter"]
+- !private ["Ps11CVarArgType", "NSOperationQueue"]
+- !private ["Ps11CVarArgType", "NSString"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "NSUTF8StringEncoding"]
+- !private ["Ps11CVarArgType", "OAuthSwiftClient"]
+- !private ["Ps11CVarArgType", "OAuthSwiftErrorDomain"]
+- ["Ps11CVarArgType", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "absoluteString"]
+- ["Ps11CVarArgType", "access_token_url"]
+- !private ["Ps11CVarArgType", "addObserverForName"]
+- ["Ps11CVarArgType", "authorizeWithCallbackURL"]
+- ["Ps11CVarArgType", "authorize_url"]
+- ["Ps11CVarArgType", "authorize_url_handler"]
+- ["Ps11CVarArgType", "client"]
+- ["Ps11CVarArgType", "consumer_key"]
+- ["Ps11CVarArgType", "consumer_secret"]
+- ["Ps11CVarArgType", "content_type"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "fragment"]
+- ["Ps11CVarArgType", "handleOpenURL"]
+- !private ["Ps11CVarArgType", "has"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isEmpty"]
+- !private ["Ps11CVarArgType", "mainQueue"]
+- !private ["Ps11CVarArgType", "oauth_header_type"]
+- !private ["Ps11CVarArgType", "oauth_token"]
+- ["Ps11CVarArgType", "observer"]
+- !private ["Ps11CVarArgType", "parametersFromQueryString"]
+- !private ["Ps11CVarArgType", "postNotification"]
+- ["Ps11CVarArgType", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps11CVarArgType", "query"]
+- !private ["Ps11CVarArgType", "removeObserver"]
+- ["Ps11CVarArgType", "response_type"]
+- !private ["Ps11CVarArgType", "stringByRemovingPercentEncoding"]
+- !private ["Ps11CVarArgType", "subscript"]
+- !private ["Ps11CVarArgType", "userInfo"]
+- ["Ps11CVarArgType", ""]
 - ["VC13AdMate_Widget11OAuth2Swift20CallbackNotification", "init"]
 - ["VC13AdMate_Widget11OAuth2Swift20CallbackNotification", "notificationName"]
 - ["VC13AdMate_Widget11OAuth2Swift20CallbackNotification", "optionsURLKey"]
-- !private ["VSs9Character", "deinit"]
-- !private ["PSs14CollectionType", "Generator"]
-- !private ["PSs14CollectionType", "Index"]
-- !private ["PSs14CollectionType", "Key"]
-- !private ["PSs14CollectionType", "SubSequence"]
-- !private ["PSs14CollectionType", "Value"]
-- !private ["PSs14CollectionType", "_Element"]
-- !private ["PSs14CollectionType", "init"]
-- !private ["PSs14CollectionType", "subscript"]
-- !private ["PSs10Comparable", "Distance"]
-- !private ["PSs10Comparable", "IntegerLiteralType"]
-- !private ["PSs10Comparable", "_DisabledRangeIndex"]
-- !private ["PSs10Comparable", "has"]
-- !private ["PSs10Comparable", "init"]
-- !private ["PSs10Comparable", "isEmpty"]
-- !private ["PSs10Comparable", "parametersFromQueryString"]
-- !private ["PSs10Comparable", "stringByRemovingPercentEncoding"]
-- !private ["PSs28CustomDebugStringConvertible", "Generator"]
-- !private ["PSs28CustomDebugStringConvertible", "Index"]
-- !private ["PSs28CustomDebugStringConvertible", "Key"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
-- !private ["PSs28CustomDebugStringConvertible", "Value"]
-- !private ["PSs28CustomDebugStringConvertible", "_Element"]
-- !private ["PSs28CustomDebugStringConvertible", "has"]
-- !private ["PSs28CustomDebugStringConvertible", "init"]
-- !private ["PSs28CustomDebugStringConvertible", "isEmpty"]
-- !private ["PSs28CustomDebugStringConvertible", "parametersFromQueryString"]
-- !private ["PSs28CustomDebugStringConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs28CustomDebugStringConvertible", "subscript"]
-- !private ["PSs23CustomStringConvertible", "CallbackNotification"]
-- !private ["PSs23CustomStringConvertible", "Dictionary"]
-- !private ["PSs23CustomStringConvertible", "Generator"]
-- !private ["PSs23CustomStringConvertible", "Index"]
-- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
-- !private ["PSs23CustomStringConvertible", "JSONObjectWithData"]
-- !private ["PSs23CustomStringConvertible", "Key"]
-- !private ["PSs23CustomStringConvertible", "NSError"]
-- !private ["PSs23CustomStringConvertible", "NSJSONReadingOptions"]
-- !private ["PSs23CustomStringConvertible", "NSJSONSerialization"]
-- !private ["PSs23CustomStringConvertible", "NSLocalizedFailureReasonErrorKey"]
-- !private ["PSs23CustomStringConvertible", "NSLocalizedString"]
-- !private ["PSs23CustomStringConvertible", "NSNotification"]
-- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
-- !private ["PSs23CustomStringConvertible", "NSOperationQueue"]
-- !private ["PSs23CustomStringConvertible", "NSString"]
-- !private ["PSs23CustomStringConvertible", "NSURL"]
-- !private ["PSs23CustomStringConvertible", "NSUTF8StringEncoding"]
-- !private ["PSs23CustomStringConvertible", "OAuthSwiftClient"]
-- !private ["PSs23CustomStringConvertible", "OAuthSwiftErrorDomain"]
-- ["PSs23CustomStringConvertible", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs23CustomStringConvertible", "String"]
-- !private ["PSs23CustomStringConvertible", "SubSequence"]
-- !private ["PSs23CustomStringConvertible", "Value"]
-- !private ["PSs23CustomStringConvertible", "_Element"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs23CustomStringConvertible", "absoluteString"]
-- ["PSs23CustomStringConvertible", "access_token_url"]
-- !private ["PSs23CustomStringConvertible", "addObserverForName"]
-- ["PSs23CustomStringConvertible", "authorizeWithCallbackURL"]
-- ["PSs23CustomStringConvertible", "authorize_url"]
-- ["PSs23CustomStringConvertible", "authorize_url_handler"]
-- ["PSs23CustomStringConvertible", "client"]
-- ["PSs23CustomStringConvertible", "consumer_key"]
-- ["PSs23CustomStringConvertible", "consumer_secret"]
-- ["PSs23CustomStringConvertible", "content_type"]
-- !private ["PSs23CustomStringConvertible", "defaultCenter"]
-- !private ["PSs23CustomStringConvertible", "fragment"]
-- ["PSs23CustomStringConvertible", "handleOpenURL"]
-- !private ["PSs23CustomStringConvertible", "has"]
-- ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "isEmpty"]
-- !private ["PSs23CustomStringConvertible", "mainQueue"]
-- !private ["PSs23CustomStringConvertible", "oauth_header_type"]
-- !private ["PSs23CustomStringConvertible", "oauth_token"]
-- ["PSs23CustomStringConvertible", "observer"]
-- !private ["PSs23CustomStringConvertible", "parametersFromQueryString"]
-- !private ["PSs23CustomStringConvertible", "postNotification"]
-- ["PSs23CustomStringConvertible", "postOAuthAccessTokenWithRequestTokenByCode"]
-- !private ["PSs23CustomStringConvertible", "query"]
-- !private ["PSs23CustomStringConvertible", "removeObserver"]
-- ["PSs23CustomStringConvertible", "response_type"]
-- !private ["PSs23CustomStringConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs23CustomStringConvertible", "subscript"]
-- !private ["PSs23CustomStringConvertible", "userInfo"]
-- ["PSs23CustomStringConvertible", ""]
-- !private ["VSs10Dictionary", "Generator"]
-- !private ["VSs10Dictionary", "Index"]
-- !private ["VSs10Dictionary", "Key"]
-- !private ["VSs10Dictionary", "SubSequence"]
-- !private ["VSs10Dictionary", "Value"]
-- !private ["VSs10Dictionary", "_Element"]
-- !private ["VSs10Dictionary", "deinit"]
-- !private ["VSs10Dictionary", "init"]
-- !private ["VSs10Dictionary", "subscript"]
-- !private ["VSs19DictionaryGenerator", "Element"]
-- !private ["VSs15DictionaryIndex", "Distance"]
-- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
-- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
-- !private ["PSs28DictionaryLiteralConvertible", "Index"]
-- !private ["PSs28DictionaryLiteralConvertible", "Key"]
-- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
-- !private ["PSs28DictionaryLiteralConvertible", "Value"]
-- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
-- !private ["PSs28DictionaryLiteralConvertible", "init"]
-- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "has"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "parametersFromQueryString"]
+- !private ["Ps10Comparable", "stringByRemovingPercentEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "CallbackNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Dictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONObjectWithData"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "NSJSONReadingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "NSJSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSOperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUTF8StringEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "OAuthSwiftClient"]
+- !private ["Ps28CustomDebugStringConvertible", "OAuthSwiftErrorDomain"]
+- ["Ps28CustomDebugStringConvertible", "OAuthSwiftOpenURLExternally"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
+- ["Ps28CustomDebugStringConvertible", "access_token_url"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserverForName"]
+- ["Ps28CustomDebugStringConvertible", "authorizeWithCallbackURL"]
+- ["Ps28CustomDebugStringConvertible", "authorize_url"]
+- ["Ps28CustomDebugStringConvertible", "authorize_url_handler"]
+- ["Ps28CustomDebugStringConvertible", "client"]
+- ["Ps28CustomDebugStringConvertible", "consumer_key"]
+- ["Ps28CustomDebugStringConvertible", "consumer_secret"]
+- ["Ps28CustomDebugStringConvertible", "content_type"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "fragment"]
+- ["Ps28CustomDebugStringConvertible", "handleOpenURL"]
+- !private ["Ps28CustomDebugStringConvertible", "has"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "mainQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "oauth_header_type"]
+- !private ["Ps28CustomDebugStringConvertible", "oauth_token"]
+- ["Ps28CustomDebugStringConvertible", "observer"]
+- !private ["Ps28CustomDebugStringConvertible", "parametersFromQueryString"]
+- !private ["Ps28CustomDebugStringConvertible", "postNotification"]
+- ["Ps28CustomDebugStringConvertible", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps28CustomDebugStringConvertible", "query"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- ["Ps28CustomDebugStringConvertible", "response_type"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CallbackNotification"]
+- !private ["Ps23CustomStringConvertible", "Dictionary"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "NSJSONReadingOptions"]
+- !private ["Ps23CustomStringConvertible", "NSJSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedString"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "NSOperationQueue"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "NSUTF8StringEncoding"]
+- !private ["Ps23CustomStringConvertible", "OAuthSwiftClient"]
+- !private ["Ps23CustomStringConvertible", "OAuthSwiftErrorDomain"]
+- ["Ps23CustomStringConvertible", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
+- ["Ps23CustomStringConvertible", "access_token_url"]
+- !private ["Ps23CustomStringConvertible", "addObserverForName"]
+- ["Ps23CustomStringConvertible", "authorizeWithCallbackURL"]
+- ["Ps23CustomStringConvertible", "authorize_url"]
+- ["Ps23CustomStringConvertible", "authorize_url_handler"]
+- ["Ps23CustomStringConvertible", "client"]
+- ["Ps23CustomStringConvertible", "consumer_key"]
+- ["Ps23CustomStringConvertible", "consumer_secret"]
+- ["Ps23CustomStringConvertible", "content_type"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "fragment"]
+- ["Ps23CustomStringConvertible", "handleOpenURL"]
+- !private ["Ps23CustomStringConvertible", "has"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "mainQueue"]
+- !private ["Ps23CustomStringConvertible", "oauth_header_type"]
+- !private ["Ps23CustomStringConvertible", "oauth_token"]
+- ["Ps23CustomStringConvertible", "observer"]
+- !private ["Ps23CustomStringConvertible", "parametersFromQueryString"]
+- !private ["Ps23CustomStringConvertible", "postNotification"]
+- ["Ps23CustomStringConvertible", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps23CustomStringConvertible", "query"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- ["Ps23CustomStringConvertible", "response_type"]
+- !private ["Ps23CustomStringConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Vs15DictionaryIndex", "Distance"]
+- !private ["Vs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "_Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
 - !private ["Sd", "deinit"]
-- !private ["PSs9Equatable", "CallbackNotification"]
-- !private ["PSs9Equatable", "Dictionary"]
-- !private ["PSs9Equatable", "Distance"]
-- !private ["PSs9Equatable", "IntegerLiteralType"]
-- !private ["PSs9Equatable", "JSONObjectWithData"]
-- !private ["PSs9Equatable", "MutableContainers"]
-- !private ["PSs9Equatable", "NSError"]
-- !private ["PSs9Equatable", "NSJSONReadingOptions"]
-- !private ["PSs9Equatable", "NSJSONSerialization"]
-- !private ["PSs9Equatable", "NSLocalizedFailureReasonErrorKey"]
-- !private ["PSs9Equatable", "NSLocalizedString"]
-- !private ["PSs9Equatable", "NSNotification"]
-- !private ["PSs9Equatable", "NSNotificationCenter"]
-- !private ["PSs9Equatable", "NSOperationQueue"]
-- !private ["PSs9Equatable", "NSString"]
-- !private ["PSs9Equatable", "NSURL"]
-- !private ["PSs9Equatable", "NSUTF8StringEncoding"]
-- !private ["PSs9Equatable", "OAuthSwiftClient"]
-- !private ["PSs9Equatable", "OAuthSwiftErrorDomain"]
-- ["PSs9Equatable", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs9Equatable", "String"]
-- !private ["PSs9Equatable", "_DisabledRangeIndex"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- !private ["PSs9Equatable", "absoluteString"]
-- ["PSs9Equatable", "access_token_url"]
-- !private ["PSs9Equatable", "addObserverForName"]
-- ["PSs9Equatable", "authorizeWithCallbackURL"]
-- ["PSs9Equatable", "authorize_url"]
-- ["PSs9Equatable", "authorize_url_handler"]
-- ["PSs9Equatable", "client"]
-- ["PSs9Equatable", "consumer_key"]
-- ["PSs9Equatable", "consumer_secret"]
-- ["PSs9Equatable", "content_type"]
-- !private ["PSs9Equatable", "defaultCenter"]
-- !private ["PSs9Equatable", "fragment"]
-- ["PSs9Equatable", "handleOpenURL"]
-- !private ["PSs9Equatable", "has"]
-- ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "isEmpty"]
-- !private ["PSs9Equatable", "mainQueue"]
-- !private ["PSs9Equatable", "oauth_header_type"]
-- !private ["PSs9Equatable", "oauth_token"]
-- ["PSs9Equatable", "observer"]
-- !private ["PSs9Equatable", "parametersFromQueryString"]
-- !private ["PSs9Equatable", "postNotification"]
-- ["PSs9Equatable", "postOAuthAccessTokenWithRequestTokenByCode"]
-- !private ["PSs9Equatable", "query"]
-- !private ["PSs9Equatable", "removeObserver"]
-- ["PSs9Equatable", "response_type"]
-- !private ["PSs9Equatable", "stringByRemovingPercentEncoding"]
-- !private ["PSs9Equatable", "subscript"]
-- !private ["PSs9Equatable", "userInfo"]
-- ["PSs9Equatable", ""]
-- !private ["PSs9ErrorType", "init"]
+- !private ["Ps9Equatable", "CallbackNotification"]
+- !private ["Ps9Equatable", "Dictionary"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSONObjectWithData"]
+- !private ["Ps9Equatable", "MutableContainers"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "NSJSONReadingOptions"]
+- !private ["Ps9Equatable", "NSJSONSerialization"]
+- !private ["Ps9Equatable", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps9Equatable", "NSLocalizedString"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "NSNotificationCenter"]
+- !private ["Ps9Equatable", "NSOperationQueue"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSUTF8StringEncoding"]
+- !private ["Ps9Equatable", "OAuthSwiftClient"]
+- !private ["Ps9Equatable", "OAuthSwiftErrorDomain"]
+- ["Ps9Equatable", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "absoluteString"]
+- ["Ps9Equatable", "access_token_url"]
+- !private ["Ps9Equatable", "addObserverForName"]
+- ["Ps9Equatable", "authorizeWithCallbackURL"]
+- ["Ps9Equatable", "authorize_url"]
+- ["Ps9Equatable", "authorize_url_handler"]
+- ["Ps9Equatable", "client"]
+- ["Ps9Equatable", "consumer_key"]
+- ["Ps9Equatable", "consumer_secret"]
+- ["Ps9Equatable", "content_type"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "fragment"]
+- ["Ps9Equatable", "handleOpenURL"]
+- !private ["Ps9Equatable", "has"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "mainQueue"]
+- !private ["Ps9Equatable", "oauth_header_type"]
+- !private ["Ps9Equatable", "oauth_token"]
+- ["Ps9Equatable", "observer"]
+- !private ["Ps9Equatable", "parametersFromQueryString"]
+- !private ["Ps9Equatable", "postNotification"]
+- ["Ps9Equatable", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps9Equatable", "query"]
+- !private ["Ps9Equatable", "removeObserver"]
+- ["Ps9Equatable", "response_type"]
+- !private ["Ps9Equatable", "stringByRemovingPercentEncoding"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "init"]
 - !private ["P6SQLite11Expressible", "IntegerLiteralType"]
 - !private ["P6SQLite11Expressible", "_getBuiltinLogicValue"]
 - !private ["P6SQLite11Expressible", "has"]
@@ -342,96 +384,96 @@ depends-member:
 - !private ["P6SQLite11Expressible", "isEmpty"]
 - !private ["P6SQLite11Expressible", "parametersFromQueryString"]
 - !private ["P6SQLite11Expressible", "stringByRemovingPercentEncoding"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "has"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "has"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByRemovingPercentEncoding"]
 - !private ["Sf", "deinit"]
-- !private ["PSs16ForwardIndexType", "Distance"]
-- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
-- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
-- !private ["PSs13GeneratorType", "Element"]
-- !private ["PSs8Hashable", "CallbackNotification"]
-- !private ["PSs8Hashable", "Dictionary"]
-- !private ["PSs8Hashable", "IntegerLiteralType"]
-- !private ["PSs8Hashable", "JSONObjectWithData"]
-- !private ["PSs8Hashable", "NSError"]
-- !private ["PSs8Hashable", "NSJSONReadingOptions"]
-- !private ["PSs8Hashable", "NSJSONSerialization"]
-- !private ["PSs8Hashable", "NSLocalizedFailureReasonErrorKey"]
-- !private ["PSs8Hashable", "NSLocalizedString"]
-- !private ["PSs8Hashable", "NSNotification"]
-- !private ["PSs8Hashable", "NSNotificationCenter"]
-- !private ["PSs8Hashable", "NSOperationQueue"]
-- !private ["PSs8Hashable", "NSString"]
-- !private ["PSs8Hashable", "NSURL"]
-- !private ["PSs8Hashable", "NSUTF8StringEncoding"]
-- !private ["PSs8Hashable", "OAuthSwiftClient"]
-- !private ["PSs8Hashable", "OAuthSwiftErrorDomain"]
-- ["PSs8Hashable", "OAuthSwiftOpenURLExternally"]
-- !private ["PSs8Hashable", "String"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "absoluteString"]
-- ["PSs8Hashable", "access_token_url"]
-- !private ["PSs8Hashable", "addObserverForName"]
-- ["PSs8Hashable", "authorizeWithCallbackURL"]
-- ["PSs8Hashable", "authorize_url"]
-- ["PSs8Hashable", "authorize_url_handler"]
-- ["PSs8Hashable", "client"]
-- ["PSs8Hashable", "consumer_key"]
-- ["PSs8Hashable", "consumer_secret"]
-- ["PSs8Hashable", "content_type"]
-- !private ["PSs8Hashable", "defaultCenter"]
-- !private ["PSs8Hashable", "fragment"]
-- ["PSs8Hashable", "handleOpenURL"]
-- !private ["PSs8Hashable", "has"]
-- ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "isEmpty"]
-- !private ["PSs8Hashable", "mainQueue"]
-- !private ["PSs8Hashable", "oauth_header_type"]
-- !private ["PSs8Hashable", "oauth_token"]
-- ["PSs8Hashable", "observer"]
-- !private ["PSs8Hashable", "parametersFromQueryString"]
-- !private ["PSs8Hashable", "postNotification"]
-- ["PSs8Hashable", "postOAuthAccessTokenWithRequestTokenByCode"]
-- !private ["PSs8Hashable", "query"]
-- !private ["PSs8Hashable", "removeObserver"]
-- ["PSs8Hashable", "response_type"]
-- !private ["PSs8Hashable", "stringByRemovingPercentEncoding"]
-- !private ["PSs8Hashable", "subscript"]
-- !private ["PSs8Hashable", "userInfo"]
-- ["PSs8Hashable", ""]
-- !private ["PSs9Indexable", "Generator"]
-- !private ["PSs9Indexable", "Index"]
-- !private ["PSs9Indexable", "Key"]
-- !private ["PSs9Indexable", "SubSequence"]
-- !private ["PSs9Indexable", "Value"]
-- !private ["PSs9Indexable", "_Element"]
-- !private ["PSs9Indexable", "init"]
-- !private ["PSs9Indexable", "subscript"]
-- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CallbackNotification"]
+- !private ["Ps8Hashable", "Dictionary"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONObjectWithData"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "NSJSONReadingOptions"]
+- !private ["Ps8Hashable", "NSJSONSerialization"]
+- !private ["Ps8Hashable", "NSLocalizedFailureReasonErrorKey"]
+- !private ["Ps8Hashable", "NSLocalizedString"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "NSNotificationCenter"]
+- !private ["Ps8Hashable", "NSOperationQueue"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSUTF8StringEncoding"]
+- !private ["Ps8Hashable", "OAuthSwiftClient"]
+- !private ["Ps8Hashable", "OAuthSwiftErrorDomain"]
+- ["Ps8Hashable", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "absoluteString"]
+- ["Ps8Hashable", "access_token_url"]
+- !private ["Ps8Hashable", "addObserverForName"]
+- ["Ps8Hashable", "authorizeWithCallbackURL"]
+- ["Ps8Hashable", "authorize_url"]
+- ["Ps8Hashable", "authorize_url_handler"]
+- ["Ps8Hashable", "client"]
+- ["Ps8Hashable", "consumer_key"]
+- ["Ps8Hashable", "consumer_secret"]
+- ["Ps8Hashable", "content_type"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "fragment"]
+- ["Ps8Hashable", "handleOpenURL"]
+- !private ["Ps8Hashable", "has"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "mainQueue"]
+- !private ["Ps8Hashable", "oauth_header_type"]
+- !private ["Ps8Hashable", "oauth_token"]
+- ["Ps8Hashable", "observer"]
+- !private ["Ps8Hashable", "parametersFromQueryString"]
+- !private ["Ps8Hashable", "postNotification"]
+- ["Ps8Hashable", "postOAuthAccessTokenWithRequestTokenByCode"]
+- !private ["Ps8Hashable", "query"]
+- !private ["Ps8Hashable", "removeObserver"]
+- ["Ps8Hashable", "response_type"]
+- !private ["Ps8Hashable", "stringByRemovingPercentEncoding"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
-- !private ["VSs5Int16", "deinit"]
-- !private ["VSs5Int32", "deinit"]
-- !private ["VSs5Int64", "deinit"]
-- !private ["VSs4Int8", "deinit"]
-- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "has"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "isEmpty"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "parametersFromQueryString"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "stringByRemovingPercentEncoding"]
-- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
-- !private ["PSs14MirrorPathType", "has"]
-- !private ["PSs14MirrorPathType", "init"]
-- !private ["PSs14MirrorPathType", "isEmpty"]
-- !private ["PSs14MirrorPathType", "parametersFromQueryString"]
-- !private ["PSs14MirrorPathType", "stringByRemovingPercentEncoding"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "has"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "isEmpty"]
+- !private ["Ps14MirrorPathType", "parametersFromQueryString"]
+- !private ["Ps14MirrorPathType", "stringByRemovingPercentEncoding"]
 - !private ["PSo8NSCoding", "absoluteString"]
 - !private ["PSo8NSCoding", "fragment"]
 - !private ["PSo8NSCoding", "has"]
@@ -616,7 +658,7 @@ depends-member:
 - !private ["PSo17NSURLHandleClient", "fragment"]
 - !private ["PSo17NSURLHandleClient", "init"]
 - !private ["PSo17NSURLHandleClient", "query"]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - !private ["P6SQLite6Number", "IntegerLiteralType"]
 - ["C13AdMate_Widget11OAuth2Swift", "AnyObject"]
 - ["C13AdMate_Widget11OAuth2Swift", "CallbackNotification"]
@@ -671,66 +713,66 @@ depends-member:
 - ["C13AdMate_Widget27OAuthSwiftOpenURLExternally", "sharedInstance"]
 - !private ["P13AdMate_Widget24OAuthSwiftURLHandlerType", "handle"]
 - ["P13AdMate_Widget24OAuthSwiftURLHandlerType", "sharedInstance"]
-- !private ["PSs13OptionSetType", "MutableContainers"]
+- !private ["Ps13OptionSetType", "MutableContainers"]
 - ["Sq", "Some"]
 - !private ["Sq", "deinit"]
-- !private ["PSs16OutputStreamType", "has"]
-- !private ["PSs16OutputStreamType", "init"]
-- !private ["PSs16OutputStreamType", "isEmpty"]
-- !private ["PSs16OutputStreamType", "parametersFromQueryString"]
-- !private ["PSs16OutputStreamType", "stringByRemovingPercentEncoding"]
-- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
-- !private ["PSs16RawRepresentable", "MutableContainers"]
-- !private ["PSs12SequenceType", "Element"]
-- !private ["PSs12SequenceType", "Generator"]
-- !private ["PSs12SequenceType", "Index"]
-- !private ["PSs12SequenceType", "Key"]
-- !private ["PSs12SequenceType", "SubSequence"]
-- !private ["PSs12SequenceType", "Value"]
-- !private ["PSs12SequenceType", "_Element"]
-- !private ["PSs12SequenceType", "init"]
-- !private ["PSs12SequenceType", "subscript"]
-- !private ["PSs14SetAlgebraType", "MutableContainers"]
-- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
-- !private ["VSs5Slice", "Generator"]
-- !private ["VSs5Slice", "Index"]
-- !private ["VSs5Slice", "SubSequence"]
-- !private ["VSs5Slice", "_Element"]
-- !private ["VSs12StaticString", "deinit"]
-- !private ["PSs10Streamable", "has"]
-- !private ["PSs10Streamable", "init"]
-- !private ["PSs10Streamable", "isEmpty"]
-- !private ["PSs10Streamable", "parametersFromQueryString"]
-- !private ["PSs10Streamable", "stringByRemovingPercentEncoding"]
-- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["Ps16OutputStreamType", "has"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "isEmpty"]
+- !private ["Ps16OutputStreamType", "parametersFromQueryString"]
+- !private ["Ps16OutputStreamType", "stringByRemovingPercentEncoding"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps16RawRepresentable", "MutableContainers"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "MutableContainers"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "has"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "isEmpty"]
+- !private ["Ps10Streamable", "parametersFromQueryString"]
+- !private ["Ps10Streamable", "stringByRemovingPercentEncoding"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["SS", "deinit"]
 - !private ["SS", "has"]
 - !private ["SS", "init"]
 - !private ["SS", "isEmpty"]
 - !private ["SS", "parametersFromQueryString"]
 - !private ["SS", "stringByRemovingPercentEncoding"]
-- !private ["PSs30StringInterpolationConvertible", "has"]
-- !private ["PSs30StringInterpolationConvertible", "init"]
-- !private ["PSs30StringInterpolationConvertible", "isEmpty"]
-- !private ["PSs30StringInterpolationConvertible", "parametersFromQueryString"]
-- !private ["PSs30StringInterpolationConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs24StringLiteralConvertible", "has"]
-- !private ["PSs24StringLiteralConvertible", "init"]
-- !private ["PSs24StringLiteralConvertible", "isEmpty"]
-- !private ["PSs24StringLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs24StringLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "has"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "isEmpty"]
+- !private ["Ps30StringInterpolationConvertible", "parametersFromQueryString"]
+- !private ["Ps30StringInterpolationConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps24StringLiteralConvertible", "has"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "isEmpty"]
+- !private ["Ps24StringLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps24StringLiteralConvertible", "stringByRemovingPercentEncoding"]
 - !private ["Su", "deinit"]
-- !private ["VSs6UInt16", "deinit"]
-- !private ["VSs6UInt32", "deinit"]
-- !private ["VSs6UInt64", "deinit"]
-- !private ["VSs5UInt8", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "has"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "isEmpty"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "has"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByRemovingPercentEncoding"]
 - !private ["P6SQLite5Value", "IntegerLiteralType"]
 - !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
 - !private ["P6SQLite5Value", "has"]
@@ -738,120 +780,114 @@ depends-member:
 - !private ["P6SQLite5Value", "isEmpty"]
 - !private ["P6SQLite5Value", "parametersFromQueryString"]
 - !private ["P6SQLite5Value", "stringByRemovingPercentEncoding"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "has"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "has"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "isEmpty"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs32_BuiltinStringLiteralConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "has"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "has"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "parametersFromQueryString"]
-- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "stringByRemovingPercentEncoding"]
-- !private ["PSs16_CocoaStringType", "has"]
-- !private ["PSs16_CocoaStringType", "init"]
-- !private ["PSs16_CocoaStringType", "isEmpty"]
-- !private ["PSs16_CocoaStringType", "parametersFromQueryString"]
-- !private ["PSs16_CocoaStringType", "stringByRemovingPercentEncoding"]
-- !private ["PSs32_FileReferenceLiteralConvertible", "absoluteString"]
-- !private ["PSs32_FileReferenceLiteralConvertible", "fragment"]
-- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
-- !private ["PSs32_FileReferenceLiteralConvertible", "query"]
-- !private ["PSs14_Incrementable", "Distance"]
-- !private ["PSs14_Incrementable", "IntegerLiteralType"]
-- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
-- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs12_IntegerType", "IntegerLiteralType"]
-- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
-- !private ["PSs21_ObjectiveCBridgeable", "Index"]
-- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
-- !private ["PSs21_ObjectiveCBridgeable", "Key"]
-- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
-- !private ["PSs21_ObjectiveCBridgeable", "Value"]
-- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "has"]
-- !private ["PSs21_ObjectiveCBridgeable", "init"]
-- !private ["PSs21_ObjectiveCBridgeable", "isEmpty"]
-- !private ["PSs21_ObjectiveCBridgeable", "parametersFromQueryString"]
-- !private ["PSs21_ObjectiveCBridgeable", "stringByRemovingPercentEncoding"]
-- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "has"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "isEmpty"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "has"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "isEmpty"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "has"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "isEmpty"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "has"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "isEmpty"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "parametersFromQueryString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "stringByRemovingPercentEncoding"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "absoluteString"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "fragment"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "query"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "has"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "parametersFromQueryString"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByRemovingPercentEncoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - ["P6SQLite13_OptionalType", "Some"]
-- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
-- !private ["PSs12_Reflectable", "Generator"]
-- !private ["PSs12_Reflectable", "Index"]
-- !private ["PSs12_Reflectable", "IntegerLiteralType"]
-- !private ["PSs12_Reflectable", "Key"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "SubSequence"]
-- !private ["PSs12_Reflectable", "Value"]
-- !private ["PSs12_Reflectable", "_Element"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "absoluteString"]
-- !private ["PSs12_Reflectable", "fragment"]
-- !private ["PSs12_Reflectable", "has"]
-- !private ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "isEmpty"]
-- !private ["PSs12_Reflectable", "parametersFromQueryString"]
-- !private ["PSs12_Reflectable", "query"]
-- !private ["PSs12_Reflectable", "stringByRemovingPercentEncoding"]
-- !private ["PSs12_Reflectable", "subscript"]
-- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "absoluteString"]
+- !private ["Ps12_Reflectable", "fragment"]
+- !private ["Ps12_Reflectable", "has"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "isEmpty"]
+- !private ["Ps12_Reflectable", "parametersFromQueryString"]
+- !private ["Ps12_Reflectable", "query"]
+- !private ["Ps12_Reflectable", "stringByRemovingPercentEncoding"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
-- "PSs9AnyObject"
-- !private "PSs23ArrayLiteralConvertible"
-- !private "PSs22BidirectionalIndexType"
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
 - !private "P6SQLite7Binding"
-- !private "PSs21BitwiseOperationsType"
+- !private "Ps21BitwiseOperationsType"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
 - "VC13AdMate_Widget11OAuth2Swift20CallbackNotification"
-- !private "VSs9Character"
-- !private "PSs14CollectionType"
-- !private "PSs10Comparable"
-- "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
-- !private "VSs10Dictionary"
-- !private "VSs19DictionaryGenerator"
-- !private "VSs15DictionaryIndex"
-- !private "PSs28DictionaryLiteralConvertible"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Vs15DictionaryIndex"
+- !private "Ps28DictionaryLiteralConvertible"
 - !private "Sd"
-- "PSs9Equatable"
-- !private "PSs9ErrorType"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
 - !private "P6SQLite11Expressible"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - !private "Sf"
-- !private "PSs16ForwardIndexType"
-- !private "PSs13GeneratorType"
-- "PSs8Hashable"
-- !private "PSs9Indexable"
-- !private "VSs17IndexingGenerator"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
 - !private "Si"
-- !private "VSs5Int16"
-- !private "VSs5Int32"
-- !private "VSs5Int64"
-- !private "VSs4Int8"
-- !private "PSs21IntegerArithmeticType"
-- !private "PSs25IntegerLiteralConvertible"
-- !private "PSs11IntegerType"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
 - !private "P10SwiftyJSON17JSONSubscriptType"
-- !private "PSs14MirrorPathType"
+- !private "Ps14MirrorPathType"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - !private "CSo12NSDictionary"
@@ -871,7 +907,7 @@ depends-nominal:
 - !private "CSo8NSString"
 - !private "CSo5NSURL"
 - !private "PSo17NSURLHandleClient"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - !private "P6SQLite6Number"
 - "C13AdMate_Widget11OAuth2Swift"
 - !private "C13AdMate_Widget16OAuthSwiftClient"
@@ -879,48 +915,46 @@ depends-nominal:
 - "VC13AdMate_Widget11OAuth2Swift15OAuthSwiftError"
 - "C13AdMate_Widget27OAuthSwiftOpenURLExternally"
 - "P13AdMate_Widget24OAuthSwiftURLHandlerType"
-- !private "PSs13OptionSetType"
+- !private "Ps13OptionSetType"
 - "Sq"
-- !private "PSs16OutputStreamType"
-- !private "PSs21RandomAccessIndexType"
-- !private "PSs16RawRepresentable"
-- !private "PSs12SequenceType"
-- !private "PSs14SetAlgebraType"
-- !private "PSs17SignedIntegerType"
-- !private "PSs16SignedNumberType"
-- !private "VSs5Slice"
-- !private "VSs12StaticString"
-- !private "PSs10Streamable"
-- !private "PSs10Strideable"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
 - !private "SS"
-- !private "PSs30StringInterpolationConvertible"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "Su"
-- !private "VSs6UInt16"
-- !private "VSs6UInt32"
-- !private "VSs6UInt64"
-- !private "VSs5UInt8"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - !private "Sc"
-- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "P6SQLite5Value"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
-- !private "PSs33_BuiltinIntegerLiteralConvertible"
-- !private "PSs32_BuiltinStringLiteralConvertible"
-- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
-- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
-- !private "PSs16_CocoaStringType"
-- !private "PSs32_FileReferenceLiteralConvertible"
-- !private "PSs14_Incrementable"
-- !private "PSs22_IntegerArithmeticType"
-- !private "PSs12_IntegerType"
-- !private "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - "P6SQLite13_OptionalType"
-- !private "PSs22_RandomAccessAmbiguity"
-- "PSs12_Reflectable"
-- !private "PSs18_SignedIntegerType"
-- !private "PSs11_Strideable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -929,19 +963,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"

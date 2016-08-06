@@ -410,8 +410,6 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     override func viewWillAppear() {
         
 
-        
-        
             GetDataFromDb(){
                 (result: [AdData]) in
                 
@@ -473,6 +471,11 @@ class TodayViewController: NSViewController, NCWidgetProviding {
                     
                 }
   
+            } else {
+        
+                // User never logged in
+                // Do stuff here
+        
         }
   
  

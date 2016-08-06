@@ -18,20 +18,51 @@ import AdDataKit2
 class MainWindow: NSWindowController {
     
     @IBOutlet var RefreshData: NSToolbarItem!
+    @IBOutlet var Login: NSToolbarItem!
+    
+    
     
     override func windowDidLoad() {
         super.windowDidLoad()
         
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "SetLogin:", name:"SetLoginIcon", object: nil)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "SetLogout:", name:"SetLogoutIcon", object: nil)
+        
     }
     
     
+    func SetLogout(sender:AnyObject){
+    
+        print("SetLogout #####")
+        Login.image = NSImage(named: "logout")
+    
+    }
+    
+    func SetLogin(sender:AnyObject){
+        print("SetLogin #####")
+
+        Login.image = NSImage(named: "login")
+        
+    }
+    
+    // Refresh button
     
     @IBAction func LoadDatData(sender:AnyObject){
     
-    print("Refresh")
+        print("Refresh")
 
         NSNotificationCenter.defaultCenter().postNotificationName("UserDidLogin", object: nil)
     
+    }
+    
+    
+    @IBAction func LoginPressed(sender:AnyObject){
+        
+        print("LoginPressed")
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("LoginPressed", object: nil)
+        
     }
  
 }

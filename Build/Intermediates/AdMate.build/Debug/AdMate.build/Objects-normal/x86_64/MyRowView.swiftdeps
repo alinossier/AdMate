@@ -6,66 +6,74 @@ provides-nominal:
 provides-member:
 - ["C6AdMate9MyRowView", ""]
 provides-dynamic-lookup:
-- "drawRect"
 - "secondColor"
+- "drawRect"
 depends-top-level:
-- !private "NSRectFill"
-- !private "=="
+- "colorWithHexString"
 - "StringLiteralType"
+- !private "=="
 - "NSRect"
+- "NSTableRowView"
+- !private "NSRectFill"
 - "MyRowView"
 - !private "BooleanLiteralType"
-- "NSTableRowView"
-- "colorWithHexString"
 depends-member:
-- !private ["PSs9AnyObject", "NSRectFill"]
-- ["PSs9AnyObject", "colorWithHexString"]
-- ["PSs9AnyObject", "drawRect"]
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", "secondColor"]
-- !private ["PSs9AnyObject", "selected"]
-- !private ["PSs9AnyObject", "set"]
-- ["PSs9AnyObject", ""]
+- !private ["Ps9AnyObject", "NSRectFill"]
+- ["Ps9AnyObject", "colorWithHexString"]
+- ["Ps9AnyObject", "drawRect"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "secondColor"]
+- !private ["Ps9AnyObject", "selected"]
+- !private ["Ps9AnyObject", "set"]
+- ["Ps9AnyObject", ""]
 - !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- !private ["PSs11CVarArgType", "NSRectFill"]
-- ["PSs11CVarArgType", "colorWithHexString"]
-- ["PSs11CVarArgType", "drawRect"]
-- ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", "secondColor"]
-- !private ["PSs11CVarArgType", "selected"]
-- !private ["PSs11CVarArgType", "set"]
-- ["PSs11CVarArgType", ""]
-- !private ["PSs23CustomStringConvertible", "NSRectFill"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- ["PSs23CustomStringConvertible", "colorWithHexString"]
-- ["PSs23CustomStringConvertible", "drawRect"]
-- ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", "secondColor"]
-- !private ["PSs23CustomStringConvertible", "selected"]
-- !private ["PSs23CustomStringConvertible", "set"]
-- ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "NSRectFill"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- ["PSs9Equatable", "colorWithHexString"]
-- ["PSs9Equatable", "drawRect"]
-- ["PSs9Equatable", "init"]
-- ["PSs9Equatable", "secondColor"]
-- !private ["PSs9Equatable", "selected"]
-- !private ["PSs9Equatable", "set"]
-- ["PSs9Equatable", ""]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSRectFill"]
+- ["Ps11CVarArgType", "colorWithHexString"]
+- ["Ps11CVarArgType", "drawRect"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "secondColor"]
+- !private ["Ps11CVarArgType", "selected"]
+- !private ["Ps11CVarArgType", "set"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSRectFill"]
+- ["Ps28CustomDebugStringConvertible", "colorWithHexString"]
+- ["Ps28CustomDebugStringConvertible", "drawRect"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "secondColor"]
+- !private ["Ps28CustomDebugStringConvertible", "selected"]
+- !private ["Ps28CustomDebugStringConvertible", "set"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSRectFill"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "colorWithHexString"]
+- ["Ps23CustomStringConvertible", "drawRect"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "secondColor"]
+- !private ["Ps23CustomStringConvertible", "selected"]
+- !private ["Ps23CustomStringConvertible", "set"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSRectFill"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "colorWithHexString"]
+- ["Ps9Equatable", "drawRect"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "secondColor"]
+- !private ["Ps9Equatable", "selected"]
+- !private ["Ps9Equatable", "set"]
+- ["Ps9Equatable", ""]
 - !private ["P6SQLite11Expressible", "_getBuiltinLogicValue"]
-- !private ["PSs8Hashable", "NSRectFill"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- ["PSs8Hashable", "colorWithHexString"]
-- ["PSs8Hashable", "drawRect"]
-- ["PSs8Hashable", "init"]
-- ["PSs8Hashable", "secondColor"]
-- !private ["PSs8Hashable", "selected"]
-- !private ["PSs8Hashable", "set"]
-- ["PSs8Hashable", ""]
+- !private ["Ps8Hashable", "NSRectFill"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "colorWithHexString"]
+- ["Ps8Hashable", "drawRect"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "secondColor"]
+- !private ["Ps8Hashable", "selected"]
+- !private ["Ps8Hashable", "set"]
+- ["Ps8Hashable", ""]
 - ["C6AdMate9MyRowView", "NSRect"]
 - !private ["C6AdMate9MyRowView", "NSRectFill"]
 - ["C6AdMate9MyRowView", "colorWithHexString"]
@@ -182,28 +190,29 @@ depends-member:
 - ["CSo6NSView", "secondColor"]
 - !private ["CSo6NSView", "selected"]
 - !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs24_ColorLiteralConvertible", "set"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "NSRectFill"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- ["PSs12_Reflectable", "colorWithHexString"]
-- ["PSs12_Reflectable", "drawRect"]
-- ["PSs12_Reflectable", "init"]
-- ["PSs12_Reflectable", "secondColor"]
-- !private ["PSs12_Reflectable", "selected"]
-- ["PSs12_Reflectable", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps24_ColorLiteralConvertible", "set"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "NSRectFill"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "colorWithHexString"]
+- ["Ps12_Reflectable", "drawRect"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "secondColor"]
+- !private ["Ps12_Reflectable", "selected"]
+- ["Ps12_Reflectable", ""]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "P6SQLite7Binding"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
 - !private "P6SQLite11Expressible"
-- "PSs8Hashable"
+- "Ps8Hashable"
 - "C6AdMate9MyRowView"
 - "PSo15NSAccessibility"
 - "PSo30NSAccessibilityElementProtocol"
@@ -225,10 +234,10 @@ depends-nominal:
 - "PSo33NSUserInterfaceItemIdentification"
 - "CSo6NSView"
 - !private "P6SQLite5Value"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs24_ColorLiteralConvertible"
-- !private "PSs21_ObjectiveCBridgeable"
-- "PSs12_Reflectable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -237,19 +246,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"

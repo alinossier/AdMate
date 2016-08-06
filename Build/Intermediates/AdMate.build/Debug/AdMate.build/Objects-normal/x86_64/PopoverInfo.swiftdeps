@@ -6,261 +6,289 @@ provides-nominal:
 provides-member:
 - ["C6AdMate11PopOverInfo", ""]
 provides-dynamic-lookup:
+- "valueLabel"
 - "lineLabel"
 - "representedObject"
-- "valueLabel"
 depends-top-level:
-- !private "fatalError"
-- !private "NSDateFormatterStyle"
-- !private "print"
-- !private "Array"
-- "NSViewController"
-- "AnyObject"
-- !private "NSColor"
-- !private "StringLiteralType"
-- "CGRect"
-- "NSCoder"
-- !private "defaults"
-- "PopOverInfo"
-- "String"
-- !private "NSDate"
-- !private "NSTextAlignment"
-- !private "NSDateFormatter"
-- !private "BooleanLiteralType"
 - "NSTextField"
-- !private "NSView"
 - "NSBundle"
+- !private "defaults"
+- !private "print"
+- "String"
+- "AnyObject"
+- !private "fatalError"
+- !private "StringLiteralType"
+- "PopOverInfo"
+- !private "NSDateFormatter"
+- "NSViewController"
+- !private "NSDateFormatterStyle"
+- "CGRect"
+- !private "Array"
+- !private "NSTextAlignment"
+- !private "BooleanLiteralType"
+- "NSCoder"
+- !private "NSColor"
+- !private "NSDate"
+- !private "NSView"
 depends-member:
-- ["PSs9AnyObject", "CGRect"]
-- !private ["PSs9AnyObject", "NSColor"]
-- !private ["PSs9AnyObject", "NSDateFormatter"]
-- !private ["PSs9AnyObject", "NSDateFormatterStyle"]
-- !private ["PSs9AnyObject", "NSTextAlignment"]
-- ["PSs9AnyObject", "NSTextField"]
-- !private ["PSs9AnyObject", "NSView"]
-- !private ["PSs9AnyObject", "addSubview"]
-- !private ["PSs9AnyObject", "alignment"]
-- !private ["PSs9AnyObject", "backgroundColor"]
-- !private ["PSs9AnyObject", "bordered"]
-- !private ["PSs9AnyObject", "clearColor"]
-- !private ["PSs9AnyObject", "dateStyle"]
-- !private ["PSs9AnyObject", "defaults"]
-- !private ["PSs9AnyObject", "editable"]
-- !private ["PSs9AnyObject", "fatalError"]
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", "lineLabel"]
-- !private ["PSs9AnyObject", "objectForKey"]
-- !private ["PSs9AnyObject", "print"]
-- ["PSs9AnyObject", "representedObject"]
-- !private ["PSs9AnyObject", "selectable"]
-- !private ["PSs9AnyObject", "stringFromDate"]
-- !private ["PSs9AnyObject", "stringValue"]
-- !private ["PSs9AnyObject", "timeStyle"]
-- ["PSs9AnyObject", "valueLabel"]
-- !private ["PSs9AnyObject", "view"]
-- ["PSs9AnyObject", ""]
+- ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "NSColor"]
+- !private ["Ps9AnyObject", "NSDateFormatter"]
+- !private ["Ps9AnyObject", "NSDateFormatterStyle"]
+- !private ["Ps9AnyObject", "NSTextAlignment"]
+- ["Ps9AnyObject", "NSTextField"]
+- !private ["Ps9AnyObject", "NSView"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "alignment"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "bordered"]
+- !private ["Ps9AnyObject", "clearColor"]
+- !private ["Ps9AnyObject", "dateStyle"]
+- !private ["Ps9AnyObject", "defaults"]
+- !private ["Ps9AnyObject", "editable"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lineLabel"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "representedObject"]
+- !private ["Ps9AnyObject", "selectable"]
+- !private ["Ps9AnyObject", "stringFromDate"]
+- !private ["Ps9AnyObject", "stringValue"]
+- !private ["Ps9AnyObject", "timeStyle"]
+- ["Ps9AnyObject", "valueLabel"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
 - !private ["Sa", "Element"]
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
 - !private ["Sa", "_Element"]
-- !private ["PSs23ArrayLiteralConvertible", "Element"]
-- !private ["PSs23ArrayLiteralConvertible", "Generator"]
-- !private ["PSs23ArrayLiteralConvertible", "Index"]
-- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
-- !private ["PSs23ArrayLiteralConvertible", "_Element"]
-- !private ["VSs10ArraySlice", "Generator"]
-- !private ["VSs10ArraySlice", "Index"]
-- !private ["PSs22BidirectionalIndexType", "Distance"]
-- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["P6SQLite7Binding", "Distance"]
 - !private ["P6SQLite7Binding", "IntegerLiteralType"]
-- !private ["PSs21BitwiseOperationsType", "Distance"]
-- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - ["VSC6CGRect", "init"]
-- ["PSs11CVarArgType", "CGRect"]
-- !private ["PSs11CVarArgType", "Distance"]
-- !private ["PSs11CVarArgType", "IntegerLiteralType"]
-- !private ["PSs11CVarArgType", "NSColor"]
-- !private ["PSs11CVarArgType", "NSDateFormatter"]
-- !private ["PSs11CVarArgType", "NSDateFormatterStyle"]
-- !private ["PSs11CVarArgType", "NSTextAlignment"]
-- ["PSs11CVarArgType", "NSTextField"]
-- !private ["PSs11CVarArgType", "NSView"]
-- !private ["PSs11CVarArgType", "addSubview"]
-- !private ["PSs11CVarArgType", "alignment"]
-- !private ["PSs11CVarArgType", "backgroundColor"]
-- !private ["PSs11CVarArgType", "bordered"]
-- !private ["PSs11CVarArgType", "clearColor"]
-- !private ["PSs11CVarArgType", "dateStyle"]
-- !private ["PSs11CVarArgType", "defaults"]
-- !private ["PSs11CVarArgType", "editable"]
-- !private ["PSs11CVarArgType", "fatalError"]
-- ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", "lineLabel"]
-- !private ["PSs11CVarArgType", "objectForKey"]
-- !private ["PSs11CVarArgType", "print"]
-- ["PSs11CVarArgType", "representedObject"]
-- !private ["PSs11CVarArgType", "selectable"]
-- !private ["PSs11CVarArgType", "stringFromDate"]
-- !private ["PSs11CVarArgType", "stringValue"]
-- !private ["PSs11CVarArgType", "timeStyle"]
-- ["PSs11CVarArgType", "valueLabel"]
-- !private ["PSs11CVarArgType", "view"]
-- ["PSs11CVarArgType", ""]
-- !private ["PSs14CollectionType", "Element"]
-- !private ["PSs14CollectionType", "Generator"]
-- !private ["PSs14CollectionType", "Index"]
-- !private ["PSs14CollectionType", "SubSequence"]
-- !private ["PSs14CollectionType", "_Element"]
-- !private ["PSs10Comparable", "Distance"]
-- !private ["PSs10Comparable", "IntegerLiteralType"]
-- !private ["PSs28CustomDebugStringConvertible", "Element"]
-- !private ["PSs28CustomDebugStringConvertible", "Generator"]
-- !private ["PSs28CustomDebugStringConvertible", "Index"]
-- ["PSs28CustomDebugStringConvertible", "Some"]
-- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
-- !private ["PSs28CustomDebugStringConvertible", "_Element"]
-- ["PSs23CustomStringConvertible", "CGRect"]
-- !private ["PSs23CustomStringConvertible", "Distance"]
-- !private ["PSs23CustomStringConvertible", "Element"]
-- !private ["PSs23CustomStringConvertible", "Generator"]
-- !private ["PSs23CustomStringConvertible", "Index"]
-- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
-- !private ["PSs23CustomStringConvertible", "NSColor"]
-- !private ["PSs23CustomStringConvertible", "NSDateFormatter"]
-- !private ["PSs23CustomStringConvertible", "NSDateFormatterStyle"]
-- !private ["PSs23CustomStringConvertible", "NSTextAlignment"]
-- ["PSs23CustomStringConvertible", "NSTextField"]
-- !private ["PSs23CustomStringConvertible", "NSView"]
-- !private ["PSs23CustomStringConvertible", "SubSequence"]
-- !private ["PSs23CustomStringConvertible", "_Element"]
-- !private ["PSs23CustomStringConvertible", "addSubview"]
-- !private ["PSs23CustomStringConvertible", "alignment"]
-- !private ["PSs23CustomStringConvertible", "backgroundColor"]
-- !private ["PSs23CustomStringConvertible", "bordered"]
-- !private ["PSs23CustomStringConvertible", "clearColor"]
-- !private ["PSs23CustomStringConvertible", "dateStyle"]
-- !private ["PSs23CustomStringConvertible", "defaults"]
-- !private ["PSs23CustomStringConvertible", "editable"]
-- !private ["PSs23CustomStringConvertible", "fatalError"]
-- ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", "lineLabel"]
-- !private ["PSs23CustomStringConvertible", "objectForKey"]
-- !private ["PSs23CustomStringConvertible", "print"]
-- ["PSs23CustomStringConvertible", "representedObject"]
-- !private ["PSs23CustomStringConvertible", "selectable"]
-- !private ["PSs23CustomStringConvertible", "stringFromDate"]
-- !private ["PSs23CustomStringConvertible", "stringValue"]
-- !private ["PSs23CustomStringConvertible", "timeStyle"]
-- ["PSs23CustomStringConvertible", "valueLabel"]
-- !private ["PSs23CustomStringConvertible", "view"]
-- ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "CGRect"]
-- !private ["PSs9Equatable", "Center"]
-- !private ["PSs9Equatable", "Distance"]
-- !private ["PSs9Equatable", "IntegerLiteralType"]
-- !private ["PSs9Equatable", "MediumStyle"]
-- !private ["PSs9Equatable", "NSColor"]
-- !private ["PSs9Equatable", "NSDateFormatter"]
-- !private ["PSs9Equatable", "NSDateFormatterStyle"]
-- !private ["PSs9Equatable", "NSTextAlignment"]
-- ["PSs9Equatable", "NSTextField"]
-- !private ["PSs9Equatable", "NSView"]
-- !private ["PSs9Equatable", "ShortStyle"]
-- !private ["PSs9Equatable", "addSubview"]
-- !private ["PSs9Equatable", "alignment"]
-- !private ["PSs9Equatable", "backgroundColor"]
-- !private ["PSs9Equatable", "bordered"]
-- !private ["PSs9Equatable", "clearColor"]
-- !private ["PSs9Equatable", "dateStyle"]
-- !private ["PSs9Equatable", "defaults"]
-- !private ["PSs9Equatable", "editable"]
-- !private ["PSs9Equatable", "fatalError"]
-- ["PSs9Equatable", "init"]
-- ["PSs9Equatable", "lineLabel"]
-- !private ["PSs9Equatable", "objectForKey"]
-- !private ["PSs9Equatable", "print"]
-- ["PSs9Equatable", "representedObject"]
-- !private ["PSs9Equatable", "selectable"]
-- !private ["PSs9Equatable", "stringFromDate"]
-- !private ["PSs9Equatable", "stringValue"]
-- !private ["PSs9Equatable", "timeStyle"]
-- ["PSs9Equatable", "valueLabel"]
-- !private ["PSs9Equatable", "view"]
-- ["PSs9Equatable", ""]
+- ["Ps11CVarArgType", "CGRect"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSColor"]
+- !private ["Ps11CVarArgType", "NSDateFormatter"]
+- !private ["Ps11CVarArgType", "NSDateFormatterStyle"]
+- !private ["Ps11CVarArgType", "NSTextAlignment"]
+- ["Ps11CVarArgType", "NSTextField"]
+- !private ["Ps11CVarArgType", "NSView"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "alignment"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "bordered"]
+- !private ["Ps11CVarArgType", "clearColor"]
+- !private ["Ps11CVarArgType", "dateStyle"]
+- !private ["Ps11CVarArgType", "defaults"]
+- !private ["Ps11CVarArgType", "editable"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "lineLabel"]
+- !private ["Ps11CVarArgType", "objectForKey"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "representedObject"]
+- !private ["Ps11CVarArgType", "selectable"]
+- !private ["Ps11CVarArgType", "stringFromDate"]
+- !private ["Ps11CVarArgType", "stringValue"]
+- !private ["Ps11CVarArgType", "timeStyle"]
+- ["Ps11CVarArgType", "valueLabel"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSColor"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDateFormatterStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "NSTextAlignment"]
+- ["Ps28CustomDebugStringConvertible", "NSTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "NSView"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "alignment"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bordered"]
+- !private ["Ps28CustomDebugStringConvertible", "clearColor"]
+- !private ["Ps28CustomDebugStringConvertible", "dateStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "defaults"]
+- !private ["Ps28CustomDebugStringConvertible", "editable"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lineLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "representedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "selectable"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromDate"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- !private ["Ps28CustomDebugStringConvertible", "timeStyle"]
+- ["Ps28CustomDebugStringConvertible", "valueLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSColor"]
+- !private ["Ps23CustomStringConvertible", "NSDateFormatter"]
+- !private ["Ps23CustomStringConvertible", "NSDateFormatterStyle"]
+- !private ["Ps23CustomStringConvertible", "NSTextAlignment"]
+- ["Ps23CustomStringConvertible", "NSTextField"]
+- !private ["Ps23CustomStringConvertible", "NSView"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "alignment"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "bordered"]
+- !private ["Ps23CustomStringConvertible", "clearColor"]
+- !private ["Ps23CustomStringConvertible", "dateStyle"]
+- !private ["Ps23CustomStringConvertible", "defaults"]
+- !private ["Ps23CustomStringConvertible", "editable"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lineLabel"]
+- !private ["Ps23CustomStringConvertible", "objectForKey"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "representedObject"]
+- !private ["Ps23CustomStringConvertible", "selectable"]
+- !private ["Ps23CustomStringConvertible", "stringFromDate"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
+- !private ["Ps23CustomStringConvertible", "timeStyle"]
+- ["Ps23CustomStringConvertible", "valueLabel"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "Center"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "MediumStyle"]
+- !private ["Ps9Equatable", "NSColor"]
+- !private ["Ps9Equatable", "NSDateFormatter"]
+- !private ["Ps9Equatable", "NSDateFormatterStyle"]
+- !private ["Ps9Equatable", "NSTextAlignment"]
+- ["Ps9Equatable", "NSTextField"]
+- !private ["Ps9Equatable", "NSView"]
+- !private ["Ps9Equatable", "ShortStyle"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "alignment"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "bordered"]
+- !private ["Ps9Equatable", "clearColor"]
+- !private ["Ps9Equatable", "dateStyle"]
+- !private ["Ps9Equatable", "defaults"]
+- !private ["Ps9Equatable", "editable"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lineLabel"]
+- !private ["Ps9Equatable", "objectForKey"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "representedObject"]
+- !private ["Ps9Equatable", "selectable"]
+- !private ["Ps9Equatable", "stringFromDate"]
+- !private ["Ps9Equatable", "stringValue"]
+- !private ["Ps9Equatable", "timeStyle"]
+- ["Ps9Equatable", "valueLabel"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", ""]
 - !private ["P6SQLite11Expressible", "Distance"]
 - !private ["P6SQLite11Expressible", "IntegerLiteralType"]
-- !private ["PSs16ForwardIndexType", "Distance"]
-- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
-- !private ["PSs13GeneratorType", "Element"]
-- ["PSs8Hashable", "CGRect"]
-- !private ["PSs8Hashable", "Center"]
-- !private ["PSs8Hashable", "Distance"]
-- !private ["PSs8Hashable", "IntegerLiteralType"]
-- !private ["PSs8Hashable", "MediumStyle"]
-- !private ["PSs8Hashable", "NSColor"]
-- !private ["PSs8Hashable", "NSDateFormatter"]
-- !private ["PSs8Hashable", "NSDateFormatterStyle"]
-- !private ["PSs8Hashable", "NSTextAlignment"]
-- ["PSs8Hashable", "NSTextField"]
-- !private ["PSs8Hashable", "NSView"]
-- !private ["PSs8Hashable", "ShortStyle"]
-- !private ["PSs8Hashable", "addSubview"]
-- !private ["PSs8Hashable", "alignment"]
-- !private ["PSs8Hashable", "backgroundColor"]
-- !private ["PSs8Hashable", "bordered"]
-- !private ["PSs8Hashable", "clearColor"]
-- !private ["PSs8Hashable", "dateStyle"]
-- !private ["PSs8Hashable", "defaults"]
-- !private ["PSs8Hashable", "editable"]
-- !private ["PSs8Hashable", "fatalError"]
-- ["PSs8Hashable", "init"]
-- ["PSs8Hashable", "lineLabel"]
-- !private ["PSs8Hashable", "objectForKey"]
-- !private ["PSs8Hashable", "print"]
-- ["PSs8Hashable", "representedObject"]
-- !private ["PSs8Hashable", "selectable"]
-- !private ["PSs8Hashable", "stringFromDate"]
-- !private ["PSs8Hashable", "stringValue"]
-- !private ["PSs8Hashable", "timeStyle"]
-- ["PSs8Hashable", "valueLabel"]
-- !private ["PSs8Hashable", "view"]
-- ["PSs8Hashable", ""]
-- !private ["PSs9Indexable", "Element"]
-- !private ["PSs9Indexable", "Generator"]
-- !private ["PSs9Indexable", "Index"]
-- !private ["PSs9Indexable", "SubSequence"]
-- !private ["PSs9Indexable", "_Element"]
-- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "Center"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "MediumStyle"]
+- !private ["Ps8Hashable", "NSColor"]
+- !private ["Ps8Hashable", "NSDateFormatter"]
+- !private ["Ps8Hashable", "NSDateFormatterStyle"]
+- !private ["Ps8Hashable", "NSTextAlignment"]
+- ["Ps8Hashable", "NSTextField"]
+- !private ["Ps8Hashable", "NSView"]
+- !private ["Ps8Hashable", "ShortStyle"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "alignment"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "bordered"]
+- !private ["Ps8Hashable", "clearColor"]
+- !private ["Ps8Hashable", "dateStyle"]
+- !private ["Ps8Hashable", "defaults"]
+- !private ["Ps8Hashable", "editable"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lineLabel"]
+- !private ["Ps8Hashable", "objectForKey"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "representedObject"]
+- !private ["Ps8Hashable", "selectable"]
+- !private ["Ps8Hashable", "stringFromDate"]
+- !private ["Ps8Hashable", "stringValue"]
+- !private ["Ps8Hashable", "timeStyle"]
+- ["Ps8Hashable", "valueLabel"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
 - !private ["Si", "Distance"]
 - !private ["Si", "IntegerLiteralType"]
 - ["Si", "deinit"]
-- !private ["PSs21IntegerArithmeticType", "Distance"]
-- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs25IntegerLiteralConvertible", "Distance"]
-- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs11IntegerType", "Distance"]
-- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "Distance"]
 - !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
-- !private ["PSs14MirrorPathType", "Distance"]
-- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
-- !private ["PSs21MutableCollectionType", "Element"]
-- !private ["PSs21MutableCollectionType", "Generator"]
-- !private ["PSs21MutableCollectionType", "Index"]
-- !private ["PSs21MutableCollectionType", "SubSequence"]
-- !private ["PSs21MutableCollectionType", "_Element"]
-- !private ["PSs16MutableIndexable", "Element"]
-- !private ["PSs16MutableIndexable", "Generator"]
-- !private ["PSs16MutableIndexable", "Index"]
-- !private ["PSs16MutableIndexable", "SubSequence"]
-- !private ["PSs16MutableIndexable", "_Element"]
-- !private ["PSs16MutableSliceable", "Element"]
-- !private ["PSs16MutableSliceable", "Generator"]
-- !private ["PSs16MutableSliceable", "Index"]
-- !private ["PSs16MutableSliceable", "SubSequence"]
-- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
 - !private ["PSo15NSAccessibility", "addSubview"]
 - !private ["PSo15NSAccessibility", "alignment"]
 - !private ["PSo15NSAccessibility", "backgroundColor"]
@@ -555,7 +583,7 @@ depends-member:
 - ["CSo16NSViewController", "valueLabel"]
 - !private ["CSo16NSViewController", "view"]
 - ["CSo16NSViewController", ""]
-- ["PSs21NilLiteralConvertible", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
 - !private ["P6SQLite6Number", "Distance"]
 - !private ["P6SQLite6Number", "IntegerLiteralType"]
 - ["Sq", "Some"]
@@ -581,110 +609,107 @@ depends-member:
 - ["C6AdMate11PopOverInfo", "representedObject"]
 - ["C6AdMate11PopOverInfo", "valueLabel"]
 - !private ["C6AdMate11PopOverInfo", "view"]
-- !private ["PSs21RandomAccessIndexType", "Distance"]
-- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
-- !private ["PSs30RangeReplaceableCollectionType", "Element"]
-- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
-- !private ["PSs30RangeReplaceableCollectionType", "Index"]
-- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
-- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
-- !private ["PSs16RawRepresentable", "Center"]
-- !private ["PSs16RawRepresentable", "MediumStyle"]
-- !private ["PSs16RawRepresentable", "ShortStyle"]
-- !private ["PSs12SequenceType", "Element"]
-- !private ["PSs12SequenceType", "Generator"]
-- !private ["PSs12SequenceType", "Index"]
-- !private ["PSs12SequenceType", "SubSequence"]
-- !private ["PSs12SequenceType", "_Element"]
-- !private ["PSs12SequenceType", "deinit"]
-- !private ["PSs17SignedIntegerType", "Distance"]
-- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs16SignedNumberType", "Distance"]
-- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
-- !private ["VSs12StaticString", "deinit"]
-- !private ["PSs10Strideable", "Distance"]
-- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps16RawRepresentable", "Center"]
+- !private ["Ps16RawRepresentable", "MediumStyle"]
+- !private ["Ps16RawRepresentable", "ShortStyle"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["P6SQLite5Value", "Distance"]
 - !private ["P6SQLite5Value", "IntegerLiteralType"]
-- !private ["PSs10_ArrayType", "Element"]
-- !private ["PSs10_ArrayType", "Generator"]
-- !private ["PSs10_ArrayType", "Index"]
-- !private ["PSs10_ArrayType", "SubSequence"]
-- !private ["PSs10_ArrayType", "_Element"]
-- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
-- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
-- !private ["PSs24_ColorLiteralConvertible", "clearColor"]
-- !private ["PSs24_DestructorSafeContainer", "Element"]
-- !private ["PSs24_DestructorSafeContainer", "Generator"]
-- !private ["PSs24_DestructorSafeContainer", "Index"]
-- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
-- !private ["PSs24_DestructorSafeContainer", "_Element"]
-- !private ["PSs14_Incrementable", "Distance"]
-- !private ["PSs14_Incrementable", "IntegerLiteralType"]
-- !private ["PSs22_IntegerArithmeticType", "Distance"]
-- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
-- !private ["PSs12_IntegerType", "Distance"]
-- !private ["PSs12_IntegerType", "IntegerLiteralType"]
-- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
-- !private ["PSs21_ObjectiveCBridgeable", "Element"]
-- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
-- !private ["PSs21_ObjectiveCBridgeable", "Index"]
-- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
-- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
-- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_ColorLiteralConvertible", "clearColor"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - ["P6SQLite13_OptionalType", "Some"]
-- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
-- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
-- !private ["PSs12_Reflectable", "Distance"]
-- !private ["PSs12_Reflectable", "Element"]
-- !private ["PSs12_Reflectable", "Generator"]
-- !private ["PSs12_Reflectable", "Index"]
-- !private ["PSs12_Reflectable", "IntegerLiteralType"]
-- ["PSs12_Reflectable", "Some"]
-- !private ["PSs12_Reflectable", "SubSequence"]
-- !private ["PSs12_Reflectable", "_Element"]
-- !private ["PSs12_Reflectable", "addSubview"]
-- !private ["PSs12_Reflectable", "alignment"]
-- !private ["PSs12_Reflectable", "backgroundColor"]
-- !private ["PSs12_Reflectable", "bordered"]
-- !private ["PSs12_Reflectable", "editable"]
-- ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "selectable"]
-- !private ["PSs12_Reflectable", "stringValue"]
-- !private ["PSs18_SignedIntegerType", "Distance"]
-- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
-- !private ["PSs11_Strideable", "Distance"]
-- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "alignment"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "bordered"]
+- !private ["Ps12_Reflectable", "editable"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "selectable"]
+- !private ["Ps12_Reflectable", "stringValue"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sa"
-- !private "PSs23ArrayLiteralConvertible"
-- !private "VSs10ArraySlice"
-- !private "PSs22BidirectionalIndexType"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
 - !private "P6SQLite7Binding"
-- !private "PSs21BitwiseOperationsType"
+- !private "Ps21BitwiseOperationsType"
 - "VSC6CGRect"
-- "PSs11CVarArgType"
-- !private "PSs14CollectionType"
-- !private "PSs10Comparable"
-- "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
 - !private "P6SQLite11Expressible"
-- !private "PSs16ForwardIndexType"
-- !private "PSs13GeneratorType"
-- "PSs8Hashable"
-- !private "PSs9Indexable"
-- !private "VSs17IndexingGenerator"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
 - "Si"
-- !private "PSs21IntegerArithmeticType"
-- !private "PSs25IntegerLiteralConvertible"
-- !private "PSs11IntegerType"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
 - !private "P10SwiftyJSON17JSONSubscriptType"
-- !private "PSs14MirrorPathType"
-- !private "PSs21MutableCollectionType"
-- !private "PSs16MutableIndexable"
-- !private "PSs16MutableSliceable"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
 - "PSo15NSAccessibility"
 - "PSo30NSAccessibilityElementProtocol"
 - "PSo34NSAccessibilityNavigableStaticText"
@@ -714,32 +739,31 @@ depends-nominal:
 - "PSo26NSUserInterfaceValidations"
 - "CSo6NSView"
 - "CSo16NSViewController"
-- "PSs21NilLiteralConvertible"
+- "Ps21NilLiteralConvertible"
 - !private "P6SQLite6Number"
 - "Sq"
 - "C6AdMate11PopOverInfo"
-- !private "PSs21RandomAccessIndexType"
-- !private "PSs30RangeReplaceableCollectionType"
-- !private "PSs16RawRepresentable"
-- !private "PSs12SequenceType"
-- !private "PSs17SignedIntegerType"
-- !private "PSs16SignedNumberType"
-- !private "VSs12StaticString"
-- !private "PSs10Strideable"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
 - !private "P6SQLite5Value"
-- !private "PSs10_ArrayType"
-- !private "PSs33_BuiltinIntegerLiteralConvertible"
-- !private "PSs24_ColorLiteralConvertible"
-- !private "PSs24_DestructorSafeContainer"
-- !private "PSs14_Incrementable"
-- !private "PSs22_IntegerArithmeticType"
-- !private "PSs12_IntegerType"
-- !private "PSs21_ObjectiveCBridgeable"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
 - "P6SQLite13_OptionalType"
-- !private "PSs22_RandomAccessAmbiguity"
-- "PSs12_Reflectable"
-- !private "PSs18_SignedIntegerType"
-- !private "PSs11_Strideable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -748,19 +772,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
@@ -771,4 +798,4 @@ depends-external:
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/p2_OAuth2.framework/Modules/module.modulemap"
-interface-hash: "209b2bdaef11c2b0f6d27d06562c967b"
+interface-hash: "078fada0d20d4b8af8405614d42ebe6f"

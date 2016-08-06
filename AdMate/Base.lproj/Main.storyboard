@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
@@ -100,15 +100,21 @@
                                         <action selector="LoadDatData:" target="B8D-0N-5wS" id="pDf-ee-Xi1"/>
                                     </connections>
                                 </toolbarItem>
-                                <toolbarItem implicitItemIdentifier="8B50CE5C-4EE9-44A7-861F-B075CBB475D6" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" image="info" id="BDP-gT-J2T"/>
+                                <toolbarItem implicitItemIdentifier="8B50CE5C-4EE9-44A7-861F-B075CBB475D6" explicitItemIdentifier="LoginButton" label="Login" paletteLabel="Toolbar Item" tag="-1" image="login" autovalidates="NO" id="BDP-gT-J2T">
+                                    <connections>
+                                        <action selector="LoginPressed:" target="B8D-0N-5wS" id="x8W-xO-1VZ"/>
+                                    </connections>
+                                </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
                                 <toolbarItem reference="quH-pb-Aiv"/>
+                                <toolbarItem reference="BDP-gT-J2T"/>
                                 <toolbarItem reference="P94-FL-BNn"/>
                             </defaultToolbarItems>
                         </toolbar>
                     </window>
                     <connections>
+                        <outlet property="Login" destination="BDP-gT-J2T" id="cK2-lH-kQ7"/>
                         <outlet property="RefreshData" destination="P94-FL-BNn" id="RXg-QN-gNb"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
@@ -412,7 +418,7 @@
                         <outlet property="MinThisMonth" destination="Lr4-Wf-J5q" id="1vE-iW-WW2"/>
                         <outlet property="SegmentedControl" destination="mLl-KH-I0E" id="FEk-bs-V1e"/>
                         <outlet property="tableView" destination="7eh-jb-cJq" id="QxG-B9-iuw"/>
-                        <segue destination="4qd-sN-7WO" kind="sheet" identifier="GoToTutorial" id="BBJ-rG-BKI"/>
+                        <segue destination="4qd-sN-7WO" kind="show" identifier="GoToTutorial" id="BBJ-rG-BKI"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -432,7 +438,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="AdMate_Icon" id="vFg-xQ-h8p"/>
                             </imageView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DnU-CP-Eev">
-                                <rect key="frame" x="74" y="32" width="241" height="37"/>
+                                <rect key="frame" x="74" y="22" width="241" height="37"/>
                                 <buttonCell key="cell" type="smallSquare" title="Sign In with your Google Account" bezelStyle="smallSquare" image="ButtonBackground" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="axesIndependently" inset="2" id="Kuv-16-ujl">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="systemLight" size="13"/>
@@ -450,9 +456,17 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tsa-Nx-Ngt">
-                                <rect key="frame" x="18" y="85" width="359" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="Atc-jQ-Z3u">
+                                <rect key="frame" x="18" y="92" width="359" height="17"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="Atc-jQ-Z3u">
                                     <font key="font" metaFont="systemLight" size="12"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cot-6a-KuE">
+                                <rect key="frame" x="18" y="71" width="359" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="3tT-Pq-9g4">
+                                    <font key="font" metaFont="systemLight" size="11"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -462,11 +476,12 @@
                     <connections>
                         <outlet property="ActionButton" destination="DnU-CP-Eev" id="cJd-0z-bhJ"/>
                         <outlet property="ErrorLine" destination="tsa-Nx-Ngt" id="uWn-zi-7rl"/>
+                        <outlet property="ErrorLine2" destination="cot-6a-KuE" id="aGe-w8-Zc3"/>
                     </connections>
                 </viewController>
                 <customObject id="XCQ-M8-O8L" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123.5" y="1387"/>
+            <point key="canvasLocation" x="199.5" y="1499"/>
         </scene>
     </scenes>
     <resources>
@@ -474,5 +489,6 @@
         <image name="ButtonBackground" width="240" height="40"/>
         <image name="Refresh" width="512" height="512"/>
         <image name="info" width="512" height="512"/>
+        <image name="login" width="512" height="512"/>
     </resources>
 </document>

@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C6AdMate10AdDataCell", ""]
 provides-dynamic-lookup:
-- "Caption"
-- "Indicator"
-- "Value"
-- "drawRect"
 - "PrevValue"
+- "Indicator"
+- "drawRect"
+- "Caption"
+- "Value"
 depends-top-level:
 - "NSView"
+- "NSRect"
 - "NSTextField"
 - "AdDataCell"
 - "NSImageView"
-- "NSRect"
 depends-member:
 - ["C6AdMate10AdDataCell", "Caption"]
 - ["C6AdMate10AdDataCell", "Indicator"]
@@ -28,41 +28,48 @@ depends-member:
 - ["C6AdMate10AdDataCell", "deinit"]
 - ["C6AdMate10AdDataCell", "drawRect"]
 - ["C6AdMate10AdDataCell", "init"]
-- ["PSs9AnyObject", "Caption"]
-- ["PSs9AnyObject", "Indicator"]
-- ["PSs9AnyObject", "PrevValue"]
-- ["PSs9AnyObject", "Value"]
-- ["PSs9AnyObject", "drawRect"]
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", ""]
-- ["PSs11CVarArgType", "Caption"]
-- ["PSs11CVarArgType", "Indicator"]
-- ["PSs11CVarArgType", "PrevValue"]
-- ["PSs11CVarArgType", "Value"]
-- ["PSs11CVarArgType", "drawRect"]
-- ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", ""]
-- ["PSs23CustomStringConvertible", "Caption"]
-- ["PSs23CustomStringConvertible", "Indicator"]
-- ["PSs23CustomStringConvertible", "PrevValue"]
-- ["PSs23CustomStringConvertible", "Value"]
-- ["PSs23CustomStringConvertible", "drawRect"]
-- ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "Caption"]
-- ["PSs9Equatable", "Indicator"]
-- ["PSs9Equatable", "PrevValue"]
-- ["PSs9Equatable", "Value"]
-- ["PSs9Equatable", "drawRect"]
-- ["PSs9Equatable", "init"]
-- ["PSs9Equatable", ""]
-- ["PSs8Hashable", "Caption"]
-- ["PSs8Hashable", "Indicator"]
-- ["PSs8Hashable", "PrevValue"]
-- ["PSs8Hashable", "Value"]
-- ["PSs8Hashable", "drawRect"]
-- ["PSs8Hashable", "init"]
-- ["PSs8Hashable", ""]
+- ["Ps9AnyObject", "Caption"]
+- ["Ps9AnyObject", "Indicator"]
+- ["Ps9AnyObject", "PrevValue"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "drawRect"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "Caption"]
+- ["Ps11CVarArgType", "Indicator"]
+- ["Ps11CVarArgType", "PrevValue"]
+- ["Ps11CVarArgType", "Value"]
+- ["Ps11CVarArgType", "drawRect"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Caption"]
+- ["Ps28CustomDebugStringConvertible", "Indicator"]
+- ["Ps28CustomDebugStringConvertible", "PrevValue"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "drawRect"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Caption"]
+- ["Ps23CustomStringConvertible", "Indicator"]
+- ["Ps23CustomStringConvertible", "PrevValue"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "drawRect"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Caption"]
+- ["Ps9Equatable", "Indicator"]
+- ["Ps9Equatable", "PrevValue"]
+- ["Ps9Equatable", "Value"]
+- ["Ps9Equatable", "drawRect"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "Caption"]
+- ["Ps8Hashable", "Indicator"]
+- ["Ps8Hashable", "PrevValue"]
+- ["Ps8Hashable", "Value"]
+- ["Ps8Hashable", "drawRect"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
 - ["PSo15NSAccessibility", "Caption"]
 - ["PSo15NSAccessibility", "Indicator"]
 - ["PSo15NSAccessibility", "PrevValue"]
@@ -147,20 +154,21 @@ depends-member:
 - ["CSo6NSView", "drawRect"]
 - ["CSo6NSView", "init"]
 - ["CSo6NSView", ""]
-- ["PSs12_Reflectable", "Caption"]
-- ["PSs12_Reflectable", "Indicator"]
-- ["PSs12_Reflectable", "PrevValue"]
-- ["PSs12_Reflectable", "Value"]
-- ["PSs12_Reflectable", "drawRect"]
-- ["PSs12_Reflectable", "init"]
-- ["PSs12_Reflectable", ""]
+- ["Ps12_Reflectable", "Caption"]
+- ["Ps12_Reflectable", "Indicator"]
+- ["Ps12_Reflectable", "PrevValue"]
+- ["Ps12_Reflectable", "Value"]
+- ["Ps12_Reflectable", "drawRect"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", ""]
 depends-nominal:
 - "C6AdMate10AdDataCell"
-- "PSs9AnyObject"
-- "PSs11CVarArgType"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- "PSs8Hashable"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
 - "PSo15NSAccessibility"
 - "PSo30NSAccessibilityElementProtocol"
 - "PSo29NSAnimatablePropertyContainer"
@@ -172,7 +180,7 @@ depends-nominal:
 - "CSo11NSResponder"
 - "PSo33NSUserInterfaceItemIdentification"
 - "CSo6NSView"
-- "PSs12_Reflectable"
+- "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -181,19 +189,22 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/AdMate.build/Debug/AdDataKit2.build/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Swift.h"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sqlite3.h"
-- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Headers/SQLite.swift-umbrella.h"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SQLite.framework/Modules/module.modulemap"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Products/Debug/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"

@@ -29,11 +29,6 @@ public enum RowSelected {
 }
 
 
-
-
-
-
-
 public struct AdData {
 
     public var AdRequest = Int?()
