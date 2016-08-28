@@ -64,5 +64,15 @@ class MainWindow: NSWindowController {
         NSNotificationCenter.defaultCenter().postNotificationName("LoginPressed", object: nil)
         
     }
+    
+    @IBAction func ExportPressed(sender: AnyObject) {
+        
+        print("ExportPressed")
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("ExportPressed", object: nil)
+        
+        
+    }
+    
  
 }

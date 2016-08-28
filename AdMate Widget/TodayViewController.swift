@@ -248,7 +248,7 @@ extension TodayViewController: NSTableViewDataSource {
             
             
             
-//
+
         case 5: // PAGE CTR
             
             cell.Caption.stringValue = "Page CTR"
@@ -410,73 +410,7 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     override func viewWillAppear() {
         
 
-            GetDataFromDb(){
-                (result: [AdData]) in
-                
-                if result.count > 60 {
-                
-                    if defaults.objectForKey("CCYSYMBOL") != nil {
-                        self.CurrencySymbol = defaults.objectForKey("CCYSYMBOL") as! String
-                    } else {
-                        self.CurrencySymbol = "$"
-                    }
-                    
-                    self.FormatTodayData(result)
-                    
-                } else {
-                
-                    // DATA IS CORRUPTED ALERT MESSAGE
-                
-                }
-                
-            }
-    
 
-            if let UserID = defaults.objectForKey("UserID") {
-                
-                oauth2.authorize()
-                
-                dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_USER_INITIATED.rawValue), 0)) { // 1
-                    
-                    FetchDataFromAPI(UserID as! String){
-                        (UpdateStatus:Bool) in
-                        
-                        if UpdateStatus {
-                            
-                            GetDataFromDb(){
-                                (result: [AdData]) in
-                                                                
-                                    dispatch_async(dispatch_get_main_queue()) { // 2
-                                    
-                                        if result.count > 60 {
-                                            
-                                            self.FormatTodayData(result)
-                                            
-                                        } else {
-                                            
-                                            // DATA IS CORRUPTED ALERT MESSAGE
-                                            
-                                        }
-
-                                    
-                                    }
-                                
-                            }
-                            
-                            
-                        }
-                        
-                    }
-                    
-                    
-                }
-  
-            } else {
-        
-                // User never logged in
-                // Do stuff here
-        
-        }
   
  
     }
@@ -732,10 +666,81 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     
 
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
-        // Update your data and prepare for a snapshot. Call completion handler when you are done
-        // with NoData if nothing has changed or NewData if there is new data since the last
-        // time we called you
-        completionHandler(.NoData)
+        
+        GetDataFromDb(){
+            (result: [AdData]) in
+            
+            if result.count > 60 {
+                
+                if defaults.objectForKey("CCYSYMBOL") != nil {
+                    self.CurrencySymbol = defaults.objectForKey("CCYSYMBOL") as! String
+                } else {
+                    self.CurrencySymbol = "$"
+                }
+                
+                self.FormatTodayData(result)
+                
+            } else {
+                
+                // DATA IS CORRUPTED ALERT MESSAGE
+                NSLog("DATA IS CORRUPTED ALERT MESSAGE")
+                
+            }
+            
+        }
+        
+        
+        if let UserID = defaults.objectForKey("UserID") {
+            
+            oauth2.authorize()
+            
+            dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_USER_INITIATED.rawValue), 0)) { // 1
+                
+                FetchDataFromAPI(UserID as! String){
+                    (UpdateStatus:Bool) in
+                    
+                    if UpdateStatus {
+                        
+                        GetDataFromDb(){
+                            (result: [AdData]) in
+                            
+                            dispatch_async(dispatch_get_main_queue()) { // 2
+                                
+                                if result.count > 60 {
+                                    
+                                    
+                                    self.FormatTodayData(result)
+                                    completionHandler(.NewData)
+                                    
+                                } else {
+                                    
+                                    // DATA IS CORRUPTED ALERT MESSAGE
+                                    NSLog("DATA IS CORRUPTED ALERT MESSAGE")
+                                    completionHandler(.NoData)
+                                    
+                                }
+                                
+                                
+                            }
+                            
+                        }
+                        
+                        
+                    }
+                    
+                }
+                
+                
+            }
+            
+        } else {
+            
+            // User never logged in
+            // Do stuff here
+            completionHandler(.NoData)
+            
+        }
+        
     }
 
 }

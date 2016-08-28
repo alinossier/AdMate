@@ -1,11 +1,11 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "37d0fdc633ac1b4bb90028e54059ece5"
-build_time: [523403760, 288874000]
+build_time: [524878121, 219117000]
 inputs:
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/NSData+OAuthSwift.swift": [499388024, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate Widget/CellTodayExtension.swift": [510606747, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/String+OAuthSwift.swift": [499388024, 0]
-  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate Widget/TodayViewController.swift": [523403759, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate Widget/TodayViewController.swift": [524878119, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuth1Swift.swift": [499388024, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftURLHandlerType.swift": [499388024, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/SHA1.swift": [499388024, 0]

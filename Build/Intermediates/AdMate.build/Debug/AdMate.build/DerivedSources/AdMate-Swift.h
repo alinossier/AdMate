@@ -245,6 +245,7 @@ SWIFT_CLASS("_TtC6AdMate18MainViewController")
 @property (nonatomic, copy) NSString * _Nonnull CurrencySymbol;
 - (NSEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(NSEdgeInsets)defaultMarginInsets;
 - (void)viewDidLoad;
+- (void)ExportButtonPressed:(id _Nonnull)sender;
 - (void)LoginButtonPressed:(id _Nonnull)sender;
 - (BOOL)dialogOKCancel:(NSString * _Nonnull)question text:(NSString * _Nonnull)text;
 - (IBAction)ShowInfo:(id _Nonnull)sender;
@@ -286,6 +287,7 @@ SWIFT_CLASS("_TtC6AdMate10MainWindow")
 - (void)SetLogin:(id _Nonnull)sender;
 - (IBAction)LoadDatData:(id _Nonnull)sender;
 - (IBAction)LoginPressed:(id _Nonnull)sender;
+- (IBAction)ExportPressed:(id _Nonnull)sender;
 - (nonnull instancetype)initWithWindow:(NSWindow * _Nullable)window OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

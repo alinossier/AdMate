@@ -14,6 +14,8 @@ import Cocoa
 import NotificationCenter
 import AdDataKit2
 import AdMateOAuth
+import SQLite
+
 
 
 
@@ -400,6 +402,7 @@ class MainViewController: NSViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "LoadView:", name:"UserDidLogin", object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "ReAuthUser:", name:"ReValidateUser", object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "LoginButtonPressed:", name:"LoginPressed", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "ExportButtonPressed:", name:"ExportPressed", object: nil)
         
         LineChartViewLayer.lineChart.legendEnabled = false
         
@@ -419,6 +422,113 @@ class MainViewController: NSViewController {
         }
         
     }
+    
+    
+    
+    
+    
+    func ExportButtonPressed(sender:AnyObject){
+    
+        
+        let calendar = NSCalendar.autoupdatingCurrentCalendar()
+
+        let MyFormatter = NSDateFormatter()
+        MyFormatter.dateFormat = "yyyy-MM-dd"
+        let Date = calendar.dateByAddingUnit(
+            [.Day],
+            value: 0,
+            toDate: NSDate(),
+            options: [])!
+        
+        let formatedDate = MyFormatter.stringFromDate(Date)
+        
+    //Pick file location
+        
+        let saveDialog = NSSavePanel();
+        
+        saveDialog.nameFieldStringValue = "AdMateData-" + formatedDate + ".csv"
+        saveDialog.title = "Export your AdMate data"
+        saveDialog.beginWithCompletionHandler() { (result: Int) -> Void in
+            if result == NSFileHandlingPanelOKButton {
+                
+                
+                
+                GetDataFromDb(){
+                    (result: [AdData]) in
+                    
+                    dispatch_async(dispatch_get_main_queue()) { // 2
+                        
+                        if result.count > 60 { // Validates that we retrieve more than 60 lines
+                            
+                            let stringofdata = NSMutableString()
+                            
+                            stringofdata.appendString("AdMate Data exported on " + formatedDate + "\n, \n" )
+                            stringofdata.appendString("Number of requests: The number of ad units that requested ads (for content ads) or search queries (for search ads). An ad request may result in zero or multiple individual ad impressions depending on the size of the ad unit and whether any ads were available. \n" )
+                            
+                            stringofdata.appendString("Coverage: The ratio of requested ad units or queries to the number returned to the site. \n" )
+                            
+                            stringofdata.appendString("CTR: The ratio of ad requests that resulted in a click. \n" )
+                            
+                            stringofdata.appendString("RPM: The revenue per thousand ad requests. This is calculated by dividing estimated revenue by the number of ad requests multiplied by 1000. \n" )
+                            
+                            stringofdata.appendString("Clicks: The number of times a user clicked on a standard content ad. \n" )
+                            
+                            stringofdata.appendString("Cost per clisk: The amount you earn each time a user clicks on your ad. CPC is calculated by dividing the estimated revenue by the number of clicks received. \n" )
+                            
+                            stringofdata.appendString("Earnings: The estimated earnings of the publisher. Note that earnings up to yesterday are accurate. More recent earnings are estimated due to the possibility of spam or exchange rate fluctuations. \n" )
+                            
+                            stringofdata.appendString("Page views: The number of page views. \n" )
+                            
+                            stringofdata.appendString("Matched ad requests: The number of ad units (for content ads) or search queries (for search ads) that showed ads. A matched ad request is counted for each ad request that returns at least one ad to the site. \n \n \n" )
+                      
+                            
+                            stringofdata.appendString("Date, Number of requests, Coverage, CTR, RPM, Clicks, Cost per click, Earnings, Page views RPM, Page views, Matched ad requests \n")
+                            
+                            for i in 0...result.count - 1 {
+                                
+                            
+                                let DateAsString = MyFormatter.stringFromDate((result[i].Date)!)
+                                
+                                
+                                stringofdata.appendString(DateAsString + ", " + (result[i].AdRequest?.description)! + ", " + (result[i].AdRequestCoverage?.description)! +  ", " + (result[i].AdRequestCTR?.description)! + ", " + (result[i].AdRequestRPM?.description)! + ", " + (result[i].AdClicks?.description)! + ", " + (result[i].AdCostPerClick?.description)! + ", " + (result[i].Earnings?.description)! + ", " + (result[i].PageViewRPM?.description)! + ", " + (result[i].PageViews?.description)! + ", " + (result[i].MatchedAdRequest?.description)! + "\n")
+                                
+                                
+                                
+                            }
+                            
+                            let data = stringofdata.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
+
+                            
+                            if let content = data {
+                                NSFileManager.defaultManager()
+                                    .createFileAtPath(saveDialog.URL!.path!, contents: content, attributes: nil)
+                            }
+
+                            
+                        } else {
+                            
+                            // DATA IS CORRUPTED ALERT MESSAGE
+                            print("DATA IS CORRUPTED ALERT MESSAGE")
+                            
+                        }
+                        
+                        
+                    }
+                    
+                }
+                
+                
+                    print("File saved at: " + (saveDialog.URL?.absoluteString)!)
+                
+                
+            }
+        }
+    
+    
+    
+    }
+    
+    
     
     func LoginButtonPressed(sender: AnyObject){
         print("The Login button was pressed")

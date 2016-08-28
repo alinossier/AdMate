@@ -100,14 +100,20 @@
                                         <action selector="LoadDatData:" target="B8D-0N-5wS" id="pDf-ee-Xi1"/>
                                     </connections>
                                 </toolbarItem>
-                                <toolbarItem implicitItemIdentifier="8B50CE5C-4EE9-44A7-861F-B075CBB475D6" explicitItemIdentifier="LoginButton" label="Login" paletteLabel="Toolbar Item" tag="-1" image="login" autovalidates="NO" id="BDP-gT-J2T">
+                                <toolbarItem implicitItemIdentifier="8B50CE5C-4EE9-44A7-861F-B075CBB475D6" explicitItemIdentifier="LoginButton" label="Login" paletteLabel="Login" tag="-1" image="login" autovalidates="NO" id="BDP-gT-J2T">
                                     <connections>
                                         <action selector="LoginPressed:" target="B8D-0N-5wS" id="x8W-xO-1VZ"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="F400B0EF-2A54-468D-982E-903651C86FBE" label="Export" paletteLabel="Export" tag="-1" image="export" autovalidates="NO" id="P2M-EZ-2Yg">
+                                    <connections>
+                                        <action selector="ExportPressed:" target="B8D-0N-5wS" id="mq8-P8-ihz"/>
                                     </connections>
                                 </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
                                 <toolbarItem reference="quH-pb-Aiv"/>
+                                <toolbarItem reference="P2M-EZ-2Yg"/>
                                 <toolbarItem reference="BDP-gT-J2T"/>
                                 <toolbarItem reference="P94-FL-BNn"/>
                             </defaultToolbarItems>
@@ -488,6 +494,7 @@
         <image name="AdMate_Icon" width="1024" height="1024"/>
         <image name="ButtonBackground" width="240" height="40"/>
         <image name="Refresh" width="512" height="512"/>
+        <image name="export" width="480" height="480"/>
         <image name="info" width="512" height="512"/>
         <image name="login" width="512" height="512"/>
     </resources>

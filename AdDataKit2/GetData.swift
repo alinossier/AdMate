@@ -9,7 +9,6 @@
 import Foundation
 import SQLite
 import Cocoa
-//import OAuthSwift
 import p2_OAuth2
 import AdMateOAuth
 
@@ -335,6 +334,7 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                             if let ErrorMessage = ErrorDict["errors"]!![0]!["message"]{
                             
                                 print(ErrorMessage)
+                                NSLog("ErrorMessage")
                                 
                                 // Send notificationt to re-authenticate
                                 
@@ -347,6 +347,8 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                         }
                         
                             print("Could not get headers")
+                        NSLog("Could not get headers")
+
                         
                         }
                     }

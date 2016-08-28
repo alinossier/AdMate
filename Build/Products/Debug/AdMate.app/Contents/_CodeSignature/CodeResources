@@ -18,13 +18,13 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		8m+GJ4ohE5ob517adlQITH3yY08=
+		CQ5RI21PekaW40Ayx13QN1QbH+Q=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/4qd-sN-7WO-view-Jzm-h2-LIr.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7JqOOtCixdKhix6IaB5iIqtc0kE=
+			CsXWiTFz+zLr3Jgo8a73FT6/8tM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -33,7 +33,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o9AHJbeh0hv0hK/ovOW7a6WTGu8=
+			Q78tr/k6qZnSIMFpMHhOBtWbPnA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -42,7 +42,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jci33xWqsrZuKly105hTWMFdSvY=
+			RVFMF4FskM7t66AuZDFToC/HYTc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eUSCTOMCRplENtQ1ZbVl8oOuHmY=
+			Qs8GeMUs0TJW9ORWuFK1TzbzLdM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J5quIpsxpTfXQDuxZy5W08HHIhg=
+			qppmQ4X3bab16RVqaVk43LRZhFY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nKb7W+hfidFRDTKSvdUbzwKP7Wo=
+			7D5tgL6xlcy9eZ2hEqkwW6E4e+I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			QyP05o2T8FB04iXBkhHCgqRRb6A=
+			7uGZppn5h8R14+I5mFldG0vjF1s=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.Antonin-Linossier.AdMate.AdMate-Widget" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -239,13 +239,13 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		8m+GJ4ohE5ob517adlQITH3yY08=
+		CQ5RI21PekaW40Ayx13QN1QbH+Q=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/4qd-sN-7WO-view-Jzm-h2-LIr.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7JqOOtCixdKhix6IaB5iIqtc0kE=
+			CsXWiTFz+zLr3Jgo8a73FT6/8tM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o9AHJbeh0hv0hK/ovOW7a6WTGu8=
+			Q78tr/k6qZnSIMFpMHhOBtWbPnA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jci33xWqsrZuKly105hTWMFdSvY=
+			RVFMF4FskM7t66AuZDFToC/HYTc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -272,7 +272,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eUSCTOMCRplENtQ1ZbVl8oOuHmY=
+			Qs8GeMUs0TJW9ORWuFK1TzbzLdM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J5quIpsxpTfXQDuxZy5W08HHIhg=
+			qppmQ4X3bab16RVqaVk43LRZhFY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nKb7W+hfidFRDTKSvdUbzwKP7Wo=
+			7D5tgL6xlcy9eZ2hEqkwW6E4e+I=
 			</data>
 			<key>optional</key>
 			<true/>

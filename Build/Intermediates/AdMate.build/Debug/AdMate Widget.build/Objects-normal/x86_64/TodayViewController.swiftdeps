@@ -8,76 +8,77 @@ provides-member:
 - ["C13AdMate_Widget19TodayViewController", ""]
 - ["OC13AdMate_Widget19TodayViewController13DataSetToShow", ""]
 provides-dynamic-lookup:
-- "widgetPerformUpdateWithCompletionHandler"
-- "indexChanged"
-- "viewWillAppear"
-- "ToogleTable"
+- "SegmentedControl"
 - "CurrencySymbol"
-- "tableViewSelectionDidChange"
+- "viewWillAppear"
+- "widgetPerformUpdateWithCompletionHandler"
 - "ShowMore"
 - "viewDidLoad"
-- "tableView"
-- "tableView"
-- "tableView"
-- "SegmentedControl"
+- "indexChanged"
+- "tableViewSelectionDidChange"
+- "ToogleTable"
+- "numberOfRowsInTableView"
 - "nibName"
 - "widgetMarginInsetsForProposedMarginInsets"
-- "numberOfRowsInTableView"
+- "tableView"
+- "tableView"
+- "tableView"
 depends-top-level:
+- "NSTableColumn"
+- !private "FetchDataFromAPI"
+- "BooleanLiteralType"
+- !private "CGSizeMake"
+- !private "defaults"
+- "NSView"
+- "NSEdgeInsets"
+- "NSTableViewDelegate"
+- "String"
+- !private "CellTodayExtension"
+- !private "NSCalendar"
+- "Int"
+- !private "+"
+- "NSNotification"
+- !private "!"
+- "Void"
+- "CGFloat"
+- "NSTableView"
+- !private "NSImage"
+- !private "StringLiteralType"
+- "NCUpdateResult"
+- !private "oauth2"
+- !private "-"
+- !private "*"
 - !private "QOS_CLASS_USER_INITIATED"
 - !private "rounder"
-- !private "dispatch_get_main_queue"
-- !private "~="
-- "NCWidgetProviding"
-- "=="
-- "NSSegmentedControl"
-- !private "UnicodeScalarType"
-- !private "Float"
-- !private "/"
-- !private "NSNib"
-- !private "dispatch_get_global_queue"
-- !private "NSDate"
-- "NSViewController"
-- !private "Selector"
-- !private "dispatch_async"
-- !private "Array"
-- "NSTableViewDataSource"
-- "TodayViewController"
-- !private "NSEdgeInsetsZero"
-- "NSTableView"
-- !private "CellTodayExtension"
-- !private "oauth2"
 - "AnyObject"
-- !private "!="
-- !private "NSCalendar"
-- "NSNotification"
-- "ProcessedData"
-- "Bool"
-- !private "print"
-- "NSView"
-- !private "&&"
-- !private ">"
-- "BooleanLiteralType"
-- "NSEdgeInsets"
-- !private "*"
-- !private "defaults"
-- "String"
-- !private "!"
-- !private "CGSizeMake"
-- !private "StringLiteralType"
-- "CGFloat"
-- !private "FetchDataFromAPI"
-- !private "..."
-- "Int"
-- !private "NSImage"
-- !private "+"
-- !private "-"
-- "NSTableViewDelegate"
-- "NCUpdateResult"
-- !private "GetDataFromDb"
-- "NSTableColumn"
-- "Void"
 - "AdData"
+- !private "dispatch_async"
+- !private "dispatch_get_main_queue"
+- !private "GetDataFromDb"
+- "NSViewController"
+- "NSSegmentedControl"
+- !private "Array"
+- !private "Float"
+- !private "..."
+- !private "dispatch_get_global_queue"
+- !private "NSNib"
+- !private "/"
+- "TodayViewController"
+- "Bool"
+- !private "Selector"
+- !private "NSEdgeInsetsZero"
+- "NSTableViewDataSource"
+- "ProcessedData"
+- !private ">"
+- "NCWidgetProviding"
+- !private "print"
+- !private "UnicodeScalarType"
+- !private "!="
+- !private "NSDate"
+- !private "&&"
+- !private "NSLog"
+- "=="
+- !private "~="
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["V10AdDataKit26AdData", "AdClicks"]
@@ -111,6 +112,7 @@ depends-member:
 - !private ["Ps9AnyObject", "NSDate"]
 - !private ["Ps9AnyObject", "NSEdgeInsetsZero"]
 - !private ["Ps9AnyObject", "NSImage"]
+- !private ["Ps9AnyObject", "NSLog"]
 - !private ["Ps9AnyObject", "NSNib"]
 - !private ["Ps9AnyObject", "PrevValue"]
 - ["Ps9AnyObject", "ProcessedData"]
@@ -244,6 +246,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "NSDate"]
 - !private ["Ps11CVarArgType", "NSEdgeInsetsZero"]
 - !private ["Ps11CVarArgType", "NSImage"]
+- !private ["Ps11CVarArgType", "NSLog"]
 - !private ["Ps11CVarArgType", "NSNib"]
 - !private ["Ps11CVarArgType", "PrevValue"]
 - ["Ps11CVarArgType", "ProcessedData"]
@@ -351,6 +354,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "NSDate"]
 - !private ["Ps28CustomDebugStringConvertible", "NSEdgeInsetsZero"]
 - !private ["Ps28CustomDebugStringConvertible", "NSImage"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
 - !private ["Ps28CustomDebugStringConvertible", "NSNib"]
 - !private ["Ps28CustomDebugStringConvertible", "PrevValue"]
 - ["Ps28CustomDebugStringConvertible", "ProcessedData"]
@@ -440,6 +444,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "NSDate"]
 - !private ["Ps23CustomStringConvertible", "NSEdgeInsetsZero"]
 - !private ["Ps23CustomStringConvertible", "NSImage"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
 - !private ["Ps23CustomStringConvertible", "NSNib"]
 - !private ["Ps23CustomStringConvertible", "PrevValue"]
 - ["Ps23CustomStringConvertible", "ProcessedData"]
@@ -539,7 +544,9 @@ depends-member:
 - !private ["Ps9Equatable", "NSDate"]
 - !private ["Ps9Equatable", "NSEdgeInsetsZero"]
 - !private ["Ps9Equatable", "NSImage"]
+- !private ["Ps9Equatable", "NSLog"]
 - !private ["Ps9Equatable", "NSNib"]
+- !private ["Ps9Equatable", "NewData"]
 - !private ["Ps9Equatable", "NoData"]
 - !private ["Ps9Equatable", "PrevValue"]
 - ["Ps9Equatable", "ProcessedData"]
@@ -649,7 +656,9 @@ depends-member:
 - !private ["Ps8Hashable", "NSDate"]
 - !private ["Ps8Hashable", "NSEdgeInsetsZero"]
 - !private ["Ps8Hashable", "NSImage"]
+- !private ["Ps8Hashable", "NSLog"]
 - !private ["Ps8Hashable", "NSNib"]
+- !private ["Ps8Hashable", "NewData"]
 - !private ["Ps8Hashable", "NoData"]
 - !private ["Ps8Hashable", "PrevValue"]
 - ["Ps8Hashable", "ProcessedData"]
@@ -796,6 +805,7 @@ depends-member:
 - !private ["Ps16MutableSliceable", "filter"]
 - ["Ps16MutableSliceable", "init"]
 - !private ["Ps16MutableSliceable", "subscript"]
+- !private ["OSC14NCUpdateResult", "NewData"]
 - !private ["OSC14NCUpdateResult", "NoData"]
 - ["PSo17NCWidgetProviding", "Bool"]
 - !private ["PSo17NCWidgetProviding", "CGFloat"]
@@ -813,6 +823,7 @@ depends-member:
 - !private ["PSo17NCWidgetProviding", "NSDate"]
 - !private ["PSo17NCWidgetProviding", "NSEdgeInsetsZero"]
 - !private ["PSo17NCWidgetProviding", "NSImage"]
+- !private ["PSo17NCWidgetProviding", "NSLog"]
 - !private ["PSo17NCWidgetProviding", "NSNib"]
 - ["PSo17NCWidgetProviding", "ProcessedData"]
 - !private ["PSo17NCWidgetProviding", "QOS_CLASS_USER_INITIATED"]
@@ -957,6 +968,7 @@ depends-member:
 - !private ["PSo8NSCoding", "NSDate"]
 - !private ["PSo8NSCoding", "NSEdgeInsetsZero"]
 - !private ["PSo8NSCoding", "NSImage"]
+- !private ["PSo8NSCoding", "NSLog"]
 - !private ["PSo8NSCoding", "NSNib"]
 - !private ["PSo8NSCoding", "PrevValue"]
 - ["PSo8NSCoding", "ProcessedData"]
@@ -1041,6 +1053,7 @@ depends-member:
 - !private ["PSo28NSControlTextEditingDelegate", "NSDate"]
 - !private ["PSo28NSControlTextEditingDelegate", "NSEdgeInsetsZero"]
 - !private ["PSo28NSControlTextEditingDelegate", "NSImage"]
+- !private ["PSo28NSControlTextEditingDelegate", "NSLog"]
 - !private ["PSo28NSControlTextEditingDelegate", "NSNib"]
 - ["PSo28NSControlTextEditingDelegate", "ProcessedData"]
 - !private ["PSo28NSControlTextEditingDelegate", "QOS_CLASS_USER_INITIATED"]
@@ -1120,6 +1133,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "NSDate"]
 - !private ["PSo26NSExtensionRequestHandling", "NSEdgeInsetsZero"]
 - !private ["PSo26NSExtensionRequestHandling", "NSImage"]
+- !private ["PSo26NSExtensionRequestHandling", "NSLog"]
 - !private ["PSo26NSExtensionRequestHandling", "NSNib"]
 - ["PSo26NSExtensionRequestHandling", "ProcessedData"]
 - !private ["PSo26NSExtensionRequestHandling", "QOS_CLASS_USER_INITIATED"]
@@ -1188,6 +1202,7 @@ depends-member:
 - ["CSo8NSObject", "NSEdgeInsets"]
 - !private ["CSo8NSObject", "NSEdgeInsetsZero"]
 - !private ["CSo8NSObject", "NSImage"]
+- !private ["CSo8NSObject", "NSLog"]
 - !private ["CSo8NSObject", "NSNib"]
 - ["CSo8NSObject", "NSNotification"]
 - ["CSo8NSObject", "NSSegmentedControl"]
@@ -1272,6 +1287,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "NSDate"]
 - !private ["PSo16NSObjectProtocol", "NSEdgeInsetsZero"]
 - !private ["PSo16NSObjectProtocol", "NSImage"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
 - !private ["PSo16NSObjectProtocol", "NSNib"]
 - !private ["PSo16NSObjectProtocol", "PrevValue"]
 - ["PSo16NSObjectProtocol", "ProcessedData"]
@@ -1357,6 +1373,7 @@ depends-member:
 - ["CSo11NSResponder", "NSEdgeInsets"]
 - !private ["CSo11NSResponder", "NSEdgeInsetsZero"]
 - !private ["CSo11NSResponder", "NSImage"]
+- !private ["CSo11NSResponder", "NSLog"]
 - !private ["CSo11NSResponder", "NSNib"]
 - ["CSo11NSResponder", "NSNotification"]
 - ["CSo11NSResponder", "NSSegmentedControl"]
@@ -1438,6 +1455,7 @@ depends-member:
 - !private ["PSo17NSSeguePerforming", "NSDate"]
 - !private ["PSo17NSSeguePerforming", "NSEdgeInsetsZero"]
 - !private ["PSo17NSSeguePerforming", "NSImage"]
+- !private ["PSo17NSSeguePerforming", "NSLog"]
 - !private ["PSo17NSSeguePerforming", "NSNib"]
 - ["PSo17NSSeguePerforming", "ProcessedData"]
 - !private ["PSo17NSSeguePerforming", "QOS_CLASS_USER_INITIATED"]
@@ -1496,6 +1514,7 @@ depends-member:
 - !private ["PSo21NSTableViewDataSource", "NSDate"]
 - !private ["PSo21NSTableViewDataSource", "NSEdgeInsetsZero"]
 - !private ["PSo21NSTableViewDataSource", "NSImage"]
+- !private ["PSo21NSTableViewDataSource", "NSLog"]
 - !private ["PSo21NSTableViewDataSource", "NSNib"]
 - ["PSo21NSTableViewDataSource", "ProcessedData"]
 - !private ["PSo21NSTableViewDataSource", "QOS_CLASS_USER_INITIATED"]
@@ -1545,6 +1564,7 @@ depends-member:
 - !private ["PSo19NSTableViewDelegate", "NSDate"]
 - !private ["PSo19NSTableViewDelegate", "NSEdgeInsetsZero"]
 - !private ["PSo19NSTableViewDelegate", "NSImage"]
+- !private ["PSo19NSTableViewDelegate", "NSLog"]
 - !private ["PSo19NSTableViewDelegate", "NSNib"]
 - ["PSo19NSTableViewDelegate", "ProcessedData"]
 - !private ["PSo19NSTableViewDelegate", "QOS_CLASS_USER_INITIATED"]
@@ -1606,6 +1626,7 @@ depends-member:
 - !private ["PSo33NSUserInterfaceItemIdentification", "NSDate"]
 - !private ["PSo33NSUserInterfaceItemIdentification", "NSEdgeInsetsZero"]
 - !private ["PSo33NSUserInterfaceItemIdentification", "NSImage"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSLog"]
 - !private ["PSo33NSUserInterfaceItemIdentification", "NSNib"]
 - !private ["PSo33NSUserInterfaceItemIdentification", "PrevValue"]
 - ["PSo33NSUserInterfaceItemIdentification", "ProcessedData"]
@@ -1703,6 +1724,7 @@ depends-member:
 - ["CSo16NSViewController", "NSEdgeInsets"]
 - !private ["CSo16NSViewController", "NSEdgeInsetsZero"]
 - !private ["CSo16NSViewController", "NSImage"]
+- !private ["CSo16NSViewController", "NSLog"]
 - !private ["CSo16NSViewController", "NSNib"]
 - ["CSo16NSViewController", "NSNotification"]
 - ["CSo16NSViewController", "NSSegmentedControl"]
@@ -1813,6 +1835,7 @@ depends-member:
 - !private ["Ps30RangeReplaceableCollectionType", "subscript"]
 - !private ["Ps16RawRepresentable", "Day"]
 - !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "NewData"]
 - !private ["Ps16RawRepresentable", "NoData"]
 - !private ["Ps16RawRepresentable", "rawValue"]
 - !private ["V10ObjectiveC8Selector", "init"]
@@ -1875,6 +1898,7 @@ depends-member:
 - ["C13AdMate_Widget19TodayViewController", "NSEdgeInsets"]
 - !private ["C13AdMate_Widget19TodayViewController", "NSEdgeInsetsZero"]
 - !private ["C13AdMate_Widget19TodayViewController", "NSImage"]
+- !private ["C13AdMate_Widget19TodayViewController", "NSLog"]
 - !private ["C13AdMate_Widget19TodayViewController", "NSNib"]
 - ["C13AdMate_Widget19TodayViewController", "NSNotification"]
 - ["C13AdMate_Widget19TodayViewController", "NSSegmentedControl"]
