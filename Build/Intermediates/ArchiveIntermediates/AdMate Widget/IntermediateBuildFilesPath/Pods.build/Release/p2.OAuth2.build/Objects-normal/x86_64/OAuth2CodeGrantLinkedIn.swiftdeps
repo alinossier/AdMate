@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuth2CodeGrantLinkedIn"
+provides-nominal:
+- "C9p2_OAuth223OAuth2CodeGrantLinkedIn"
+provides-member:
+- ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "OAuth2CodeGrant"
+- "OAuth2CodeGrantLinkedIn"
+- "OAuth2JSON"
+depends-member:
+- ["Ps9AnyObject", "assureCorrectBearerType"]
+- !private ["Ps9AnyObject", "authConfig"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["C9p2_OAuth26OAuth2", "OAuth2JSON"]
+- ["C9p2_OAuth26OAuth2", "assureCorrectBearerType"]
+- !private ["C9p2_OAuth26OAuth2", "authConfig"]
+- ["C9p2_OAuth26OAuth2", "init"]
+- !private ["V9p2_OAuth216OAuth2AuthConfig", "authorizeEmbedded"]
+- !private ["V9p2_OAuth216OAuth2AuthConfig", "secretInBody"]
+- !private ["V9p2_OAuth216OAuth2AuthConfig", "ui"]
+- ["C9p2_OAuth210OAuth2Base", "OAuth2JSON"]
+- ["C9p2_OAuth210OAuth2Base", "assureCorrectBearerType"]
+- !private ["C9p2_OAuth210OAuth2Base", "authConfig"]
+- ["C9p2_OAuth210OAuth2Base", "init"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "OAuth2JSON"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "assureCorrectBearerType"]
+- !private ["C9p2_OAuth215OAuth2CodeGrant", "authConfig"]
+- ["C9p2_OAuth215OAuth2CodeGrant", "init"]
+- ["C9p2_OAuth215OAuth2CodeGrant", ""]
+- ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "OAuth2JSON"]
+- ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "assureCorrectBearerType"]
+- !private ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "authConfig"]
+- ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "deinit"]
+- ["C9p2_OAuth223OAuth2CodeGrantLinkedIn", "init"]
+- !private ["VV9p2_OAuth216OAuth2AuthConfig2UI", "useSafariView"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9p2_OAuth26OAuth2"
+- !private "V9p2_OAuth216OAuth2AuthConfig"
+- "C9p2_OAuth210OAuth2Base"
+- "C9p2_OAuth215OAuth2CodeGrant"
+- "C9p2_OAuth223OAuth2CodeGrantLinkedIn"
+- !private "VV9p2_OAuth216OAuth2AuthConfig2UI"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate Widget/IntermediateBuildFilesPath/Pods.build/Release/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "f99e5835b650644c0ee99e38051d87e7"

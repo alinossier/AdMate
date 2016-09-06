@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "e8d58261c88a39aa6bc9396890188a6c"
+build_time: [525633417, 638618000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [523240439, 0]

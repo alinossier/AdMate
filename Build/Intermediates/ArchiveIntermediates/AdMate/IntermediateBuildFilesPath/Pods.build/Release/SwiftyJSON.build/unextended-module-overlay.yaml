@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/SwiftyJSON.build/unextended-module.modulemap',
+    }]
+  }]
+}

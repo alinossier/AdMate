@@ -1,0 +1,498 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dataEncoding"
+- "OAuthSwiftClient"
+provides-nominal:
+- "C13AdMate_Widget16OAuthSwiftClient"
+provides-member:
+- ["C13AdMate_Widget16OAuthSwiftClient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "OAuthSwiftHTTPRequest"
+- !private "ExtendedGraphemeClusterType"
+- "OAuthSwiftCredential"
+- !private "BooleanLiteralType"
+- "NSUTF8StringEncoding"
+- !private "UnicodeScalarType"
+- !private "NSMutableData"
+- "Dictionary"
+- "NSStringEncoding"
+- "AnyObject"
+- !private "arc4random"
+- "NSData"
+- "String"
+- "NSURL"
+- !private "StringLiteralType"
+- !private "=="
+- "dataEncoding"
+- "OAuthSwiftClient"
+depends-member:
+- !private ["Ps9AnyObject", "AnyObject"]
+- ["Ps9AnyObject", "FailureHandler"]
+- !private ["Ps9AnyObject", "HTTPBodyMultipart"]
+- !private ["Ps9AnyObject", "NSMutableData"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "OAuthSwiftCredential"]
+- !private ["Ps9AnyObject", "OAuthSwiftHTTPRequest"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "SuccessHandler"]
+- !private ["Ps9AnyObject", "appendData"]
+- !private ["Ps9AnyObject", "arc4random"]
+- !private ["Ps9AnyObject", "authorizationHeaderForMethod"]
+- !private ["Ps9AnyObject", "consumer_key"]
+- !private ["Ps9AnyObject", "consumer_secret"]
+- !private ["Ps9AnyObject", "contentTypeMultipart"]
+- !private ["Ps9AnyObject", "credential"]
+- !private ["Ps9AnyObject", "dataEncoding"]
+- !private ["Ps9AnyObject", "dataUsingEncoding"]
+- !private ["Ps9AnyObject", "encodeParameters"]
+- !private ["Ps9AnyObject", "failureHandler"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeHeaders"]
+- !private ["Ps9AnyObject", "makeRequest"]
+- !private ["Ps9AnyObject", "multiDataFromObject"]
+- !private ["Ps9AnyObject", "multiPartBodyFromParams"]
+- !private ["Ps9AnyObject", "multiPartRequest"]
+- !private ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "signatureForMethod"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "successHandler"]
+- ["Ps9AnyObject", ""]
+- !private ["P6SQLite7Binding", "_getBuiltinLogicValue"]
+- !private ["P6SQLite7Binding", "dataUsingEncoding"]
+- !private ["P6SQLite7Binding", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "FailureHandler"]
+- !private ["Ps11CVarArgType", "HTTPBodyMultipart"]
+- ["Ps11CVarArgType", "SuccessHandler"]
+- !private ["Ps11CVarArgType", "appendData"]
+- !private ["Ps11CVarArgType", "authorizationHeaderForMethod"]
+- !private ["Ps11CVarArgType", "consumer_key"]
+- !private ["Ps11CVarArgType", "consumer_secret"]
+- !private ["Ps11CVarArgType", "contentTypeMultipart"]
+- !private ["Ps11CVarArgType", "dataEncoding"]
+- !private ["Ps11CVarArgType", "dataUsingEncoding"]
+- !private ["Ps11CVarArgType", "encodeParameters"]
+- !private ["Ps11CVarArgType", "failureHandler"]
+- !private ["Ps11CVarArgType", "headers"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "makeHeaders"]
+- !private ["Ps11CVarArgType", "signatureForMethod"]
+- !private ["Ps11CVarArgType", "start"]
+- !private ["Ps11CVarArgType", "successHandler"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "dataUsingEncoding"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "FailureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPBodyMultipart"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "SuccessHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "appendData"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizationHeaderForMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "consumer_key"]
+- !private ["Ps28CustomDebugStringConvertible", "consumer_secret"]
+- !private ["Ps28CustomDebugStringConvertible", "contentTypeMultipart"]
+- !private ["Ps28CustomDebugStringConvertible", "dataEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "failureHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "headers"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeHeaders"]
+- !private ["Ps28CustomDebugStringConvertible", "signatureForMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "successHandler"]
+- ["Ps23CustomStringConvertible", "FailureHandler"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "HTTPBodyMultipart"]
+- ["Ps23CustomStringConvertible", "SuccessHandler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appendData"]
+- !private ["Ps23CustomStringConvertible", "authorizationHeaderForMethod"]
+- !private ["Ps23CustomStringConvertible", "consumer_key"]
+- !private ["Ps23CustomStringConvertible", "consumer_secret"]
+- !private ["Ps23CustomStringConvertible", "contentTypeMultipart"]
+- !private ["Ps23CustomStringConvertible", "dataEncoding"]
+- !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["Ps23CustomStringConvertible", "encodeParameters"]
+- !private ["Ps23CustomStringConvertible", "failureHandler"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeHeaders"]
+- !private ["Ps23CustomStringConvertible", "signatureForMethod"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "successHandler"]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "FailureHandler"]
+- !private ["Ps9Equatable", "HTTPBodyMultipart"]
+- ["Ps9Equatable", "SuccessHandler"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appendData"]
+- !private ["Ps9Equatable", "authorizationHeaderForMethod"]
+- !private ["Ps9Equatable", "consumer_key"]
+- !private ["Ps9Equatable", "consumer_secret"]
+- !private ["Ps9Equatable", "contentTypeMultipart"]
+- !private ["Ps9Equatable", "dataEncoding"]
+- !private ["Ps9Equatable", "dataUsingEncoding"]
+- !private ["Ps9Equatable", "encodeParameters"]
+- !private ["Ps9Equatable", "failureHandler"]
+- !private ["Ps9Equatable", "headers"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "makeHeaders"]
+- !private ["Ps9Equatable", "signatureForMethod"]
+- !private ["Ps9Equatable", "start"]
+- !private ["Ps9Equatable", "successHandler"]
+- !private ["P6SQLite11Expressible", "_getBuiltinLogicValue"]
+- !private ["P6SQLite11Expressible", "appendData"]
+- !private ["P6SQLite11Expressible", "dataUsingEncoding"]
+- !private ["P6SQLite11Expressible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "FailureHandler"]
+- !private ["Ps8Hashable", "HTTPBodyMultipart"]
+- ["Ps8Hashable", "SuccessHandler"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appendData"]
+- !private ["Ps8Hashable", "authorizationHeaderForMethod"]
+- !private ["Ps8Hashable", "consumer_key"]
+- !private ["Ps8Hashable", "consumer_secret"]
+- !private ["Ps8Hashable", "contentTypeMultipart"]
+- !private ["Ps8Hashable", "dataEncoding"]
+- !private ["Ps8Hashable", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "encodeParameters"]
+- !private ["Ps8Hashable", "failureHandler"]
+- !private ["Ps8Hashable", "headers"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "makeHeaders"]
+- !private ["Ps8Hashable", "signatureForMethod"]
+- !private ["Ps8Hashable", "start"]
+- !private ["Ps8Hashable", "successHandler"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "dataUsingEncoding"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "appendData"]
+- !private ["PSo8NSCoding", "authorizationHeaderForMethod"]
+- !private ["PSo8NSCoding", "consumer_key"]
+- !private ["PSo8NSCoding", "consumer_secret"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "makeHeaders"]
+- !private ["PSo8NSCoding", "signatureForMethod"]
+- !private ["PSo9NSCopying", "appendData"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSData", "appendData"]
+- !private ["CSo6NSData", "init"]
+- !private ["PSo16NSMutableCopying", "appendData"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo13NSMutableData", "appendData"]
+- !private ["CSo13NSMutableData", "init"]
+- ["CSo8NSObject", "FailureHandler"]
+- !private ["CSo8NSObject", "HTTPBodyMultipart"]
+- ["CSo8NSObject", "SuccessHandler"]
+- !private ["CSo8NSObject", "appendData"]
+- !private ["CSo8NSObject", "authorizationHeaderForMethod"]
+- !private ["CSo8NSObject", "consumer_key"]
+- !private ["CSo8NSObject", "consumer_secret"]
+- !private ["CSo8NSObject", "contentTypeMultipart"]
+- !private ["CSo8NSObject", "dataEncoding"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "encodeParameters"]
+- !private ["CSo8NSObject", "failureHandler"]
+- !private ["CSo8NSObject", "headers"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "makeHeaders"]
+- !private ["CSo8NSObject", "signatureForMethod"]
+- !private ["CSo8NSObject", "start"]
+- !private ["CSo8NSObject", "successHandler"]
+- ["PSo16NSObjectProtocol", "FailureHandler"]
+- !private ["PSo16NSObjectProtocol", "HTTPBodyMultipart"]
+- ["PSo16NSObjectProtocol", "SuccessHandler"]
+- !private ["PSo16NSObjectProtocol", "appendData"]
+- !private ["PSo16NSObjectProtocol", "authorizationHeaderForMethod"]
+- !private ["PSo16NSObjectProtocol", "consumer_key"]
+- !private ["PSo16NSObjectProtocol", "consumer_secret"]
+- !private ["PSo16NSObjectProtocol", "contentTypeMultipart"]
+- !private ["PSo16NSObjectProtocol", "dataEncoding"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "encodeParameters"]
+- !private ["PSo16NSObjectProtocol", "failureHandler"]
+- !private ["PSo16NSObjectProtocol", "headers"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "makeHeaders"]
+- !private ["PSo16NSObjectProtocol", "signatureForMethod"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- !private ["PSo16NSObjectProtocol", "successHandler"]
+- !private ["PSo19NSPasteboardReading", "dataUsingEncoding"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "dataUsingEncoding"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo14NSSecureCoding", "appendData"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["PSo17NSURLHandleClient", "init"]
+- ["PSo20NSURLSessionDelegate", "FailureHandler"]
+- !private ["PSo20NSURLSessionDelegate", "HTTPBodyMultipart"]
+- ["PSo20NSURLSessionDelegate", "SuccessHandler"]
+- !private ["PSo20NSURLSessionDelegate", "contentTypeMultipart"]
+- !private ["PSo20NSURLSessionDelegate", "dataEncoding"]
+- !private ["PSo20NSURLSessionDelegate", "encodeParameters"]
+- !private ["PSo20NSURLSessionDelegate", "failureHandler"]
+- !private ["PSo20NSURLSessionDelegate", "headers"]
+- !private ["PSo20NSURLSessionDelegate", "init"]
+- !private ["PSo20NSURLSessionDelegate", "start"]
+- !private ["PSo20NSURLSessionDelegate", "successHandler"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "AnyObject"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "Dictionary"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "NSData"]
+- !private ["C13AdMate_Widget16OAuthSwiftClient", "NSMutableData"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "NSURL"]
+- !private ["C13AdMate_Widget16OAuthSwiftClient", "NSUTF8StringEncoding"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "OAuthSwiftCredential"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "OAuthSwiftHTTPRequest"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "String"]
+- !private ["C13AdMate_Widget16OAuthSwiftClient", "arc4random"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "authorizationHeaderForMethod"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "credential"]
+- !private ["C13AdMate_Widget16OAuthSwiftClient", "dataEncoding"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "deinit"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "delete"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "get"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "init"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "makeRequest"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "multiDataFromObject"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "multiPartBodyFromParams"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "multiPartRequest"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "patch"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "post"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "postImage"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "postMultiPartRequest"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "put"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "request"]
+- ["C13AdMate_Widget16OAuthSwiftClient", "signatureForMethod"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "authorizationHeaderForMethod"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "consumer_key"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "consumer_secret"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "init"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "makeHeaders"]
+- !private ["C13AdMate_Widget20OAuthSwiftCredential", "signatureForMethod"]
+- ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "FailureHandler"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "HTTPBodyMultipart"]
+- ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "SuccessHandler"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "contentTypeMultipart"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "dataEncoding"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "encodeParameters"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "failureHandler"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "headers"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "init"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "start"]
+- !private ["C13AdMate_Widget21OAuthSwiftHTTPRequest", "successHandler"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["P6SQLite5Value", "_getBuiltinLogicValue"]
+- !private ["P6SQLite5Value", "appendData"]
+- !private ["P6SQLite5Value", "dataUsingEncoding"]
+- !private ["P6SQLite5Value", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["P6SQLite13_OptionalType", "Some"]
+- !private ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P6SQLite7Binding"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "P6SQLite11Expressible"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "PSo16NSMutableCopying"
+- !private "CSo13NSMutableData"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "PSo17NSURLHandleClient"
+- "PSo20NSURLSessionDelegate"
+- "Ps21NilLiteralConvertible"
+- "C13AdMate_Widget16OAuthSwiftClient"
+- !private "C13AdMate_Widget20OAuthSwiftCredential"
+- "C13AdMate_Widget21OAuthSwiftHTTPRequest"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "P6SQLite5Value"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "P6SQLite13_OptionalType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdDataKit2.framework/Modules/AdDataKit2.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/AdMate.build/Release/AdDataKit2.build/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdMateOAuth.framework/Modules/AdMateOAuth.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Headers/SQLite.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Modules/p2_OAuth2.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Headers/p2_OAuth2-Swift.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Headers/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Modules/module.modulemap"
+interface-hash: "b35d3eadd43c8f2a928f4ad204956e9d"

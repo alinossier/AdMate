@@ -1,0 +1,55 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdDataKit2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AdDataKit2-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdDataKit2.framework/Versions/A/Headers/AdDataKit2-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdDataKit2.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/AdDataKit2.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdDataKit2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/AdMate.build/Release/AdDataKit2.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdMateOAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AdMateOAuth-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdMateOAuth.framework/Versions/A/Headers/AdMateOAuth-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/AdMateOAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/AdMate.build/Release/AdMateOAuth.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

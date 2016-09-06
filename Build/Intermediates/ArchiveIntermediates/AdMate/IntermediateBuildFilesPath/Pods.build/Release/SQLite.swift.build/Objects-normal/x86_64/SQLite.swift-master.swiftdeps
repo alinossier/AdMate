@@ -1,0 +1,22 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "2c6cf3fa0eba15562af1b1849047e527"
+build_time: [525646201, 720882000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/AggregateFunctions.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/Blob.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Collation.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/Connection.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/CoreFunctions.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/CustomFunctions.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Expression.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Foundation.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Extensions/FTS4.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Extensions/FTS5.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Helpers.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Operators.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Query.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Extensions/R*Tree.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Schema.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Typed/Setter.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/Statement.swift": [523240439, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/Value.swift": [523240439, 0]

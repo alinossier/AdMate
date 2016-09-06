@@ -1,0 +1,224 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArchiveKey"
+provides-nominal:
+- "C9p2_OAuth210ArchiveKey"
+provides-member:
+- ["C9p2_OAuth210ArchiveKey", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "kSecAttrAccount"
+- !private "kSecValueData"
+- "KeychainService"
+- "AnyObject"
+- "NSCoding"
+- !private "NSKeyedArchiver"
+- "ArchiveKey"
+- "BaseKey"
+- "NSData"
+- !private "NSKeyedUnarchiver"
+- !private "kSecAttrService"
+- "NSObject"
+- !private "kSecClassGenericPassword"
+- "String"
+- "KeychainQuery"
+- !private "kSecClass"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "AnyObject"]
+- !private ["Ps9AnyObject", "KeychainQuery"]
+- !private ["Ps9AnyObject", "NSKeyedArchiver"]
+- !private ["Ps9AnyObject", "NSKeyedUnarchiver"]
+- !private ["Ps9AnyObject", "NSObject"]
+- !private ["Ps9AnyObject", "addField"]
+- !private ["Ps9AnyObject", "archivedDataWithRootObject"]
+- ["Ps9AnyObject", "fieldsToLock"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kSecAttrAccount"]
+- !private ["Ps9AnyObject", "kSecAttrService"]
+- !private ["Ps9AnyObject", "kSecClass"]
+- !private ["Ps9AnyObject", "kSecClassGenericPassword"]
+- !private ["Ps9AnyObject", "kSecValueData"]
+- ["Ps9AnyObject", "makeQueryForKeychain"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "object"]
+- ["Ps9AnyObject", "secretData"]
+- !private ["Ps9AnyObject", "unarchiveObjectWithData"]
+- ["Ps9AnyObject", "unlockData"]
+- ["Ps9AnyObject", ""]
+- ["C9p2_OAuth210ArchiveKey", "AnyObject"]
+- ["C9p2_OAuth210ArchiveKey", "KeychainQuery"]
+- ["C9p2_OAuth210ArchiveKey", "KeychainService"]
+- ["C9p2_OAuth210ArchiveKey", "NSCoding"]
+- ["C9p2_OAuth210ArchiveKey", "NSData"]
+- !private ["C9p2_OAuth210ArchiveKey", "NSKeyedArchiver"]
+- !private ["C9p2_OAuth210ArchiveKey", "NSKeyedUnarchiver"]
+- ["C9p2_OAuth210ArchiveKey", "NSObject"]
+- ["C9p2_OAuth210ArchiveKey", "String"]
+- ["C9p2_OAuth210ArchiveKey", "deinit"]
+- ["C9p2_OAuth210ArchiveKey", "fieldsToLock"]
+- ["C9p2_OAuth210ArchiveKey", "init"]
+- !private ["C9p2_OAuth210ArchiveKey", "kSecAttrAccount"]
+- !private ["C9p2_OAuth210ArchiveKey", "kSecAttrService"]
+- !private ["C9p2_OAuth210ArchiveKey", "kSecClass"]
+- !private ["C9p2_OAuth210ArchiveKey", "kSecClassGenericPassword"]
+- !private ["C9p2_OAuth210ArchiveKey", "kSecValueData"]
+- ["C9p2_OAuth210ArchiveKey", "makeQueryForKeychain"]
+- !private ["C9p2_OAuth210ArchiveKey", "name"]
+- ["C9p2_OAuth210ArchiveKey", "object"]
+- !private ["C9p2_OAuth210ArchiveKey", "secretData"]
+- ["C9p2_OAuth210ArchiveKey", "unlockData"]
+- ["C9p2_OAuth27BaseKey", "AnyObject"]
+- ["C9p2_OAuth27BaseKey", "KeychainQuery"]
+- ["C9p2_OAuth27BaseKey", "KeychainService"]
+- ["C9p2_OAuth27BaseKey", "NSCoding"]
+- ["C9p2_OAuth27BaseKey", "NSData"]
+- !private ["C9p2_OAuth27BaseKey", "NSKeyedArchiver"]
+- !private ["C9p2_OAuth27BaseKey", "NSKeyedUnarchiver"]
+- ["C9p2_OAuth27BaseKey", "NSObject"]
+- ["C9p2_OAuth27BaseKey", "String"]
+- ["C9p2_OAuth27BaseKey", "fieldsToLock"]
+- ["C9p2_OAuth27BaseKey", "init"]
+- !private ["C9p2_OAuth27BaseKey", "kSecAttrAccount"]
+- !private ["C9p2_OAuth27BaseKey", "kSecAttrService"]
+- !private ["C9p2_OAuth27BaseKey", "kSecClass"]
+- !private ["C9p2_OAuth27BaseKey", "kSecClassGenericPassword"]
+- !private ["C9p2_OAuth27BaseKey", "kSecValueData"]
+- ["C9p2_OAuth27BaseKey", "makeQueryForKeychain"]
+- !private ["C9p2_OAuth27BaseKey", "name"]
+- ["C9p2_OAuth27BaseKey", "object"]
+- ["C9p2_OAuth27BaseKey", "secretData"]
+- ["C9p2_OAuth27BaseKey", "unlockData"]
+- ["C9p2_OAuth27BaseKey", ""]
+- !private ["CSo8CFString", "deinit"]
+- !private ["Ps11CVarArgType", "archivedDataWithRootObject"]
+- !private ["Ps11CVarArgType", "unarchiveObjectWithData"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "archivedDataWithRootObject"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "unarchiveObjectWithData"]
+- !private ["Ps23CustomStringConvertible", "archivedDataWithRootObject"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "unarchiveObjectWithData"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "archivedDataWithRootObject"]
+- !private ["Ps9Equatable", "unarchiveObjectWithData"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "archivedDataWithRootObject"]
+- !private ["Ps8Hashable", "unarchiveObjectWithData"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["P9p2_OAuth212KeychainItem", "AnyObject"]
+- !private ["P9p2_OAuth212KeychainItem", "KeychainQuery"]
+- !private ["P9p2_OAuth212KeychainItem", "NSKeyedArchiver"]
+- !private ["P9p2_OAuth212KeychainItem", "NSKeyedUnarchiver"]
+- !private ["P9p2_OAuth212KeychainItem", "NSObject"]
+- ["P9p2_OAuth212KeychainItem", "fieldsToLock"]
+- ["P9p2_OAuth212KeychainItem", "init"]
+- !private ["P9p2_OAuth212KeychainItem", "kSecAttrAccount"]
+- !private ["P9p2_OAuth212KeychainItem", "kSecAttrService"]
+- !private ["P9p2_OAuth212KeychainItem", "kSecClass"]
+- !private ["P9p2_OAuth212KeychainItem", "kSecClassGenericPassword"]
+- !private ["P9p2_OAuth212KeychainItem", "kSecValueData"]
+- ["P9p2_OAuth212KeychainItem", "makeQueryForKeychain"]
+- !private ["P9p2_OAuth212KeychainItem", "name"]
+- ["P9p2_OAuth212KeychainItem", "object"]
+- ["P9p2_OAuth212KeychainItem", "secretData"]
+- ["P9p2_OAuth212KeychainItem", "unlockData"]
+- ["P9p2_OAuth212KeychainItem", ""]
+- !private ["C9p2_OAuth213KeychainQuery", "addField"]
+- !private ["C9p2_OAuth213KeychainQuery", "init"]
+- !private ["P9p2_OAuth215KeychainService", "serviceName"]
+- !private ["CSo7NSCoder", "archivedDataWithRootObject"]
+- !private ["CSo7NSCoder", "unarchiveObjectWithData"]
+- !private ["CSo15NSKeyedArchiver", "archivedDataWithRootObject"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObjectWithData"]
+- !private ["CSo8NSObject", "archivedDataWithRootObject"]
+- !private ["CSo8NSObject", "unarchiveObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "archivedDataWithRootObject"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObjectWithData"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["SS", "deinit"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9p2_OAuth210ArchiveKey"
+- "C9p2_OAuth27BaseKey"
+- !private "CSo8CFString"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "P9p2_OAuth212KeychainItem"
+- !private "C9p2_OAuth213KeychainQuery"
+- !private "P9p2_OAuth215KeychainService"
+- !private "CSo7NSCoder"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "346110f7e515fcfd7c9f08937882d7d3"

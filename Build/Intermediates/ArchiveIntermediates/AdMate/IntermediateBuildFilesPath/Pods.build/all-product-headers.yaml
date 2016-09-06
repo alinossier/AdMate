@@ -1,0 +1,189 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdDataKit2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AdDataKit2-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/Pods-AdDataKit2/Pods-AdDataKit2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AdDataKit2-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdDataKit2.framework/Versions/A/Headers/Pods_AdDataKit2-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdDataKit2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/Pods-AdDataKit2.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AdMate-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/Pods-AdMate/Pods-AdMate-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AdMate-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate.framework/Versions/A/Headers/Pods_AdMate-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/Pods-AdMate.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate_Widget.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AdMate Widget-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/Pods-AdMate Widget/Pods-AdMate Widget-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AdMate_Widget-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate_Widget.framework/Versions/A/Headers/Pods_AdMate_Widget-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/Pods_AdMate_Widget.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/Pods-AdMate Widget.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SQLite-Bridging.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Versions/A/Headers/SQLite-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/SQLite.h"
+        },
+        {
+          'type': 'file',
+          'name': "SQLite.swift-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/SQLite.swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SQLite.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "fts3_tokenizer.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SQLite.swift/SQLite/Core/fts3_tokenizer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Versions/A/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "p2.OAuth2-umbrella.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "p2_OAuth2-Swift.h",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Versions/A/Headers/p2_OAuth2-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/BuildProductsPath/Release/p2_OAuth2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate/IntermediateBuildFilesPath/Pods.build/Release/p2.OAuth2.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

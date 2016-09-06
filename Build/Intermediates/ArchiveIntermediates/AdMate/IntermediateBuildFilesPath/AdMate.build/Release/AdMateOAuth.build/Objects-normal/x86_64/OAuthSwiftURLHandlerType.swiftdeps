@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftURLHandlerType"
+- "OAuthSwiftOpenURLExternally"
+provides-nominal:
+- "P11AdMateOAuth24OAuthSwiftURLHandlerType"
+- "C11AdMateOAuth27OAuthSwiftOpenURLExternally"
+provides-member:
+- ["P11AdMateOAuth24OAuthSwiftURLHandlerType", ""]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", ""]
+provides-dynamic-lookup:
+- "handle"
+- "handle"
+depends-top-level:
+- "OAuthSwiftOpenURLExternally"
+- !private "NSWorkspace"
+- "NSURL"
+- "IntegerLiteralType"
+- !private "dispatch_once"
+- "FloatLiteralType"
+- !private "dispatch_once_t"
+- "OAuthSwiftURLHandlerType"
+depends-member:
+- !private ["Ps9AnyObject", "NSWorkspace"]
+- !private ["Ps9AnyObject", "OAuthSwiftOpenURLExternally"]
+- !private ["Ps9AnyObject", "dispatch_once"]
+- ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "openURL"]
+- !private ["Ps9AnyObject", "sharedWorkspace"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "openURL"]
+- !private ["Ps11CVarArgType", "sharedWorkspace"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedWorkspace"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "sharedWorkspace"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "sharedWorkspace"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "sharedWorkspace"]
+- !private ["CSo8NSObject", "openURL"]
+- !private ["CSo8NSObject", "sharedWorkspace"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- !private ["PSo16NSObjectProtocol", "sharedWorkspace"]
+- !private ["CSo11NSWorkspace", "openURL"]
+- !private ["CSo11NSWorkspace", "sharedWorkspace"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "NSURL"]
+- !private ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "NSWorkspace"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "OAuthSwiftOpenURLExternally"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "deinit"]
+- !private ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "dispatch_once"]
+- !private ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "dispatch_once_t"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "handle"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "init"]
+- ["C11AdMateOAuth27OAuthSwiftOpenURLExternally", "sharedInstance"]
+- ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "NSURL"]
+- !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "NSWorkspace"]
+- !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "OAuthSwiftOpenURLExternally"]
+- !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "dispatch_once"]
+- ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "handle"]
+- !private ["P11AdMateOAuth24OAuthSwiftURLHandlerType", "init"]
+- ["P11AdMateOAuth24OAuthSwiftURLHandlerType", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo11NSWorkspace"
+- "C11AdMateOAuth27OAuthSwiftOpenURLExternally"
+- "P11AdMateOAuth24OAuthSwiftURLHandlerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "397ffa363a1c5da0a33690fee05e76ff"

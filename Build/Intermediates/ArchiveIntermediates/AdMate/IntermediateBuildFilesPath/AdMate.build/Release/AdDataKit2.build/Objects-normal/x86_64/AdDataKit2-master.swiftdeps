@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "d467c823bcdb0157cc6f8b95b25ce55d"
+build_time: [525646232, 180229000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/ProcessingData.swift": [500510993, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/GetData.swift": [524788621, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdDataKit2/Public.swift": [523404916, 0]

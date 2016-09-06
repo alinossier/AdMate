@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "f841130a3b6743e13d8ee4c33d2db688"
+build_time: [525633471, 399238000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/NSData+OAuthSwift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate Widget/CellTodayExtension.swift": [510606747, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/String+OAuthSwift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate Widget/TodayViewController.swift": [524878119, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuth1Swift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftURLHandlerType.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/SHA1.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftClient.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftCredential.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/Utils.swift": [499922560, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/Int+OAuthSwift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/NSURL+OAuthSwift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/HMAC.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftHTTPRequest.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/Dictionary+OAuthSwift.swift": [499388024, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuth2Swift.swift": [499417625, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthWebViewController.swift": [499388024, 0]

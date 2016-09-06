@@ -1,0 +1,1 @@
+ const unsigned char SwiftKeychainVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SwiftKeychain  PROJECT:Pods-1" "\n"; const double SwiftKeychainVersionNumber __attribute__ ((used)) = (double)1.;

@@ -63,9 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBAction func LogOut(sender:AnyObject){
     
-        defaults.setObject(nil, forKey: UserIDDefault)
-        defaults.synchronize()
-        NSApplication.sharedApplication().terminate(self)
+        NSNotificationCenter.defaultCenter().postNotificationName("LoginPressed", object: nil)
 
     
     }

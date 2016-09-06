@@ -31,7 +31,6 @@ public let oauth2 = OAuth2CodeGrant(settings: settings)
 public func GetDataFromDb(completion: (Done: [AdData]) -> Void){
     
     
-    
         var RetrievedData = [AdData]()
     
         let calendar = NSCalendar.autoupdatingCurrentCalendar()
@@ -210,6 +209,7 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                 dispatch_async(dispatch_get_main_queue()) {
                     
                     print(error?.localizedDescription)
+                    completion(UpdateStatus: false)
                     
                 }
             }
@@ -218,8 +218,6 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                 do {
                     if let dict = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
                     
-                    print("Got headers")
-                        print(dict)
                         
                     if let  HeaderDict = dict["headers"] {
                     
@@ -243,13 +241,13 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                                 
                                 if let dimention = (dict["headers"]![i]["name"] as? String) {
                                 
-                                    print(dimention)
                                     headerdict[dimention] = i
                                     
                                 } else {
                                 
                                     print("Error Getting Headers")
-                                
+                                    completion(UpdateStatus: false)
+
                                 }
                             }
                             
@@ -304,6 +302,7 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                                         } catch _ {
                                             
                                             print("Insert Failed")
+                                            completion(UpdateStatus: false)
                                             
                                         }
 
@@ -340,17 +339,21 @@ public func FetchDataFromAPI(AccountID:String, completion: (UpdateStatus: Bool) 
                                 
                                 defaults.setObject(nil, forKey: UserIDDefault)
                                 defaults.synchronize()
-                                NSNotificationCenter.defaultCenter().postNotificationName("ReValidateUser", object: nil)
+                            NSNotificationCenter.defaultCenter().postNotificationName("ReValidateUser", object: nil)
 
                             }
 
                         }
                         
-                            print("Could not get headers")
                         NSLog("Could not get headers")
+                        completion(UpdateStatus: false)
 
                         
                         }
+                    } else {
+                    
+                        NSLog("Unable to parse JSON")
+                        completion(UpdateStatus: false)
                     }
                 }
                     catch let error {

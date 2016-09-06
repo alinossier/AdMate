@@ -1,0 +1,805 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuth2JSON"
+- "OAuth2StringDict"
+- "OAuth2KeychainCredentialsKey"
+- "OAuth2KeychainTokenKey"
+- "OAuth2Base"
+- "callOnMainThread"
+provides-nominal:
+- "C9p2_OAuth210OAuth2Base"
+provides-member:
+- ["C9p2_OAuth210OAuth2Base", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Keychain"
+- "String"
+- "NSData"
+- "NSCoding"
+- "UnicodeScalarType"
+- !private "NSJSONSerialization"
+- !private "NSURLErrorDomain"
+- "NSURLSessionConfiguration"
+- !private "=="
+- "OAuth2StringDict"
+- "OAuth2KeychainTokenKey"
+- !private "NSThread"
+- "Int"
+- "OAuth2JSON"
+- "OAuth2KeychainCredentialsKey"
+- "NSURLSessionDelegate"
+- !private "NSString"
+- "StringLiteralType"
+- !private "NSUTF8StringEncoding"
+- !private "ArchiveKey"
+- !private "dispatch_sync"
+- !private "dispatch_get_main_queue"
+- "NSURLRequest"
+- "NSURLSessionTask"
+- "callOnMainThread"
+- !private "NSHTTPURLResponse"
+- !private "OAuth2Error"
+- !private "&&"
+- "Bool"
+- "Void"
+- "ErrorType"
+- "ExtendedGraphemeClusterType"
+- !private "NSLog"
+- "AnyObject"
+- "BooleanLiteralType"
+- "NSURLSession"
+- !private "??"
+- "OAuth2Base"
+- !private "Array"
+- !private "print"
+depends-member:
+- !private ["Vs12AnyGenerator", "Element"]
+- !private ["Ps9AnyObject", "ArchiveKey"]
+- !private ["Ps9AnyObject", "JSONObjectWithData"]
+- !private ["Ps9AnyObject", "Keychain"]
+- !private ["Ps9AnyObject", "NSJSONSerialization"]
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "NSURLErrorDomain"]
+- !private ["Ps9AnyObject", "NSURLSession"]
+- !private ["Ps9AnyObject", "NSURLSessionConfiguration"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "OAuth2Error"]
+- !private ["Ps9AnyObject", "OAuth2KeychainCredentialsKey"]
+- !private ["Ps9AnyObject", "OAuth2KeychainTokenKey"]
+- !private ["Ps9AnyObject", "OAuth2StringDict"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "_session"]
+- !private ["Ps9AnyObject", "abortableTask"]
+- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "code"]
+- !private ["Ps9AnyObject", "dataTaskWithRequest"]
+- !private ["Ps9AnyObject", "defaultSessionConfiguration"]
+- !private ["Ps9AnyObject", "domain"]
+- !private ["Ps9AnyObject", "get"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isMainThread"]
+- !private ["Ps9AnyObject", "keychainServiceName"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "logIfVerbose"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "session"]
+- !private ["Ps9AnyObject", "sessionConfiguration"]
+- !private ["Ps9AnyObject", "sessionDelegate"]
+- !private ["Ps9AnyObject", "settings"]
+- !private ["Ps9AnyObject", "sharedSession"]
+- !private ["Ps9AnyObject", "statusCode"]
+- !private ["Ps9AnyObject", "storableCredentialItems"]
+- !private ["Ps9AnyObject", "storableTokenItems"]
+- !private ["Ps9AnyObject", "update"]
+- !private ["Ps9AnyObject", "updateFromKeychain"]
+- !private ["Ps9AnyObject", "updateFromKeychainItems"]
+- !private ["Ps9AnyObject", "useKeychain"]
+- !private ["Ps9AnyObject", "verbose"]
+- !private ["Ps9AnyObject", "wwwFormURLDecodedString"]
+- !private ["Ps9AnyObject", "wwwFormURLEncodedString"]
+- ["Ps9AnyObject", ""]
+- !private ["Vs11AnySequence", "Generator"]
+- !private ["Vs11AnySequence", "deinit"]
+- !private ["C9p2_OAuth210ArchiveKey", "deinit"]
+- !private ["C9p2_OAuth210ArchiveKey", "init"]
+- !private ["C9p2_OAuth210ArchiveKey", "object"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "joinWithSeparator"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "joinWithSeparator"]
+- !private ["Ps23ArrayLiteralConvertible", "map"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["C9p2_OAuth27BaseKey", "object"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "JSONObjectWithData"]
+- !private ["Ps11CVarArgType", "cancel"]
+- !private ["Ps11CVarArgType", "characters"]
+- !private ["Ps11CVarArgType", "code"]
+- !private ["Ps11CVarArgType", "dataTaskWithRequest"]
+- !private ["Ps11CVarArgType", "defaultSessionConfiguration"]
+- !private ["Ps11CVarArgType", "domain"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isMainThread"]
+- !private ["Ps11CVarArgType", "localizedDescription"]
+- !private ["Ps11CVarArgType", "resume"]
+- !private ["Ps11CVarArgType", "sharedSession"]
+- !private ["Ps11CVarArgType", "statusCode"]
+- !private ["Ps11CVarArgType", "wwwFormURLDecodedString"]
+- !private ["Ps11CVarArgType", "wwwFormURLEncodedString"]
+- !private ["Vs9Character", "deinit"]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "_Element"]
+- !private ["VSS13CharacterView", "deinit"]
+- !private ["VSS13CharacterView", "split"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "joinWithSeparator"]
+- !private ["Ps14CollectionType", "map"]
+- !private ["Ps14CollectionType", "split"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "wwwFormURLDecodedString"]
+- !private ["Ps10Comparable", "wwwFormURLEncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONObjectWithData"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "cancel"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "code"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "domain"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "joinWithSeparator"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedSession"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Generic"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["Ps23CustomStringConvertible", "JSONParserError"]
+- !private ["Ps23CustomStringConvertible", "RequestCancelled"]
+- !private ["Ps23CustomStringConvertible", "ResponseError"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "cancel"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps23CustomStringConvertible", "defaultSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "domain"]
+- !private ["Ps23CustomStringConvertible", "fromResponseError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isMainThread"]
+- !private ["Ps23CustomStringConvertible", "joinWithSeparator"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "sharedSession"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps23CustomStringConvertible", "wwwFormURLEncodedString"]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Generic"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSONObjectWithData"]
+- !private ["Ps9Equatable", "JSONParserError"]
+- !private ["Ps9Equatable", "RequestCancelled"]
+- !private ["Ps9Equatable", "ResponseError"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "code"]
+- !private ["Ps9Equatable", "dataTaskWithRequest"]
+- !private ["Ps9Equatable", "defaultSessionConfiguration"]
+- !private ["Ps9Equatable", "domain"]
+- !private ["Ps9Equatable", "fromResponseError"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isMainThread"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "sharedSession"]
+- !private ["Ps9Equatable", "statusCode"]
+- !private ["Ps9Equatable", "wwwFormURLDecodedString"]
+- !private ["Ps9Equatable", "wwwFormURLEncodedString"]
+- !private ["Ps9ErrorType", "Generic"]
+- !private ["Ps9ErrorType", "JSONParserError"]
+- !private ["Ps9ErrorType", "RequestCancelled"]
+- !private ["Ps9ErrorType", "ResponseError"]
+- !private ["Ps9ErrorType", "code"]
+- !private ["Ps9ErrorType", "domain"]
+- !private ["Ps9ErrorType", "fromResponseError"]
+- !private ["Ps9ErrorType", "localizedDescription"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONObjectWithData"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "code"]
+- !private ["Ps8Hashable", "dataTaskWithRequest"]
+- !private ["Ps8Hashable", "defaultSessionConfiguration"]
+- !private ["Ps8Hashable", "domain"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isMainThread"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "sharedSession"]
+- !private ["Ps8Hashable", "statusCode"]
+- !private ["Ps8Hashable", "wwwFormURLDecodedString"]
+- !private ["Ps8Hashable", "wwwFormURLEncodedString"]
+- !private ["SQ", "deinit"]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "joinWithSeparator"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps9Indexable", "split"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["C9p2_OAuth28Keychain", "deinit"]
+- !private ["C9p2_OAuth28Keychain", "get"]
+- !private ["C9p2_OAuth28Keychain", "init"]
+- !private ["C9p2_OAuth28Keychain", "remove"]
+- !private ["C9p2_OAuth28Keychain", "update"]
+- !private ["P9p2_OAuth212KeychainItem", "init"]
+- !private ["P9p2_OAuth212KeychainItem", "object"]
+- !private ["P9p2_OAuth215KeychainService", "get"]
+- !private ["P9p2_OAuth215KeychainService", "init"]
+- !private ["P9p2_OAuth215KeychainService", "remove"]
+- !private ["P9p2_OAuth215KeychainService", "update"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "characters"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "wwwFormURLDecodedString"]
+- !private ["Ps14MirrorPathType", "wwwFormURLEncodedString"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "joinWithSeparator"]
+- !private ["Ps21MutableCollectionType", "map"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "joinWithSeparator"]
+- !private ["Ps16MutableIndexable", "map"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "joinWithSeparator"]
+- !private ["Ps16MutableSliceable", "map"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo8NSCoding", "domain"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "wwwFormURLDecodedString"]
+- !private ["PSo8NSCoding", "wwwFormURLEncodedString"]
+- !private ["PSo9NSCopying", "cancel"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "code"]
+- !private ["PSo9NSCopying", "defaultSessionConfiguration"]
+- !private ["PSo9NSCopying", "domain"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "wwwFormURLDecodedString"]
+- !private ["PSo9NSCopying", "wwwFormURLEncodedString"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo7NSError", "domain"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["VSC20NSJSONReadingOptions", "Element"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "wwwFormURLDecodedString"]
+- !private ["PSo16NSMutableCopying", "wwwFormURLEncodedString"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "cancel"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "code"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "defaultSessionConfiguration"]
+- !private ["CSo8NSObject", "domain"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isMainThread"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "wwwFormURLDecodedString"]
+- !private ["CSo8NSObject", "wwwFormURLEncodedString"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "defaultSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "domain"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isMainThread"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "wwwFormURLDecodedString"]
+- !private ["PSo16NSObjectProtocol", "wwwFormURLEncodedString"]
+- !private ["PSo19NSPasteboardReading", "characters"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "wwwFormURLDecodedString"]
+- !private ["PSo19NSPasteboardReading", "wwwFormURLEncodedString"]
+- !private ["PSo19NSPasteboardWriting", "characters"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "wwwFormURLDecodedString"]
+- !private ["PSo19NSPasteboardWriting", "wwwFormURLEncodedString"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "code"]
+- !private ["PSo14NSSecureCoding", "domain"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "wwwFormURLDecodedString"]
+- !private ["PSo14NSSecureCoding", "wwwFormURLEncodedString"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "wwwFormURLDecodedString"]
+- !private ["CSo8NSString", "wwwFormURLEncodedString"]
+- !private ["CSo8NSThread", "isMainThread"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "init"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo25NSURLSessionConfiguration", "defaultSessionConfiguration"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "cancel"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["C9p2_OAuth210OAuth2Base", "ArchiveKey"]
+- ["C9p2_OAuth210OAuth2Base", "Bool"]
+- ["C9p2_OAuth210OAuth2Base", "ErrorType"]
+- ["C9p2_OAuth210OAuth2Base", "Int"]
+- !private ["C9p2_OAuth210OAuth2Base", "Keychain"]
+- ["C9p2_OAuth210OAuth2Base", "NSCoding"]
+- ["C9p2_OAuth210OAuth2Base", "NSData"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSHTTPURLResponse"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSJSONSerialization"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSLog"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSString"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSURLErrorDomain"]
+- ["C9p2_OAuth210OAuth2Base", "NSURLRequest"]
+- ["C9p2_OAuth210OAuth2Base", "NSURLSession"]
+- ["C9p2_OAuth210OAuth2Base", "NSURLSessionConfiguration"]
+- ["C9p2_OAuth210OAuth2Base", "NSURLSessionDelegate"]
+- ["C9p2_OAuth210OAuth2Base", "NSURLSessionTask"]
+- !private ["C9p2_OAuth210OAuth2Base", "NSUTF8StringEncoding"]
+- !private ["C9p2_OAuth210OAuth2Base", "OAuth2Error"]
+- ["C9p2_OAuth210OAuth2Base", "OAuth2JSON"]
+- !private ["C9p2_OAuth210OAuth2Base", "OAuth2KeychainCredentialsKey"]
+- !private ["C9p2_OAuth210OAuth2Base", "OAuth2KeychainTokenKey"]
+- ["C9p2_OAuth210OAuth2Base", "OAuth2StringDict"]
+- ["C9p2_OAuth210OAuth2Base", "String"]
+- ["C9p2_OAuth210OAuth2Base", "Void"]
+- !private ["C9p2_OAuth210OAuth2Base", "_session"]
+- ["C9p2_OAuth210OAuth2Base", "abortTask"]
+- !private ["C9p2_OAuth210OAuth2Base", "abortableTask"]
+- ["C9p2_OAuth210OAuth2Base", "assureNoErrorInResponse"]
+- ["C9p2_OAuth210OAuth2Base", "deinit"]
+- ["C9p2_OAuth210OAuth2Base", "forgetClient"]
+- ["C9p2_OAuth210OAuth2Base", "forgetTokens"]
+- ["C9p2_OAuth210OAuth2Base", "init"]
+- ["C9p2_OAuth210OAuth2Base", "keychainServiceName"]
+- ["C9p2_OAuth210OAuth2Base", "logIfVerbose"]
+- ["C9p2_OAuth210OAuth2Base", "paramsFromQuery"]
+- ["C9p2_OAuth210OAuth2Base", "parseJSON"]
+- ["C9p2_OAuth210OAuth2Base", "performRequest"]
+- !private ["C9p2_OAuth210OAuth2Base", "print"]
+- ["C9p2_OAuth210OAuth2Base", "queryStringFor"]
+- ["C9p2_OAuth210OAuth2Base", "session"]
+- ["C9p2_OAuth210OAuth2Base", "sessionConfiguration"]
+- ["C9p2_OAuth210OAuth2Base", "sessionDelegate"]
+- ["C9p2_OAuth210OAuth2Base", "settings"]
+- ["C9p2_OAuth210OAuth2Base", "storableCredentialItems"]
+- ["C9p2_OAuth210OAuth2Base", "storableTokenItems"]
+- ["C9p2_OAuth210OAuth2Base", "storeClientToKeychain"]
+- ["C9p2_OAuth210OAuth2Base", "storeTokensToKeychain"]
+- !private ["C9p2_OAuth210OAuth2Base", "updateFromKeychain"]
+- ["C9p2_OAuth210OAuth2Base", "updateFromKeychainItems"]
+- ["C9p2_OAuth210OAuth2Base", "useKeychain"]
+- ["C9p2_OAuth210OAuth2Base", "verbose"]
+- !private ["O9p2_OAuth211OAuth2Error", "Generic"]
+- !private ["O9p2_OAuth211OAuth2Error", "JSONParserError"]
+- !private ["O9p2_OAuth211OAuth2Error", "RequestCancelled"]
+- !private ["O9p2_OAuth211OAuth2Error", "ResponseError"]
+- !private ["O9p2_OAuth211OAuth2Error", "deinit"]
+- !private ["O9p2_OAuth211OAuth2Error", "fromResponseError"]
+- !private ["Ps13OptionSetType", "Element"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "characters"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "wwwFormURLDecodedString"]
+- !private ["Ps16OutputStreamType", "wwwFormURLEncodedString"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "joinWithSeparator"]
+- !private ["Ps30RangeReplaceableCollectionType", "map"]
+- !private ["Ps30RangeReplaceableCollectionType", "split"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "joinWithSeparator"]
+- !private ["Ps12SequenceType", "map"]
+- !private ["Ps12SequenceType", "split"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "characters"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "wwwFormURLDecodedString"]
+- !private ["Ps10Streamable", "wwwFormURLEncodedString"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "characters"]
+- !private ["SS", "init"]
+- !private ["SS", "wwwFormURLDecodedString"]
+- !private ["SS", "wwwFormURLEncodedString"]
+- !private ["Ps30StringInterpolationConvertible", "characters"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps30StringInterpolationConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps24StringLiteralConvertible", "characters"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps24StringLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "joinWithSeparator"]
+- !private ["Ps10_ArrayType", "map"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "wwwFormURLDecodedString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "wwwFormURLEncodedString"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "joinWithSeparator"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "joinWithSeparator"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "wwwFormURLDecodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "wwwFormURLEncodedString"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "characters"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "joinWithSeparator"]
+- !private ["Ps12_Reflectable", "map"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "wwwFormURLDecodedString"]
+- !private ["Ps12_Reflectable", "wwwFormURLEncodedString"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Vs12AnyGenerator"
+- "Ps9AnyObject"
+- !private "Vs11AnySequence"
+- !private "C9p2_OAuth210ArchiveKey"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "C9p2_OAuth27BaseKey"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "VSS13CharacterView"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "VVSS13CharacterView5Index"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "C9p2_OAuth28Keychain"
+- !private "P9p2_OAuth212KeychainItem"
+- !private "P9p2_OAuth215KeychainService"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "CSo17NSHTTPURLResponse"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo8NSThread"
+- !private "CSo13NSURLResponse"
+- !private "CSo12NSURLSession"
+- !private "CSo25NSURLSessionConfiguration"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "Ps21NilLiteralConvertible"
+- "C9p2_OAuth210OAuth2Base"
+- !private "O9p2_OAuth211OAuth2Error"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/Target Support Files/p2.OAuth2/p2.OAuth2-umbrella.h"
+- "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Build/Intermediates/ArchiveIntermediates/AdMate Widget/IntermediateBuildFilesPath/Pods.build/Release/p2.OAuth2.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/WebKit.swiftmodule"
+interface-hash: "b861f6728f4d62406785d5e16ec7c2c4"

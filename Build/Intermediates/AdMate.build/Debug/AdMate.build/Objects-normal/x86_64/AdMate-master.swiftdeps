@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "791b899eb4cb9cc2a580a34b2e818f1e"
-build_time: [525645365, 458930000]
+build_time: [526473694, 564036000]
 inputs:
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuth2Swift.swift": [499417625, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/MainViewController.swift": [525645364, 0]
@@ -26,7 +26,7 @@ inputs:
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/SimpleLineChartViewController.swift": [500171864, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/OAuthSwiftCredential.swift": [499388024, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/HMAC.swift": [499388024, 0]
-  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/AppDelegate.swift": [510607907, 0]
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/AppDelegate.swift": [526473686, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/SHA1.swift": [499388024, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/MainWindow.swift": [525641749, 0]
   "/Users/antoninlinossier1/Desktop/AdMate/AdMate/AdMate/AdvancedLineChartViewController.swift": [500171864, 0]

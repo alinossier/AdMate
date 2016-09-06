@@ -24,7 +24,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CsXWiTFz+zLr3Jgo8a73FT6/8tM=
+			wk/5YJXGHJVhNVuyMZyyB3Fzo4w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -33,7 +33,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q78tr/k6qZnSIMFpMHhOBtWbPnA=
+			wVeqGeeH3/vJg7Os9+en5e4tRr8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -42,7 +42,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RVFMF4FskM7t66AuZDFToC/HYTc=
+			sjrd05goJAMm5wbiwogQvr67dgI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qs8GeMUs0TJW9ORWuFK1TzbzLdM=
+			vivc3MD4rWJgDxR0yLkUaqm6n1Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qppmQ4X3bab16RVqaVk43LRZhFY=
+			ao5uSWwbtA4TOE1SDrJO8plnSgs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7D5tgL6xlcy9eZ2hEqkwW6E4e+I=
+			lJiLpzD71Z44Bn6x23/jR53wUvY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,7 +220,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			7uGZppn5h8R14+I5mFldG0vjF1s=
+			uidcM+Gmf/0b93NUYGYNrL7mk0k=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.Antonin-Linossier.AdMate.AdMate-Widget" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Antonin Linossier (R952TQ4KGQ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -245,7 +245,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CsXWiTFz+zLr3Jgo8a73FT6/8tM=
+			wk/5YJXGHJVhNVuyMZyyB3Fzo4w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q78tr/k6qZnSIMFpMHhOBtWbPnA=
+			wVeqGeeH3/vJg7Os9+en5e4tRr8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RVFMF4FskM7t66AuZDFToC/HYTc=
+			sjrd05goJAMm5wbiwogQvr67dgI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -272,7 +272,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qs8GeMUs0TJW9ORWuFK1TzbzLdM=
+			vivc3MD4rWJgDxR0yLkUaqm6n1Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qppmQ4X3bab16RVqaVk43LRZhFY=
+			ao5uSWwbtA4TOE1SDrJO8plnSgs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7D5tgL6xlcy9eZ2hEqkwW6E4e+I=
+			lJiLpzD71Z44Bn6x23/jR53wUvY=
 			</data>
 			<key>optional</key>
 			<true/>

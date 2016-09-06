@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "6752ecdc3dcf9cec06caa3b487a84d2b"
+build_time: [523240327, 500876000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/AdMate/AdMate/Pods/SwiftKeychain/Keychain/Keychain.swift": [523240321, 0]
