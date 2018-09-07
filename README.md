@@ -14,7 +14,7 @@ AdMate comes with a companion app that mirrors the content of the widget. The ap
  4. [SQLite.swift](https://github.com/stephencelis/SQLite.swift)
  
 # APIs
-AdMate relies on the [AdSense Management API] (https://developers.google.com/adsense/management/)
+AdMate relies on the [AdSense Management API](https://developers.google.com/adsense/management/)
 
 # Licence & Project notes
 This project is released under The MIT License (MIT). Feel free to pull, download and modify this project.  
